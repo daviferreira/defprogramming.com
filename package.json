@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "defprogramming.com",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Quotes about coding",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Davi Ferreira <hi@daviferreira.com>",
   "dependencies": {
     "gatsby": "^2.15.29",
     "gatsby-image": "^2.2.24",
@@ -19,25 +19,62 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-config-standard-react": "^9.2.0",
+    "husky": "^3.0.8",
+    "lint-staged": "^9.4.1",
+    "prettier": "^1.18.2",
+    "stylelint": "^11.0.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-order": "^3.1.1"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "coding",
+    "quotes"
   ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "gatsby develop --port 4001",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "lint": "eslint . --cache --cache-location node_modules/.eslintcache && prettier --check '**/*.{js,css,json}' && stylelint './src/**/*.css'",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/daviferreira/defprogramming.com"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/daviferreira/defprogramming.com"
+  },
+  "engines": {
+    "node": "12.11.1",
+    "npm": "~6.9"
+  },
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "prettier --check"
+    ],
+    "**/*.css": [
+      "prettier --check",
+      "stylelint"
+    ],
+    "**/*.json": [
+      "prettier --check"
+    ]
   }
 }
