@@ -1,0 +1,73 @@
+:root {
+  --share-icon-size: 32px;
+}
+
+.root {
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 20px 0;
+  position: fixed;
+  right: 0;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
+
+.root .button {
+  align-items: center;
+  animation-delay: 2s;
+  animation-duration: 0.4s;
+  animation-fill-mode: both;
+  animation-name: slideInRight;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  box-shadow: 0 0 1px 0 transparent;
+  cursor: pointer;
+  display: flex;
+  height: var(--share-icon-size);
+  justify-content: center;
+  margin-bottom: 12px;
+  position: relative;
+  transition: background-color 0.2s ease;
+  width: var(--share-icon-size);
+}
+
+.button:last-child {
+  margin-bottom: 0;
+}
+
+.button:nth-child(2) {
+  animation-delay: 2.1s;
+}
+
+.button:nth-child(3) {
+  animation-delay: 2.2s;
+}
+
+.button:nth-child(4) {
+  animation-delay: 2.3s;
+}
+
+.root .button path {
+  fill: #fff;
+}
+
+.root .button:hover {
+  background-color: #252525;
+}
+
+.linkedIn svg {
+  transform: translateX(1px);
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(500px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}

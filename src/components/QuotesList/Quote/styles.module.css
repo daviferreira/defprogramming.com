@@ -1,0 +1,61 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  padding: 240px 180px;
+  width: 100%;
+}
+
+.content {
+  flex: 2;
+  font-size: 60px;
+  font-weight: bolder;
+  line-height: 1.2;
+  width: 100%;
+}
+
+.largeText .content {
+  font-size: 42px;
+}
+
+.meta {
+  font-size: 12px;
+  line-height: 1;
+  padding: 80px 0 0;
+  text-transform: uppercase;
+}
+
+.item {
+  padding: 0 10px;
+}
+
+.item a {
+  color: inherit;
+  display: inline-block;
+  margin: 0 4px;
+  padding: 4px;
+  text-decoration: none;
+  transition: color 0.1s linear, background-color 0.1s linear;
+}
+
+.item a:hover {
+  background-color: #fff;
+  color: #252525;
+}
+
+.item a:first-child {
+  margin-left: 0;
+}
+
+.item a:last-child {
+  margin-right: 0;
+}
+
+.dash,
+.tags {
+  opacity: 0.8;
+}
+
+.tags {
+  margin-left: 0;
+  padding-left: 0;
+}

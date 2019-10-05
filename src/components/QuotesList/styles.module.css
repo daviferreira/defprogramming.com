@@ -1,0 +1,32 @@
+.root {
+  width: 100%;
+}
+
+.quote {
+  align-items: center;
+  color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.quote:nth-child(5n-9) {
+  background-color: #101851;
+}
+
+.quote:nth-child(5n-8) {
+  background-color: #f0a9a5;
+}
+
+.quote:nth-child(5n-7) {
+  background-color: #fc3b2d;
+}
+
+.quote:nth-child(5n-6) {
+  background-color: #f6882f;
+}
+
+.quote:nth-child(5n-5) {
+  background-color: #252525;
+}
