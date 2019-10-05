@@ -59,3 +59,21 @@
   margin-left: 0;
   padding-left: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .root {
+    padding: 120px 20px;
+  }
+
+  .content {
+    font-size: 42px;
+  }
+
+  .largeText .content {
+    font-size: 32px;
+  }
+
+  .meta {
+    padding-top: 30px;
+  }
+}

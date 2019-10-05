@@ -53,7 +53,11 @@
 }
 
 .root .button:hover {
-  background-color: #252525;
+  background-color: #fff;
+}
+
+.root .button:hover path {
+  fill: #252525;
 }
 
 .linkedIn svg {
