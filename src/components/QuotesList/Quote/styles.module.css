@@ -1,12 +1,9 @@
 .root {
-  display: flex;
-  flex-direction: column;
-  padding: 240px 180px;
+  padding: 20px 180px;
   width: 100%;
 }
 
 .content {
-  flex: 2;
   font-size: 60px;
   font-weight: bolder;
   line-height: 1.2;
@@ -21,12 +18,20 @@
   font-family: 'Source Code Pro', 'Fira Code', monospace;
   font-size: 14px;
   line-height: 1;
-  padding: 80px 0 0;
+  padding: 30px 0 0;
   text-transform: uppercase;
 }
 
 .item {
   padding: 0 10px;
+}
+
+.item:first-child {
+  padding-left: 0;
+}
+
+.item:last-child {
+  padding-right: 0;
 }
 
 .item a {
@@ -63,7 +68,7 @@
 
 @media screen and (max-width: 767px) {
   .root {
-    padding: 120px 20px;
+    padding: 20px;
   }
 
   .content {
@@ -75,6 +80,6 @@
   }
 
   .meta {
-    padding-top: 30px;
+    text-align: left;
   }
 }

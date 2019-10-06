@@ -5,11 +5,12 @@ import slugify from '@sindresorhus/slugify';
 
 import styles from './styles.module.css';
 
-const Quote = ({ authors, body, tags }) => (
+const Quote = ({ authors, body, opacity, tags }) => (
   <div
     className={classnames(styles.root, {
       [styles.largeText]: body.length > 220
     })}
+    style={{ opacity }}
   >
     <div
       className={styles.content}
@@ -39,6 +40,7 @@ const Quote = ({ authors, body, tags }) => (
 Quote.propTypes = {
   authors: PropTypes.array.isRequired,
   body: PropTypes.string.isRequired,
+  opacity: PropTypes.number,
   tags: PropTypes.array.isRequired
 };
 

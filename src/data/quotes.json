@@ -264,7 +264,7 @@
     "tags": ["debugging"]
   },
   {
-    "body": "Refuctoring - the process of taking a well-designed piece of code and, through a series of small, reversible changes, making it completely unmaintainable by anyone except yourself.",
+    "body": "Refuctoring &mdash; the process of taking a well-designed piece of code and, through a series of small, reversible changes, making it completely unmaintainable by anyone except yourself.",
     "slug": "refuctoring-the-process-of-taking-a-well-designed-piece-of-code-and-through-a-series-of-small-r",
     "uuid": "cec3d8414a96",
     "featured": false,
@@ -616,7 +616,7 @@
     "tags": ["complexity"]
   },
   {
-    "body": "Write shy code - modules that don't reveal anything unnecessary to other modules and that don't rely on other modules' implementations.",
+    "body": "Write shy code &mdash; modules that don't reveal anything unnecessary to other modules and that don't rely on other modules' implementations.",
     "slug": "write-shy-code-modules-that-dont-reveal-anything-unnecessary-to-other-modules-and-that-dont-rel",
     "uuid": "414e6091da3a",
     "featured": false,
@@ -869,7 +869,7 @@
     "tags": ["theory"]
   },
   {
-    "body": "Programmer - an organism that turns coffee into software.",
+    "body": "Programmer &mdash; an organism that turns coffee into software.",
     "slug": "programmer-an-organism-that-turns-coffee-into-software",
     "uuid": "6e3ab1808b4c",
     "featured": false,
@@ -1100,7 +1100,7 @@
     "tags": ["hacking"]
   },
   {
-    "body": "It's not a bug - it's an undocumented feature.",
+    "body": "It's not a bug &mdash; it's an undocumented feature.",
     "slug": "its-not-a-bug-its-an-undocumented-feature",
     "uuid": "2426dc522f9d",
     "featured": false,
@@ -1386,7 +1386,7 @@
     "tags": ["bugs"]
   },
   {
-    "body": "Software and cathedrals are much the same - first we build them, then we pray.",
+    "body": "Software and cathedrals are much the same &mdash; first we build them, then we pray.",
     "slug": "software-and-cathedrals-are-much-the-same-first-we-build-them-then-we-pray",
     "uuid": "10e88edeeda9",
     "featured": false,

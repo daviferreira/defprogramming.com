@@ -6,14 +6,20 @@
   bottom: 0;
   display: flex;
   flex-direction: column;
+  opacity: 0.6;
   padding: 0 20px 20px 0;
   position: fixed;
   right: 0;
   transform: translate3d(0, 0, 0);
+  transition: opacity 0.2s;
   z-index: 10;
 }
 
-.root .button {
+.root:hover {
+  opacity: 1;
+}
+
+.button {
   align-items: center;
   animation-delay: 2s;
   animation-duration: 0.4s;
@@ -48,15 +54,16 @@
   animation-delay: 2.3s;
 }
 
-.root .button path {
+.button path {
   fill: #fff;
 }
 
-.root .button:hover {
+.button:hover {
   background-color: #fff;
+  opacity: 1;
 }
 
-.root .button:hover path {
+.button:hover path {
   fill: #252525;
 }
 

@@ -4,35 +4,20 @@
 
 .quote {
   align-items: center;
+  background-color: #021626;
   color: #f8f8f8;
   display: flex;
   justify-content: center;
   min-height: 100vh;
+  position: relative;
   width: 100%;
 }
 
-.quote:nth-child(5n-9) {
-  background-color: #101851;
-}
-
-.quote:nth-child(5n-8) {
-  background-color: #f0a9a5;
-}
-
-.quote:nth-child(5n-7) {
-  background-color: #fc3b2d;
-}
-
-.quote:nth-child(5n-6) {
-  background-color: #f6882f;
-}
-
-.quote:nth-child(5n-5) {
-  background-color: #252525;
-}
-
-@media screen and (max-width: 767px) {
-  .quote {
-    min-height: auto;
-  }
+.overlay {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }

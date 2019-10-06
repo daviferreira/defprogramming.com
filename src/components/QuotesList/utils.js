@@ -5,18 +5,21 @@ export const getMostVisible = elements => {
 
   let mostVisible;
   let max = 0;
+  let visibility = 'full';
 
-  elements.forEach(element => {
-    const visiblePx = getVisibleHeightPx(element, viewportHeight);
+  [].forEach.call(elements, element => {
+    const { visiblePx, position } = getVisibleHeightPx(element, viewportHeight);
 
     if (visiblePx > max) {
       max = visiblePx;
       mostVisible = element.getAttribute('data-uuid');
+      visibility = position;
     }
   });
   return {
-    id: mostVisible,
-    percentage: Math.round((max / viewportHeight) * 100)
+    uuid: mostVisible,
+    percentage: Math.round((max / viewportHeight) * 100),
+    visibility
   };
 };
 
@@ -29,14 +32,17 @@ const getVisibleHeightPx = (element, viewportHeight) => {
   };
 
   let visiblePx = 0;
+  let position = 'full';
 
   if (visible.top && visible.bottom) {
     // Whole element is visible
     visiblePx = height;
   } else if (visible.top) {
     visiblePx = viewportHeight - rect.top;
+    position = 'top';
   } else if (visible.bottom) {
     visiblePx = rect.bottom;
+    position = 'bottom';
   } else if (height > viewportHeight && rect.top < 0) {
     const absTop = Math.abs(rect.top);
 
@@ -46,12 +52,13 @@ const getVisibleHeightPx = (element, viewportHeight) => {
     }
   }
 
-  return visiblePx;
+  return { visiblePx, position };
 };
 
-export const getColors = index => {
-  for (let i = 4; i > 1; i--) {
-    if (!(index % i)) {
+export const getColor = index => {
+  const num = index > COLORS.length ? index % COLORS.length : index;
+  for (let i = COLORS.length; i > 0; i--) {
+    if (!(num % i)) {
       const color = COLORS[i - 1];
       if (color) {
         return color;
@@ -60,4 +67,16 @@ export const getColors = index => {
   }
 
   return COLORS[0];
+};
+
+export const hexToRgb = hex => {
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+
+  return result
+    ? {
+        r: parseInt(result[1], 16),
+        g: parseInt(result[2], 16),
+        b: parseInt(result[3], 16)
+      }
+    : {};
 };
