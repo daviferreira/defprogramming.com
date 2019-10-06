@@ -6,19 +6,8 @@
     "featured": true,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Martin Fowler"],
-    "authors_slugs": ["martin-fowler"],
     "authors_uuid": ["721333935c91"],
-    "authors_bios": [
-      "Martin Fowler (born 1963) is a British software engineer",
-      " author and international speaker on software development",
-      " specializing in object-oriented analysis and design",
-      " UML",
-      " patterns",
-      " and agile software development methodologies",
-      " including extreme programming."
-    ],
     "tags_uuid": ["2806ae712337", "21d9e61717db", "bd67f2b3cd5c"],
-    "tags_slugs": ["refactoring", "debugging", "bugs"],
     "tags": ["refactoring", "debugging", "bugs"]
   },
   {
@@ -28,18 +17,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Andy Hunt", "Dave Thomas"],
-    "authors_slugs": ["andy-hunt", "dave-thomas"],
     "authors_uuid": ["187171c0d7c4", "493bda434c28"],
-    "authors_bios": [
-      "Andy Hunt (sometimes credited as Andrew Hunt) is a writer of books on software development. Hunt co-authored The Pragmatic Programmer",
-      " six other books and many articles",
-      " and was one of the 17 original authors of the Agile Manifesto and founders of the Agile Alliance.",
-      "Dave Thomas is a computer programmer and author/editor. He has written about Ruby. Together with Andy Hunt",
-      " he co-authored The Pragmatic Programmer and runs The Pragmatic Bookshelf publishing company. Dave Thomas lives north of Dallas",
-      " Texas. He moved to the United States from England in 1994."
-    ],
     "tags_uuid": ["2806ae712337"],
-    "tags_slugs": ["refactoring"],
     "tags": ["refactoring"]
   },
   {
@@ -49,16 +28,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Robert C. Martin"],
-    "authors_slugs": ["robert-c-martin"],
     "authors_uuid": ["2332b0bec2ae"],
-    "authors_bios": [
-      "Robert Cecil Martin",
-      " known colloquially as &ldquo;Uncle Bob&rdquo;",
-      " is an American software consultant and author. Martin has been a software professional since 1970 and an international software consultant since 1990. In 2001",
-      " he initiated the meeting of the group that created agile software development from extreme programming techniques."
-    ],
     "tags_uuid": ["f1ff3769767f"],
-    "tags_slugs": ["functions"],
     "tags": ["functions"]
   },
   {
@@ -68,16 +39,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Robert C. Martin"],
-    "authors_slugs": ["robert-c-martin"],
     "authors_uuid": ["2332b0bec2ae"],
-    "authors_bios": [
-      "Robert Cecil Martin",
-      " known colloquially as &ldquo;Uncle Bob&rdquo;",
-      " is an American software consultant and author. Martin has been a software professional since 1970 and an international software consultant since 1990. In 2001",
-      " he initiated the meeting of the group that created agile software development from extreme programming techniques."
-    ],
     "tags_uuid": ["f1ff3769767f"],
-    "tags_slugs": ["functions"],
     "tags": ["functions"]
   },
   {
@@ -87,16 +50,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Robert C. Martin"],
-    "authors_slugs": ["robert-c-martin"],
     "authors_uuid": ["2332b0bec2ae"],
-    "authors_bios": [
-      "Robert Cecil Martin",
-      " known colloquially as &ldquo;Uncle Bob&rdquo;",
-      " is an American software consultant and author. Martin has been a software professional since 1970 and an international software consultant since 1990. In 2001",
-      " he initiated the meeting of the group that created agile software development from extreme programming techniques."
-    ],
     "tags_uuid": ["f1ff3769767f"],
-    "tags_slugs": ["functions"],
     "tags": ["functions"]
   },
   {
@@ -106,18 +61,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Dave Thomas", "Andy Hunt"],
-    "authors_slugs": ["dave-thomas", "andy-hunt"],
     "authors_uuid": ["493bda434c28", "187171c0d7c4"],
-    "authors_bios": [
-      "Dave Thomas is a computer programmer and author/editor. He has written about Ruby. Together with Andy Hunt",
-      " he co-authored The Pragmatic Programmer and runs The Pragmatic Bookshelf publishing company. Dave Thomas lives north of Dallas",
-      " Texas. He moved to the United States from England in 1994.",
-      "Andy Hunt (sometimes credited as Andrew Hunt) is a writer of books on software development. Hunt co-authored The Pragmatic Programmer",
-      " six other books and many articles",
-      " and was one of the 17 original authors of the Agile Manifesto and founders of the Agile Alliance."
-    ],
     "tags_uuid": ["1660e265686e", "2806ae712337"],
-    "tags_slugs": ["dry", "refactoring"],
     "tags": ["dry", "refactoring"]
   },
   {
@@ -127,18 +72,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Dave Thomas", "Andy Hunt"],
-    "authors_slugs": ["dave-thomas", "andy-hunt"],
     "authors_uuid": ["493bda434c28", "187171c0d7c4"],
-    "authors_bios": [
-      "Dave Thomas is a computer programmer and author/editor. He has written about Ruby. Together with Andy Hunt",
-      " he co-authored The Pragmatic Programmer and runs The Pragmatic Bookshelf publishing company. Dave Thomas lives north of Dallas",
-      " Texas. He moved to the United States from England in 1994.",
-      "Andy Hunt (sometimes credited as Andrew Hunt) is a writer of books on software development. Hunt co-authored The Pragmatic Programmer",
-      " six other books and many articles",
-      " and was one of the 17 original authors of the Agile Manifesto and founders of the Agile Alliance."
-    ],
     "tags_uuid": ["1660e265686e"],
-    "tags_slugs": ["dry"],
     "tags": ["dry"]
   },
   {
@@ -148,11 +83,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["P. J. Plaugher", "Brian W. Kernighan"],
-    "authors_slugs": ["p-j-plaugher", "brian-w-kernighan"],
     "authors_uuid": ["e773f0e8944d", "0086884ef4b1"],
-    "authors_bios": [""],
     "tags_uuid": ["8f1619347921", "2806ae712337"],
-    "tags_slugs": ["commenting", "refactoring"],
     "tags": ["commenting", "refactoring"]
   },
   {
@@ -162,11 +94,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Ray Ozzie"],
-    "authors_slugs": ["ray-ozzie"],
     "authors_uuid": ["1a71a13bdcd3"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -176,16 +105,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Robert C. Martin"],
-    "authors_slugs": ["robert-c-martin"],
     "authors_uuid": ["2332b0bec2ae"],
-    "authors_bios": [
-      "Robert Cecil Martin",
-      " known colloquially as &ldquo;Uncle Bob&rdquo;",
-      " is an American software consultant and author. Martin has been a software professional since 1970 and an international software consultant since 1990. In 2001",
-      " he initiated the meeting of the group that created agile software development from extreme programming techniques."
-    ],
     "tags_uuid": ["433a3a423cd9", "e8e63fda46b9"],
-    "tags_slugs": ["testing", "tdd"],
     "tags": ["testing", "tdd"]
   },
   {
@@ -195,11 +116,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["James O. Coplien"],
-    "authors_slugs": ["james-o-coplien"],
     "authors_uuid": ["aa156a9f3b23"],
-    "authors_bios": [""],
     "tags_uuid": ["0c73ea729479", "3e7aeeca901a", "93a30957024f"],
-    "tags_slugs": ["objects", "oop", "threads"],
     "tags": ["objects", "oop", "threads"]
   },
   {
@@ -209,11 +127,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Brian W. Kernighan"],
-    "authors_slugs": ["brian-w-kernighan"],
     "authors_uuid": ["0086884ef4b1"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -223,15 +138,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["C. A. R. Hoare"],
-    "authors_slugs": ["c-a-r-hoare"],
     "authors_uuid": ["a6bd6d72ec53"],
-    "authors_bios": [
-      "Sir Charles Antony Richard Hoare (born 11 January 1934)",
-      " commonly known as Tony Hoare or C. A. R. Hoare",
-      " is a British computer scientist. He developed the sorting algorithm quicksort in 1960."
-    ],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -241,11 +149,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Bjarne Stroustrup"],
-    "authors_slugs": ["bjarne-stroustrup"],
     "authors_uuid": ["4e82766e1971"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -255,11 +160,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Larry Wall"],
-    "authors_slugs": ["larry-wall"],
     "authors_uuid": ["efd5a93782e9"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -269,11 +171,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Larry Niven"],
-    "authors_slugs": ["larry-niven"],
     "authors_uuid": ["1e66a8a52f8e"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -283,11 +182,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["L. Peter Deutsch"],
-    "authors_slugs": ["l-peter-deutsch"],
     "authors_uuid": ["c3fe083d2440"],
-    "authors_bios": [""],
     "tags_uuid": ["f1ff3769767f"],
-    "tags_slugs": ["functions"],
     "tags": ["functions"]
   },
   {
@@ -297,11 +193,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Edward V. Berard"],
-    "authors_slugs": ["edward-v-berard"],
     "authors_uuid": ["a7603f3a3807"],
-    "authors_bios": [""],
     "tags_uuid": ["fc973eebe544"],
-    "tags_slugs": ["specification"],
     "tags": ["specification"]
   },
   {
@@ -311,11 +204,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Tom Cargill"],
-    "authors_slugs": ["tom-cargill"],
     "authors_uuid": ["052ba7fe0d6d"],
-    "authors_bios": [""],
     "tags_uuid": ["2e471af7f345"],
-    "tags_slugs": ["estimating"],
     "tags": ["estimating"]
   },
   {
@@ -325,18 +215,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["John Carmack"],
-    "authors_slugs": ["john-carmack"],
     "authors_uuid": ["aaebabb8c61b"],
-    "authors_bios": [
-      "John D. Carmack (born August 20",
-      " 1970) is an American game programmer and the co-founder of id Software. Carmack was the lead programmer of the id video games Commander Keen",
-      " Wolfenstein 3D",
-      " Doom",
-      " Quake",
-      " Rage and their sequels."
-    ],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -346,11 +226,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Jamie Zawinski"],
-    "authors_slugs": ["jamie-zawinski"],
     "authors_uuid": ["5b88df92a025"],
-    "authors_bios": [""],
     "tags_uuid": ["bf80fee376b0"],
-    "tags_slugs": ["regexp"],
     "tags": ["regexp"]
   },
   {
@@ -360,11 +237,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Bjarne Stroustrup"],
-    "authors_slugs": ["bjarne-stroustrup"],
     "authors_uuid": ["4e82766e1971"],
-    "authors_bios": [""],
     "tags_uuid": ["2e662c7bed7a"],
-    "tags_slugs": ["languages"],
     "tags": ["languages"]
   },
   {
@@ -374,11 +248,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["2464e5ee4186"],
-    "tags_slugs": ["deploying"],
     "tags": ["deploying"]
   },
   {
@@ -388,14 +259,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["E. W. Dijkstra"],
-    "authors_slugs": ["e-w-dijkstra"],
     "authors_uuid": ["4b869649e244"],
-    "authors_bios": [
-      "Edsger Wybe Dijkstra (11 May 1930 – 6 August 2002) was a Dutch computer scientist. He received the 1972 Turing Award for fundamental contributions to developing programming languages",
-      " and was the Schlumberger Centennial Chair of Computer Sciences at The University of Texas at Austin from 1984 until 2000."
-    ],
     "tags_uuid": ["21d9e61717db"],
-    "tags_slugs": ["debugging"],
     "tags": ["debugging"]
   },
   {
@@ -405,11 +270,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Jason Gorman"],
-    "authors_slugs": ["jason-gorman"],
     "authors_uuid": ["1cbf19d62ce5"],
-    "authors_bios": [""],
     "tags_uuid": ["2806ae712337"],
-    "tags_slugs": ["refactoring"],
     "tags": ["refactoring"]
   },
   {
@@ -419,11 +281,8 @@
     "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Nathaniel Borenstein"],
-    "authors_slugs": ["nathaniel-borenstein"],
     "authors_uuid": ["0063dd7627f8"],
-    "authors_bios": [""],
     "tags_uuid": ["26400021f363", "f1ff3769767f"],
-    "tags_slugs": ["naming", "functions"],
     "tags": ["naming", "functions"]
   },
   {
@@ -433,11 +292,8 @@
     "featured": false,
     "publish_date": "2011-07-04 19:11:41",
     "authors": ["Jon Ribbens"],
-    "authors_slugs": ["jon-ribbens"],
     "authors_uuid": ["0bdfeceda8f6"],
-    "authors_bios": [""],
     "tags_uuid": ["91d538929d2d", "8ea8b10f34b0", "2e662c7bed7a"],
-    "tags_slugs": ["perl", "php", "languages"],
     "tags": ["perl", "php", "languages"]
   },
   {
@@ -447,14 +303,8 @@
     "featured": false,
     "publish_date": "2011-07-04 19:13:17",
     "authors": ["E. W. Dijkstra"],
-    "authors_slugs": ["e-w-dijkstra"],
     "authors_uuid": ["4b869649e244"],
-    "authors_bios": [
-      "Edsger Wybe Dijkstra (11 May 1930 – 6 August 2002) was a Dutch computer scientist. He received the 1972 Turing Award for fundamental contributions to developing programming languages",
-      " and was the Schlumberger Centennial Chair of Computer Sciences at The University of Texas at Austin from 1984 until 2000."
-    ],
     "tags_uuid": ["490b10b26569"],
-    "tags_slugs": ["computer-science"],
     "tags": ["computer science"]
   },
   {
@@ -464,11 +314,8 @@
     "featured": false,
     "publish_date": "2011-07-04 19:14:09",
     "authors": ["Antoine de Saint Exupéry"],
-    "authors_slugs": ["antoine-de-saint-exupery"],
     "authors_uuid": ["a8f746f6a156"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -478,11 +325,8 @@
     "featured": false,
     "publish_date": "2011-07-04 19:15:55",
     "authors": ["Isaac Asimov"],
-    "authors_slugs": ["isaac-asimov"],
     "authors_uuid": ["23430596e351"],
-    "authors_bios": [""],
     "tags_uuid": ["21d9e61717db"],
-    "tags_slugs": ["debugging"],
     "tags": ["debugging"]
   },
   {
@@ -492,11 +336,8 @@
     "featured": false,
     "publish_date": "2011-07-04 19:16:49",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["f084f31aed32"],
-    "tags_slugs": ["theory"],
     "tags": ["theory"]
   },
   {
@@ -506,11 +347,8 @@
     "featured": true,
     "publish_date": "2011-07-04 19:17:59",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -520,11 +358,8 @@
     "featured": false,
     "publish_date": "2011-07-05 08:46:07",
     "authors": ["Seymour Cray"],
-    "authors_slugs": ["seymour-cray"],
     "authors_uuid": ["d5a897cb2918"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -534,11 +369,8 @@
     "featured": false,
     "publish_date": "2011-07-05 08:54:37",
     "authors": ["Michael A. Jackson"],
-    "authors_slugs": ["michael-a-jackson"],
     "authors_uuid": ["01b0a123b540"],
-    "authors_bios": [""],
     "tags_uuid": ["56c51ddb335c"],
-    "tags_slugs": ["optimization"],
     "tags": ["optimization"]
   },
   {
@@ -548,18 +380,8 @@
     "featured": false,
     "publish_date": "2011-07-05 08:55:39",
     "authors": ["Dave Thomas", "Andy Hunt"],
-    "authors_slugs": ["dave-thomas", "andy-hunt"],
     "authors_uuid": ["493bda434c28", "187171c0d7c4"],
-    "authors_bios": [
-      "Dave Thomas is a computer programmer and author/editor. He has written about Ruby. Together with Andy Hunt",
-      " he co-authored The Pragmatic Programmer and runs The Pragmatic Bookshelf publishing company. Dave Thomas lives north of Dallas",
-      " Texas. He moved to the United States from England in 1994.",
-      "Andy Hunt (sometimes credited as Andrew Hunt) is a writer of books on software development. Hunt co-authored The Pragmatic Programmer",
-      " six other books and many articles",
-      " and was one of the 17 original authors of the Agile Manifesto and founders of the Agile Alliance."
-    ],
     "tags_uuid": ["fc973eebe544", "2806ae712337"],
-    "tags_slugs": ["specification", "refactoring"],
     "tags": ["specification", "refactoring"]
   },
   {
@@ -569,11 +391,8 @@
     "featured": false,
     "publish_date": "2011-07-05 09:38:55",
     "authors": ["37Signals"],
-    "authors_slugs": ["37signals"],
     "authors_uuid": ["d6f81f5cfd1e"],
-    "authors_bios": [""],
     "tags_uuid": ["df01cc3ecc20", "16d05f8e5421"],
-    "tags_slugs": ["productivity", "programmers"],
     "tags": ["productivity", "programmers"]
   },
   {
@@ -583,11 +402,8 @@
     "featured": false,
     "publish_date": "2011-07-05 12:20:42",
     "authors": ["37Signals"],
-    "authors_slugs": ["37signals"],
     "authors_uuid": ["d6f81f5cfd1e"],
-    "authors_bios": [""],
     "tags_uuid": ["21e47cddf063"],
-    "tags_slugs": ["scaling"],
     "tags": ["scaling"]
   },
   {
@@ -597,11 +413,8 @@
     "featured": false,
     "publish_date": "2011-07-05 12:23:08",
     "authors": ["Timm Martin"],
-    "authors_slugs": ["timm-martin"],
     "authors_uuid": ["89f5dc1d4724"],
-    "authors_bios": [""],
     "tags_uuid": ["4131ccc3bad1"],
-    "tags_slugs": ["startups"],
     "tags": ["startups"]
   },
   {
@@ -611,11 +424,8 @@
     "featured": false,
     "publish_date": "2011-07-05 13:11:45",
     "authors": ["Jeff Sickel"],
-    "authors_slugs": ["jeff-sickel"],
     "authors_uuid": ["8facba2955b9"],
-    "authors_bios": [""],
     "tags_uuid": ["21d9e61717db"],
-    "tags_slugs": ["debugging"],
     "tags": ["debugging"]
   },
   {
@@ -625,18 +435,8 @@
     "featured": false,
     "publish_date": "2011-07-05 13:13:36",
     "authors": ["John Carmack"],
-    "authors_slugs": ["john-carmack"],
     "authors_uuid": ["aaebabb8c61b"],
-    "authors_bios": [
-      "John D. Carmack (born August 20",
-      " 1970) is an American game programmer and the co-founder of id Software. Carmack was the lead programmer of the id video games Commander Keen",
-      " Wolfenstein 3D",
-      " Doom",
-      " Quake",
-      " Rage and their sequels."
-    ],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -646,11 +446,8 @@
     "featured": false,
     "publish_date": "2011-07-05 13:16:51",
     "authors": ["Daniel Geer"],
-    "authors_slugs": ["daniel-geer"],
     "authors_uuid": ["ab7f3d84d9a2"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -660,14 +457,8 @@
     "featured": false,
     "publish_date": "2011-07-05 13:18:00",
     "authors": ["E. W. Dijkstra"],
-    "authors_slugs": ["e-w-dijkstra"],
     "authors_uuid": ["4b869649e244"],
-    "authors_bios": [
-      "Edsger Wybe Dijkstra (11 May 1930 – 6 August 2002) was a Dutch computer scientist. He received the 1972 Turing Award for fundamental contributions to developing programming languages",
-      " and was the Schlumberger Centennial Chair of Computer Sciences at The University of Texas at Austin from 1984 until 2000."
-    ],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -677,11 +468,8 @@
     "featured": false,
     "publish_date": "2011-07-05 13:18:39",
     "authors": ["W. Stan Brown"],
-    "authors_slugs": ["w-stan-brown"],
     "authors_uuid": ["9b337828a7bb"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a", "671ef89b91e6"],
-    "tags_slugs": ["complexity", "compatibility"],
     "tags": ["complexity", "compatibility"]
   },
   {
@@ -691,11 +479,8 @@
     "featured": false,
     "publish_date": "2011-07-05 13:21:18",
     "authors": ["Norman Diamond"],
-    "authors_slugs": ["norman-diamond"],
     "authors_uuid": ["07555d26bc6f"],
-    "authors_bios": [""],
     "tags_uuid": ["c810264ebce8"],
-    "tags_slugs": ["standards"],
     "tags": ["standards"]
   },
   {
@@ -705,11 +490,8 @@
     "featured": false,
     "publish_date": "2011-07-05 13:23:27",
     "authors": ["Bertrand Meyer"],
-    "authors_slugs": ["bertrand-meyer"],
     "authors_uuid": ["1bad4873b494"],
-    "authors_bios": [""],
     "tags_uuid": ["fc973eebe544"],
-    "tags_slugs": ["specification"],
     "tags": ["specification"]
   },
   {
@@ -719,11 +501,8 @@
     "featured": false,
     "publish_date": "2011-07-05 13:24:53",
     "authors": ["David Wheeler"],
-    "authors_slugs": ["david-wheeler"],
     "authors_uuid": ["df07b6970bc9"],
-    "authors_bios": [""],
     "tags_uuid": ["671ef89b91e6"],
-    "tags_slugs": ["compatibility"],
     "tags": ["compatibility"]
   },
   {
@@ -733,11 +512,8 @@
     "featured": false,
     "publish_date": "2011-07-05 13:26:46",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -747,11 +523,8 @@
     "featured": true,
     "publish_date": "2011-07-05 13:28:26",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["56c51ddb335c"],
-    "tags_slugs": ["optimization"],
     "tags": ["optimization"]
   },
   {
@@ -761,14 +534,8 @@
     "featured": false,
     "publish_date": "2011-07-05 13:29:33",
     "authors": ["E. W. Dijkstra"],
-    "authors_slugs": ["e-w-dijkstra"],
     "authors_uuid": ["4b869649e244"],
-    "authors_bios": [
-      "Edsger Wybe Dijkstra (11 May 1930 – 6 August 2002) was a Dutch computer scientist. He received the 1972 Turing Award for fundamental contributions to developing programming languages",
-      " and was the Schlumberger Centennial Chair of Computer Sciences at The University of Texas at Austin from 1984 until 2000."
-    ],
     "tags_uuid": ["e8e63fda46b9", "433a3a423cd9"],
-    "tags_slugs": ["tdd", "testing"],
     "tags": ["tdd", "testing"]
   },
   {
@@ -778,11 +545,8 @@
     "featured": false,
     "publish_date": "2011-07-05 13:31:32",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -792,11 +556,8 @@
     "featured": false,
     "publish_date": "2011-07-05 13:34:03",
     "authors": ["Ron Jeffries"],
-    "authors_slugs": ["ron-jeffries"],
     "authors_uuid": ["091bc03c4242"],
-    "authors_bios": [""],
     "tags_uuid": ["8f1619347921"],
-    "tags_slugs": ["commenting"],
     "tags": ["commenting"]
   },
   {
@@ -806,11 +567,8 @@
     "featured": false,
     "publish_date": "2011-07-05 15:08:00",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -820,11 +578,8 @@
     "featured": false,
     "publish_date": "2011-07-05 15:10:32",
     "authors": ["Vidiu Platon"],
-    "authors_slugs": ["vidiu-platon"],
     "authors_uuid": ["19815853f29b"],
-    "authors_bios": [""],
     "tags_uuid": ["2464e5ee4186"],
-    "tags_slugs": ["deploying"],
     "tags": ["deploying"]
   },
   {
@@ -834,11 +589,8 @@
     "featured": false,
     "publish_date": "2011-07-05 15:12:37",
     "authors": ["Brian W. Kernighan"],
-    "authors_slugs": ["brian-w-kernighan"],
     "authors_uuid": ["0086884ef4b1"],
-    "authors_bios": [""],
     "tags_uuid": ["21d9e61717db", "bd67f2b3cd5c"],
-    "tags_slugs": ["debugging", "bugs"],
     "tags": ["debugging", "bugs"]
   },
   {
@@ -848,11 +600,8 @@
     "featured": false,
     "publish_date": "2011-07-05 19:00:21",
     "authors": ["37Signals"],
-    "authors_slugs": ["37signals"],
     "authors_uuid": ["d6f81f5cfd1e"],
-    "authors_bios": [""],
     "tags_uuid": ["8f1778e044f7"],
-    "tags_slugs": ["management"],
     "tags": ["management"]
   },
   {
@@ -862,14 +611,8 @@
     "featured": false,
     "publish_date": "2011-07-05 19:03:10",
     "authors": ["Kent Beck"],
-    "authors_slugs": ["kent-beck"],
     "authors_uuid": ["7b5113d7f9a5"],
-    "authors_bios": [
-      "Kent Beck is an American software engineer and the creator of the Extreme Programming and Test Driven Development software development methodologies",
-      " also named agile software development. Beck was one of the 17 original signatories of the Agile Manifesto in 2001."
-    ],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -879,18 +622,8 @@
     "featured": false,
     "publish_date": "2011-07-05 19:07:39",
     "authors": ["Andy Hunt", "Dave Thomas"],
-    "authors_slugs": ["andy-hunt", "dave-thomas"],
     "authors_uuid": ["187171c0d7c4", "493bda434c28"],
-    "authors_bios": [
-      "Andy Hunt (sometimes credited as Andrew Hunt) is a writer of books on software development. Hunt co-authored The Pragmatic Programmer",
-      " six other books and many articles",
-      " and was one of the 17 original authors of the Agile Manifesto and founders of the Agile Alliance.",
-      "Dave Thomas is a computer programmer and author/editor. He has written about Ruby. Together with Andy Hunt",
-      " he co-authored The Pragmatic Programmer and runs The Pragmatic Bookshelf publishing company. Dave Thomas lives north of Dallas",
-      " Texas. He moved to the United States from England in 1994."
-    ],
     "tags_uuid": ["3e7aeeca901a"],
-    "tags_slugs": ["oop"],
     "tags": ["oop"]
   },
   {
@@ -900,16 +633,8 @@
     "featured": false,
     "publish_date": "2011-07-05 19:11:15",
     "authors": ["Robert C. Martin"],
-    "authors_slugs": ["robert-c-martin"],
     "authors_uuid": ["2332b0bec2ae"],
-    "authors_bios": [
-      "Robert Cecil Martin",
-      " known colloquially as &ldquo;Uncle Bob&rdquo;",
-      " is an American software consultant and author. Martin has been a software professional since 1970 and an international software consultant since 1990. In 2001",
-      " he initiated the meeting of the group that created agile software development from extreme programming techniques."
-    ],
     "tags_uuid": ["3e7aeeca901a"],
-    "tags_slugs": ["oop"],
     "tags": ["oop"]
   },
   {
@@ -919,16 +644,8 @@
     "featured": false,
     "publish_date": "2011-07-05 19:14:42",
     "authors": ["Robert C. Martin"],
-    "authors_slugs": ["robert-c-martin"],
     "authors_uuid": ["2332b0bec2ae"],
-    "authors_bios": [
-      "Robert Cecil Martin",
-      " known colloquially as &ldquo;Uncle Bob&rdquo;",
-      " is an American software consultant and author. Martin has been a software professional since 1970 and an international software consultant since 1990. In 2001",
-      " he initiated the meeting of the group that created agile software development from extreme programming techniques."
-    ],
     "tags_uuid": ["26400021f363"],
-    "tags_slugs": ["naming"],
     "tags": ["naming"]
   },
   {
@@ -938,18 +655,8 @@
     "featured": false,
     "publish_date": "2011-07-05 19:17:49",
     "authors": ["Andy Hunt", "Dave Thomas"],
-    "authors_slugs": ["andy-hunt", "dave-thomas"],
     "authors_uuid": ["187171c0d7c4", "493bda434c28"],
-    "authors_bios": [
-      "Andy Hunt (sometimes credited as Andrew Hunt) is a writer of books on software development. Hunt co-authored The Pragmatic Programmer",
-      " six other books and many articles",
-      " and was one of the 17 original authors of the Agile Manifesto and founders of the Agile Alliance.",
-      "Dave Thomas is a computer programmer and author/editor. He has written about Ruby. Together with Andy Hunt",
-      " he co-authored The Pragmatic Programmer and runs The Pragmatic Bookshelf publishing company. Dave Thomas lives north of Dallas",
-      " Texas. He moved to the United States from England in 1994."
-    ],
     "tags_uuid": ["2806ae712337"],
-    "tags_slugs": ["refactoring"],
     "tags": ["refactoring"]
   },
   {
@@ -959,11 +666,8 @@
     "featured": false,
     "publish_date": "2011-07-05 19:22:29",
     "authors": ["Gina Trapani"],
-    "authors_slugs": ["gina-trapani"],
     "authors_uuid": ["f99cf241eff6"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -973,11 +677,8 @@
     "featured": false,
     "publish_date": "2011-07-05 19:26:21",
     "authors": ["Martin Golding"],
-    "authors_slugs": ["martin-golding"],
     "authors_uuid": ["1bcb19fa5c0b"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -987,11 +688,8 @@
     "featured": false,
     "publish_date": "2011-07-05 19:28:03",
     "authors": ["Michael Sinz"],
-    "authors_slugs": ["michael-sinz"],
     "authors_uuid": ["313632ba0184"],
-    "authors_bios": [""],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -1001,11 +699,8 @@
     "featured": true,
     "publish_date": "2011-07-05 19:30:03",
     "authors": ["Alan Eagleson"],
-    "authors_slugs": ["alan-eagleson"],
     "authors_uuid": ["55e1b48b233e"],
-    "authors_bios": [""],
     "tags_uuid": ["2806ae712337"],
-    "tags_slugs": ["refactoring"],
     "tags": ["refactoring"]
   },
   {
@@ -1015,11 +710,8 @@
     "featured": false,
     "publish_date": "2011-07-05 19:34:09",
     "authors": ["Eric Raymond"],
-    "authors_slugs": ["eric-raymond"],
     "authors_uuid": ["67f54a69ab2d"],
-    "authors_bios": [""],
     "tags_uuid": ["490b10b26569"],
-    "tags_slugs": ["computer-science"],
     "tags": ["computer science"]
   },
   {
@@ -1029,11 +721,8 @@
     "featured": false,
     "publish_date": "2011-07-05 19:38:22",
     "authors": ["37Signals"],
-    "authors_slugs": ["37signals"],
     "authors_uuid": ["d6f81f5cfd1e"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -1043,11 +732,8 @@
     "featured": false,
     "publish_date": "2011-07-05 17:39:33",
     "authors": ["37Signals"],
-    "authors_slugs": ["37signals"],
     "authors_uuid": ["d6f81f5cfd1e"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -1057,11 +743,8 @@
     "featured": false,
     "publish_date": "2011-07-05 19:45:04",
     "authors": ["Roberto Waltman"],
-    "authors_slugs": ["roberto-waltman"],
     "authors_uuid": ["e9098ced61f6"],
-    "authors_bios": [""],
     "tags_uuid": ["3e7aeeca901a"],
-    "tags_slugs": ["oop"],
     "tags": ["oop"]
   },
   {
@@ -1071,11 +754,8 @@
     "featured": false,
     "publish_date": "2011-07-05 19:47:00",
     "authors": ["Ted Nelson"],
-    "authors_slugs": ["ted-nelson"],
     "authors_uuid": ["10651f0f3985"],
-    "authors_bios": [""],
     "tags_uuid": ["f084f31aed32"],
-    "tags_slugs": ["theory"],
     "tags": ["theory"]
   },
   {
@@ -1085,11 +765,8 @@
     "featured": false,
     "publish_date": "2011-07-05 19:48:24",
     "authors": ["George Carrette"],
-    "authors_slugs": ["george-carrette"],
     "authors_uuid": ["57d059907409"],
-    "authors_bios": [""],
     "tags_uuid": ["490b10b26569"],
-    "tags_slugs": ["computer-science"],
     "tags": ["computer science"]
   },
   {
@@ -1099,15 +776,8 @@
     "featured": false,
     "publish_date": "2011-07-05 19:51:17",
     "authors": ["Linus Torvalds"],
-    "authors_slugs": ["linus-torvalds"],
     "authors_uuid": ["8491fd3f9c47"],
-    "authors_bios": [
-      "Linus Benedict Torvalds is a Finnish American software engineer",
-      " who was the principal force behind the development of the Linux kernel. He later became the chief architect of the Linux kernel",
-      " and now acts as the project's coordinator."
-    ],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -1117,19 +787,8 @@
     "featured": false,
     "publish_date": "2011-07-05 19:52:50",
     "authors": ["Martin Fowler"],
-    "authors_slugs": ["martin-fowler"],
     "authors_uuid": ["721333935c91"],
-    "authors_bios": [
-      "Martin Fowler (born 1963) is a British software engineer",
-      " author and international speaker on software development",
-      " specializing in object-oriented analysis and design",
-      " UML",
-      " patterns",
-      " and agile software development methodologies",
-      " including extreme programming."
-    ],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -1139,11 +798,8 @@
     "featured": false,
     "publish_date": "2011-07-05 19:53:20",
     "authors": ["37Signals"],
-    "authors_slugs": ["37signals"],
     "authors_uuid": ["d6f81f5cfd1e"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -1153,11 +809,8 @@
     "featured": false,
     "publish_date": "2011-07-05 19:58:30",
     "authors": ["Nathan Myhrvold"],
-    "authors_slugs": ["nathan-myhrvold"],
     "authors_uuid": ["5c8939dd1141"],
-    "authors_bios": [""],
     "tags_uuid": ["fdcfd016c9e7"],
-    "tags_slugs": ["users"],
     "tags": ["users"]
   },
   {
@@ -1167,11 +820,8 @@
     "featured": false,
     "publish_date": "2011-07-05 20:00:09",
     "authors": ["Flon's Law"],
-    "authors_slugs": ["flons-law"],
     "authors_uuid": ["c87561fc85bf"],
-    "authors_bios": [""],
     "tags_uuid": ["2e662c7bed7a"],
-    "tags_slugs": ["languages"],
     "tags": ["languages"]
   },
   {
@@ -1181,11 +831,8 @@
     "featured": false,
     "publish_date": "2011-07-05 20:04:27",
     "authors": ["Murphy's Law"],
-    "authors_slugs": ["murphys-law"],
     "authors_uuid": ["1bd49e8a5a9e"],
-    "authors_bios": [""],
     "tags_uuid": ["21d9e61717db"],
-    "tags_slugs": ["debugging"],
     "tags": ["debugging"]
   },
   {
@@ -1195,11 +842,8 @@
     "featured": false,
     "publish_date": "2011-07-06 06:55:49",
     "authors": ["Christopher Thompson"],
-    "authors_slugs": ["christopher-thompson"],
     "authors_uuid": ["e6b58b159361"],
-    "authors_bios": [""],
     "tags_uuid": ["21d9e61717db"],
-    "tags_slugs": ["debugging"],
     "tags": ["debugging"]
   },
   {
@@ -1209,11 +853,8 @@
     "featured": false,
     "publish_date": "2011-07-06 06:56:48",
     "authors": ["Antoine de Saint Exupéry"],
-    "authors_slugs": ["antoine-de-saint-exupery"],
     "authors_uuid": ["a8f746f6a156"],
-    "authors_bios": [""],
     "tags_uuid": ["fc973eebe544"],
-    "tags_slugs": ["specification"],
     "tags": ["specification"]
   },
   {
@@ -1223,15 +864,8 @@
     "featured": false,
     "publish_date": "2011-07-06 06:57:06",
     "authors": ["Linus Torvalds"],
-    "authors_slugs": ["linus-torvalds"],
     "authors_uuid": ["8491fd3f9c47"],
-    "authors_bios": [
-      "Linus Benedict Torvalds is a Finnish American software engineer",
-      " who was the principal force behind the development of the Linux kernel. He later became the chief architect of the Linux kernel",
-      " and now acts as the project's coordinator."
-    ],
     "tags_uuid": ["f084f31aed32"],
-    "tags_slugs": ["theory"],
     "tags": ["theory"]
   },
   {
@@ -1241,11 +875,8 @@
     "featured": false,
     "publish_date": "2011-07-06 10:23:47",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -1255,11 +886,8 @@
     "featured": false,
     "publish_date": "2011-07-06 10:24:31",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -1269,16 +897,8 @@
     "featured": false,
     "publish_date": "2011-07-06 10:25:06",
     "authors": ["Brian W. Kernighan", "Rob Pike"],
-    "authors_slugs": ["brian-w-kernighan", "rob-pike"],
     "authors_uuid": ["0086884ef4b1", "569cfb601ec7"],
-    "authors_bios": [
-      "",
-      "Robert Pike (born 1956) is a Canadian software engineer and author. He is best known for his work at Bell Labs",
-      " where he was a member of the Unix team and was involved in the creation of the Plan 9 from Bell Labs and Inferno operating systems",
-      " as well as the Limbo programming language."
-    ],
     "tags_uuid": ["21d9e61717db"],
-    "tags_slugs": ["debugging"],
     "tags": ["debugging"]
   },
   {
@@ -1288,11 +908,8 @@
     "featured": false,
     "publish_date": "2011-07-06 10:26:13",
     "authors": ["Doug Linder"],
-    "authors_slugs": ["doug-linder"],
     "authors_uuid": ["dcbb0a404d49"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -1302,11 +919,8 @@
     "featured": false,
     "publish_date": "2011-07-06 10:26:57",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["d18c1b030691"],
-    "tags_slugs": ["beta"],
     "tags": ["beta"]
   },
   {
@@ -1316,11 +930,8 @@
     "featured": false,
     "publish_date": "2011-07-06 10:27:44",
     "authors": ["Steve McConnell"],
-    "authors_slugs": ["steve-mcconnell"],
     "authors_uuid": ["a1c6ce30251e"],
-    "authors_bios": [""],
     "tags_uuid": ["8f1619347921"],
-    "tags_slugs": ["commenting"],
     "tags": ["commenting"]
   },
   {
@@ -1330,11 +941,8 @@
     "featured": false,
     "publish_date": "2011-07-06 10:28:22",
     "authors": ["Paul Graham"],
-    "authors_slugs": ["paul-graham"],
     "authors_uuid": ["8ecba539670d"],
-    "authors_bios": [""],
     "tags_uuid": ["26400021f363"],
-    "tags_slugs": ["naming"],
     "tags": ["naming"]
   },
   {
@@ -1344,11 +952,8 @@
     "featured": false,
     "publish_date": "2011-07-06 10:28:56",
     "authors": ["Jessica Gaston"],
-    "authors_slugs": ["jessica-gaston"],
     "authors_uuid": ["ceb35fb0e32f"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -1358,11 +963,8 @@
     "featured": false,
     "publish_date": "2011-07-06 10:29:48",
     "authors": ["Steve McConnell"],
-    "authors_slugs": ["steve-mcconnell"],
     "authors_uuid": ["a1c6ce30251e"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -1372,11 +974,8 @@
     "featured": false,
     "publish_date": "2011-07-06 10:30:13",
     "authors": ["Harlan Mills"],
-    "authors_slugs": ["harlan-mills"],
     "authors_uuid": ["e866ca5f27d2"],
-    "authors_bios": [""],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -1386,11 +985,8 @@
     "featured": false,
     "publish_date": "2011-07-06 10:55:25",
     "authors": ["John Shore"],
-    "authors_slugs": ["john-shore"],
     "authors_uuid": ["b429fabc65f9"],
-    "authors_bios": [""],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -1400,11 +996,8 @@
     "featured": false,
     "publish_date": "2011-07-06 10:56:12",
     "authors": ["Paul Graham"],
-    "authors_slugs": ["paul-graham"],
     "authors_uuid": ["8ecba539670d"],
-    "authors_bios": [""],
     "tags_uuid": ["fc973eebe544"],
-    "tags_slugs": ["specification"],
     "tags": ["specification"]
   },
   {
@@ -1414,11 +1007,8 @@
     "featured": false,
     "publish_date": "2011-07-06 10:56:43",
     "authors": ["Douglas Adams"],
-    "authors_slugs": ["douglas-adams"],
     "authors_uuid": ["bfc694ae69d3"],
-    "authors_bios": [""],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -1428,11 +1018,8 @@
     "featured": false,
     "publish_date": "2011-07-06 10:58:00",
     "authors": ["Frederick P. Brooks"],
-    "authors_slugs": ["frederick-p-brooks"],
     "authors_uuid": ["583742cadc21"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -1442,11 +1029,8 @@
     "featured": false,
     "publish_date": "2011-07-06 10:58:58",
     "authors": ["Dave Platt"],
-    "authors_slugs": ["dave-platt"],
     "authors_uuid": ["b21d086493d3"],
-    "authors_bios": [""],
     "tags_uuid": ["8f1778e044f7"],
-    "tags_slugs": ["management"],
     "tags": ["management"]
   },
   {
@@ -1456,11 +1040,8 @@
     "featured": false,
     "publish_date": "2011-07-06 10:59:26",
     "authors": ["Steve McConnell"],
-    "authors_slugs": ["steve-mcconnell"],
     "authors_uuid": ["a1c6ce30251e"],
-    "authors_bios": [""],
     "tags_uuid": ["df01cc3ecc20", "16d05f8e5421"],
-    "tags_slugs": ["productivity", "programmers"],
     "tags": ["productivity", "programmers"]
   },
   {
@@ -1470,11 +1051,8 @@
     "featured": false,
     "publish_date": "2011-07-06 11:08:47",
     "authors": ["Albert Einstein"],
-    "authors_slugs": ["albert-einstein"],
     "authors_uuid": ["e62103ae06af"],
-    "authors_bios": ["Genius."],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -1484,11 +1062,8 @@
     "featured": false,
     "publish_date": "2011-07-06 11:12:02",
     "authors": ["Bob Frankston"],
-    "authors_slugs": ["bob-frankston"],
     "authors_uuid": ["8c3a81f2f74c"],
-    "authors_bios": [""],
     "tags_uuid": ["cffa5ba93708"],
-    "tags_slugs": ["reusing"],
     "tags": ["reusing"]
   },
   {
@@ -1498,11 +1073,8 @@
     "featured": false,
     "publish_date": "2011-07-06 11:13:13",
     "authors": ["Paul Graham"],
-    "authors_slugs": ["paul-graham"],
     "authors_uuid": ["8ecba539670d"],
-    "authors_bios": [""],
     "tags_uuid": ["3e7aeeca901a"],
-    "tags_slugs": ["oop"],
     "tags": ["oop"]
   },
   {
@@ -1512,11 +1084,8 @@
     "featured": false,
     "publish_date": "2011-07-06 11:15:09",
     "authors": ["Bruce Lee"],
-    "authors_slugs": ["bruce-lee"],
     "authors_uuid": ["f5228a0afc6d"],
-    "authors_bios": [""],
     "tags_uuid": ["f084f31aed32"],
-    "tags_slugs": ["theory"],
     "tags": ["theory"]
   },
   {
@@ -1526,11 +1095,8 @@
     "featured": false,
     "publish_date": "2011-07-06 11:18:04",
     "authors": ["Richard M. Stallman"],
-    "authors_slugs": ["richard-m-stallman"],
     "authors_uuid": ["2c980b2e69dc"],
-    "authors_bios": [""],
     "tags_uuid": ["66a29647736f"],
-    "tags_slugs": ["hacking"],
     "tags": ["hacking"]
   },
   {
@@ -1540,11 +1106,8 @@
     "featured": false,
     "publish_date": "2011-07-08 06:34:00",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["bd67f2b3cd5c"],
-    "tags_slugs": ["bugs"],
     "tags": ["bugs"]
   },
   {
@@ -1554,11 +1117,8 @@
     "featured": false,
     "publish_date": "2011-07-08 09:41:19",
     "authors": ["Joshua Bloch"],
-    "authors_slugs": ["joshua-bloch"],
     "authors_uuid": ["7eaa626354f6"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -1568,11 +1128,8 @@
     "featured": false,
     "publish_date": "2011-07-08 09:42:06",
     "authors": ["Frederick P. Brooks"],
-    "authors_slugs": ["frederick-p-brooks"],
     "authors_uuid": ["583742cadc21"],
-    "authors_bios": [""],
     "tags_uuid": ["8f1778e044f7"],
-    "tags_slugs": ["management"],
     "tags": ["management"]
   },
   {
@@ -1582,11 +1139,8 @@
     "featured": false,
     "publish_date": "2011-07-08 09:42:48",
     "authors": ["Rick Cook"],
-    "authors_slugs": ["rick-cook"],
     "authors_uuid": ["2bf1a6de55cd"],
-    "authors_bios": [""],
     "tags_uuid": ["fdcfd016c9e7"],
-    "tags_slugs": ["users"],
     "tags": ["users"]
   },
   {
@@ -1596,11 +1150,8 @@
     "featured": false,
     "publish_date": "2011-07-08 09:43:34",
     "authors": ["Grace Hopper"],
-    "authors_slugs": ["grace-hopper"],
     "authors_uuid": ["beaa1cfc9a53"],
-    "authors_bios": [""],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -1610,11 +1161,8 @@
     "featured": false,
     "publish_date": "2011-07-08 23:08:41",
     "authors": ["Alan J. Perlis"],
-    "authors_slugs": ["alan-j-perlis"],
     "authors_uuid": ["37c5afe528d6"],
-    "authors_bios": [""],
     "tags_uuid": ["2e662c7bed7a"],
-    "tags_slugs": ["languages"],
     "tags": ["languages"]
   },
   {
@@ -1624,14 +1172,8 @@
     "featured": false,
     "publish_date": "2011-07-08 23:18:02",
     "authors": ["E. W. Dijkstra"],
-    "authors_slugs": ["e-w-dijkstra"],
     "authors_uuid": ["4b869649e244"],
-    "authors_bios": [
-      "Edsger Wybe Dijkstra (11 May 1930 – 6 August 2002) was a Dutch computer scientist. He received the 1972 Turing Award for fundamental contributions to developing programming languages",
-      " and was the Schlumberger Centennial Chair of Computer Sciences at The University of Texas at Austin from 1984 until 2000."
-    ],
     "tags_uuid": ["2e662c7bed7a"],
-    "tags_slugs": ["languages"],
     "tags": ["languages"]
   },
   {
@@ -1641,11 +1183,8 @@
     "featured": false,
     "publish_date": "2011-07-08 23:19:10",
     "authors": ["Gerald Jay", "Harold Abelson"],
-    "authors_slugs": ["gerald-jay", "harold-abelson"],
     "authors_uuid": ["50a70d5965da", "37f4fe16cdf7"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -1655,11 +1194,8 @@
     "featured": false,
     "publish_date": "2011-07-09 00:10:09",
     "authors": ["Steve Jobs"],
-    "authors_slugs": ["steve-jobs"],
     "authors_uuid": ["8e1c29f1b7f1"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -1669,19 +1205,8 @@
     "featured": false,
     "publish_date": "2011-07-09 20:27:20",
     "authors": ["Martin Fowler"],
-    "authors_slugs": ["martin-fowler"],
     "authors_uuid": ["721333935c91"],
-    "authors_bios": [
-      "Martin Fowler (born 1963) is a British software engineer",
-      " author and international speaker on software development",
-      " specializing in object-oriented analysis and design",
-      " UML",
-      " patterns",
-      " and agile software development methodologies",
-      " including extreme programming."
-    ],
     "tags_uuid": ["8f1619347921", "2806ae712337"],
-    "tags_slugs": ["commenting", "refactoring"],
     "tags": ["commenting", "refactoring"]
   },
   {
@@ -1691,11 +1216,8 @@
     "featured": false,
     "publish_date": "2011-07-10 10:25:09",
     "authors": ["Dennis M. Ritchie"],
-    "authors_slugs": ["dennis-m-ritchie"],
     "authors_uuid": ["547d0b1da532"],
-    "authors_bios": [""],
     "tags_uuid": ["2e662c7bed7a"],
-    "tags_slugs": ["languages"],
     "tags": ["languages"]
   },
   {
@@ -1705,17 +1227,8 @@
     "featured": false,
     "publish_date": "2011-07-11 10:50:59",
     "authors": ["Jeff Atwood"],
-    "authors_slugs": ["jeff-atwood"],
     "authors_uuid": ["6591f999f41a"],
-    "authors_bios": [
-      "Jeff Atwood is an American software developer",
-      " author",
-      " blogger",
-      " and entrepreneur. He is known for the programming blog Coding Horror",
-      " and as the co-founder of the question-and-answer website Stack Overflow and the Stack Exchange Network."
-    ],
     "tags_uuid": ["76af4d7121a0"],
-    "tags_slugs": ["corporate"],
     "tags": ["corporate"]
   },
   {
@@ -1725,11 +1238,8 @@
     "featured": false,
     "publish_date": "2011-07-13 15:55:20",
     "authors": ["Grady Booch"],
-    "authors_slugs": ["grady-booch"],
     "authors_uuid": ["64add21260b3"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -1739,11 +1249,8 @@
     "featured": false,
     "publish_date": "2011-07-14 11:08:46",
     "authors": ["Agnes"],
-    "authors_slugs": ["agnes"],
     "authors_uuid": ["84b790bb3e5d"],
-    "authors_bios": ["http://www.youbrokethebuild.com/"],
     "tags_uuid": ["2464e5ee4186", "d5bb6708fa41"],
-    "tags_slugs": ["deploying", "version-control"],
     "tags": ["deploying", "version-control"]
   },
   {
@@ -1753,11 +1260,8 @@
     "featured": false,
     "publish_date": "2011-07-18 10:26:43",
     "authors": ["37Signals"],
-    "authors_slugs": ["37signals"],
     "authors_uuid": ["d6f81f5cfd1e"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -1767,19 +1271,8 @@
     "featured": false,
     "publish_date": "2011-07-18 10:29:42",
     "authors": ["Martin Fowler"],
-    "authors_slugs": ["martin-fowler"],
     "authors_uuid": ["721333935c91"],
-    "authors_bios": [
-      "Martin Fowler (born 1963) is a British software engineer",
-      " author and international speaker on software development",
-      " specializing in object-oriented analysis and design",
-      " UML",
-      " patterns",
-      " and agile software development methodologies",
-      " including extreme programming."
-    ],
     "tags_uuid": ["1660e265686e"],
-    "tags_slugs": ["dry"],
     "tags": ["dry"]
   },
   {
@@ -1789,14 +1282,8 @@
     "featured": false,
     "publish_date": "2011-07-18 10:30:49",
     "authors": ["E. W. Dijkstra"],
-    "authors_slugs": ["e-w-dijkstra"],
     "authors_uuid": ["4b869649e244"],
-    "authors_bios": [
-      "Edsger Wybe Dijkstra (11 May 1930 – 6 August 2002) was a Dutch computer scientist. He received the 1972 Turing Award for fundamental contributions to developing programming languages",
-      " and was the Schlumberger Centennial Chair of Computer Sciences at The University of Texas at Austin from 1984 until 2000."
-    ],
     "tags_uuid": ["490b10b26569"],
-    "tags_slugs": ["computer-science"],
     "tags": ["computer science"]
   },
   {
@@ -1806,20 +1293,8 @@
     "featured": false,
     "publish_date": "2011-07-22 08:35:05",
     "authors": ["Bill Gates"],
-    "authors_slugs": ["bill-gates"],
     "authors_uuid": ["c75df3e851bf"],
-    "authors_bios": [
-      "William Henry \\Bill\\ Gates III (born October 28",
-      " 1955) is an American business magnate",
-      " philanthropist",
-      " investor",
-      " computer programmer",
-      " and inventor. Gates is the former chief executive and chairman of Microsoft",
-      " the world’s largest personal-computer software company",
-      " which he co-founded with Paul Allen."
-    ],
     "tags_uuid": ["2e471af7f345"],
-    "tags_slugs": ["estimating"],
     "tags": ["estimating"]
   },
   {
@@ -1829,11 +1304,8 @@
     "featured": false,
     "publish_date": "2011-07-22 08:36:05",
     "authors": ["John Johnson"],
-    "authors_slugs": ["john-johnson"],
     "authors_uuid": ["7ee8f29cfe70"],
-    "authors_bios": [""],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -1843,11 +1315,8 @@
     "featured": false,
     "publish_date": "2011-07-22 08:38:35",
     "authors": ["Alan Cooper"],
-    "authors_slugs": ["alan-cooper"],
     "authors_uuid": ["f246ddd728e7"],
-    "authors_bios": [""],
     "tags_uuid": ["bee8d1c7a13e"],
-    "tags_slugs": ["prototyping"],
     "tags": ["prototyping"]
   },
   {
@@ -1857,11 +1326,8 @@
     "featured": false,
     "publish_date": "2011-07-22 08:39:49",
     "authors": ["Eric Raymond"],
-    "authors_slugs": ["eric-raymond"],
     "authors_uuid": ["67f54a69ab2d"],
-    "authors_bios": [""],
     "tags_uuid": ["2e662c7bed7a", "ba763cdd445a"],
-    "tags_slugs": ["languages", "complexity"],
     "tags": ["languages", "complexity"]
   },
   {
@@ -1871,11 +1337,8 @@
     "featured": false,
     "publish_date": "2011-07-24 15:29:12",
     "authors": ["Alan J. Perlis"],
-    "authors_slugs": ["alan-j-perlis"],
     "authors_uuid": ["37c5afe528d6"],
-    "authors_bios": [""],
     "tags_uuid": ["fc973eebe544"],
-    "tags_slugs": ["specification"],
     "tags": ["specification"]
   },
   {
@@ -1885,11 +1348,8 @@
     "featured": false,
     "publish_date": "2011-07-24 15:36:13",
     "authors": ["Alan J. Perlis"],
-    "authors_slugs": ["alan-j-perlis"],
     "authors_uuid": ["37c5afe528d6"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -1899,11 +1359,8 @@
     "featured": false,
     "publish_date": "2011-07-25 12:30:21",
     "authors": ["Gordon Glegg"],
-    "authors_slugs": ["gordon-glegg"],
     "authors_uuid": ["a194b2fc062e"],
-    "authors_bios": [""],
     "tags_uuid": ["fc973eebe544"],
-    "tags_slugs": ["specification"],
     "tags": ["specification"]
   },
   {
@@ -1913,11 +1370,8 @@
     "featured": false,
     "publish_date": "2011-08-05 11:54:52",
     "authors": ["Ralph Johnson"],
-    "authors_slugs": ["ralph-johnson"],
     "authors_uuid": ["96f52c2d2c32"],
-    "authors_bios": [""],
     "tags_uuid": ["cffa5ba93708"],
-    "tags_slugs": ["reusing"],
     "tags": ["reusing"]
   },
   {
@@ -1927,11 +1381,8 @@
     "featured": false,
     "publish_date": "2011-08-05 11:57:50",
     "authors": ["Alan J. Perlis"],
-    "authors_slugs": ["alan-j-perlis"],
     "authors_uuid": ["37c5afe528d6"],
-    "authors_bios": [""],
     "tags_uuid": ["bd67f2b3cd5c"],
-    "tags_slugs": ["bugs"],
     "tags": ["bugs"]
   },
   {
@@ -1941,11 +1392,8 @@
     "featured": false,
     "publish_date": "2011-08-05 11:59:30",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["cfac42388f9d"],
-    "tags_slugs": ["softwares"],
     "tags": ["softwares"]
   },
   {
@@ -1955,11 +1403,8 @@
     "featured": false,
     "publish_date": "2011-08-05 12:00:33",
     "authors": ["Larry Wall"],
-    "authors_slugs": ["larry-wall"],
     "authors_uuid": ["efd5a93782e9"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -1969,11 +1414,8 @@
     "featured": false,
     "publish_date": "2011-08-05 12:01:27",
     "authors": ["Dennie van Tassel"],
-    "authors_slugs": ["dennie-van-tassel"],
     "authors_uuid": ["20bf8a3666e8"],
-    "authors_bios": [""],
     "tags_uuid": ["671ef89b91e6", "cffa5ba93708"],
-    "tags_slugs": ["compatibility", "reusing"],
     "tags": ["compatibility", "reusing"]
   },
   {
@@ -1983,17 +1425,8 @@
     "featured": false,
     "publish_date": "2011-08-09 09:37:58",
     "authors": ["Jeff Atwood"],
-    "authors_slugs": ["jeff-atwood"],
     "authors_uuid": ["6591f999f41a"],
-    "authors_bios": [
-      "Jeff Atwood is an American software developer",
-      " author",
-      " blogger",
-      " and entrepreneur. He is known for the programming blog Coding Horror",
-      " and as the co-founder of the question-and-answer website Stack Overflow and the Stack Exchange Network."
-    ],
     "tags_uuid": ["fc973eebe544"],
-    "tags_slugs": ["specification"],
     "tags": ["specification"]
   },
   {
@@ -2003,11 +1436,8 @@
     "featured": true,
     "publish_date": "2011-08-09 09:38:45",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["fc973eebe544", "7ea02d81a2d0"],
-    "tags_slugs": ["specification", "planning"],
     "tags": ["specification", "planning"]
   },
   {
@@ -2017,11 +1447,8 @@
     "featured": true,
     "publish_date": "2011-08-09 09:39:20",
     "authors": ["Alan Kay"],
-    "authors_slugs": ["alan-kay"],
     "authors_uuid": ["08a42b591dc3"],
-    "authors_bios": [""],
     "tags_uuid": ["4131ccc3bad1"],
-    "tags_slugs": ["startups"],
     "tags": ["startups"]
   },
   {
@@ -2031,11 +1458,8 @@
     "featured": false,
     "publish_date": "2011-08-10 10:57:58",
     "authors": ["Michael Abrash"],
-    "authors_slugs": ["michael-abrash"],
     "authors_uuid": ["b681c412e184"],
-    "authors_bios": [""],
     "tags_uuid": ["2e471af7f345"],
-    "tags_slugs": ["estimating"],
     "tags": ["estimating"]
   },
   {
@@ -2045,11 +1469,8 @@
     "featured": true,
     "publish_date": "2011-08-10 11:02:07",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["bd67f2b3cd5c"],
-    "tags_slugs": ["bugs"],
     "tags": ["bugs"]
   },
   {
@@ -2059,11 +1480,8 @@
     "featured": false,
     "publish_date": "2011-08-10 11:02:35",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["21d9e61717db", "bd67f2b3cd5c"],
-    "tags_slugs": ["debugging", "bugs"],
     "tags": ["debugging", "bugs"]
   },
   {
@@ -2073,11 +1491,8 @@
     "featured": false,
     "publish_date": "2011-08-10 11:03:39",
     "authors": ["Joel Spolsky"],
-    "authors_slugs": ["joel-spolsky"],
     "authors_uuid": ["22236409daf2"],
-    "authors_bios": [""],
     "tags_uuid": ["cfac42388f9d"],
-    "tags_slugs": ["softwares"],
     "tags": ["softwares"]
   },
   {
@@ -2087,11 +1502,8 @@
     "featured": false,
     "publish_date": "2011-08-10 11:04:23",
     "authors": ["IBM Pollyanna Principle"],
-    "authors_slugs": ["ibm-pollyanna-principle"],
     "authors_uuid": ["2adc8a2aa13f"],
-    "authors_bios": [""],
     "tags_uuid": ["b85badf703f2"],
-    "tags_slugs": ["computers"],
     "tags": ["computers"]
   },
   {
@@ -2101,11 +1513,8 @@
     "featured": false,
     "publish_date": "2011-08-11 05:47:24",
     "authors": ["Joel Spolsky"],
-    "authors_slugs": ["joel-spolsky"],
     "authors_uuid": ["22236409daf2"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -2115,11 +1524,8 @@
     "featured": false,
     "publish_date": "2011-08-12 12:10:41",
     "authors": ["Mike Haertel"],
-    "authors_slugs": ["mike-haertel"],
     "authors_uuid": ["3a6d38743c01"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -2129,11 +1535,8 @@
     "featured": false,
     "publish_date": "2011-08-29 12:28:17",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["f905a965f502", "760446f65360"],
-    "tags_slugs": ["pair-programming", "extreme-programming"],
     "tags": ["pair programming", "extreme programming"]
   },
   {
@@ -2143,11 +1546,8 @@
     "featured": false,
     "publish_date": "2011-08-29 12:33:11",
     "authors": ["Bram Cohen"],
-    "authors_slugs": ["bram-cohen"],
     "authors_uuid": ["e707c4c1ab62"],
-    "authors_bios": [""],
     "tags_uuid": ["bd67f2b3cd5c", "ba763cdd445a"],
-    "tags_slugs": ["bugs", "complexity"],
     "tags": ["bugs", "complexity"]
   },
   {
@@ -2157,11 +1557,8 @@
     "featured": false,
     "publish_date": "2011-08-29 12:34:07",
     "authors": ["Christian Neukirchen"],
-    "authors_slugs": ["christian-neukirchen"],
     "authors_uuid": ["6136ae35f62a"],
-    "authors_bios": [""],
     "tags_uuid": ["cfac42388f9d"],
-    "tags_slugs": ["softwares"],
     "tags": ["softwares"]
   },
   {
@@ -2171,15 +1568,8 @@
     "featured": true,
     "publish_date": "2011-08-29 12:35:55",
     "authors": ["Rob Pike"],
-    "authors_slugs": ["rob-pike"],
     "authors_uuid": ["569cfb601ec7"],
-    "authors_bios": [
-      "Robert Pike (born 1956) is a Canadian software engineer and author. He is best known for his work at Bell Labs",
-      " where he was a member of the Unix team and was involved in the creation of the Plan 9 from Bell Labs and Inferno operating systems",
-      " as well as the Limbo programming language."
-    ],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -2189,11 +1579,8 @@
     "featured": false,
     "publish_date": "2011-08-29 12:36:47",
     "authors": ["Ron Minnich"],
-    "authors_slugs": ["ron-minnich"],
     "authors_uuid": ["df08a6bc266b"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a", "bd67f2b3cd5c"],
-    "tags_slugs": ["complexity", "bugs"],
     "tags": ["complexity", "bugs"]
   },
   {
@@ -2203,11 +1590,8 @@
     "featured": false,
     "publish_date": "2011-08-29 12:38:54",
     "authors": ["John Gall"],
-    "authors_slugs": ["john-gall"],
     "authors_uuid": ["cee5c485ef7b"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -2217,18 +1601,8 @@
     "featured": false,
     "publish_date": "2011-08-29 12:39:35",
     "authors": ["John Carmack"],
-    "authors_slugs": ["john-carmack"],
     "authors_uuid": ["aaebabb8c61b"],
-    "authors_bios": [
-      "John D. Carmack (born August 20",
-      " 1970) is an American game programmer and the co-founder of id Software. Carmack was the lead programmer of the id video games Commander Keen",
-      " Wolfenstein 3D",
-      " Doom",
-      " Quake",
-      " Rage and their sequels."
-    ],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -2238,11 +1612,8 @@
     "featured": false,
     "publish_date": "2011-08-31 12:38:54",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["cfac42388f9d"],
-    "tags_slugs": ["softwares"],
     "tags": ["softwares"]
   },
   {
@@ -2252,11 +1623,8 @@
     "featured": false,
     "publish_date": "2011-08-31 12:40:18",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["8f1778e044f7"],
-    "tags_slugs": ["management"],
     "tags": ["management"]
   },
   {
@@ -2266,11 +1634,8 @@
     "featured": false,
     "publish_date": "2011-08-31 12:43:13",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["fdcfd016c9e7"],
-    "tags_slugs": ["users"],
     "tags": ["users"]
   },
   {
@@ -2280,11 +1645,8 @@
     "featured": false,
     "publish_date": "2011-08-31 14:20:17",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["f1ff3769767f"],
-    "tags_slugs": ["functions"],
     "tags": ["functions"]
   },
   {
@@ -2294,11 +1656,8 @@
     "featured": false,
     "publish_date": "2011-09-04 08:37:23",
     "authors": ["Louis Srygley"],
-    "authors_slugs": ["louis-srygley"],
     "authors_uuid": ["c8f244f2797a"],
-    "authors_bios": [""],
     "tags_uuid": ["fc973eebe544", "46278bd60154", "bd67f2b3cd5c"],
-    "tags_slugs": ["specification", "programming", "bugs"],
     "tags": ["specification", "programming", "bugs"]
   },
   {
@@ -2308,11 +1667,8 @@
     "featured": false,
     "publish_date": "2011-09-04 08:39:18",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -2322,11 +1678,8 @@
     "featured": false,
     "publish_date": "2011-09-12 08:26:21",
     "authors": ["Sumit Agrawal"],
-    "authors_slugs": ["sumit-agrawal"],
     "authors_uuid": ["f0d8a757c7f5"],
-    "authors_bios": [""],
     "tags_uuid": ["2e471af7f345"],
-    "tags_slugs": ["estimating"],
     "tags": ["estimating"]
   },
   {
@@ -2336,11 +1689,8 @@
     "featured": false,
     "publish_date": "2011-09-12 08:27:31",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -2350,11 +1700,8 @@
     "featured": true,
     "publish_date": "2011-09-12 08:28:03",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["bd67f2b3cd5c", "56c51ddb335c"],
-    "tags_slugs": ["bugs", "optimization"],
     "tags": ["bugs", "optimization"]
   },
   {
@@ -2364,15 +1711,8 @@
     "featured": true,
     "publish_date": "2011-09-15 10:42:42",
     "authors": ["C. A. R. Hoare"],
-    "authors_slugs": ["c-a-r-hoare"],
     "authors_uuid": ["a6bd6d72ec53"],
-    "authors_bios": [
-      "Sir Charles Antony Richard Hoare (born 11 January 1934)",
-      " commonly known as Tony Hoare or C. A. R. Hoare",
-      " is a British computer scientist. He developed the sorting algorithm quicksort in 1960."
-    ],
     "tags_uuid": ["21d9e61717db", "ba763cdd445a", "fc973eebe544"],
-    "tags_slugs": ["debugging", "complexity", "specification"],
     "tags": ["debugging", "complexity", "specification"]
   },
   {
@@ -2382,11 +1722,8 @@
     "featured": false,
     "publish_date": "2011-09-15 10:44:08",
     "authors": ["Alan J. Perlis"],
-    "authors_slugs": ["alan-j-perlis"],
     "authors_uuid": ["37c5afe528d6"],
-    "authors_bios": [""],
     "tags_uuid": ["2e662c7bed7a"],
-    "tags_slugs": ["languages"],
     "tags": ["languages"]
   },
   {
@@ -2396,11 +1733,8 @@
     "featured": false,
     "publish_date": "2011-09-15 10:44:21",
     "authors": ["Alan J. Perlis"],
-    "authors_slugs": ["alan-j-perlis"],
     "authors_uuid": ["37c5afe528d6"],
-    "authors_bios": [""],
     "tags_uuid": ["a7b1d0526611"],
-    "tags_slugs": ["ideas"],
     "tags": ["ideas"]
   },
   {
@@ -2410,11 +1744,8 @@
     "featured": false,
     "publish_date": "2011-09-15 10:45:31",
     "authors": ["Roy Carlson"],
-    "authors_slugs": ["roy-carlson"],
     "authors_uuid": ["55f2d2bb0fc1"],
-    "authors_bios": [""],
     "tags_uuid": ["46278bd60154", "2e471af7f345"],
-    "tags_slugs": ["programming", "estimating"],
     "tags": ["programming", "estimating"]
   },
   {
@@ -2424,11 +1755,8 @@
     "featured": false,
     "publish_date": "2011-10-05 07:36:28",
     "authors": ["Bertrand Meyer"],
-    "authors_slugs": ["bertrand-meyer"],
     "authors_uuid": ["1bad4873b494"],
-    "authors_bios": [""],
     "tags_uuid": ["4a87a65f9b7a"],
-    "tags_slugs": ["documentation"],
     "tags": ["documentation"]
   },
   {
@@ -2438,11 +1766,8 @@
     "featured": false,
     "publish_date": "2011-10-05 07:37:30",
     "authors": ["Roedy Green"],
-    "authors_slugs": ["roedy-green"],
     "authors_uuid": ["f182ec7250c8"],
-    "authors_bios": [""],
     "tags_uuid": ["bd67f2b3cd5c"],
-    "tags_slugs": ["bugs"],
     "tags": ["bugs"]
   },
   {
@@ -2452,11 +1777,8 @@
     "featured": false,
     "publish_date": "2011-10-05 07:38:50",
     "authors": ["Roedy Green"],
-    "authors_slugs": ["roedy-green"],
     "authors_uuid": ["f182ec7250c8"],
-    "authors_bios": [""],
     "tags_uuid": ["fc973eebe544", "ffe7dc59094f"],
-    "tags_slugs": ["specification", "maintenance"],
     "tags": ["specification", "maintenance"]
   },
   {
@@ -2466,11 +1788,8 @@
     "featured": false,
     "publish_date": "2011-10-05 07:41:16",
     "authors": ["Mario Fusco"],
-    "authors_slugs": ["mario-fusco"],
     "authors_uuid": ["c8338b8ec3d1"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421", "ba763cdd445a", "df01cc3ecc20"],
-    "tags_slugs": ["programmers", "complexity", "productivity"],
     "tags": ["programmers", "complexity", "productivity"]
   },
   {
@@ -2480,11 +1799,8 @@
     "featured": false,
     "publish_date": "2011-10-05 07:43:35",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -2494,11 +1810,8 @@
     "featured": false,
     "publish_date": "2011-10-07 07:11:46",
     "authors": ["Eric Raymond"],
-    "authors_slugs": ["eric-raymond"],
     "authors_uuid": ["67f54a69ab2d"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421", "047dace4e198"],
-    "tags_slugs": ["programmers", "hackers"],
     "tags": ["programmers", "hackers"]
   },
   {
@@ -2508,15 +1821,8 @@
     "featured": false,
     "publish_date": "2011-10-16 11:18:39",
     "authors": ["Andy Hunt"],
-    "authors_slugs": ["andy-hunt"],
     "authors_uuid": ["187171c0d7c4"],
-    "authors_bios": [
-      "Andy Hunt (sometimes credited as Andrew Hunt) is a writer of books on software development. Hunt co-authored The Pragmatic Programmer",
-      " six other books and many articles",
-      " and was one of the 17 original authors of the Agile Manifesto and founders of the Agile Alliance."
-    ],
     "tags_uuid": ["4a2e5d5f57fe"],
-    "tags_slugs": ["xml"],
     "tags": ["xml"]
   },
   {
@@ -2526,11 +1832,8 @@
     "featured": false,
     "publish_date": "2011-11-29 13:43:15",
     "authors": ["Mitch Ratcliffe"],
-    "authors_slugs": ["mitch-ratcliffe"],
     "authors_uuid": ["8167033c3e1c"],
-    "authors_bios": [""],
     "tags_uuid": ["b85badf703f2"],
-    "tags_slugs": ["computers"],
     "tags": ["computers"]
   },
   {
@@ -2540,11 +1843,8 @@
     "featured": false,
     "publish_date": "2011-11-29 13:46:23",
     "authors": ["Douglas Adams"],
-    "authors_slugs": ["douglas-adams"],
     "authors_uuid": ["bfc694ae69d3"],
-    "authors_bios": [""],
     "tags_uuid": ["fb490e03fd2c"],
-    "tags_slugs": ["deadlines"],
     "tags": ["deadlines"]
   },
   {
@@ -2554,11 +1854,8 @@
     "featured": false,
     "publish_date": "2011-11-29 13:47:23",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["4cf901231140"],
-    "tags_slugs": ["java"],
     "tags": ["java"]
   },
   {
@@ -2568,11 +1865,8 @@
     "featured": false,
     "publish_date": "2011-11-29 13:48:07",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["4a2e5d5f57fe"],
-    "tags_slugs": ["xml"],
     "tags": ["xml"]
   },
   {
@@ -2582,11 +1876,8 @@
     "featured": false,
     "publish_date": "2011-11-29 13:49:18",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["fc973eebe544", "2e471af7f345"],
-    "tags_slugs": ["specification", "estimating"],
     "tags": ["specification", "estimating"]
   },
   {
@@ -2596,11 +1887,8 @@
     "featured": false,
     "publish_date": "2011-12-08 09:16:13",
     "authors": ["Alan Kay"],
-    "authors_slugs": ["alan-kay"],
     "authors_uuid": ["08a42b591dc3"],
-    "authors_bios": [""],
     "tags_uuid": ["cfac42388f9d"],
-    "tags_slugs": ["softwares"],
     "tags": ["softwares"]
   },
   {
@@ -2610,11 +1898,8 @@
     "featured": false,
     "publish_date": "2011-12-08 09:18:10",
     "authors": ["Sam Ewing"],
-    "authors_slugs": ["sam-ewing"],
     "authors_uuid": ["df6847873913"],
-    "authors_bios": [""],
     "tags_uuid": ["b85badf703f2"],
-    "tags_slugs": ["computers"],
     "tags": ["computers"]
   },
   {
@@ -2624,11 +1909,8 @@
     "featured": false,
     "publish_date": "2011-12-08 09:21:36",
     "authors": ["Paul Leary"],
-    "authors_slugs": ["paul-leary"],
     "authors_uuid": ["bad026ef1279"],
-    "authors_bios": [""],
     "tags_uuid": ["b85badf703f2"],
-    "tags_slugs": ["computers"],
     "tags": ["computers"]
   },
   {
@@ -2638,11 +1920,8 @@
     "featured": false,
     "publish_date": "2011-12-08 09:23:15",
     "authors": ["Jeff Pesis"],
-    "authors_slugs": ["jeff-pesis"],
     "authors_uuid": ["51e84e41cf40"],
-    "authors_bios": [""],
     "tags_uuid": ["ee3f63e63e4d"],
-    "tags_slugs": ["hardware"],
     "tags": ["hardware"]
   },
   {
@@ -2652,11 +1931,8 @@
     "featured": false,
     "publish_date": "2011-12-08 09:26:54",
     "authors": ["Ted Nelson"],
-    "authors_slugs": ["ted-nelson"],
     "authors_uuid": ["10651f0f3985"],
-    "authors_bios": [""],
     "tags_uuid": ["fdcfd016c9e7"],
-    "tags_slugs": ["users"],
     "tags": ["users"]
   },
   {
@@ -2666,11 +1942,8 @@
     "featured": false,
     "publish_date": "2011-12-08 09:27:58",
     "authors": ["Edward Tufte"],
-    "authors_slugs": ["edward-tufte"],
     "authors_uuid": ["674e3b102cf7"],
-    "authors_bios": [""],
     "tags_uuid": ["fdcfd016c9e7"],
-    "tags_slugs": ["users"],
     "tags": ["users"]
   },
   {
@@ -2680,14 +1953,8 @@
     "featured": false,
     "publish_date": "2011-12-08 09:29:19",
     "authors": ["Kent Beck"],
-    "authors_slugs": ["kent-beck"],
     "authors_uuid": ["7b5113d7f9a5"],
-    "authors_bios": [
-      "Kent Beck is an American software engineer and the creator of the Extreme Programming and Test Driven Development software development methodologies",
-      " also named agile software development. Beck was one of the 17 original signatories of the Agile Manifesto in 2001."
-    ],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -2697,11 +1964,8 @@
     "featured": false,
     "publish_date": "2011-12-12 10:33:39",
     "authors": ["Nato Software Engineering Conference '68"],
-    "authors_slugs": ["nato-software-engineering-conference-68"],
     "authors_uuid": ["8a5f640b51ad"],
-    "authors_bios": [""],
     "tags_uuid": ["cfac42388f9d"],
-    "tags_slugs": ["softwares"],
     "tags": ["softwares"]
   },
   {
@@ -2711,11 +1975,8 @@
     "featured": false,
     "publish_date": "2011-12-15 08:58:27",
     "authors": ["The Developer's Code"],
-    "authors_slugs": ["the-developers-code"],
     "authors_uuid": ["9a03084cf1c3"],
-    "authors_bios": [""],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -2725,15 +1986,8 @@
     "featured": true,
     "publish_date": "2012-01-09 10:24:21",
     "authors": ["Douglas Crockford"],
-    "authors_slugs": ["douglas-crockford"],
     "authors_uuid": ["2cfce23b8710"],
-    "authors_bios": [
-      "Douglas Crockford is an American computer programmer and entrepreneur who is best known for his ongoing involvement in the development of the JavaScript language",
-      " for having popularized the data format JSON (JavaScript Object Notation)",
-      " and for developing various JavaScript related tools such as JSLint and JSMin."
-    ],
     "tags_uuid": ["15ddd6ce025e", "2e662c7bed7a"],
-    "tags_slugs": ["javascript", "languages"],
     "tags": ["javascript", "languages"]
   },
   {
@@ -2743,11 +1997,8 @@
     "featured": true,
     "publish_date": "2012-02-13 05:10:49",
     "authors": ["Justin Meyer"],
-    "authors_slugs": ["justin-meyer"],
     "authors_uuid": ["e6e7edef9669"],
-    "authors_bios": [""],
     "tags_uuid": ["fc973eebe544", "ba763cdd445a", "cfac42388f9d"],
-    "tags_slugs": ["specification", "complexity", "softwares"],
     "tags": ["specification", "complexity", "softwares"]
   },
   {
@@ -2757,11 +2008,8 @@
     "featured": false,
     "publish_date": "2012-02-14 06:13:08",
     "authors": ["Michael Marcotty"],
-    "authors_slugs": ["michael-marcotty"],
     "authors_uuid": ["8347ae2b13f5"],
-    "authors_bios": [""],
     "tags_uuid": ["46278bd60154", "16d05f8e5421"],
-    "tags_slugs": ["programming", "programmers"],
     "tags": ["programming", "programmers"]
   },
   {
@@ -2771,11 +2019,8 @@
     "featured": false,
     "publish_date": "2012-02-25 06:34:07",
     "authors": ["Le Blanc's law"],
-    "authors_slugs": ["le-blancs-law"],
     "authors_uuid": ["c25d2ce2fd3c"],
-    "authors_bios": [""],
     "tags_uuid": ["2e471af7f345"],
-    "tags_slugs": ["estimating"],
     "tags": ["estimating"]
   },
   {
@@ -2785,17 +2030,8 @@
     "featured": false,
     "publish_date": "2012-06-11 08:42:43",
     "authors": ["Jeff Atwood"],
-    "authors_slugs": ["jeff-atwood"],
     "authors_uuid": ["6591f999f41a"],
-    "authors_bios": [
-      "Jeff Atwood is an American software developer",
-      " author",
-      " blogger",
-      " and entrepreneur. He is known for the programming blog Coding Horror",
-      " and as the co-founder of the question-and-answer website Stack Overflow and the Stack Exchange Network."
-    ],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -2805,15 +2041,8 @@
     "featured": false,
     "publish_date": "2012-07-22 19:42:46",
     "authors": ["Douglas Crockford"],
-    "authors_slugs": ["douglas-crockford"],
     "authors_uuid": ["2cfce23b8710"],
-    "authors_bios": [
-      "Douglas Crockford is an American computer programmer and entrepreneur who is best known for his ongoing involvement in the development of the JavaScript language",
-      " for having popularized the data format JSON (JavaScript Object Notation)",
-      " and for developing various JavaScript related tools such as JSLint and JSMin."
-    ],
     "tags_uuid": ["2e662c7bed7a"],
-    "tags_slugs": ["languages"],
     "tags": ["languages"]
   },
   {
@@ -2823,11 +2052,8 @@
     "featured": false,
     "publish_date": "2013-02-21 11:31:47",
     "authors": ["Karl Pilkington"],
-    "authors_slugs": ["karl-pilkington"],
     "authors_uuid": ["e57c95c33382"],
-    "authors_bios": [""],
     "tags_uuid": ["8f1778e044f7", "7ea02d81a2d0"],
-    "tags_slugs": ["management", "planning"],
     "tags": ["management", "planning"]
   },
   {
@@ -2837,17 +2063,8 @@
     "featured": false,
     "publish_date": "2013-03-18 08:04:48",
     "authors": ["Jeff Atwood"],
-    "authors_slugs": ["jeff-atwood"],
     "authors_uuid": ["6591f999f41a"],
-    "authors_bios": [
-      "Jeff Atwood is an American software developer",
-      " author",
-      " blogger",
-      " and entrepreneur. He is known for the programming blog Coding Horror",
-      " and as the co-founder of the question-and-answer website Stack Overflow and the Stack Exchange Network."
-    ],
     "tags_uuid": ["15ddd6ce025e"],
-    "tags_slugs": ["javascript"],
     "tags": ["javascript"]
   },
   {
@@ -2857,11 +2074,8 @@
     "featured": false,
     "publish_date": "2013-04-18 13:11:19",
     "authors": ["Guy Steele"],
-    "authors_slugs": ["guy-steele"],
     "authors_uuid": ["da2de2da7269"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -2871,11 +2085,8 @@
     "featured": false,
     "publish_date": "2013-05-23 14:44:43",
     "authors": ["Michael Nygard"],
-    "authors_slugs": ["michael-nygard"],
     "authors_uuid": ["e6c7b4170a44"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -2885,11 +2096,8 @@
     "featured": false,
     "publish_date": "2013-06-18 14:38:34",
     "authors": ["Reg Braithwaite"],
-    "authors_slugs": ["reg-braithwaite"],
     "authors_uuid": ["7646b9c89f3e"],
-    "authors_bios": [""],
     "tags_uuid": ["2e662c7bed7a"],
-    "tags_slugs": ["languages"],
     "tags": ["languages"]
   },
   {
@@ -2899,11 +2107,8 @@
     "featured": false,
     "publish_date": "2013-07-18 16:34:39",
     "authors": ["Jonathan Rosenberg"],
-    "authors_slugs": ["jonathan-rosenberg"],
     "authors_uuid": ["4cee8c830a0b"],
-    "authors_bios": [""],
     "tags_uuid": ["7ea02d81a2d0"],
-    "tags_slugs": ["planning"],
     "tags": ["planning"]
   },
   {
@@ -2913,14 +2118,8 @@
     "featured": false,
     "publish_date": "2013-08-01 07:50:44",
     "authors": ["Kent Beck"],
-    "authors_slugs": ["kent-beck"],
     "authors_uuid": ["7b5113d7f9a5"],
-    "authors_bios": [
-      "Kent Beck is an American software engineer and the creator of the Extreme Programming and Test Driven Development software development methodologies",
-      " also named agile software development. Beck was one of the 17 original signatories of the Agile Manifesto in 2001."
-    ],
     "tags_uuid": ["7ea02d81a2d0"],
-    "tags_slugs": ["planning"],
     "tags": ["planning"]
   },
   {
@@ -2930,15 +2129,8 @@
     "featured": false,
     "publish_date": "2013-09-05 11:52:20",
     "authors": ["Douglas Crockford"],
-    "authors_slugs": ["douglas-crockford"],
     "authors_uuid": ["2cfce23b8710"],
-    "authors_bios": [
-      "Douglas Crockford is an American computer programmer and entrepreneur who is best known for his ongoing involvement in the development of the JavaScript language",
-      " for having popularized the data format JSON (JavaScript Object Notation)",
-      " and for developing various JavaScript related tools such as JSLint and JSMin."
-    ],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -2948,15 +2140,8 @@
     "featured": false,
     "publish_date": "2013-09-05 11:52:52",
     "authors": ["Douglas Crockford"],
-    "authors_slugs": ["douglas-crockford"],
     "authors_uuid": ["2cfce23b8710"],
-    "authors_bios": [
-      "Douglas Crockford is an American computer programmer and entrepreneur who is best known for his ongoing involvement in the development of the JavaScript language",
-      " for having popularized the data format JSON (JavaScript Object Notation)",
-      " and for developing various JavaScript related tools such as JSLint and JSMin."
-    ],
     "tags_uuid": ["bd67f2b3cd5c"],
-    "tags_slugs": ["bugs"],
     "tags": ["bugs"]
   },
   {
@@ -2966,15 +2151,8 @@
     "featured": false,
     "publish_date": "2013-09-05 11:58:31",
     "authors": ["Douglas Crockford"],
-    "authors_slugs": ["douglas-crockford"],
     "authors_uuid": ["2cfce23b8710"],
-    "authors_bios": [
-      "Douglas Crockford is an American computer programmer and entrepreneur who is best known for his ongoing involvement in the development of the JavaScript language",
-      " for having popularized the data format JSON (JavaScript Object Notation)",
-      " and for developing various JavaScript related tools such as JSLint and JSMin."
-    ],
     "tags_uuid": ["2e662c7bed7a"],
-    "tags_slugs": ["languages"],
     "tags": ["languages"]
   },
   {
@@ -2984,11 +2162,8 @@
     "featured": false,
     "publish_date": "2013-10-14 09:07:01",
     "authors": ["Oscar Godson"],
-    "authors_slugs": ["oscar-godson"],
     "authors_uuid": ["ec3e45033a29"],
-    "authors_bios": [""],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -2998,11 +2173,8 @@
     "featured": false,
     "publish_date": "2014-02-10 06:02:39",
     "authors": ["Jamie Zawinski"],
-    "authors_slugs": ["jamie-zawinski"],
     "authors_uuid": ["5b88df92a025"],
-    "authors_bios": [""],
     "tags_uuid": ["28e76eb259cb"],
-    "tags_slugs": ["linux"],
     "tags": ["linux"]
   },
   {
@@ -3012,16 +2184,8 @@
     "featured": false,
     "publish_date": "2014-03-30 03:47:43",
     "authors": ["Robert C. Martin"],
-    "authors_slugs": ["robert-c-martin"],
     "authors_uuid": ["2332b0bec2ae"],
-    "authors_bios": [
-      "Robert Cecil Martin",
-      " known colloquially as &ldquo;Uncle Bob&rdquo;",
-      " is an American software consultant and author. Martin has been a software professional since 1970 and an international software consultant since 1990. In 2001",
-      " he initiated the meeting of the group that created agile software development from extreme programming techniques."
-    ],
     "tags_uuid": ["8f1619347921"],
-    "tags_slugs": ["commenting"],
     "tags": ["commenting"]
   },
   {
@@ -3031,11 +2195,8 @@
     "featured": false,
     "publish_date": "2014-03-31 21:18:05",
     "authors": ["Jim Barksdale"],
-    "authors_slugs": ["jim-barksdale"],
     "authors_uuid": ["4e3948c2f118"],
-    "authors_bios": [""],
     "tags_uuid": ["8f1778e044f7"],
-    "tags_slugs": ["management"],
     "tags": ["management"]
   },
   {
@@ -3045,11 +2206,8 @@
     "featured": false,
     "publish_date": "2014-04-09 20:11:17",
     "authors": ["Colin Percival"],
-    "authors_slugs": ["colin-percival"],
     "authors_uuid": ["379a8c87ebdd"],
-    "authors_bios": [""],
     "tags_uuid": ["90ce12eb53bb"],
-    "tags_slugs": ["security"],
     "tags": ["security"]
   },
   {
@@ -3059,18 +2217,8 @@
     "featured": false,
     "publish_date": "2014-04-10 17:18:43",
     "authors": ["John Carmack"],
-    "authors_slugs": ["john-carmack"],
     "authors_uuid": ["aaebabb8c61b"],
-    "authors_bios": [
-      "John D. Carmack (born August 20",
-      " 1970) is an American game programmer and the co-founder of id Software. Carmack was the lead programmer of the id video games Commander Keen",
-      " Wolfenstein 3D",
-      " Doom",
-      " Quake",
-      " Rage and their sequels."
-    ],
     "tags_uuid": ["f1ff3769767f"],
-    "tags_slugs": ["functions"],
     "tags": ["functions"]
   },
   {
@@ -3080,11 +2228,8 @@
     "featured": false,
     "publish_date": "2014-04-10 18:57:19",
     "authors": ["Reg Braithwaite"],
-    "authors_slugs": ["reg-braithwaite"],
     "authors_uuid": ["7646b9c89f3e"],
-    "authors_bios": [""],
     "tags_uuid": ["15ddd6ce025e"],
-    "tags_slugs": ["javascript"],
     "tags": ["javascript"]
   },
   {
@@ -3094,13 +2239,8 @@
     "featured": true,
     "publish_date": "2014-04-13 07:07:47",
     "authors": ["John Resig"],
-    "authors_slugs": ["john-resig"],
     "authors_uuid": ["c592f7ed399b"],
-    "authors_bios": [
-      "John Resig is the Dean of Computer Science at Khan Academy and the creator of the jQuery JavaScript library. He’s also the author of the books Pro JavaScript Techniques and Secrets of the JavaScript Ninja."
-    ],
     "tags_uuid": ["df01cc3ecc20"],
-    "tags_slugs": ["productivity"],
     "tags": ["productivity"]
   },
   {
@@ -3110,11 +2250,8 @@
     "featured": false,
     "publish_date": "2014-04-14 16:21:09",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["8ea8b10f34b0"],
-    "tags_slugs": ["php"],
     "tags": ["php"]
   },
   {
@@ -3124,11 +2261,8 @@
     "featured": true,
     "publish_date": "2014-04-20 01:28:07",
     "authors": ["Nicoll Hunt"],
-    "authors_slugs": ["nicoll-hunt"],
     "authors_uuid": ["050df2248497"],
-    "authors_bios": [""],
     "tags_uuid": ["2e471af7f345", "7ea02d81a2d0", "8f1778e044f7"],
-    "tags_slugs": ["estimating", "planning", "management"],
     "tags": ["estimating", "planning", "management"]
   },
   {
@@ -3138,11 +2272,8 @@
     "featured": false,
     "publish_date": "2014-04-20 23:05:43",
     "authors": ["Ted Dziuba"],
-    "authors_slugs": ["ted-dziuba"],
     "authors_uuid": ["00e1b5611f6e"],
-    "authors_bios": [""],
     "tags_uuid": ["f3ee838fd06a", "15ddd6ce025e"],
-    "tags_slugs": ["nodejs", "javascript"],
     "tags": ["nodejs", "javascript"]
   },
   {
@@ -3152,11 +2283,8 @@
     "featured": false,
     "publish_date": "2014-04-20 23:16:24",
     "authors": ["Joe Armstrong", "Jason Gorman"],
-    "authors_slugs": ["joe-armstrong", "jason-gorman"],
     "authors_uuid": ["348952090cb3", "1cbf19d62ce5"],
-    "authors_bios": [""],
     "tags_uuid": ["3e7aeeca901a"],
-    "tags_slugs": ["oop"],
     "tags": ["oop"]
   },
   {
@@ -3166,15 +2294,8 @@
     "featured": false,
     "publish_date": "2014-04-20 23:24:52",
     "authors": ["Rob Pike"],
-    "authors_slugs": ["rob-pike"],
     "authors_uuid": ["569cfb601ec7"],
-    "authors_bios": [
-      "Robert Pike (born 1956) is a Canadian software engineer and author. He is best known for his work at Bell Labs",
-      " where he was a member of the Unix team and was involved in the creation of the Plan 9 from Bell Labs and Inferno operating systems",
-      " as well as the Limbo programming language."
-    ],
     "tags_uuid": ["3e7aeeca901a"],
-    "tags_slugs": ["oop"],
     "tags": ["oop"]
   },
   {
@@ -3184,15 +2305,8 @@
     "featured": false,
     "publish_date": "2014-04-22 02:20:58",
     "authors": ["C. A. R. Hoare"],
-    "authors_slugs": ["c-a-r-hoare"],
     "authors_uuid": ["a6bd6d72ec53"],
-    "authors_bios": [
-      "Sir Charles Antony Richard Hoare (born 11 January 1934)",
-      " commonly known as Tony Hoare or C. A. R. Hoare",
-      " is a British computer scientist. He developed the sorting algorithm quicksort in 1960."
-    ],
     "tags_uuid": ["fdcfd016c9e7", "fc973eebe544", "cfac42388f9d"],
-    "tags_slugs": ["users", "specification", "softwares"],
     "tags": ["users", "specification", "softwares"]
   },
   {
@@ -3202,11 +2316,8 @@
     "featured": false,
     "publish_date": "2014-04-22 02:24:17",
     "authors": ["Jim Barksdale"],
-    "authors_slugs": ["jim-barksdale"],
     "authors_uuid": ["4e3948c2f118"],
-    "authors_bios": [""],
     "tags_uuid": ["8f1778e044f7"],
-    "tags_slugs": ["management"],
     "tags": ["management"]
   },
   {
@@ -3216,11 +2327,8 @@
     "featured": false,
     "publish_date": "2014-04-22 17:53:05",
     "authors": ["Frederick P. Brooks"],
-    "authors_slugs": ["frederick-p-brooks"],
     "authors_uuid": ["583742cadc21"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421", "df01cc3ecc20"],
-    "tags_slugs": ["programmers", "productivity"],
     "tags": ["programmers", "productivity"]
   },
   {
@@ -3230,11 +2338,8 @@
     "featured": false,
     "publish_date": "2014-04-22 17:54:21",
     "authors": ["Brian W. Kernighan"],
-    "authors_slugs": ["brian-w-kernighan"],
     "authors_uuid": ["0086884ef4b1"],
-    "authors_bios": [""],
     "tags_uuid": ["21d9e61717db"],
-    "tags_slugs": ["debugging"],
     "tags": ["debugging"]
   },
   {
@@ -3244,11 +2349,8 @@
     "featured": false,
     "publish_date": "2014-04-22 17:54:57",
     "authors": ["Richard Pattis"],
-    "authors_slugs": ["richard-pattis"],
     "authors_uuid": ["94f163549a90"],
-    "authors_bios": [""],
     "tags_uuid": ["21d9e61717db"],
-    "tags_slugs": ["debugging"],
     "tags": ["debugging"]
   },
   {
@@ -3258,11 +2360,8 @@
     "featured": false,
     "publish_date": "2014-04-22 17:56:57",
     "authors": ["Ken Thompson"],
-    "authors_slugs": ["ken-thompson"],
     "authors_uuid": ["fb43ec2030e5"],
-    "authors_bios": [""],
     "tags_uuid": ["df01cc3ecc20", "2806ae712337"],
-    "tags_slugs": ["productivity", "refactoring"],
     "tags": ["productivity", "refactoring"]
   },
   {
@@ -3272,11 +2371,8 @@
     "featured": false,
     "publish_date": "2014-04-22 17:58:34",
     "authors": ["Gerald Weinberg"],
-    "authors_slugs": ["gerald-weinberg"],
     "authors_uuid": ["585511a266f7"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -3286,11 +2382,8 @@
     "featured": false,
     "publish_date": "2014-04-23 04:51:35",
     "authors": ["Robert Sewell"],
-    "authors_slugs": ["robert-sewell"],
     "authors_uuid": ["46458390f521"],
-    "authors_bios": [""],
     "tags_uuid": ["4cf901231140", "2e662c7bed7a"],
-    "tags_slugs": ["java", "languages"],
     "tags": ["java", "languages"]
   },
   {
@@ -3300,11 +2393,8 @@
     "featured": false,
     "publish_date": "2014-04-23 04:53:22",
     "authors": ["Keith Bostic"],
-    "authors_slugs": ["keith-bostic"],
     "authors_uuid": ["fd8dc9d83f31"],
-    "authors_bios": [""],
     "tags_uuid": ["91d538929d2d", "2e662c7bed7a"],
-    "tags_slugs": ["perl", "languages"],
     "tags": ["perl", "languages"]
   },
   {
@@ -3314,16 +2404,8 @@
     "featured": false,
     "publish_date": "2014-04-23 04:54:57",
     "authors": ["Robert C. Martin"],
-    "authors_slugs": ["robert-c-martin"],
     "authors_uuid": ["2332b0bec2ae"],
-    "authors_bios": [
-      "Robert Cecil Martin",
-      " known colloquially as &ldquo;Uncle Bob&rdquo;",
-      " is an American software consultant and author. Martin has been a software professional since 1970 and an international software consultant since 1990. In 2001",
-      " he initiated the meeting of the group that created agile software development from extreme programming techniques."
-    ],
     "tags_uuid": ["8f1778e044f7"],
-    "tags_slugs": ["management"],
     "tags": ["management"]
   },
   {
@@ -3333,15 +2415,8 @@
     "featured": false,
     "publish_date": "2014-04-23 04:57:21",
     "authors": ["Linus Torvalds"],
-    "authors_slugs": ["linus-torvalds"],
     "authors_uuid": ["8491fd3f9c47"],
-    "authors_bios": [
-      "Linus Benedict Torvalds is a Finnish American software engineer",
-      " who was the principal force behind the development of the Linux kernel. He later became the chief architect of the Linux kernel",
-      " and now acts as the project's coordinator."
-    ],
     "tags_uuid": ["df01cc3ecc20"],
-    "tags_slugs": ["productivity"],
     "tags": ["productivity"]
   },
   {
@@ -3351,13 +2426,8 @@
     "featured": false,
     "publish_date": "2014-04-23 15:45:39",
     "authors": ["David Heinemeier Hansson"],
-    "authors_slugs": ["david-heinemeier-hansson"],
     "authors_uuid": ["a93c1717ba57"],
-    "authors_bios": [
-      "David Heinemeier Hansson (born 15 October 1979; known to the Ruby and ALMS communities as DHH) is a Danish programmer and the creator of the popular Ruby on Rails web development framework and the Instiki wiki. He is also a partner at the web-based software development firm Basecamp (formerly 37signals)."
-    ],
     "tags_uuid": ["490b10b26569"],
-    "tags_slugs": ["computer-science"],
     "tags": ["computer science"]
   },
   {
@@ -3367,13 +2437,8 @@
     "featured": false,
     "publish_date": "2014-04-23 15:54:27",
     "authors": ["David Heinemeier Hansson"],
-    "authors_slugs": ["david-heinemeier-hansson"],
     "authors_uuid": ["a93c1717ba57"],
-    "authors_bios": [
-      "David Heinemeier Hansson (born 15 October 1979; known to the Ruby and ALMS communities as DHH) is a Danish programmer and the creator of the popular Ruby on Rails web development framework and the Instiki wiki. He is also a partner at the web-based software development firm Basecamp (formerly 37signals)."
-    ],
     "tags_uuid": ["059448510113"],
-    "tags_slugs": ["metrics"],
     "tags": ["metrics"]
   },
   {
@@ -3383,11 +2448,8 @@
     "featured": false,
     "publish_date": "2014-04-23 19:10:22",
     "authors": ["Albert Einstein"],
-    "authors_slugs": ["albert-einstein"],
     "authors_uuid": ["e62103ae06af"],
-    "authors_bios": ["Genius."],
     "tags_uuid": ["ba763cdd445a", "a7b1d0526611"],
-    "tags_slugs": ["complexity", "ideas"],
     "tags": ["complexity", "ideas"]
   },
   {
@@ -3397,11 +2459,8 @@
     "featured": false,
     "publish_date": "2014-04-23 19:11:38",
     "authors": ["Paul Krugman"],
-    "authors_slugs": ["paul-krugman"],
     "authors_uuid": ["688a0d2e0d9c"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -3411,14 +2470,8 @@
     "featured": false,
     "publish_date": "2014-04-27 19:57:32",
     "authors": ["Kent Beck"],
-    "authors_slugs": ["kent-beck"],
     "authors_uuid": ["7b5113d7f9a5"],
-    "authors_bios": [
-      "Kent Beck is an American software engineer and the creator of the Extreme Programming and Test Driven Development software development methodologies",
-      " also named agile software development. Beck was one of the 17 original signatories of the Agile Manifesto in 2001."
-    ],
     "tags_uuid": ["433a3a423cd9"],
-    "tags_slugs": ["testing"],
     "tags": ["testing"]
   },
   {
@@ -3428,11 +2481,8 @@
     "featured": false,
     "publish_date": "2014-04-28 19:59:40",
     "authors": ["Mark Gibbs"],
-    "authors_slugs": ["mark-gibbs"],
     "authors_uuid": ["cc01e4592d23"],
-    "authors_bios": [""],
     "tags_uuid": ["d18c1b030691", "bd67f2b3cd5c"],
-    "tags_slugs": ["beta", "bugs"],
     "tags": ["beta", "bugs"]
   },
   {
@@ -3442,11 +2492,8 @@
     "featured": false,
     "publish_date": "2014-04-29 03:51:30",
     "authors": ["Eric Ries"],
-    "authors_slugs": ["eric-ries"],
     "authors_uuid": ["ed3a55c74b2e"],
-    "authors_bios": [""],
     "tags_uuid": ["2a30e3a0c76d"],
-    "tags_slugs": ["ruby-on-rails"],
     "tags": ["ruby on rails"]
   },
   {
@@ -3456,11 +2503,8 @@
     "featured": false,
     "publish_date": "2014-04-30 05:07:07",
     "authors": ["Mark Minasi"],
-    "authors_slugs": ["mark-minasi"],
     "authors_uuid": ["1cf1766ef465"],
-    "authors_bios": [""],
     "tags_uuid": ["cfac42388f9d", "bd67f2b3cd5c"],
-    "tags_slugs": ["softwares", "bugs"],
     "tags": ["softwares", "bugs"]
   },
   {
@@ -3470,11 +2514,8 @@
     "featured": false,
     "publish_date": "2014-04-30 18:35:30",
     "authors": ["Ken Thompson"],
-    "authors_slugs": ["ken-thompson"],
     "authors_uuid": ["fb43ec2030e5"],
-    "authors_bios": [""],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -3484,11 +2525,8 @@
     "featured": true,
     "publish_date": "2014-04-30 18:36:28",
     "authors": ["David Gelernter"],
-    "authors_slugs": ["david-gelernter"],
     "authors_uuid": ["30b50d2e8012"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -3498,11 +2536,8 @@
     "featured": false,
     "publish_date": "2014-05-02 04:40:46",
     "authors": ["Addy Osmani"],
-    "authors_slugs": ["addy-osmani"],
     "authors_uuid": ["114e5d617487"],
-    "authors_bios": [""],
     "tags_uuid": ["df01cc3ecc20", "a7b1d0526611", "46278bd60154"],
-    "tags_slugs": ["productivity", "ideas", "programming"],
     "tags": ["productivity", "ideas", "programming"]
   },
   {
@@ -3512,20 +2547,8 @@
     "featured": false,
     "publish_date": "2014-05-03 16:16:56",
     "authors": ["Bill Gates"],
-    "authors_slugs": ["bill-gates"],
     "authors_uuid": ["c75df3e851bf"],
-    "authors_bios": [
-      "William Henry \\Bill\\ Gates III (born October 28",
-      " 1955) is an American business magnate",
-      " philanthropist",
-      " investor",
-      " computer programmer",
-      " and inventor. Gates is the former chief executive and chairman of Microsoft",
-      " the world’s largest personal-computer software company",
-      " which he co-founded with Paul Allen."
-    ],
     "tags_uuid": ["2b9f3f49e7cc"],
-    "tags_slugs": ["learning"],
     "tags": ["learning"]
   },
   {
@@ -3535,18 +2558,8 @@
     "featured": false,
     "publish_date": "2014-05-04 01:57:17",
     "authors": ["chromatic"],
-    "authors_slugs": ["chromatic"],
     "authors_uuid": ["d340827dc495"],
-    "authors_bios": [
-      "chromatic is a writer and free software programmer best known for his work in the Perl programming language. He resides in Hillsboro",
-      " Oregon",
-      " United States. He is the author of Extreme Programming Pocket Guide",
-      " a co-author of Perl Testing: A Developer's Notebook",
-      " the lead author of Perl Hacks",
-      " and an uncredited contributor to The Art of Agile Development."
-    ],
     "tags_uuid": ["5984190a8f7f", "fdcfd016c9e7"],
-    "tags_slugs": ["features", "users"],
     "tags": ["features", "users"]
   },
   {
@@ -3556,18 +2569,8 @@
     "featured": false,
     "publish_date": "2014-05-04 03:37:13",
     "authors": ["chromatic"],
-    "authors_slugs": ["chromatic"],
     "authors_uuid": ["d340827dc495"],
-    "authors_bios": [
-      "chromatic is a writer and free software programmer best known for his work in the Perl programming language. He resides in Hillsboro",
-      " Oregon",
-      " United States. He is the author of Extreme Programming Pocket Guide",
-      " a co-author of Perl Testing: A Developer's Notebook",
-      " the lead author of Perl Hacks",
-      " and an uncredited contributor to The Art of Agile Development."
-    ],
     "tags_uuid": ["5984190a8f7f", "974e5bc2686a", "7ea02d81a2d0"],
-    "tags_slugs": ["features", "releasing", "planning"],
     "tags": ["features", "releasing", "planning"]
   },
   {
@@ -3577,11 +2580,8 @@
     "featured": false,
     "publish_date": "2014-05-22 14:23:41",
     "authors": ["J. Paul Morrison"],
-    "authors_slugs": ["j-paul-morrison"],
     "authors_uuid": ["779d5828b7ac"],
-    "authors_bios": [""],
     "tags_uuid": ["b85badf703f2", "b5cf00a461cc"],
-    "tags_slugs": ["computers", "creativity"],
     "tags": ["computers", "creativity"]
   },
   {
@@ -3591,11 +2591,8 @@
     "featured": false,
     "publish_date": "2014-05-26 14:21:05",
     "authors": ["Scott Ambler"],
-    "authors_slugs": ["scott-ambler"],
     "authors_uuid": ["6d07dad54e74"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -3605,11 +2602,8 @@
     "featured": false,
     "publish_date": "2014-05-26 14:55:54",
     "authors": ["Robert A. Heinlein"],
-    "authors_slugs": ["robert-a-heinlein"],
     "authors_uuid": ["fc77a33d1938"],
-    "authors_bios": [""],
     "tags_uuid": ["346462cb944b", "16d05f8e5421"],
-    "tags_slugs": ["specialization", "programmers"],
     "tags": ["specialization", "programmers"]
   },
   {
@@ -3619,11 +2613,8 @@
     "featured": false,
     "publish_date": "2014-05-28 14:53:09",
     "authors": ["Alberto Brandolini"],
-    "authors_slugs": ["alberto-brandolini"],
     "authors_uuid": ["8fb4cdc2b11d"],
-    "authors_bios": [""],
     "tags_uuid": ["a7b1d0526611"],
-    "tags_slugs": ["ideas"],
     "tags": ["ideas"]
   },
   {
@@ -3633,19 +2624,8 @@
     "featured": false,
     "publish_date": "2014-06-04 09:20:37",
     "authors": ["Martin Fowler"],
-    "authors_slugs": ["martin-fowler"],
     "authors_uuid": ["721333935c91"],
-    "authors_bios": [
-      "Martin Fowler (born 1963) is a British software engineer",
-      " author and international speaker on software development",
-      " specializing in object-oriented analysis and design",
-      " UML",
-      " patterns",
-      " and agile software development methodologies",
-      " including extreme programming."
-    ],
     "tags_uuid": ["bd67f2b3cd5c", "85a5237e6484"],
-    "tags_slugs": ["bugs", "open-source"],
     "tags": ["bugs", "open source"]
   },
   {
@@ -3655,11 +2635,8 @@
     "featured": false,
     "publish_date": "2014-06-17 10:11:05",
     "authors": ["John O'Nolan"],
-    "authors_slugs": ["john-onolan"],
     "authors_uuid": ["837ee73bb5f5"],
-    "authors_bios": [""],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -3669,11 +2646,8 @@
     "featured": false,
     "publish_date": "2014-07-10 12:55:44",
     "authors": ["Tom Dale"],
-    "authors_slugs": ["tom-dale"],
     "authors_uuid": ["377fa7385f75"],
-    "authors_bios": [""],
     "tags_uuid": ["15ddd6ce025e"],
-    "tags_slugs": ["javascript"],
     "tags": ["javascript"]
   },
   {
@@ -3683,11 +2657,8 @@
     "featured": false,
     "publish_date": "2014-10-02 07:55:49",
     "authors": ["Phil Simon"],
-    "authors_slugs": ["phil-simon"],
     "authors_uuid": ["6aa66a28622c"],
-    "authors_bios": [""],
     "tags_uuid": ["76af4d7121a0", "f18dd71ac5e2"],
-    "tags_slugs": ["corporate", "platform"],
     "tags": ["corporate", "platform"]
   },
   {
@@ -3697,11 +2668,8 @@
     "featured": false,
     "publish_date": "2014-10-03 09:16:05",
     "authors": ["Chris Anderson"],
-    "authors_slugs": ["chris-anderson"],
     "authors_uuid": ["5a116988ee0f"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -3711,11 +2679,8 @@
     "featured": true,
     "publish_date": "2014-10-06 07:10:47",
     "authors": ["Rich Hickey"],
-    "authors_slugs": ["rich-hickey"],
     "authors_uuid": ["32618e73c289"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -3725,11 +2690,8 @@
     "featured": false,
     "publish_date": "2014-10-06 11:53:29",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["15ddd6ce025e"],
-    "tags_slugs": ["javascript"],
     "tags": ["javascript"]
   },
   {
@@ -3739,11 +2701,8 @@
     "featured": false,
     "publish_date": "2014-10-06 16:25:12",
     "authors": ["Adrian Cockcroft"],
-    "authors_slugs": ["adrian-cockcroft"],
     "authors_uuid": ["b5a25ddb1e4d"],
-    "authors_bios": [""],
     "tags_uuid": ["8f1778e044f7", "16d05f8e5421"],
-    "tags_slugs": ["management", "programmers"],
     "tags": ["management", "programmers"]
   },
   {
@@ -3753,11 +2712,8 @@
     "featured": false,
     "publish_date": "2014-10-07 15:50:17",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["059448510113", "65df1e9ae843", "8f1778e044f7"],
-    "tags_slugs": ["metrics", "data", "management"],
     "tags": ["metrics", "data", "management"]
   },
   {
@@ -3767,11 +2723,8 @@
     "featured": true,
     "publish_date": "2014-10-14 12:41:45",
     "authors": ["Mario Fusco"],
-    "authors_slugs": ["mario-fusco"],
     "authors_uuid": ["c8338b8ec3d1"],
-    "authors_bios": [""],
     "tags_uuid": ["ffe7dc59094f", "ba763cdd445a", "cfac42388f9d"],
-    "tags_slugs": ["maintenance", "complexity", "softwares"],
     "tags": ["maintenance", "complexity", "softwares"]
   },
   {
@@ -3781,11 +2734,8 @@
     "featured": true,
     "publish_date": "2014-10-21 10:54:20",
     "authors": ["Kerri Miller"],
-    "authors_slugs": ["kerri-miller"],
     "authors_uuid": ["6bbd8de9ccd6"],
-    "authors_bios": [""],
     "tags_uuid": ["433a3a423cd9", "e8e63fda46b9"],
-    "tags_slugs": ["testing", "tdd"],
     "tags": ["testing", "tdd"]
   },
   {
@@ -3795,11 +2745,8 @@
     "featured": true,
     "publish_date": "2014-10-31 09:20:02",
     "authors": ["John Maeda"],
-    "authors_slugs": ["john-maeda"],
     "authors_uuid": ["871bdf83f01d"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -3809,15 +2756,8 @@
     "featured": false,
     "publish_date": "2014-10-31 09:39:36",
     "authors": ["Douglas Crockford"],
-    "authors_slugs": ["douglas-crockford"],
     "authors_uuid": ["2cfce23b8710"],
-    "authors_bios": [
-      "Douglas Crockford is an American computer programmer and entrepreneur who is best known for his ongoing involvement in the development of the JavaScript language",
-      " for having popularized the data format JSON (JavaScript Object Notation)",
-      " and for developing various JavaScript related tools such as JSLint and JSMin."
-    ],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -3827,11 +2767,8 @@
     "featured": false,
     "publish_date": "2014-11-14 13:39:26",
     "authors": ["Tim Kadlec"],
-    "authors_slugs": ["tim-kadlec"],
     "authors_uuid": ["0a752591e4d5"],
-    "authors_bios": [""],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -3841,11 +2778,8 @@
     "featured": false,
     "publish_date": "2014-11-17 07:52:29",
     "authors": ["Rich Hickey"],
-    "authors_slugs": ["rich-hickey"],
     "authors_uuid": ["32618e73c289"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -3855,14 +2789,8 @@
     "featured": false,
     "publish_date": "2014-11-17 07:53:59",
     "authors": ["E. W. Dijkstra"],
-    "authors_slugs": ["e-w-dijkstra"],
     "authors_uuid": ["4b869649e244"],
-    "authors_bios": [
-      "Edsger Wybe Dijkstra (11 May 1930 – 6 August 2002) was a Dutch computer scientist. He received the 1972 Turing Award for fundamental contributions to developing programming languages",
-      " and was the Schlumberger Centennial Chair of Computer Sciences at The University of Texas at Austin from 1984 until 2000."
-    ],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -3872,11 +2800,8 @@
     "featured": true,
     "publish_date": "2014-12-16 14:07:56",
     "authors": ["Jeff Sutherland"],
-    "authors_slugs": ["jeff-sutherland"],
     "authors_uuid": ["9d08117648e7"],
-    "authors_bios": [""],
     "tags_uuid": ["c55d7403e7a8", "ae64acaacfab"],
-    "tags_slugs": ["agile", "scrum"],
     "tags": ["agile", "scrum"]
   },
   {
@@ -3886,11 +2811,8 @@
     "featured": true,
     "publish_date": "2015-02-08 01:44:50",
     "authors": ["Karolina Szczur"],
-    "authors_slugs": ["karolina-szczur"],
     "authors_uuid": ["59427dea9585"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421", "37c8e96b9db0"],
-    "tags_slugs": ["programmers", "collaboration"],
     "tags": ["programmers", "collaboration"]
   },
   {
@@ -3900,14 +2822,8 @@
     "featured": true,
     "publish_date": "2015-02-13 11:58:49",
     "authors": ["Kent Beck"],
-    "authors_slugs": ["kent-beck"],
     "authors_uuid": ["7b5113d7f9a5"],
-    "authors_bios": [
-      "Kent Beck is an American software engineer and the creator of the Extreme Programming and Test Driven Development software development methodologies",
-      " also named agile software development. Beck was one of the 17 original signatories of the Agile Manifesto in 2001."
-    ],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -3917,11 +2833,8 @@
     "featured": false,
     "publish_date": "2015-02-14 13:38:23",
     "authors": ["Jack Diederich"],
-    "authors_slugs": ["jack-diederich"],
     "authors_uuid": ["d5b6553f772b"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -3931,11 +2844,8 @@
     "featured": false,
     "publish_date": "2015-02-14 13:41:52",
     "authors": ["Joel Spolsky"],
-    "authors_slugs": ["joel-spolsky"],
     "authors_uuid": ["22236409daf2"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -3945,11 +2855,8 @@
     "featured": false,
     "publish_date": "2015-02-14 13:43:37",
     "authors": ["Nicholas Zakas"],
-    "authors_slugs": ["nicholas-zakas"],
     "authors_uuid": ["0d77c9a33876"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -3959,14 +2866,8 @@
     "featured": false,
     "publish_date": "2015-02-15 10:42:07",
     "authors": ["E. W. Dijkstra"],
-    "authors_slugs": ["e-w-dijkstra"],
     "authors_uuid": ["4b869649e244"],
-    "authors_bios": [
-      "Edsger Wybe Dijkstra (11 May 1930 – 6 August 2002) was a Dutch computer scientist. He received the 1972 Turing Award for fundamental contributions to developing programming languages",
-      " and was the Schlumberger Centennial Chair of Computer Sciences at The University of Texas at Austin from 1984 until 2000."
-    ],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -3976,11 +2877,8 @@
     "featured": true,
     "publish_date": "2015-02-15 10:43:17",
     "authors": ["NSA Security Manual"],
-    "authors_slugs": ["nsa-security-manual"],
     "authors_uuid": ["4a9171674619"],
-    "authors_bios": [""],
     "tags_uuid": ["90ce12eb53bb"],
-    "tags_slugs": ["security"],
     "tags": ["security"]
   },
   {
@@ -3990,15 +2888,8 @@
     "featured": true,
     "publish_date": "2015-02-15 10:44:45",
     "authors": ["Rob Pike"],
-    "authors_slugs": ["rob-pike"],
     "authors_uuid": ["569cfb601ec7"],
-    "authors_bios": [
-      "Robert Pike (born 1956) is a Canadian software engineer and author. He is best known for his work at Bell Labs",
-      " where he was a member of the Unix team and was involved in the creation of the Plan 9 from Bell Labs and Inferno operating systems",
-      " as well as the Limbo programming language."
-    ],
     "tags_uuid": ["2e662c7bed7a"],
-    "tags_slugs": ["languages"],
     "tags": ["languages"]
   },
   {
@@ -4008,11 +2899,8 @@
     "featured": false,
     "publish_date": "2015-02-15 10:47:18",
     "authors": ["Joshua Bloch"],
-    "authors_slugs": ["joshua-bloch"],
     "authors_uuid": ["7eaa626354f6"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -4022,11 +2910,8 @@
     "featured": false,
     "publish_date": "2015-02-15 10:47:45",
     "authors": ["merb motto"],
-    "authors_slugs": ["merb-motto"],
     "authors_uuid": ["2a5f2936ca3a"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -4036,15 +2921,8 @@
     "featured": false,
     "publish_date": "2015-02-15 11:44:15",
     "authors": ["Rob Pike"],
-    "authors_slugs": ["rob-pike"],
     "authors_uuid": ["569cfb601ec7"],
-    "authors_bios": [
-      "Robert Pike (born 1956) is a Canadian software engineer and author. He is best known for his work at Bell Labs",
-      " where he was a member of the Unix team and was involved in the creation of the Plan 9 from Bell Labs and Inferno operating systems",
-      " as well as the Limbo programming language."
-    ],
     "tags_uuid": ["65df1e9ae843"],
-    "tags_slugs": ["data"],
     "tags": ["data"]
   },
   {
@@ -4054,17 +2932,8 @@
     "featured": false,
     "publish_date": "2015-02-16 15:25:03",
     "authors": ["Jeff Atwood"],
-    "authors_slugs": ["jeff-atwood"],
     "authors_uuid": ["6591f999f41a"],
-    "authors_bios": [
-      "Jeff Atwood is an American software developer",
-      " author",
-      " blogger",
-      " and entrepreneur. He is known for the programming blog Coding Horror",
-      " and as the co-founder of the question-and-answer website Stack Overflow and the Stack Exchange Network."
-    ],
     "tags_uuid": ["4a87a65f9b7a"],
-    "tags_slugs": ["documentation"],
     "tags": ["documentation"]
   },
   {
@@ -4074,11 +2943,8 @@
     "featured": false,
     "publish_date": "2015-02-17 04:40:11",
     "authors": ["Ilyo"],
-    "authors_slugs": ["ilyo"],
     "authors_uuid": ["9ff55a2cedf2"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -4088,11 +2954,8 @@
     "featured": false,
     "publish_date": "2015-02-17 14:15:54",
     "authors": ["Frederick P. Brooks"],
-    "authors_slugs": ["frederick-p-brooks"],
     "authors_uuid": ["583742cadc21"],
-    "authors_bios": [""],
     "tags_uuid": ["df01cc3ecc20"],
-    "tags_slugs": ["productivity"],
     "tags": ["productivity"]
   },
   {
@@ -4102,15 +2965,8 @@
     "featured": false,
     "publish_date": "2015-02-18 13:26:05",
     "authors": ["Douglas Crockford"],
-    "authors_slugs": ["douglas-crockford"],
     "authors_uuid": ["2cfce23b8710"],
-    "authors_bios": [
-      "Douglas Crockford is an American computer programmer and entrepreneur who is best known for his ongoing involvement in the development of the JavaScript language",
-      " for having popularized the data format JSON (JavaScript Object Notation)",
-      " and for developing various JavaScript related tools such as JSLint and JSMin."
-    ],
     "tags_uuid": ["2e662c7bed7a"],
-    "tags_slugs": ["languages"],
     "tags": ["languages"]
   },
   {
@@ -4120,11 +2976,8 @@
     "featured": true,
     "publish_date": "2015-04-01 13:54:18",
     "authors": ["Dan Ariely"],
-    "authors_slugs": ["dan-ariely"],
     "authors_uuid": ["e052ba2d029a"],
-    "authors_bios": [""],
     "tags_uuid": ["65df1e9ae843"],
-    "tags_slugs": ["data"],
     "tags": ["data"]
   },
   {
@@ -4134,11 +2987,8 @@
     "featured": false,
     "publish_date": "2015-04-08 02:39:23",
     "authors": ["Jordan W"],
-    "authors_slugs": ["jordan-w"],
     "authors_uuid": ["c44284f67131"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -4148,11 +2998,8 @@
     "featured": true,
     "publish_date": "2015-04-22 07:28:04",
     "authors": ["Conway's law"],
-    "authors_slugs": ["conways-law"],
     "authors_uuid": ["887f284c1035"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -4162,11 +3009,8 @@
     "featured": false,
     "publish_date": "2015-06-03 17:00:05",
     "authors": ["Brendan Eich"],
-    "authors_slugs": ["brendan-eich"],
     "authors_uuid": ["74187cefc1fe"],
-    "authors_bios": [""],
     "tags_uuid": ["15ddd6ce025e"],
-    "tags_slugs": ["javascript"],
     "tags": ["javascript"]
   },
   {
@@ -4176,11 +3020,8 @@
     "featured": false,
     "publish_date": "2015-06-03 17:02:17",
     "authors": ["Ian Hickson"],
-    "authors_slugs": ["ian-hickson"],
     "authors_uuid": ["c9528dbd8b11"],
-    "authors_bios": [""],
     "tags_uuid": ["2e471af7f345", "7ea02d81a2d0"],
-    "tags_slugs": ["estimating", "planning"],
     "tags": ["estimating", "planning"]
   },
   {
@@ -4190,11 +3031,8 @@
     "featured": true,
     "publish_date": "2015-06-15 12:34:41",
     "authors": ["Sustrik's Law"],
-    "authors_slugs": ["sustriks-law"],
     "authors_uuid": ["02ecac5f1f05"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -4204,11 +3042,8 @@
     "featured": true,
     "publish_date": "2015-07-03 04:12:46",
     "authors": ["Paul Ford"],
-    "authors_slugs": ["paul-ford"],
     "authors_uuid": ["0fa8164035de"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -4218,11 +3053,8 @@
     "featured": true,
     "publish_date": "2015-07-03 04:15:37",
     "authors": ["Paul Ford"],
-    "authors_slugs": ["paul-ford"],
     "authors_uuid": ["0fa8164035de"],
-    "authors_bios": [""],
     "tags_uuid": ["b85badf703f2"],
-    "tags_slugs": ["computers"],
     "tags": ["computers"]
   },
   {
@@ -4232,11 +3064,8 @@
     "featured": false,
     "publish_date": "2015-07-05 15:47:19",
     "authors": ["Jessica Kerr"],
-    "authors_slugs": ["jessica-kerr"],
     "authors_uuid": ["428812a60e95"],
-    "authors_bios": [""],
     "tags_uuid": ["2806ae712337", "cfac42388f9d"],
-    "tags_slugs": ["refactoring", "softwares"],
     "tags": ["refactoring", "softwares"]
   },
   {
@@ -4246,11 +3075,8 @@
     "featured": false,
     "publish_date": "2015-08-03 06:30:49",
     "authors": ["Jeff Weiner"],
-    "authors_slugs": ["jeff-weiner"],
     "authors_uuid": ["53a605479c46"],
-    "authors_bios": [""],
     "tags_uuid": ["76af4d7121a0"],
-    "tags_slugs": ["corporate"],
     "tags": ["corporate"]
   },
   {
@@ -4260,11 +3086,8 @@
     "featured": true,
     "publish_date": "2015-08-31 15:41:27",
     "authors": ["Thomas Fuchs"],
-    "authors_slugs": ["thomas-fuchs"],
     "authors_uuid": ["59ac05760791"],
-    "authors_bios": [""],
     "tags_uuid": ["40016061a7d0"],
-    "tags_slugs": ["error"],
     "tags": ["error"]
   },
   {
@@ -4274,11 +3097,8 @@
     "featured": false,
     "publish_date": "2015-09-18 03:53:42",
     "authors": ["Pete Cordell"],
-    "authors_slugs": ["pete-cordell"],
     "authors_uuid": ["c3d1e1c2b214"],
-    "authors_bios": [""],
     "tags_uuid": ["cffa5ba93708"],
-    "tags_slugs": ["reusing"],
     "tags": ["reusing"]
   },
   {
@@ -4288,11 +3108,8 @@
     "featured": true,
     "publish_date": "2015-09-21 02:09:05",
     "authors": ["anonymous"],
-    "authors_slugs": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -4302,15 +3119,8 @@
     "featured": false,
     "publish_date": "2015-10-02 08:16:10",
     "authors": ["Rob Pike"],
-    "authors_slugs": ["rob-pike"],
     "authors_uuid": ["569cfb601ec7"],
-    "authors_bios": [
-      "Robert Pike (born 1956) is a Canadian software engineer and author. He is best known for his work at Bell Labs",
-      " where he was a member of the Unix team and was involved in the creation of the Plan 9 from Bell Labs and Inferno operating systems",
-      " as well as the Limbo programming language."
-    ],
     "tags_uuid": ["cffa5ba93708"],
-    "tags_slugs": ["reusing"],
     "tags": ["reusing"]
   },
   {
@@ -4320,11 +3130,8 @@
     "featured": true,
     "publish_date": "2015-10-02 19:16:19",
     "authors": ["Kyle Simpson"],
-    "authors_slugs": ["kyle-simpson"],
     "authors_uuid": ["1a510e784b6a"],
-    "authors_bios": [""],
     "tags_uuid": ["ffe7dc59094f", "66a29647736f"],
-    "tags_slugs": ["maintenance", "hacking"],
     "tags": ["maintenance", "hacking"]
   },
   {
@@ -4334,11 +3141,8 @@
     "featured": true,
     "publish_date": "2015-10-31 08:16:46",
     "authors": [" Derek Powazek"],
-    "authors_slugs": ["derek-powazek"],
     "authors_uuid": ["9d8723deb1c7"],
-    "authors_bios": [""],
     "tags_uuid": ["fc973eebe544", "b5cf00a461cc"],
-    "tags_slugs": ["specification", "creativity"],
     "tags": ["specification", "creativity"]
   },
   {
@@ -4348,11 +3152,8 @@
     "featured": false,
     "publish_date": "2015-11-02 09:41:30",
     "authors": ["Radia Perlman"],
-    "authors_slugs": ["radia-perlman"],
     "authors_uuid": ["fc76f6bb9c22"],
-    "authors_bios": [""],
     "tags_uuid": ["fc973eebe544", "7ea02d81a2d0"],
-    "tags_slugs": ["specification", "planning"],
     "tags": ["specification", "planning"]
   },
   {
@@ -4362,11 +3163,8 @@
     "featured": false,
     "publish_date": "2015-11-10 17:19:00",
     "authors": ["Richard Dalton"],
-    "authors_slugs": ["richard-dalton"],
     "authors_uuid": ["c8bbe4a47cc3"],
-    "authors_bios": [""],
     "tags_uuid": ["ef72307d48c3"],
-    "tags_slugs": ["teams"],
     "tags": ["teams"]
   },
   {
@@ -4376,11 +3174,8 @@
     "featured": false,
     "publish_date": "2015-11-21 11:26:01",
     "authors": ["Patrick McKenzie"],
-    "authors_slugs": ["patrick-mckenzie"],
     "authors_uuid": ["47c1f12a1071"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -4390,11 +3185,8 @@
     "featured": false,
     "publish_date": "2015-11-21 11:26:22",
     "authors": ["Eric Ries"],
-    "authors_slugs": ["eric-ries"],
     "authors_uuid": ["ed3a55c74b2e"],
-    "authors_bios": [""],
     "tags_uuid": ["56c51ddb335c"],
-    "tags_slugs": ["optimization"],
     "tags": ["optimization"]
   },
   {
@@ -4404,11 +3196,8 @@
     "featured": false,
     "publish_date": "2015-11-24 02:31:34",
     "authors": ["Michael Hartung"],
-    "authors_slugs": ["michael-hartung"],
     "authors_uuid": ["fb656032b750"],
-    "authors_bios": [""],
     "tags_uuid": ["cfac42388f9d", "ee3f63e63e4d"],
-    "tags_slugs": ["softwares", "hardware"],
     "tags": ["softwares", "hardware"]
   },
   {
@@ -4418,11 +3207,8 @@
     "featured": false,
     "publish_date": "2015-11-29 12:44:33",
     "authors": ["Nikola Tesla"],
-    "authors_slugs": ["nikola-tesla"],
     "authors_uuid": ["07aa74c718cc"],
-    "authors_bios": [""],
     "tags_uuid": ["1c9cd4e9dc00", "a7b1d0526611"],
-    "tags_slugs": ["innovation", "ideas"],
     "tags": ["innovation", "ideas"]
   },
   {
@@ -4432,11 +3218,8 @@
     "featured": false,
     "publish_date": "2015-12-03 02:27:23",
     "authors": ["David Evans"],
-    "authors_slugs": ["david-evans"],
     "authors_uuid": ["c4501b6bd737"],
-    "authors_bios": [""],
     "tags_uuid": ["ae64acaacfab"],
-    "tags_slugs": ["scrum"],
     "tags": ["scrum"]
   },
   {
@@ -4446,11 +3229,8 @@
     "featured": false,
     "publish_date": "2015-12-05 16:23:27",
     "authors": ["Jed Schmidt"],
-    "authors_slugs": ["jed-schmidt"],
     "authors_uuid": ["4080a244c2bf"],
-    "authors_bios": [""],
     "tags_uuid": ["acec50979a76", "15ddd6ce025e"],
-    "tags_slugs": ["go", "javascript"],
     "tags": ["go", "javascript"]
   },
   {
@@ -4460,11 +3240,8 @@
     "featured": false,
     "publish_date": "2015-12-07 03:27:42",
     "authors": ["Dennis M. Ritchie"],
-    "authors_slugs": ["dennis-m-ritchie"],
     "authors_uuid": ["547d0b1da532"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a", "a21f9e95529b"],
-    "tags_slugs": ["complexity", "unix"],
     "tags": ["complexity", "unix"]
   },
   {
@@ -4474,11 +3251,8 @@
     "featured": true,
     "publish_date": "2015-12-26 12:07:10",
     "authors": ["Meir Lehman"],
-    "authors_slugs": ["meir-lehman"],
     "authors_uuid": ["3e5ad9a21aa8"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -4488,11 +3262,8 @@
     "featured": false,
     "publish_date": "2015-12-28 07:34:54",
     "authors": ["Chris Sacca"],
-    "authors_slugs": ["chris-sacca"],
     "authors_uuid": ["0c9ae13e781e"],
-    "authors_bios": [""],
     "tags_uuid": ["37c8e96b9db0"],
-    "tags_slugs": ["collaboration"],
     "tags": ["collaboration"]
   },
   {
@@ -4502,14 +3273,8 @@
     "featured": true,
     "publish_date": "2016-02-24 02:30:12",
     "authors": ["E. W. Dijkstra"],
-    "authors_slugs": ["e-w-dijkstra"],
     "authors_uuid": ["4b869649e244"],
-    "authors_bios": [
-      "Edsger Wybe Dijkstra (11 May 1930 – 6 August 2002) was a Dutch computer scientist. He received the 1972 Turing Award for fundamental contributions to developing programming languages",
-      " and was the Schlumberger Centennial Chair of Computer Sciences at The University of Texas at Austin from 1984 until 2000."
-    ],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -4519,15 +3284,8 @@
     "featured": false,
     "publish_date": "2016-03-18 07:30:11",
     "authors": ["Linus Torvalds"],
-    "authors_slugs": ["linus-torvalds"],
     "authors_uuid": ["8491fd3f9c47"],
-    "authors_bios": [
-      "Linus Benedict Torvalds is a Finnish American software engineer",
-      " who was the principal force behind the development of the Linux kernel. He later became the chief architect of the Linux kernel",
-      " and now acts as the project's coordinator."
-    ],
     "tags_uuid": ["65df1e9ae843", "16d05f8e5421"],
-    "tags_slugs": ["data", "programmers"],
     "tags": ["data", "programmers"]
   },
   {
@@ -4537,11 +3295,8 @@
     "featured": true,
     "publish_date": "2016-05-17 02:28:48",
     "authors": ["Brian W. Kernighan", "P. J. Plaugher"],
-    "authors_slugs": ["brian-w-kernighan", "p-j-plaugher"],
     "authors_uuid": ["0086884ef4b1", "e773f0e8944d"],
-    "authors_bios": [""],
     "tags_uuid": ["974e5bc2686a", "7ea02d81a2d0", "df01cc3ecc20"],
-    "tags_slugs": ["releasing", "planning", "productivity"],
     "tags": ["releasing", "planning", "productivity"]
   },
   {
@@ -4551,11 +3306,8 @@
     "featured": true,
     "publish_date": "2016-10-12 06:34:01",
     "authors": ["Jim Benson"],
-    "authors_slugs": ["jim-benson"],
     "authors_uuid": ["00d26e2417fb"],
-    "authors_bios": [""],
     "tags_uuid": ["cfac42388f9d"],
-    "tags_slugs": ["softwares"],
     "tags": ["softwares"]
   },
   {
@@ -4565,11 +3317,8 @@
     "featured": false,
     "publish_date": "2016-10-13 08:17:57",
     "authors": ["Mario Fusco"],
-    "authors_slugs": ["mario-fusco"],
     "authors_uuid": ["c8338b8ec3d1"],
-    "authors_bios": [""],
     "tags_uuid": ["8f1778e044f7"],
-    "tags_slugs": ["management"],
     "tags": ["management"]
   },
   {
@@ -4579,11 +3328,8 @@
     "featured": false,
     "publish_date": "2016-11-12 10:14:24",
     "authors": ["Damian Conway"],
-    "authors_slugs": ["damian-conway"],
     "authors_uuid": ["b0b00efcf6de"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -4593,11 +3339,8 @@
     "featured": false,
     "publish_date": "2017-04-07 08:15:34",
     "authors": ["Frederick P. Brooks"],
-    "authors_slugs": ["frederick-p-brooks"],
     "authors_uuid": ["583742cadc21"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421", "df01cc3ecc20"],
-    "tags_slugs": ["programmers", "productivity"],
     "tags": ["programmers", "productivity"]
   },
   {
@@ -4607,16 +3350,8 @@
     "featured": false,
     "publish_date": "2017-07-11 04:40:03",
     "authors": ["Robert C. Martin"],
-    "authors_slugs": ["robert-c-martin"],
     "authors_uuid": ["2332b0bec2ae"],
-    "authors_bios": [
-      "Robert Cecil Martin",
-      " known colloquially as &ldquo;Uncle Bob&rdquo;",
-      " is an American software consultant and author. Martin has been a software professional since 1970 and an international software consultant since 1990. In 2001",
-      " he initiated the meeting of the group that created agile software development from extreme programming techniques."
-    ],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -4626,11 +3361,8 @@
     "featured": false,
     "publish_date": "2017-07-17 12:54:34",
     "authors": ["Douglas Engelbart"],
-    "authors_slugs": ["douglas-engelbart"],
     "authors_uuid": ["035df902216d"],
-    "authors_bios": [""],
     "tags_uuid": ["1c9cd4e9dc00", "a7b1d0526611"],
-    "tags_slugs": ["innovation", "ideas"],
     "tags": ["innovation", "ideas"]
   },
   {
@@ -4640,11 +3372,8 @@
     "featured": false,
     "publish_date": "2017-10-17 02:45:17",
     "authors": ["Adam Morse"],
-    "authors_slugs": ["adam-morse"],
     "authors_uuid": ["4b67f6a86a19"],
-    "authors_bios": [""],
     "tags_uuid": ["2e471af7f345", "46278bd60154", "7ea02d81a2d0"],
-    "tags_slugs": ["estimating", "programming", "planning"],
     "tags": ["estimating", "programming", "planning"]
   },
   {
@@ -4654,11 +3383,8 @@
     "featured": false,
     "publish_date": "2017-10-17 04:14:56",
     "authors": ["JBD"],
-    "authors_slugs": ["jbd"],
     "authors_uuid": ["f5c71c172203"],
-    "authors_bios": [""],
     "tags_uuid": ["deb8742bbbcf"],
-    "tags_slugs": ["api"],
     "tags": ["api"]
   },
   {
@@ -4668,11 +3394,8 @@
     "featured": false,
     "publish_date": "2017-10-24 11:54:28",
     "authors": ["Cunningham's Law"],
-    "authors_slugs": ["cunninghams-law"],
     "authors_uuid": ["019970521e3d"],
-    "authors_bios": [""],
     "tags_uuid": ["16d05f8e5421"],
-    "tags_slugs": ["programmers"],
     "tags": ["programmers"]
   },
   {
@@ -4682,11 +3405,8 @@
     "featured": false,
     "publish_date": "2017-11-18 18:31:05",
     "authors": ["Waseem Latif"],
-    "authors_slugs": ["waseem-latif"],
     "authors_uuid": ["8f0ef5e53fd2"],
-    "authors_bios": [""],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -4696,11 +3416,8 @@
     "featured": false,
     "publish_date": "2018-02-19 19:56:30",
     "authors": ["Jim Rohn"],
-    "authors_slugs": ["jim-rohn"],
     "authors_uuid": ["6e1824851454"],
-    "authors_bios": [""],
     "tags_uuid": ["77d57a556c78"],
-    "tags_slugs": ["education"],
     "tags": ["education"]
   },
   {
@@ -4710,11 +3427,8 @@
     "featured": false,
     "publish_date": "2018-07-04 19:36:34",
     "authors": ["Cory House"],
-    "authors_slugs": ["cory-house"],
     "authors_uuid": ["e8d337e9b56f"],
-    "authors_bios": [""],
     "tags_uuid": ["ba763cdd445a"],
-    "tags_slugs": ["complexity"],
     "tags": ["complexity"]
   },
   {
@@ -4724,11 +3438,8 @@
     "featured": false,
     "publish_date": "2019-03-10 18:03:26",
     "authors": ["GeePaw Hill"],
-    "authors_slugs": ["geepaw-hill"],
     "authors_uuid": ["903a8239b348"],
-    "authors_bios": [""],
     "tags_uuid": ["2806ae712337"],
-    "tags_slugs": ["refactoring"],
     "tags": ["refactoring"]
   },
   {
@@ -4738,11 +3449,8 @@
     "featured": false,
     "publish_date": "2019-03-10 20:00:31",
     "authors": ["Joe Sondow"],
-    "authors_slugs": ["joe-sondow"],
     "authors_uuid": ["7411d7116cac"],
-    "authors_bios": [""],
     "tags_uuid": ["b85badf703f2"],
-    "tags_slugs": ["computers"],
     "tags": ["computers"]
   },
   {
@@ -4752,11 +3460,8 @@
     "featured": false,
     "publish_date": "2019-03-10 20:08:33",
     "authors": ["Alex Engelberg"],
-    "authors_slugs": ["alex-engelberg"],
     "authors_uuid": ["d7fc1a317e86"],
-    "authors_bios": [""],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   },
   {
@@ -4766,11 +3471,8 @@
     "featured": false,
     "publish_date": "2019-03-23 08:44:37",
     "authors": ["Stewart Brand"],
-    "authors_slugs": ["stewart-brand"],
     "authors_uuid": ["9a77e12f15f0"],
-    "authors_bios": [""],
     "tags_uuid": ["ec60c1ab00ec"],
-    "tags_slugs": ["technology"],
     "tags": ["technology"]
   },
   {
@@ -4780,11 +3482,8 @@
     "featured": false,
     "publish_date": "2019-03-28 20:36:17",
     "authors": ["Grady Booch"],
-    "authors_slugs": ["grady-booch"],
     "authors_uuid": ["64add21260b3"],
-    "authors_bios": [""],
     "tags_uuid": ["46278bd60154"],
-    "tags_slugs": ["programming"],
     "tags": ["programming"]
   }
 ]
