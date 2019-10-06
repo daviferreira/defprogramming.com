@@ -18,7 +18,8 @@
 }
 
 .meta {
-  font-size: 12px;
+  font-family: 'Source Code Pro', 'Fira Code', monospace;
+  font-size: 14px;
   line-height: 1;
   padding: 80px 0 0;
   text-transform: uppercase;

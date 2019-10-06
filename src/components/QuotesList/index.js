@@ -26,7 +26,7 @@ const QuotesList = () => {
     graphql`
       query {
         allQuotesJson(
-          limit: 10
+          limit: 1000
           sort: { fields: [publish_date], order: [DESC] }
         ) {
           totalCount

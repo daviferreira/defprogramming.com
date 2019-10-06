@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 const Quote = ({ authors, body, tags }) => (
   <div
     className={classnames(styles.root, {
-      [styles.largeText]: body.length > 260
+      [styles.largeText]: body.length > 220
     })}
   >
     <div
@@ -17,7 +17,6 @@ const Quote = ({ authors, body, tags }) => (
     />
     <div className={styles.meta}>
       <span className={styles.item}>
-        _
         {authors.map(author => (
           <a href={`/quotes-by/${slugify(author)}/`} key={author}>
             {author}
