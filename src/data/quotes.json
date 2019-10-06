@@ -53,7 +53,7 @@
     "authors_uuid": ["2332b0bec2ae"],
     "authors_bios": [
       "Robert Cecil Martin",
-      " known colloquially as \\Uncle Bob\\",
+      " known colloquially as &ldquo;Uncle Bob&rdquo;",
       " is an American software consultant and author. Martin has been a software professional since 1970 and an international software consultant since 1990. In 2001",
       " he initiated the meeting of the group that created agile software development from extreme programming techniques."
     ],
@@ -72,7 +72,7 @@
     "authors_uuid": ["2332b0bec2ae"],
     "authors_bios": [
       "Robert Cecil Martin",
-      " known colloquially as \\Uncle Bob\\",
+      " known colloquially as &ldquo;Uncle Bob&rdquo;",
       " is an American software consultant and author. Martin has been a software professional since 1970 and an international software consultant since 1990. In 2001",
       " he initiated the meeting of the group that created agile software development from extreme programming techniques."
     ],
@@ -91,7 +91,7 @@
     "authors_uuid": ["2332b0bec2ae"],
     "authors_bios": [
       "Robert Cecil Martin",
-      " known colloquially as \\Uncle Bob\\",
+      " known colloquially as &ldquo;Uncle Bob&rdquo;",
       " is an American software consultant and author. Martin has been a software professional since 1970 and an international software consultant since 1990. In 2001",
       " he initiated the meeting of the group that created agile software development from extreme programming techniques."
     ],
@@ -180,7 +180,7 @@
     "authors_uuid": ["2332b0bec2ae"],
     "authors_bios": [
       "Robert Cecil Martin",
-      " known colloquially as \\Uncle Bob\\",
+      " known colloquially as &ldquo;Uncle Bob&rdquo;",
       " is an American software consultant and author. Martin has been a software professional since 1970 and an international software consultant since 1990. In 2001",
       " he initiated the meeting of the group that created agile software development from extreme programming techniques."
     ],
@@ -340,7 +340,7 @@
     "tags": ["programmers"]
   },
   {
-    "body": "Some people, when confronted with a problem, think \"I know, I’ll use regular expressions.\" Now they have two problems.",
+    "body": "Some people, when confronted with a problem, think &ldquo;I know, I’ll use regular expressions.&rdquo; Now they have two problems.",
     "slug": "some-people-when-confronted-with-a-problem-think-i-know-ill-use-regular-expressions-now-they",
     "uuid": "f4eb3f53b001",
     "featured": false,
@@ -455,7 +455,7 @@
     ],
     "tags_uuid": ["490b10b26569"],
     "tags_slugs": ["computer-science"],
-    "tags": ["\"computer science\""]
+    "tags": ["computer science"]
   },
   {
     "body": "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.",
@@ -856,7 +856,7 @@
     "tags": ["management"]
   },
   {
-    "body": "A design is \"simple\" if it follows these rules: Runs all the tests; Contains no duplication; Expresses the intent of the programmer; Minimizes the number of classes and methods.",
+    "body": "A design is &ldquo;simple&rdquo; if it follows these rules: Runs all the tests; Contains no duplication; Expresses the intent of the programmer; Minimizes the number of classes and methods.",
     "slug": "a-design-is-simple-if-it-follows-these-rules-runs-all-the-tests-contains-no-duplication-expres",
     "uuid": "a126648998f1",
     "featured": false,
@@ -904,7 +904,7 @@
     "authors_uuid": ["2332b0bec2ae"],
     "authors_bios": [
       "Robert Cecil Martin",
-      " known colloquially as \\Uncle Bob\\",
+      " known colloquially as &ldquo;Uncle Bob&rdquo;",
       " is an American software consultant and author. Martin has been a software professional since 1970 and an international software consultant since 1990. In 2001",
       " he initiated the meeting of the group that created agile software development from extreme programming techniques."
     ],
@@ -923,7 +923,7 @@
     "authors_uuid": ["2332b0bec2ae"],
     "authors_bios": [
       "Robert Cecil Martin",
-      " known colloquially as \\Uncle Bob\\",
+      " known colloquially as &ldquo;Uncle Bob&rdquo;",
       " is an American software consultant and author. Martin has been a software professional since 1970 and an international software consultant since 1990. In 2001",
       " he initiated the meeting of the group that created agile software development from extreme programming techniques."
     ],
@@ -932,7 +932,7 @@
     "tags": ["naming"]
   },
   {
-    "body": "When you come across a stumbling block because the code doesn't quite fit anymore, or you notice two things that should really be merged, or anything else at all strikes you as being \"wrong\", <em>don't hesitate to change it</em>. There's no time like the present.",
+    "body": "When you come across a stumbling block because the code doesn't quite fit anymore, or you notice two things that should really be merged, or anything else at all strikes you as being &ldquo;wrong&rdquo;, <em>don't hesitate to change it</em>. There's no time like the present.",
     "slug": "when-you-come-across-a-stumbling-block-because-the-code-doesnt-quite-fit-anymore-or-you-notice-tw",
     "uuid": "b993d5922040",
     "featured": false,
@@ -1020,7 +1020,7 @@
     "authors_bios": [""],
     "tags_uuid": ["490b10b26569"],
     "tags_slugs": ["computer-science"],
-    "tags": ["\"computer science\""]
+    "tags": ["computer science"]
   },
   {
     "body": "A sentence should be enough to get the idea across.",
@@ -1037,7 +1037,7 @@
     "tags": ["complexity"]
   },
   {
-    "body": "Whenever there is a sticking point, ask, \"are we staying true to the vision?\".",
+    "body": "Whenever there is a sticking point, ask, &ldquo;are we staying true to the vision?&rdquo;.",
     "slug": "whenever-there-is-a-sticking-point-ask-are-we-staying-true-to-the-vision",
     "uuid": "a9c3617bd643",
     "featured": false,
@@ -1090,7 +1090,7 @@
     "authors_bios": [""],
     "tags_uuid": ["490b10b26569"],
     "tags_slugs": ["computer-science"],
-    "tags": ["\"computer science\""]
+    "tags": ["computer science"]
   },
   {
     "body": "Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.",
@@ -1263,7 +1263,7 @@
     "tags": ["programmers"]
   },
   {
-    "body": "Another effective technique is to explain your code to someone else.  This will often cause you to explain the bug to yourself.  Sometimes it takes no more than a few sentences, followed by an embarrassed \"Never mind, I see what's wrong.  Sorry to bother you.\"  This works remarkably well; you can even use non-programmers as listeners.  One university computer center kept a teddy bear near the help desk.  Students with mysterious bugs were required to explain them to the bear before they could speak to a human counselor.",
+    "body": "Another effective technique is to explain your code to someone else.  This will often cause you to explain the bug to yourself.  Sometimes it takes no more than a few sentences, followed by an embarrassed &ldquo;Never mind, I see what's wrong.  Sorry to bother you.&rdquo;  This works remarkably well; you can even use non-programmers as listeners.  One university computer center kept a teddy bear near the help desk.  Students with mysterious bugs were required to explain them to the bear before they could speak to a human counselor.",
     "slug": "another-effective-technique-is-to-explain-your-code-to-someone-else-this-will-often-cause-you-to",
     "uuid": "abf2b0234684",
     "featured": false,
@@ -1296,7 +1296,7 @@
     "tags": ["programmers"]
   },
   {
-    "body": "Beta.  Software undergoes beta testing shortly before it's released.  Beta is Latin for \"still doesn't work.",
+    "body": "Beta. Software undergoes beta testing shortly before it's released. Beta is Latin for &ldquo;still doesn't work&rdquo;.",
     "slug": "beta-software-undergoes-beta-testing-shortly-before-its-released-beta-is-latin-for-still-does",
     "uuid": "521fea0de481",
     "featured": false,
@@ -1310,7 +1310,7 @@
     "tags": ["beta"]
   },
   {
-    "body": "Good code is its own best documentation.  As you're about to add a comment, ask yourself, \"How can I improve the code so that this comment isn't needed?",
+    "body": "Good code is its own best documentation.  As you're about to add a comment, ask yourself, &ldquo;How can I improve the code so that this comment isn't needed?&rdquo;",
     "slug": "good-code-is-its-own-best-documentation-as-youre-about-to-add-a-comment-ask-yourself-how-can",
     "uuid": "7bc4d5593f1a",
     "featured": false,
@@ -1797,7 +1797,7 @@
     ],
     "tags_uuid": ["490b10b26569"],
     "tags_slugs": ["computer-science"],
-    "tags": ["\"computer science\""]
+    "tags": ["computer science"]
   },
   {
     "body": "Measuring programming progress by lines of code is like measuring aircraft building progress by weight.",
@@ -1963,7 +1963,7 @@
     "tags": ["programmers"]
   },
   {
-    "body": "I've finally learned what \"upward compatible\" means. It means we get to keep all our old mistakes.",
+    "body": "I've finally learned what &ldquo;upward compatible&rdquo; means. It means we get to keep all our old mistakes.",
     "slug": "ive-finally-learned-what-upward-compatible-means-it-means-we-get-to-keep-all-our-old-mistakes",
     "uuid": "586a09d5a33a",
     "featured": false,
@@ -2134,7 +2134,7 @@
     "authors_bios": [""],
     "tags_uuid": ["f905a965f502", "760446f65360"],
     "tags_slugs": ["pair-programming", "extreme-programming"],
-    "tags": ["\"pair programming\"", "\"extreme programming\""]
+    "tags": ["pair programming", "extreme programming"]
   },
   {
     "body": "The trick is to fix the problem you have, rather than the problem you want.",
@@ -2151,7 +2151,7 @@
     "tags": ["bugs", "complexity"]
   },
   {
-    "body": "So-called \"smart\" software usually is the worst you can imagine.",
+    "body": "So-called &ldquo;smart&rdquo; software usually is the worst you can imagine.",
     "slug": "so-called-smart-software-usually-is-the-worst-you-can-imagine",
     "uuid": "898c3608471d",
     "featured": false,
@@ -2660,7 +2660,7 @@
     "tags": ["users"]
   },
   {
-    "body": "There are only two industries that refer to their customers as \"users\".",
+    "body": "There are only two industries that refer to their customers as &ldquo;users&rdquo;.",
     "slug": "there-are-only-two-industries-that-refer-to-their-customers-as-users",
     "uuid": "fc08b79850c6",
     "featured": false,
@@ -2942,7 +2942,7 @@
     "tags": ["programming"]
   },
   {
-    "body": "That hardly ever happens\" is another way of saying \"it happens\".",
+    "body": "&ldquo;That hardly ever happens&rdquo; is another way of saying &ldquo;it happens&rdquo;.",
     "slug": "that-hardly-ever-happens-is-another-way-of-saying-it-happens",
     "uuid": "7f96137d5951",
     "featured": false,
@@ -3016,7 +3016,7 @@
     "authors_uuid": ["2332b0bec2ae"],
     "authors_bios": [
       "Robert Cecil Martin",
-      " known colloquially as \\Uncle Bob\\",
+      " known colloquially as &ldquo;Uncle Bob&rdquo;",
       " is an American software consultant and author. Martin has been a software professional since 1970 and an international software consultant since 1990. In 2001",
       " he initiated the meeting of the group that created agile software development from extreme programming techniques."
     ],
@@ -3318,7 +3318,7 @@
     "authors_uuid": ["2332b0bec2ae"],
     "authors_bios": [
       "Robert Cecil Martin",
-      " known colloquially as \\Uncle Bob\\",
+      " known colloquially as &ldquo;Uncle Bob&rdquo;",
       " is an American software consultant and author. Martin has been a software professional since 1970 and an international software consultant since 1990. In 2001",
       " he initiated the meeting of the group that created agile software development from extreme programming techniques."
     ],
@@ -3358,7 +3358,7 @@
     ],
     "tags_uuid": ["490b10b26569"],
     "tags_slugs": ["computer-science"],
-    "tags": ["\"computer science\""]
+    "tags": ["computer science"]
   },
   {
     "body": "Just because something is easy to measure doesn't mean it's important.",
@@ -3447,10 +3447,10 @@
     "authors_bios": [""],
     "tags_uuid": ["2a30e3a0c76d"],
     "tags_slugs": ["ruby-on-rails"],
-    "tags": ["\"ruby on rails\""]
+    "tags": ["ruby on rails"]
   },
   {
-    "body": "If McDonald's were run like a software company, one out of every hundred Big Macs would give you food poisoning, and the response would be, \"We're sorry, here is a coupon for two more.",
+    "body": "If McDonald's were run like a software company, one out of every hundred Big Macs would give you food poisoning, and the response would be, &ldquo;We're sorry, here is a coupon for two more&rdquo;.",
     "slug": "if-mcdonalds-were-run-like-a-software-company-one-out-of-every-hundred-big-macs-would-give-you-fo",
     "uuid": "e52b77cae163",
     "featured": false,
@@ -3646,7 +3646,7 @@
     ],
     "tags_uuid": ["bd67f2b3cd5c", "85a5237e6484"],
     "tags_slugs": ["bugs", "open-source"],
-    "tags": ["bugs", "\"open source\""]
+    "tags": ["bugs", "open source"]
   },
   {
     "body": "It's a lot easier to talk about code than it is to write code.",
@@ -3925,7 +3925,7 @@
     "tags": ["complexity"]
   },
   {
-    "body": "It's important to remember that when you start from scratch there is absolutely no reason to believe that you are going to do a better job than you did the first time. First of all, you probably don't even have the same programming team that worked on version one, so you don't actually have \"more experience\". You're just going to make most of the old mistakes again, and introduce some new problems that weren't in the original version.",
+    "body": "It's important to remember that when you start from scratch there is absolutely no reason to believe that you are going to do a better job than you did the first time. First of all, you probably don't even have the same programming team that worked on version one, so you don't actually have &ldquo;more experience&rdquo;. You're just going to make most of the old mistakes again, and introduce some new problems that weren't in the original version.",
     "slug": "its-important-to-remember-that-when-you-start-from-scratch-there-is-absolutely-no-reason-to-believ",
     "uuid": "b9ebe0833814",
     "featured": false,
@@ -4048,7 +4048,7 @@
     "tags": ["data"]
   },
   {
-    "body": "The best reaction to \"this is confusing, where are the docs\" is to rewrite the feature to make it less confusing, not write more docs.",
+    "body": "The best reaction to &ldquo;this is confusing, where are the docs&rdquo; is to rewrite the feature to make it less confusing, not write more docs.",
     "slug": "the-best-reaction-to-this-is-confusing-where-are-the-docs-is-to-rewrite-the-feature-to-make-it-l",
     "uuid": "e63c78fffc10",
     "featured": false,
@@ -4096,7 +4096,7 @@
     "tags": ["productivity"]
   },
   {
-    "body": "And the reason these things take a generation is because ultimately we do not change people's minds. We have to wait for the previous generation to retire or die before we can get critical mass on the next idea. So it's like we look around: \"Are they gone?",
+    "body": "And the reason these things take a generation is because ultimately we do not change people's minds. We have to wait for the previous generation to retire or die before we can get critical mass on the next idea. So it's like we look around: &ldquo;Are they gone?&rdquo;",
     "slug": "and-the-reason-these-things-take-a-generation-is-because-ultimately-we-do-not-change-peoples-minds",
     "uuid": "7889a22833c1",
     "featured": false,
@@ -4545,7 +4545,7 @@
     "tags": ["releasing", "planning", "productivity"]
   },
   {
-    "body": "Software being \"Done\" is like lawn being \"Mowed\".",
+    "body": "Software being &ldquo;Done&rdquo; is like lawn being &ldquo;Mowed&rdquo;.",
     "slug": "software-being-done-is-like-lawn-being-mowed",
     "uuid": "a2f21fd89432",
     "featured": true,
@@ -4601,7 +4601,7 @@
     "tags": ["programmers", "productivity"]
   },
   {
-    "body": "If you say \"I told you so\", you are the one who has failed. Because you knew, but did not manage to stop the train wreck.",
+    "body": "If you say &ldquo;I told you so&rdquo;, you are the one who has failed. Because you knew, but did not manage to stop the train wreck.",
     "slug": "if-you-say-i-told-you-so-you-are-the-one-who-has-failed-because-you-knew-but-did-not-manage-to",
     "uuid": "3f5c2fb98714",
     "featured": false,
@@ -4611,7 +4611,7 @@
     "authors_uuid": ["2332b0bec2ae"],
     "authors_bios": [
       "Robert Cecil Martin",
-      " known colloquially as \\Uncle Bob\\",
+      " known colloquially as &ldquo;Uncle Bob&rdquo;",
       " is an American software consultant and author. Martin has been a software professional since 1970 and an international software consultant since 1990. In 2001",
       " he initiated the meeting of the group that created agile software development from extreme programming techniques."
     ],
@@ -4746,7 +4746,7 @@
     "tags": ["computers"]
   },
   {
-    "body": "Programming is just saying \"I have a meeting in an hour so better not start on this yet\" to yourself until you die.",
+    "body": "Programming is just saying &ldquo;I have a meeting in an hour so better not start on this yet&rdquo; to yourself until you die.",
     "slug": "programming-is-just-saying-i-have-a-meeting-in-an-hour-so-better-not-start-on-this-yet-to-yoursel",
     "uuid": "92889379dfe6",
     "featured": false,
