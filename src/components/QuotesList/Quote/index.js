@@ -3,7 +3,15 @@ import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import slugify from '@sindresorhus/slugify';
 
+import Spinner from '../../Spinner';
+
 import styles from './styles.module.css';
+
+const Placeholder = () => (
+  <div className={classnames(styles.root, styles.loader)}>
+    <Spinner />
+  </div>
+);
 
 const Quote = ({ authors, body, opacity, tags }) => (
   <div
@@ -38,6 +46,8 @@ const Quote = ({ authors, body, opacity, tags }) => (
     </div>
   </div>
 );
+
+Quote.Placeholder = Placeholder;
 
 Quote.propTypes = {
   authors: PropTypes.array.isRequired,

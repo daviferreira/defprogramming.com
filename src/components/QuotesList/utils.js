@@ -3,7 +3,7 @@ import { COLORS } from './constants';
 export const getMostVisible = elements => {
   const viewportHeight = window.innerHeight;
 
-  let mostVisible;
+  let index;
   let max = 0;
   let visibility = 'full';
 
@@ -12,12 +12,12 @@ export const getMostVisible = elements => {
 
     if (visiblePx > max) {
       max = visiblePx;
-      mostVisible = element.getAttribute('data-uuid');
+      index = parseInt(element.getAttribute('data-index'));
       visibility = position;
     }
   });
   return {
-    uuid: mostVisible,
+    index,
     percentage: Math.round((max / viewportHeight) * 100),
     visibility
   };

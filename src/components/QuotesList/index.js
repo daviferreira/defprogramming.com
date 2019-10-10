@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import { useInView } from 'react-intersection-observer';
 
 import Quote from './Quote';
 import ShareBar from '../ShareBar';
@@ -32,12 +33,17 @@ const QuotesList = () => {
     `
   );
 
-  const quotes = edges.map(({ node }) => node);
+  const [quotes, setQuotes] = useState(edges.map(({ node }) => node));
+  const [page, setPage] = useState(2);
+  const [isLoading, setLoading] = useState(false);
+
+  const [ref, inView] = useInView({
+    rootMargin: '1000px'
+  });
 
   const [mostVisible, setMostVisible] = useState({
     color: getColor(0),
     index: 0,
-    uuid: quotes[0].uuid,
     percentage: 100,
     visibility: 'full'
   });
@@ -47,11 +53,9 @@ const QuotesList = () => {
   const handler = () => {
     if (node && node.current) {
       const data = getMostVisible(node.current.children);
-      const index = quotes.findIndex(quote => quote.uuid === data.uuid);
-      const color = getColor(index);
+      const color = getColor(data.index);
 
       setMostVisible({
-        index,
         color,
         ...data
       });
@@ -61,13 +65,36 @@ const QuotesList = () => {
     }
   };
 
-  // FIXME: unmount
   useEffect(() => {
     window.addEventListener('scroll', handler);
+    window.addEventListener('resize', handler);
+
+    return () => {
+      window.removeEventListener('scroll', handler);
+      window.removeEventListener('resize', handler);
+    };
   }, []);
 
   const nextIndex = mostVisible.index + 1;
   const previousIndex = mostVisible.index - 1;
+
+  if (page && inView && !isLoading) {
+    setLoading(true);
+
+    return fetch(`/pages/${page}.json`)
+      .then(result => result.json())
+      .then(({ items, nextPage }) => {
+        setPage(nextPage);
+
+        return setQuotes(quotes.concat(items));
+      })
+      .catch(err => {
+        throw err;
+      })
+      .finally(() => {
+        setLoading(false);
+      });
+  }
 
   return (
     <>
@@ -77,6 +104,16 @@ const QuotesList = () => {
           const isMostVisible = index === mostVisible.index;
           const isNext = index === nextIndex;
           const isPrevious = index === previousIndex;
+
+          if (!isMostVisible && !isNext && !isPrevious) {
+            return (
+              <div
+                className={styles.quote}
+                data-index={index}
+                key={quote.uuid}
+              />
+            );
+          }
 
           const backgroundColor = isMostVisible
             ? mostVisible.color
@@ -114,7 +151,7 @@ const QuotesList = () => {
           return (
             <div
               className={styles.quote}
-              data-uuid={quote.uuid}
+              data-index={index}
               key={quote.uuid}
               style={{
                 backgroundColor,
@@ -127,6 +164,18 @@ const QuotesList = () => {
             </div>
           );
         })}
+        {(isLoading || page) && (
+          <div
+            className={styles.quote}
+            data-index={quotes.length}
+            ref={ref}
+            style={{
+              backgroundColor: getColor(quotes.length)
+            }}
+          >
+            <Quote.Placeholder />
+          </div>
+        )}
       </div>
     </>
   );

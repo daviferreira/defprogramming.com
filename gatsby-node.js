@@ -57,15 +57,18 @@ exports.createPages = ({ graphql, actions }) => {
 
       /* Create normal pages (for pagination) and corresponding JSON (for infinite scroll). */
       createJSON(pageData);
-      createPage(pageData);
+      // createPage(pageData);
     }
 
     console.log(`\nCreated ${totalPages} pages of paginated content.`);
   });
 };
 
-function createJSON(pageData) {
-  const pathSuffix = pageData.path.substring(1);
+function createJSON({
+  context: { pageQuotes, currentPage, totalPages },
+  path
+}) {
+  const pathSuffix = path.substring(1);
   const dir = 'public/pages/';
 
   if (!fs.existsSync(dir)) {
@@ -73,7 +76,10 @@ function createJSON(pageData) {
   }
 
   const filePath = `${dir}${pathSuffix}.json`;
-  const dataToSave = JSON.stringify(pageData.context.pageQuotes);
+  const dataToSave = JSON.stringify({
+    nextPage: currentPage < totalPages && currentPage + 1,
+    items: pageQuotes
+  });
 
   fs.writeFile(filePath, dataToSave, function(err) {
     if (err) {
