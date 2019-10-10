@@ -13,9 +13,9 @@ const QuotesList = () => {
     allQuotesJson: { edges }
   } = useStaticQuery(
     graphql`
-      query {
+      query quotesListQuery {
         allQuotesJson(
-          limit: 22
+          limit: 20
           sort: { fields: [publish_date], order: [DESC] }
         ) {
           totalCount
