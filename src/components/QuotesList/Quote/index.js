@@ -1,5 +1,5 @@
 import classnames from 'classnames';
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import slugify from '@sindresorhus/slugify';
 
@@ -18,18 +18,20 @@ const Quote = ({ authors, body, opacity, tags }) => (
     />
     <div className={styles.meta}>
       <span className={styles.item}>
-        {authors.map(author => (
-          <a href={`/quotes-by/${slugify(author)}/`} key={author}>
-            {author}
-          </a>
+        {authors.map((author, index) => (
+          <Fragment key={author}>
+            <a href={`/quotes-by/${slugify(author)}/`}>{author}</a>
+            {index < authors.length - 1 && <span>&bull;</span>}
+          </Fragment>
         ))}
       </span>
       <span className={classnames(styles.item, styles.tags)}>
         [
-        {tags.map(tag => (
-          <a href={`/quotes-tagged-with/${slugify(tag)}/`} key={tag}>
-            {tag}
-          </a>
+        {tags.map((tag, index) => (
+          <Fragment key={tag}>
+            <a href={`/quotes-tagged-with/${slugify(tag)}/`}>{tag}</a>
+            {index < tags.length - 1 && <span>&bull;</span>}
+          </Fragment>
         ))}
         ]
       </span>
