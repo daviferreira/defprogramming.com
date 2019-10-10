@@ -5,7 +5,17 @@ import slugify from '@sindresorhus/slugify';
 
 import Spinner from '../../Spinner';
 
+import AuthorsIcon from '../../../images/authors.svg';
+import TagsIcon from '../../../images/tags.svg';
+
 import styles from './styles.module.css';
+
+const iconProps = {
+  className: styles.icon,
+  fill: '#fff',
+  height: 14,
+  width: 14
+};
 
 const Placeholder = () => (
   <div className={classnames(styles.root, styles.loader)}>
@@ -26,6 +36,7 @@ const Quote = ({ authors, body, opacity, tags }) => (
     />
     <div className={styles.meta}>
       <span className={styles.item}>
+        <AuthorsIcon {...iconProps} alt="Authors" />
         {authors.map((author, index) => (
           <Fragment key={author}>
             <a href={`/quotes-by/${slugify(author)}/`}>{author}</a>
@@ -34,14 +45,13 @@ const Quote = ({ authors, body, opacity, tags }) => (
         ))}
       </span>
       <span className={classnames(styles.item, styles.tags)}>
-        [
+        <TagsIcon {...iconProps} alt="Tags" />
         {tags.map((tag, index) => (
           <Fragment key={tag}>
             <a href={`/quotes-tagged-with/${slugify(tag)}/`}>{tag}</a>
             {index < tags.length - 1 && <span>&bull;</span>}
           </Fragment>
         ))}
-        ]
       </span>
     </div>
   </div>

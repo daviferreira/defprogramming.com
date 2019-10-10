@@ -67,7 +67,6 @@
 
 .menu {
   background: #fff;
-  border-right: 1px solid #ccc;
   display: flex;
   flex-direction: column;
   height: 100vh;
