@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { useInView } from 'react-intersection-observer';
 
+import Menu from '../Menu';
 import Quote from './Quote';
 import ShareBar from '../ShareBar';
 
@@ -98,6 +99,7 @@ const QuotesList = () => {
 
   return (
     <>
+      <Menu color={mostVisible.color} />
       <ShareBar />
       <div className={styles.root} ref={node}>
         {quotes.map((quote, index) => {

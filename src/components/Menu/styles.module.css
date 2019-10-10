@@ -1,0 +1,124 @@
+.root {
+  height: 0;
+}
+
+.toggler {
+  display: block;
+  z-index: 1;
+}
+
+.toggler,
+.toggler input {
+  left: 30px;
+  position: fixed;
+  top: 30px;
+  user-select: none;
+}
+
+.toggler input {
+  cursor: pointer;
+  display: block;
+  height: 32px;
+  opacity: 0;
+  width: 40px;
+  z-index: 2;
+}
+
+.toggler span {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 3px;
+  display: block;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  width: 33px;
+  z-index: 1;
+}
+
+.toggler span:first-child {
+  transform-origin: 0% 0%;
+}
+
+.toggler span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+.toggler input:checked ~ span {
+  background: #252525;
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+}
+
+.toggler input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+.toggler input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+.menu {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  left: 0;
+  list-style-type: none;
+  margin: 0;
+  max-width: 300px;
+  padding: 120px 30px 30px;
+  position: fixed;
+  top: 0;
+  transform: translate(-100%, 0);
+  transform-origin: 0% 0%;
+  transition: transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1);
+  width: 100vw;
+}
+
+.menu li {
+  font-size: 22px;
+  padding: 10px 0;
+}
+
+.toggler input:checked ~ ul {
+  transform: none;
+}
+
+.item {
+  font-weight: 600;
+}
+
+.menu li.footer {
+  color: #666;
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  font-size: 13px;
+  justify-content: flex-end;
+  margin-bottom: 0;
+}
+
+.menu li.footer a {
+  color: #252525;
+}
+
+.menu li.footer div:last-child {
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .toggler,
+  .toggler input {
+    left: 15px;
+    top: 15px;
+  }
+
+  .menu {
+    max-width: 100%;
+    padding: 100px 15px 15px;
+  }
+}
