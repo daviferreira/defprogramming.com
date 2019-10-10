@@ -21,3 +21,12 @@
   width: 100%;
   z-index: 1;
 }
+
+.count {
+  color: #fff;
+  font-size: 13px;
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  z-index: 2;
+}

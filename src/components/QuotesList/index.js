@@ -12,7 +12,7 @@ import styles from './styles.module.css';
 
 const QuotesList = () => {
   const {
-    allQuotesJson: { edges }
+    allQuotesJson: { edges, totalCount }
   } = useStaticQuery(
     graphql`
       query quotesListQuery {
@@ -101,6 +101,9 @@ const QuotesList = () => {
     <>
       <Menu color={mostVisible.color} />
       <ShareBar />
+      <div className={styles.count}>
+        {mostVisible.index + 1}/{totalCount}
+      </div>
       <div className={styles.root} ref={node}>
         {quotes.map((quote, index) => {
           const isMostVisible = index === mostVisible.index;
