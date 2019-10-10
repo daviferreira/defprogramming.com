@@ -17,6 +17,7 @@
     "gatsby-source-filesystem": "^2.1.29",
     "gatsby-transformer-json": "^2.2.12",
     "gatsby-transformer-sharp": "^2.2.20",
+    "lodash.sample": "^4.2.1",
     "nice-color-palettes": "^3.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
