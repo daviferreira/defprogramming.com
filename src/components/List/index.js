@@ -9,10 +9,16 @@ Item.propTypes = {
   children: PropTypes.node
 };
 
-const List = ({ children }) => <ul className={styles.root}>{children}</ul>;
+const List = ({ children, title }) => (
+  <div className={styles.root}>
+    <h2 className={styles.title}>{title}</h2>
+    <ul className={styles.list}>{children}</ul>
+  </div>
+);
 
 List.propTypes = {
-  children: PropTypes.node
+  children: PropTypes.node,
+  title: PropTypes.string
 };
 
 List.Item = Item;

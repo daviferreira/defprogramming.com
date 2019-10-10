@@ -1,3 +1,4 @@
+import groupBy from 'lodash.groupby';
 import React from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 
@@ -23,18 +24,21 @@ const TagsList = () => {
     `
   );
 
-  const tags = edges.map(({ node }) => node);
-  console.log(tags);
+  const groups = groupBy(edges.map(({ node }) => node), item =>
+    item.name[0].toUpperCase()
+  );
 
   return (
     <Container title="Quotes by tag">
-      <List>
-        {tags.map(({ name, slug }) => (
-          <List.Item key={slug}>
-            <Link to={`/quotes-tagged-with/${slug}/`}>{name}</Link>
-          </List.Item>
-        ))}
-      </List>
+      {Object.keys(groups).map(letter => (
+        <List key={letter} title={letter}>
+          {groups[letter].map(({ name, slug }) => (
+            <List.Item key={slug}>
+              <Link to={`/quotes-tagged-with/${slug}/`}>{name}</Link>
+            </List.Item>
+          ))}
+        </List>
+      ))}
     </Container>
   );
 };

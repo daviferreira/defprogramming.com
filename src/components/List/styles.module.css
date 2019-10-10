@@ -1,4 +1,14 @@
 .root {
+  margin-bottom: 40px;
+}
+
+.title {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.list {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
