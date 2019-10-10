@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 const Quote = ({ authors, body, opacity, tags }) => (
   <div
     className={classnames(styles.root, {
-      [styles.largeText]: body.length > 220
+      [styles.largeText]: body.length > 230
     })}
     style={{ opacity }}
   >
