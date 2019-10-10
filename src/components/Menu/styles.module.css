@@ -38,6 +38,10 @@
   z-index: 1;
 }
 
+.dark .toggler span {
+  background: #252525;
+}
+
 .toggler span:first-child {
   transform-origin: 0% 0%;
 }
@@ -63,6 +67,7 @@
 
 .menu {
   background: #fff;
+  border-right: 1px solid #ccc;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -108,7 +113,7 @@
   margin-bottom: 0;
 }
 
-.menu li.footer a {
+.menu li a {
   color: #252525;
 }
 
@@ -119,12 +124,12 @@
 @media screen and (max-width: 767px) {
   .toggler,
   .toggler input {
-    left: 15px;
-    top: 15px;
+    left: 20px;
+    top: 20px;
   }
 
   .menu {
     max-width: 100%;
-    padding: 100px 15px 15px;
+    padding: 100px 20px 20px;
   }
 }

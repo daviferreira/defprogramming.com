@@ -1,16 +1,22 @@
+import classnames from 'classnames';
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 
 import styles from './styles.module.css';
 
-const Menu = ({ color }) => {
+const Menu = ({ color, dark }) => {
   const [checked, setChecked] = useState(false);
   const style = checked ? { backgroundColor: color } : undefined;
   const linkStyle = { color };
 
   return (
-    <nav role="navigation" className={styles.root}>
+    <nav
+      role="navigation"
+      className={classnames(styles.root, {
+        [styles.dark]: dark
+      })}
+    >
       <div className={styles.toggler}>
         <input
           aria-hidden="true"
@@ -91,7 +97,8 @@ const Menu = ({ color }) => {
 };
 
 Menu.propTypes = {
-  color: PropTypes.string
+  color: PropTypes.string,
+  dark: PropTypes.bool
 };
 
 export default Menu;
