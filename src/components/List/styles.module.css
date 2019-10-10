@@ -3,9 +3,14 @@
 }
 
 .title {
+  background-color: #101851;
   color: rgba(255, 255, 255, 0.3);
   font-size: 40px;
   font-weight: 800;
+  margin: 0 0 10px;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
 }
 
 .list {
