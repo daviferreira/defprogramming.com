@@ -12,7 +12,11 @@ const Menu = ({ color }) => {
   return (
     <nav role="navigation" className={styles.root}>
       <div className={styles.toggler}>
-        <input type="checkbox" onChange={() => setChecked(!checked)} />
+        <input
+          aria-hidden="true"
+          type="checkbox"
+          onChange={() => setChecked(!checked)}
+        />
 
         <span style={style} />
         <span style={style} />
@@ -20,22 +24,42 @@ const Menu = ({ color }) => {
 
         <ul className={styles.menu}>
           <li>
-            <Link className={styles.item} to="/" style={linkStyle}>
+            <Link
+              className={styles.item}
+              to="/"
+              style={linkStyle}
+              tutle="Home page"
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link className={styles.item} to="/random/" style={linkStyle}>
+            <Link
+              className={styles.item}
+              to="/random/"
+              style={linkStyle}
+              title="Random quote"
+            >
               Random
             </Link>
           </li>
           <li>
-            <Link className={styles.item} to="/authors/" style={linkStyle}>
+            <Link
+              className={styles.item}
+              to="/authors/"
+              style={linkStyle}
+              title="Authors list"
+            >
               Authors
             </Link>
           </li>
           <li>
-            <Link className={styles.item} to="/tags/" style={linkStyle}>
+            <Link
+              className={styles.item}
+              to="/tags/"
+              style={linkStyle}
+              title="Tags list"
+            >
               Tags
             </Link>
           </li>

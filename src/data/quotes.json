@@ -3140,7 +3140,7 @@
     "uuid": "ade82b8cff43",
     "featured": true,
     "publish_date": "2015-10-31 08:16:46",
-    "authors": [" Derek Powazek"],
+    "authors": ["Derek Powazek"],
     "authors_uuid": ["9d8723deb1c7"],
     "tags_uuid": ["fc973eebe544", "b5cf00a461cc"],
     "tags": ["specification", "creativity"]
