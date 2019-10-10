@@ -81,11 +81,17 @@
 
 .menu li {
   font-size: 22px;
+  opacity: 0;
   padding: 10px 0;
+  transition: opacity 0.3s ease-in;
 }
 
 .toggler input:checked ~ ul {
   transform: none;
+}
+
+.toggler input:checked ~ ul li {
+  opacity: 1;
 }
 
 .item {
