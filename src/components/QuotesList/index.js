@@ -97,10 +97,19 @@ const QuotesList = () => {
       });
   }
 
+  const currentQuote = quotes[mostVisible.index];
+
   return (
     <>
       <Menu color={mostVisible.color} />
-      <ShareBar />
+      <ShareBar
+        text={currentQuote ? currentQuote.body : undefined}
+        url={
+          currentQuote
+            ? `https://www.defprogramming.com/q/${currentQuote.uuid}/`
+            : undefined
+        }
+      />
       <div className={styles.count}>
         {mostVisible.index + 1}/{totalCount}
       </div>

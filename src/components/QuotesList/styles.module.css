@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+.content {
+  flex: 1;
+}
+
 .quote {
   align-items: center;
   background-color: #021626;
@@ -24,7 +28,8 @@
 
 .count {
   color: #fff;
-  font-size: 13px;
+  font-size: 12px;
+  opacity: 0.5;
   position: fixed;
   right: 30px;
   top: 30px;
