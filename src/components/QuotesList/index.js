@@ -36,7 +36,6 @@ const QuotesList = () => {
 
   const [quotes, setQuotes] = useState(edges.map(({ node }) => node));
   const [page, setPage] = useState(2);
-  const [isLoading, setLoading] = useState(false);
 
   const [mostVisible, setMostVisible] = useState({
     color: getColor(0),
@@ -76,11 +75,9 @@ const QuotesList = () => {
   const previousIndex = mostVisible.index - 1;
 
   const handleLoadNext = async inView => {
-    if (!inView || !page || isLoading) {
+    if (!inView) {
       return;
     }
-
-    setLoading(true);
 
     try {
       const result = await fetch(`/pages/${page}.json`);
@@ -90,11 +87,18 @@ const QuotesList = () => {
       setPage(nextPage);
 
       setQuotes(quotes.concat(items));
+
+      if (
+        window.pageYOffset + window.innerHeight >=
+        document.body.clientHeight
+      ) {
+        document
+          .querySelector(`[data-index="${quotes.length}"]`)
+          .scrollIntoView();
+      }
     } catch (err) {
       throw err;
     }
-
-    setLoading(false);
   };
 
   const currentQuote = quotes[mostVisible.index];
@@ -111,7 +115,7 @@ const QuotesList = () => {
         }
       />
       <div className={styles.count}>
-        {mostVisible.index || quotes.length}/{totalCount}
+        {mostVisible.index + 1}/{totalCount}
       </div>
       <div className={styles.root} ref={node}>
         {quotes.map((quote, index) => {
@@ -178,11 +182,14 @@ const QuotesList = () => {
             </div>
           );
         })}
-        {(isLoading || !!page) && (
-          <InView onChange={handleLoadNext} rootMargin="600px">
+        {!!page && (
+          <InView
+            data-index={quotes.length}
+            onChange={handleLoadNext}
+            rootMargin="600px"
+          >
             <div
               className={styles.quote}
-              data-index={quotes.length}
               style={{
                 backgroundColor: getColor(quotes.length)
               }}
