@@ -1,0 +1,31 @@
+.root {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 3px;
+  bottom: 30px;
+  color: #252525;
+  display: flex;
+  font-size: 12px;
+  left: 30px;
+  line-height: 1;
+  padding: 5px 10px;
+  position: fixed;
+  text-decoration: none;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.root.hasClear {
+  padding-right: 25px;
+}
+
+.clear {
+  color: #252525;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 300;
+  position: absolute;
+  right: 5px;
+  text-decoration: none;
+  top: 1px;
+}

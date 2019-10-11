@@ -3,15 +3,34 @@ import PropTypes from 'prop-types';
 
 import { InView } from 'react-intersection-observer';
 
+import Breadcrumb from '../Breadcrumb';
 import Menu from '../Menu';
 import Quote from './Quote';
 import ShareBar from '../ShareBar';
 
 import { getColor, getMostVisible, hexToRgb } from './utils';
 
+import AuthorsIcon from '../../images/authors.svg';
+import TagsIcon from '../../images/tags.svg';
+
 import styles from './styles.module.css';
 
-const List = ({ colorIndex, onLoadMore, page, quotes, totalCount, type }) => {
+const iconProps = {
+  className: styles.icon,
+  fill: '#252525',
+  height: 14,
+  width: 14
+};
+
+const List = ({
+  colorIndex,
+  onLoadMore,
+  page,
+  pageContext,
+  quotes,
+  totalCount,
+  type
+}) => {
   const [mostVisible, setMostVisible] = useState({
     color: getColor(colorIndex || 0),
     index: 0,
@@ -64,10 +83,29 @@ const List = ({ colorIndex, onLoadMore, page, quotes, totalCount, type }) => {
             : undefined
         }
       />
-      {totalCount && (
+      {totalCount > 1 && (
         <div className={styles.count}>
           {mostVisible.index + 1}/{totalCount}
         </div>
+      )}
+      {type && (
+        <Breadcrumb
+          clear={type !== 'quote'}
+          title={
+            type === 'tag' ? (
+              <span className={styles.breadcrumbLabel}>
+                <TagsIcon {...iconProps} /> {pageContext.name}
+              </span>
+            ) : type === 'author' ? (
+              <span className={styles.breadcrumbLabel}>
+                <AuthorsIcon {...iconProps} /> {pageContext.name}
+              </span>
+            ) : (
+              'Back to quotes'
+            )
+          }
+          to="/"
+        />
       )}
       <div className={styles.root} ref={node}>
         {quotes.map((quote, index) => {
@@ -168,6 +206,10 @@ List.propTypes = {
   quotes: PropTypes.array.isRequired,
   totalCount: PropTypes.number,
   type: PropTypes.oneOf(['author', 'quote', 'tag'])
+};
+
+List.defaultProps = {
+  totalCount: 0
 };
 
 export default List;

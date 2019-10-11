@@ -35,3 +35,13 @@
   top: 30px;
   z-index: 2;
 }
+
+.breadcrumbLabel {
+  align-items: center;
+  display: flex;
+  line-height: 1;
+}
+
+.icon {
+  margin-right: 5px;
+}

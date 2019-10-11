@@ -4,7 +4,7 @@
 
 .toggler {
   display: block;
-  z-index: 1;
+  z-index: 100;
 }
 
 .toggler,
@@ -21,7 +21,7 @@
   height: 32px;
   opacity: 0;
   width: 40px;
-  z-index: 2;
+  z-index: 200;
 }
 
 .toggler span {
@@ -35,7 +35,7 @@
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
     background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
   width: 33px;
-  z-index: 1;
+  z-index: 100;
 }
 
 .dark .toggler span {
