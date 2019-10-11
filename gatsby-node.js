@@ -107,6 +107,30 @@ function createTagPages(quotes, { graphql, createPage }) {
   });
 }
 
+function createQuotePages(quotes, { createPage }) {
+  const component = path.resolve(`src/templates/quote.js`);
+
+  let index = 0;
+  quotes.forEach(quote => {
+    const { body, uuid } = quote;
+
+    const pageData = {
+      path: `/q/${uuid}/`,
+      component,
+      context: {
+        quotes: [quote],
+        body,
+        index
+      }
+    };
+
+    createPage(pageData);
+
+    console.log(`\nCreated ${uuid} quote page.`);
+    index++;
+  });
+}
+
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
 
@@ -134,9 +158,10 @@ exports.createPages = ({ graphql, actions }) => {
     const quotes = result.data.allQuotesJson.edges.map(({ node }) => node);
 
     createQuotesPagination(quotes);
-    return createAuthorPages(quotes, { graphql, createPage }).then(() =>
-      createTagPages(quotes, { graphql, createPage })
-    );
+
+    return createAuthorPages(quotes, { graphql, createPage })
+      .then(() => createTagPages(quotes, { graphql, createPage }))
+      .then(() => createQuotePages(quotes, { createPage }));
   });
 };
 

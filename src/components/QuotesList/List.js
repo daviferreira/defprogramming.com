@@ -11,9 +11,9 @@ import { getColor, getMostVisible, hexToRgb } from './utils';
 
 import styles from './styles.module.css';
 
-const List = ({ onLoadMore, page, pageContext, quotes, totalCount, type }) => {
+const List = ({ colorIndex, onLoadMore, page, quotes, totalCount, type }) => {
   const [mostVisible, setMostVisible] = useState({
-    color: getColor(0),
+    color: getColor(colorIndex || 0),
     index: 0,
     percentage: 100,
     visibility: 'full'
@@ -24,7 +24,7 @@ const List = ({ onLoadMore, page, pageContext, quotes, totalCount, type }) => {
   const handler = () => {
     if (node && node.current) {
       const data = getMostVisible(node.current.children);
-      const color = getColor(data.index);
+      const color = getColor(colorIndex || data.index);
 
       setMostVisible({
         color,
@@ -37,6 +37,8 @@ const List = ({ onLoadMore, page, pageContext, quotes, totalCount, type }) => {
   };
 
   useEffect(() => {
+    handler();
+
     window.addEventListener('scroll', handler);
     window.addEventListener('resize', handler);
 
@@ -62,9 +64,11 @@ const List = ({ onLoadMore, page, pageContext, quotes, totalCount, type }) => {
             : undefined
         }
       />
-      <div className={styles.count}>
-        {mostVisible.index + 1}/{totalCount}
-      </div>
+      {totalCount && (
+        <div className={styles.count}>
+          {mostVisible.index + 1}/{totalCount}
+        </div>
+      )}
       <div className={styles.root} ref={node}>
         {quotes.map((quote, index) => {
           const isMostVisible = index === mostVisible.index;
@@ -157,12 +161,13 @@ const List = ({ onLoadMore, page, pageContext, quotes, totalCount, type }) => {
 };
 
 List.propTypes = {
+  colorIndex: PropTypes.number,
   onLoadMore: PropTypes.func,
   page: PropTypes.number,
   pageContext: PropTypes.object,
   quotes: PropTypes.array.isRequired,
   totalCount: PropTypes.number,
-  type: PropTypes.oneOf(['author', 'tag'])
+  type: PropTypes.oneOf(['author', 'quote', 'tag'])
 };
 
 export default List;
