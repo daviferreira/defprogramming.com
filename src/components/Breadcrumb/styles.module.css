@@ -1,5 +1,8 @@
 .root {
   align-items: center;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
   background-color: #fff;
   border-radius: 3px;
   bottom: 30px;
@@ -8,6 +11,7 @@
   font-size: 12px;
   left: 30px;
   line-height: 1;
+  opacity: 0;
   padding: 5px 10px;
   position: fixed;
   text-decoration: none;
@@ -28,4 +32,15 @@
   right: 5px;
   text-decoration: none;
   top: 1px;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
