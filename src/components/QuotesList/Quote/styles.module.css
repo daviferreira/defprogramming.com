@@ -61,7 +61,7 @@
   margin-right: 0;
 }
 
-.tags {
+.item:last-child:not(:first-child) {
   margin-left: 15px;
   padding-left: 0;
 }

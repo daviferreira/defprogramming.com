@@ -1,10 +1,115 @@
 const path = require(`path`);
 const fs = require('fs');
 
+function createQuotesPagination(quotes) {
+  const perPage = 20;
+  const totalPages = Math.ceil(quotes.length / perPage);
+
+  for (var currentPage = 1; currentPage <= totalPages; currentPage += 1) {
+    const pathSuffix = currentPage > 1 ? currentPage : '';
+
+    const start = perPage * (currentPage - 1);
+    const end = start + perPage;
+    const pageQuotes = quotes.slice(start, end);
+
+    const pageData = {
+      path: `/${pathSuffix}`,
+      context: {
+        pageQuotes,
+        currentPage,
+        totalPages
+      }
+    };
+
+    createJSON(pageData);
+  }
+
+  console.log(`\nCreated ${totalPages} pages of paginated content.`);
+}
+
+function createAuthorPages(quotes, { graphql, createPage }) {
+  const component = path.resolve(`src/templates/author.js`);
+
+  return graphql(`
+    query authorsListQuery {
+      allAuthorsJson {
+        totalCount
+        edges {
+          node {
+            uuid
+            name
+            slug
+          }
+        }
+      }
+    }
+  `).then(result => {
+    if (result.errors) {
+      throw result.errors;
+    }
+
+    const authors = result.data.allAuthorsJson.edges.map(({ node }) => node);
+
+    authors.forEach(({ name, slug, uuid }) => {
+      const pageData = {
+        path: `/quotes-by/${slug}/`,
+        component,
+        context: {
+          quotes: quotes.filter(quote => quote.authors_uuid.includes(uuid)),
+          name,
+          slug
+        }
+      };
+
+      createPage(pageData);
+      console.log(`\nCreated ${slug} author page.`);
+    });
+  });
+}
+
+function createTagPages(quotes, { graphql, createPage }) {
+  const component = path.resolve(`src/templates/tag.js`);
+
+  return graphql(`
+    query tagsListQuery {
+      allTagsJson {
+        totalCount
+        edges {
+          node {
+            uuid
+            name
+            slug
+          }
+        }
+      }
+    }
+  `).then(result => {
+    if (result.errors) {
+      throw result.errors;
+    }
+
+    const tags = result.data.allTagsJson.edges.map(({ node }) => node);
+
+    tags.forEach(({ name, slug, uuid }) => {
+      const pageData = {
+        path: `/quotes-tagged-with/${slug}/`,
+        component,
+        context: {
+          quotes: quotes.filter(quote => quote.tags_uuid.includes(uuid)),
+          name,
+          slug
+        }
+      };
+
+      createPage(pageData);
+      console.log(`\nCreated ${slug} tag page.`);
+    });
+  });
+}
+
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
 
-  /* In production you should fetch your quotes with GraphQL like this: */
   return graphql(`
     query quotesListQuery {
       allQuotesJson(sort: { fields: [publish_date], order: [DESC] }) {
@@ -14,7 +119,9 @@ exports.createPages = ({ graphql, actions }) => {
             uuid
             body
             authors
+            authors_uuid
             tags
+            tags_uuid
           }
         }
       }
@@ -26,41 +133,10 @@ exports.createPages = ({ graphql, actions }) => {
 
     const quotes = result.data.allQuotesJson.edges.map(({ node }) => node);
 
-    const component = path.resolve(`src/templates/paginated-page.js`);
-
-    /* Iterate needed pages and create them. */
-    const perPage = 20;
-    const totalPages = Math.ceil(quotes.length / perPage);
-
-    for (var currentPage = 1; currentPage <= totalPages; currentPage += 1) {
-      const pathSuffix =
-        currentPage > 1
-          ? currentPage
-          : ''; /* To create paths "/", "/2", "/3", ... */
-
-      /* Collect quotes needed for this page. */
-      const start = perPage * (currentPage - 1);
-      const end = start + perPage;
-      const pageQuotes = quotes.slice(start, end);
-
-      /* Combine all data needed to construct this page. */
-      const pageData = {
-        path: `/${pathSuffix}`,
-        component,
-        context: {
-          /* If you need to pass additional data, you can pass it inside this context object. */
-          pageQuotes,
-          currentPage,
-          totalPages
-        }
-      };
-
-      /* Create normal pages (for pagination) and corresponding JSON (for infinite scroll). */
-      createJSON(pageData);
-      // createPage(pageData);
-    }
-
-    console.log(`\nCreated ${totalPages} pages of paginated content.`);
+    createQuotesPagination(quotes);
+    return createAuthorPages(quotes, { graphql, createPage }).then(() =>
+      createTagPages(quotes, { graphql, createPage })
+    );
   });
 };
 
