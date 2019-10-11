@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { useInView } from 'react-intersection-observer';
+import { InView } from 'react-intersection-observer';
 
 import Menu from '../Menu';
 import Quote from './Quote';
@@ -37,10 +37,6 @@ const QuotesList = () => {
   const [quotes, setQuotes] = useState(edges.map(({ node }) => node));
   const [page, setPage] = useState(2);
   const [isLoading, setLoading] = useState(false);
-
-  const [ref, inView] = useInView({
-    rootMargin: '1000px'
-  });
 
   const [mostVisible, setMostVisible] = useState({
     color: getColor(0),
@@ -79,23 +75,27 @@ const QuotesList = () => {
   const nextIndex = mostVisible.index + 1;
   const previousIndex = mostVisible.index - 1;
 
-  if (page && inView && !isLoading) {
+  const handleLoadNext = async inView => {
+    if (!inView || !page || isLoading) {
+      return;
+    }
+
     setLoading(true);
 
-    return fetch(`/pages/${page}.json`)
-      .then(result => result.json())
-      .then(({ items, nextPage }) => {
-        setPage(nextPage);
+    try {
+      const result = await fetch(`/pages/${page}.json`);
 
-        return setQuotes(quotes.concat(items));
-      })
-      .catch(err => {
-        throw err;
-      })
-      .finally(() => {
-        setLoading(false);
-      });
-  }
+      const { items, nextPage } = await result.json();
+
+      setPage(nextPage);
+
+      setQuotes(quotes.concat(items));
+    } catch (err) {
+      throw err;
+    }
+
+    setLoading(false);
+  };
 
   const currentQuote = quotes[mostVisible.index];
 
@@ -111,7 +111,7 @@ const QuotesList = () => {
         }
       />
       <div className={styles.count}>
-        {mostVisible.index + 1}/{totalCount}
+        {mostVisible.index || quotes.length}/{totalCount}
       </div>
       <div className={styles.root} ref={node}>
         {quotes.map((quote, index) => {
@@ -178,17 +178,18 @@ const QuotesList = () => {
             </div>
           );
         })}
-        {(isLoading || page) && (
-          <div
-            className={styles.quote}
-            data-index={quotes.length}
-            ref={ref}
-            style={{
-              backgroundColor: getColor(quotes.length)
-            }}
-          >
-            <Quote.Placeholder />
-          </div>
+        {(isLoading || !!page) && (
+          <InView onChange={handleLoadNext} rootMargin="600px">
+            <div
+              className={styles.quote}
+              data-index={quotes.length}
+              style={{
+                backgroundColor: getColor(quotes.length)
+              }}
+            >
+              <Quote.Placeholder />
+            </div>
+          </InView>
         )}
       </div>
     </>

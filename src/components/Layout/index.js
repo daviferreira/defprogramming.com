@@ -1,18 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 
 import Menu from '../Menu';
 
 import './styles.css';
 
-const Layout = ({ children, internal }) => (
-  <>
-    {internal && <Menu />}
-    <main style={internal ? { backgroundColor: '#101851' } : undefined}>
-      {children}
-    </main>
-  </>
-);
+const Layout = ({ children, internal }) => {
+  useEffect(() => {
+    if (internal) {
+      document.body.style.backgroundColor = '#101851';
+    }
+  }, []);
+
+  return (
+    <>
+      {internal && <Menu />}
+      <main>{children}</main>
+    </>
+  );
+};
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
