@@ -2896,5 +2896,14 @@
     "authors": ["Jeremy Keith"],
     "tags_uuid": ["4cf901231140", "15ddd6ce025e"],
     "tags": ["java", "javascript"]
+  },
+  {
+    "uuid": "g56YHqRC4QHrStutad9UcZ",
+    "body": "I think it's very important to get more women into computing. My slogan is: Computing is too important to be left to men.",
+    "publish_date": "2019-10-17 21:12:34",
+    "authors_uuid": ["kuE5NJpZHXtF3awKeZXEGf"],
+    "authors": ["Karen Spärck Jones"],
+    "tags_uuid": ["covLwJo7ZbTWuJYVzsT8WS"],
+    "tags": ["diversity"]
   }
 ]

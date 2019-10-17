@@ -95,5 +95,6 @@
     "uuid": "d5bb6708fa41"
   },
   { "name": "xml", "slug": "xml", "uuid": "4a2e5d5f57fe" },
-  { "name": "quality", "slug": "quality", "uuid": "8XDhVLMam82MZgdTLfAwXs" }
+  { "name": "quality", "slug": "quality", "uuid": "8XDhVLMam82MZgdTLfAwXs" },
+  { "name": "diversity", "slug": "diversity", "uuid": "covLwJo7ZbTWuJYVzsT8WS" }
 ]
