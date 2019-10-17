@@ -31,6 +31,14 @@ const ShareBar = ({ text, url = 'https://www.defprogramming.com' }) => {
     };
   }, [url]);
 
+  let decodedText = text;
+
+  try {
+    decodedText = he.decode(text);
+  } catch (err) {
+    //noop
+  }
+
   return (
     <div className={styles.root}>
       <a
@@ -44,9 +52,7 @@ const ShareBar = ({ text, url = 'https://www.defprogramming.com' }) => {
       </a>
       <a
         className={styles.button}
-        href={`https://twitter.com/share?text=${he.decode(
-          text
-        )}&url=${url}&hashtags=dev`}
+        href={`https://twitter.com/share?text=${decodedText}&url=${url}&hashtags=dev`}
         rel="noopener noreferrer"
         target="_blank"
         title="Share on twitter"

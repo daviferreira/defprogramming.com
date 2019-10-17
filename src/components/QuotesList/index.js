@@ -62,7 +62,7 @@ const QuotesList = () => {
   return (
     <List
       onLoadMore={handleLoadNext}
-      page={page}
+      page={page ? page : undefined}
       quotes={quotes}
       totalCount={totalCount}
     />
