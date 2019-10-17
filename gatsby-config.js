@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `def programming`,
-    description: `Quotes about programming, coding, computer science, debugging, software industry, startups and motivation.`,
-    author: `@davitferreira`
+    description: `Quotes about programming, coding, computer science, debugging, software industry, startups and motivation. Programming wisdom.`,
+    author: `@davitferreira`,
+    siteUrl: 'https://www.defprogramming.com'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -38,6 +39,7 @@ module.exports = {
         path: `${__dirname}/src/data/`
       }
     },
-    `gatsby-plugin-react-svg`
+    `gatsby-plugin-react-svg`,
+    `gatsby-plugin-sitemap`
   ]
 };

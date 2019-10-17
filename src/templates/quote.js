@@ -7,7 +7,7 @@ import SEO from '../components/SEO';
 
 const TagPage = ({ pageContext }) => (
   <Layout>
-    <SEO title={pageContext.body} />
+    <SEO title={`Quote by ${pageContext.quotes[0].authors.join(',')}`} />
     <QuotesList
       colorIndex={pageContext.index}
       pageContext={pageContext}
