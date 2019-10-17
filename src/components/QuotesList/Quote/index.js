@@ -6,8 +6,8 @@ import slugify from '@sindresorhus/slugify';
 
 import Spinner from '../../Spinner';
 
-import AuthorsIcon from '../../../images/authors.svg';
-import TagsIcon from '../../../images/tags.svg';
+import { ReactComponent as AuthorsIcon } from '../../../images/authors.svg';
+import { ReactComponent as TagsIcon } from '../../../images/tags.svg';
 
 import styles from './styles.module.css';
 

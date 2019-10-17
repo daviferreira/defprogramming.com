@@ -4,10 +4,10 @@ import he from 'he';
 import React, { useRef, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 
-import FacebookIcon from './facebook.svg';
-import LinkedInIcon from './linked-in.svg';
-import TwitterIcon from './twitter.svg';
-import UrlIcon from './url.svg';
+import { ReactComponent as FacebookIcon } from './facebook.svg';
+import { ReactComponent as LinkedInIcon } from './linked-in.svg';
+import { ReactComponent as TwitterIcon } from './twitter.svg';
+import { ReactComponent as UrlIcon } from './url.svg';
 
 import styles from './styles.module.css';
 
@@ -38,6 +38,7 @@ const ShareBar = ({ text, url = 'https://www.defprogramming.com' }) => {
         href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}
         rel="noopener noreferrer"
         target="_blank"
+        title="Share on facebook"
       >
         <FacebookIcon />
       </a>
@@ -48,6 +49,7 @@ const ShareBar = ({ text, url = 'https://www.defprogramming.com' }) => {
         )}&url=${url}&hashtags=dev`}
         rel="noopener noreferrer"
         target="_blank"
+        title="Share on twitter"
       >
         <TwitterIcon />
       </a>
@@ -56,6 +58,7 @@ const ShareBar = ({ text, url = 'https://www.defprogramming.com' }) => {
         className={classnames(styles.button, styles.linkedIn)}
         rel="noopener noreferrer"
         target="_blank"
+        title="Share on linkedin"
       >
         <LinkedInIcon />
       </a>

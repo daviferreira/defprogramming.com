@@ -10,8 +10,8 @@ import ShareBar from '../ShareBar';
 
 import { getColor, getMostVisible, hexToRgb } from './utils';
 
-import AuthorsIcon from '../../images/authors.svg';
-import TagsIcon from '../../images/tags.svg';
+import { ReactComponent as AuthorsIcon } from '../../images/authors.svg';
+import { ReactComponent as TagsIcon } from '../../images/tags.svg';
 
 import styles from './styles.module.css';
 

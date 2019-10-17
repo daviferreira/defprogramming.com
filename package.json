@@ -6,6 +6,7 @@
   "author": "Davi Ferreira <hi@daviferreira.com>",
   "dependencies": {
     "@sindresorhus/slugify": "^0.9.1",
+    "@svgr/webpack": "^4.3.3",
     "classnames": "^2.2.6",
     "clipboard": "^2.0.4",
     "gatsby": "^2.16.4",
@@ -13,9 +14,9 @@
     "gatsby-plugin-manifest": "^2.2.23",
     "gatsby-plugin-offline": "^3.0.16",
     "gatsby-plugin-react-helmet": "^3.1.13",
-    "gatsby-plugin-react-svg": "^2.1.2",
     "gatsby-plugin-sharp": "^2.2.32",
     "gatsby-plugin-sitemap": "^2.2.19",
+    "gatsby-plugin-svgr": "^2.0.2",
     "gatsby-source-filesystem": "^2.1.33",
     "gatsby-transformer-json": "^2.2.15",
     "gatsby-transformer-sharp": "^2.2.23",
