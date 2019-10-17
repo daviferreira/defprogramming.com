@@ -18,6 +18,7 @@
     "gatsby-source-filesystem": "^2.1.33",
     "gatsby-transformer-json": "^2.2.15",
     "gatsby-transformer-sharp": "^2.2.23",
+    "he": "^1.2.0",
     "lodash.groupby": "^4.6.0",
     "lodash.sample": "^4.2.1",
     "nice-color-palettes": "^3.0.0",

@@ -1,5 +1,6 @@
 import classnames from 'classnames';
 import Clipboard from 'clipboard';
+import he from 'he';
 import React, { useRef, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 
@@ -9,12 +10,6 @@ import TwitterIcon from './twitter.svg';
 import UrlIcon from './url.svg';
 
 import styles from './styles.module.css';
-
-function decodeHtml(html) {
-  const txt = document.createElement('textarea');
-  txt.innerHTML = html;
-  return txt.value;
-}
 
 const ShareBar = ({ text, url = 'https://www.defprogramming.com' }) => {
   const [showCopied, setShowCopied] = useState(false);
@@ -48,7 +43,7 @@ const ShareBar = ({ text, url = 'https://www.defprogramming.com' }) => {
       </a>
       <a
         className={styles.button}
-        href={`https://twitter.com/share?text=${decodeHtml(
+        href={`https://twitter.com/share?text=${he.decode(
           text
         )}&url=${url}&hashtags=dev`}
         rel="noopener noreferrer"
