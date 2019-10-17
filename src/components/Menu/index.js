@@ -73,7 +73,7 @@ const Menu = ({ color, dark }) => {
             <div>
               curated by&nbsp;
               <a
-                href="https://www.daviferreira.com"
+                href="https://www.twitter.com/davitferreira"
                 rel="noopener noreferrer"
                 target="_blank"
               >
