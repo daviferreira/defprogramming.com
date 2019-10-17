@@ -48,9 +48,11 @@ const QuotesList = () => {
         window.pageYOffset + window.innerHeight >=
         document.body.clientHeight
       ) {
-        document
-          .querySelector(`[data-index="${quotes.length}"]`)
-          .scrollIntoView();
+        const el = document.querySelector(`[data-index="${quotes.length}"]`);
+
+        if (el) {
+          el.scrollIntoView();
+        }
       }
     } catch (err) {
       throw err;
