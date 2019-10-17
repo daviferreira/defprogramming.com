@@ -1,9 +1,7 @@
 [
   {
     "body": "Code smells.",
-    "slug": "code-smells",
     "uuid": "ff76ac536cff",
-    "featured": true,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Martin Fowler"],
     "authors_uuid": ["721333935c91"],
@@ -12,9 +10,7 @@
   },
   {
     "body": "Don't live with broken windows.",
-    "slug": "dont-live-with-broken-windows",
     "uuid": "f92f850dbf1a",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Andy Hunt", "Dave Thomas"],
     "authors_uuid": ["187171c0d7c4", "493bda434c28"],
@@ -23,9 +19,7 @@
   },
   {
     "body": "Functions should do one thing. They should do it well. They should do it only.",
-    "slug": "functions-should-do-one-thing-they-should-do-it-well-they-should-do-it-only",
     "uuid": "51967093b739",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Robert C. Martin"],
     "authors_uuid": ["2332b0bec2ae"],
@@ -34,9 +28,7 @@
   },
   {
     "body": "The first rule of functions is that they should be small. The second rule of functions is that they should be smaller than that.",
-    "slug": "the-first-rule-of-functions-is-that-they-should-be-small-the-second-rule-of-functions-is-that-em",
     "uuid": "198841f270cd",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Robert C. Martin"],
     "authors_uuid": ["2332b0bec2ae"],
@@ -45,9 +37,7 @@
   },
   {
     "body": "The ideal numbers of arguments for a function is zero (niladic). Next comes one (monadic), followed closely by two (dyadic). Three arguments (triadic) should be avoided where possible. More than three (polyadic) requires very special justification ‐ and then shouldn't be used anyway.",
-    "slug": "the-ideal-numbers-of-arguments-for-a-function-is-zero-niladic-next-comes-one-monadic-followed",
     "uuid": "34ec63a93be0",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Robert C. Martin"],
     "authors_uuid": ["2332b0bec2ae"],
@@ -56,9 +46,7 @@
   },
   {
     "body": "DRY ‐ Don't Repeat Yourself ‐ Every piece of knowledge must have a single, unambiguous, athoritative representation within a system.",
-    "slug": "dry-dont-repeat-yourself-every-piece-of-knowledge-must-have-a-single-unambiguous-athoritativ",
     "uuid": "048396df766a",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Dave Thomas", "Andy Hunt"],
     "authors_uuid": ["493bda434c28", "187171c0d7c4"],
@@ -67,9 +55,7 @@
   },
   {
     "body": "Be careful to preserve the orthogonality of your system as you introduce third-party toolkits and libraries. Choose your technologies wisely.",
-    "slug": "be-careful-to-preserve-the-orthogonality-of-your-system-as-you-introduce-third-party-toolkits-and-l",
     "uuid": "8275d84192d7",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Dave Thomas", "Andy Hunt"],
     "authors_uuid": ["493bda434c28", "187171c0d7c4"],
@@ -78,9 +64,7 @@
   },
   {
     "body": "Don't comment bad code ‐ rewrite it.",
-    "slug": "dont-comment-bad-code-rewrite-it",
     "uuid": "c2911efc5579",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["P. J. Plaugher", "Brian W. Kernighan"],
     "authors_uuid": ["e773f0e8944d", "0086884ef4b1"],
@@ -89,9 +73,7 @@
   },
   {
     "body": "Complexity kills. It sucks the life out of developers, it makes products difficult to plan, build, and test.",
-    "slug": "complexity-kills-it-sucks-the-life-out-of-developers-it-makes-products-difficult-to-plan-build",
     "uuid": "392885c212d2",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Ray Ozzie"],
     "authors_uuid": ["1a71a13bdcd3"],
@@ -100,9 +82,7 @@
   },
   {
     "body": "The Three Laws of TDD:\n\n  1) You may not write production code until you have written a failing unit test.\n  2) You may not write more of a unit test than is sufficient to fail, and not compiling is failing.\n  3) You may not write more production code than is sufficient to pass the currently failing test.",
-    "slug": "the-three-laws-of-tdd-1-you-may-not-write-production-code-until-you-have-written-a-failing-u",
     "uuid": "ff88d66927b2",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Robert C. Martin"],
     "authors_uuid": ["2332b0bec2ae"],
@@ -111,9 +91,7 @@
   },
   {
     "body": "Objects are abstractions of processing. Threads are abstractions of schedule.",
-    "slug": "objects-are-abstractions-of-processing-threads-are-abstractions-of-schedule",
     "uuid": "37232a2e1ca9",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["James O. Coplien"],
     "authors_uuid": ["aa156a9f3b23"],
@@ -122,9 +100,7 @@
   },
   {
     "body": "Controlling complexity is the essence of computer programming.",
-    "slug": "controlling-complexity-is-the-essence-of-computer-programming",
     "uuid": "7dc622398100",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Brian W. Kernighan"],
     "authors_uuid": ["0086884ef4b1"],
@@ -133,9 +109,7 @@
   },
   {
     "body": "There are two ways of constructing a software design. One way is to make it so simple that there are obviously no deficiencies. And the other way is to make it so complicated that there are no obvious deficiencies.",
-    "slug": "there-are-two-ways-of-constructing-a-software-design-one-way-is-to-make-it-so-simple-that-there-ar",
     "uuid": "698ccf154674",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["C. A. R. Hoare"],
     "authors_uuid": ["a6bd6d72ec53"],
@@ -144,9 +118,7 @@
   },
   {
     "body": "There's an old story about the person who wished his computer were as easy to use as his telephone.  That wish has come true, since I no longer know how to use my telephone.",
-    "slug": "theres-an-old-story-about-the-person-who-wished-his-computer-were-as-easy-to-use-as-his-telephone",
     "uuid": "350c559a31c0",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Bjarne Stroustrup"],
     "authors_uuid": ["4e82766e1971"],
@@ -155,9 +127,7 @@
   },
   {
     "body": "Most of you are familiar with the virtues of a programmer. There are three, of course: laziness, impatience, and hubris.",
-    "slug": "most-of-you-are-familiar-with-the-virtues-of-a-programmer-there-are-three-of-course-laziness-im",
     "uuid": "b8046621e41c",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Larry Wall"],
     "authors_uuid": ["efd5a93782e9"],
@@ -166,9 +136,7 @@
   },
   {
     "body": "That's the thing about people who think they hate computers.  What they really hate is lousy programmers.",
-    "slug": "thats-the-thing-about-people-who-think-they-hate-computers-what-they-really-hate-is-lousy-progra",
     "uuid": "1bc972219175",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Larry Niven"],
     "authors_uuid": ["1e66a8a52f8e"],
@@ -177,9 +145,7 @@
   },
   {
     "body": "To iterate is human, to recurse divine.",
-    "slug": "to-iterate-is-human-to-recurse-divine",
     "uuid": "7e316c1310dc",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["L. Peter Deutsch"],
     "authors_uuid": ["c3fe083d2440"],
@@ -188,9 +154,7 @@
   },
   {
     "body": "Walking on water and developing software from a specification are easy if both are frozen.",
-    "slug": "walking-on-water-and-developing-software-from-a-specification-are-easy-if-both-are-frozen",
     "uuid": "a3d324f184bc",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Edward V. Berard"],
     "authors_uuid": ["a7603f3a3807"],
@@ -199,9 +163,7 @@
   },
   {
     "body": "The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development time.",
-    "slug": "the-first-90-of-the-code-accounts-for-the-first-90-of-the-development-time-the-remaining-10-of",
     "uuid": "e9fa269c7378",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Tom Cargill"],
     "authors_uuid": ["052ba7fe0d6d"],
@@ -210,9 +172,7 @@
   },
   {
     "body": "If you want to set off and go develop some grand new thing, you don't need millions of dollars of capitalization. You need enough pizza and Diet Coke to stick in your refrigerator, a cheap PC to work on and the dedication to go through with it.",
-    "slug": "if-you-want-to-set-off-and-go-develop-some-grand-new-thing-you-dont-need-millions-of-dollars-of-c",
     "uuid": "22352f0cbeb7",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["John Carmack"],
     "authors_uuid": ["aaebabb8c61b"],
@@ -221,9 +181,7 @@
   },
   {
     "body": "Some people, when confronted with a problem, think &ldquo;I know, I’ll use regular expressions.&rdquo; Now they have two problems.",
-    "slug": "some-people-when-confronted-with-a-problem-think-i-know-ill-use-regular-expressions-now-they",
     "uuid": "f4eb3f53b001",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Jamie Zawinski"],
     "authors_uuid": ["5b88df92a025"],
@@ -232,9 +190,7 @@
   },
   {
     "body": "There are only two kinds of languages: the ones people complain about and the ones nobody uses.",
-    "slug": "there-are-only-two-kinds-of-languages-the-ones-people-complain-about-and-the-ones-nobody-uses",
     "uuid": "152ecdf35fa2",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Bjarne Stroustrup"],
     "authors_uuid": ["4e82766e1971"],
@@ -243,9 +199,7 @@
   },
   {
     "body": "It works on my machine.",
-    "slug": "it-works-on-my-machine",
     "uuid": "7dd865763eb9",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -254,9 +208,7 @@
   },
   {
     "body": "If debugging is the process of removing software bugs, then programming must be the process of putting them in.",
-    "slug": "if-debugging-is-the-process-of-removing-software-bugs-then-programming-must-be-the-process-of-putt",
     "uuid": "4720c7fba136",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["E. W. Dijkstra"],
     "authors_uuid": ["4b869649e244"],
@@ -265,9 +217,7 @@
   },
   {
     "body": "Refuctoring &mdash; the process of taking a well-designed piece of code and, through a series of small, reversible changes, making it completely unmaintainable by anyone except yourself.",
-    "slug": "refuctoring-the-process-of-taking-a-well-designed-piece-of-code-and-through-a-series-of-small-r",
     "uuid": "cec3d8414a96",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Jason Gorman"],
     "authors_uuid": ["1cbf19d62ce5"],
@@ -276,9 +226,7 @@
   },
   {
     "body": "It should be noted that no ethically-trained software engineer would ever consent to write a DestroyBaghdad procedure. Basic professional ethics would instead require him to write a DestroyCity procedure, to which Baghdad could be given as a parameter.",
-    "slug": "it-should-be-noted-that-no-ethically-trained-software-engineer-would-ever-consent-to-write-a-destro",
     "uuid": "2b0a58fa34ee",
-    "featured": false,
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Nathaniel Borenstein"],
     "authors_uuid": ["0063dd7627f8"],
@@ -287,9 +235,7 @@
   },
   {
     "body": "PHP is a minor evil perpetrated and created by incompetent amateurs, whereas Perl is a great and insidious evil perpetrated by skilled but perverted professionals.",
-    "slug": "php-is-a-minor-evil-perpetrated-and-created-by-incompetent-amateurs-whereas-perl-is-a-great-and-in",
     "uuid": "0df213372d09",
-    "featured": false,
     "publish_date": "2011-07-04 19:11:41",
     "authors": ["Jon Ribbens"],
     "authors_uuid": ["0bdfeceda8f6"],
@@ -298,9 +244,7 @@
   },
   {
     "body": "Computer Science is no more about computers than astronomy is about telescopes.",
-    "slug": "computer-science-is-no-more-about-computers-than-astronomy-is-about-telescopes",
     "uuid": "4470a3cebfc2",
-    "featured": false,
     "publish_date": "2011-07-04 19:13:17",
     "authors": ["E. W. Dijkstra"],
     "authors_uuid": ["4b869649e244"],
@@ -309,9 +253,7 @@
   },
   {
     "body": "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.",
-    "slug": "perfection-is-achieved-not-when-there-is-nothing-more-to-add-but-when-there-is-nothing-left-to-ta",
     "uuid": "6001d1399291",
-    "featured": false,
     "publish_date": "2011-07-04 19:14:09",
     "authors": ["Antoine de Saint Exupéry"],
     "authors_uuid": ["a8f746f6a156"],
@@ -320,9 +262,7 @@
   },
   {
     "body": "The most exciting phrase to hear in science, the one that heralds new discoveries, is not 'Eureka!' but 'That's funny...'",
-    "slug": "the-most-exciting-phrase-to-hear-in-science-the-one-that-heralds-new-discoveries-is-not-eureka",
     "uuid": "a517dc6b20ce",
-    "featured": false,
     "publish_date": "2011-07-04 19:15:55",
     "authors": ["Isaac Asimov"],
     "authors_uuid": ["23430596e351"],
@@ -331,9 +271,7 @@
   },
   {
     "body": "The difference between theory and practice is smaller in theory than in practice.",
-    "slug": "the-difference-between-theory-and-practice-is-smaller-in-theory-than-in-practice",
     "uuid": "890c6ea33d9d",
-    "featured": false,
     "publish_date": "2011-07-04 19:16:49",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -342,9 +280,7 @@
   },
   {
     "body": "Never trust a programmer in a suit.",
-    "slug": "never-trust-a-programmer-in-a-suit",
     "uuid": "49b7f7729192",
-    "featured": true,
     "publish_date": "2011-07-04 19:17:59",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -353,9 +289,7 @@
   },
   {
     "body": "The trouble with programmers is that you can never tell what a programmer is doing until it's too late.",
-    "slug": "the-trouble-with-programmers-is-that-you-can-never-tell-what-a-programmer-is-doing-until-its-too-l",
     "uuid": "6e61ae30a855",
-    "featured": false,
     "publish_date": "2011-07-05 08:46:07",
     "authors": ["Seymour Cray"],
     "authors_uuid": ["d5a897cb2918"],
@@ -364,9 +298,7 @@
   },
   {
     "body": "Rules of Optimization: Rule 1: Don't do it. Rule 2 (for experts only): Don't do it yet.",
-    "slug": "rules-of-optimization-rule-1-dont-do-it-rule-2-for-experts-only-dont-do-it-yet",
     "uuid": "08b463de449f",
-    "featured": false,
     "publish_date": "2011-07-05 08:54:37",
     "authors": ["Michael A. Jackson"],
     "authors_uuid": ["01b0a123b540"],
@@ -375,9 +307,7 @@
   },
   {
     "body": "It's not at all important to get it right the first time. It's vitally important to get it right the last time.",
-    "slug": "its-not-at-all-important-to-get-it-right-the-first-time-its-vitally-important-to-get-it-right-th",
     "uuid": "346954f535bd",
-    "featured": false,
     "publish_date": "2011-07-05 08:55:39",
     "authors": ["Dave Thomas", "Andy Hunt"],
     "authors_uuid": ["493bda434c28", "187171c0d7c4"],
@@ -386,9 +316,7 @@
   },
   {
     "body": "A happy programmer is a productive programmer. That's why we optimize for happiness and you should too. Don't just pick tools and practices based on industry standards or performance metrics. Look at the intangibles: Is there passion, pride, and craftmanship here? Would you truly be happy working in this environment eight hours a day?",
-    "slug": "a-happy-programmer-is-a-productive-programmer-thats-why-we-optimize-for-happiness-and-you-should",
     "uuid": "0e725ba766d5",
-    "featured": false,
     "publish_date": "2011-07-05 09:38:55",
     "authors": ["37Signals"],
     "authors_uuid": ["d6f81f5cfd1e"],
@@ -397,9 +325,7 @@
   },
   {
     "body": "You don't have a scaling problem yet.",
-    "slug": "you-dont-have-a-scaling-problem-yet",
     "uuid": "5baadc631e2a",
-    "featured": false,
     "publish_date": "2011-07-05 12:20:42",
     "authors": ["37Signals"],
     "authors_uuid": ["d6f81f5cfd1e"],
@@ -408,9 +334,7 @@
   },
   {
     "body": "True innovation often comes from the small startup who is lean enough to launch a market but lacks the heft to own it.",
-    "slug": "true-innovation-often-comes-from-the-small-startup-who-is-lean-enough-to-launch-a-market-but-lacks",
     "uuid": "fce8a5a5dbd7",
-    "featured": false,
     "publish_date": "2011-07-05 12:23:08",
     "authors": ["Timm Martin"],
     "authors_uuid": ["89f5dc1d4724"],
@@ -419,9 +343,7 @@
   },
   {
     "body": "Deleted code is debugged code.",
-    "slug": "deleted-code-is-debugged-code",
     "uuid": "760aa78df513",
-    "featured": false,
     "publish_date": "2011-07-05 13:11:45",
     "authors": ["Jeff Sickel"],
     "authors_uuid": ["8facba2955b9"],
@@ -430,9 +352,7 @@
   },
   {
     "body": "If you're willing to restrict the flexibility of your approach, you can almost always do something better.",
-    "slug": "if-youre-willing-to-restrict-the-flexibility-of-your-approach-you-can-almost-always-do-something",
     "uuid": "fc74374fce5a",
-    "featured": false,
     "publish_date": "2011-07-05 13:13:36",
     "authors": ["John Carmack"],
     "authors_uuid": ["aaebabb8c61b"],
@@ -441,9 +361,7 @@
   },
   {
     "body": "The central enemy of reliability is complexity.",
-    "slug": "the-central-enemy-of-reliability-is-complexity",
     "uuid": "1c62392b2874",
-    "featured": false,
     "publish_date": "2011-07-05 13:16:51",
     "authors": ["Daniel Geer"],
     "authors_uuid": ["ab7f3d84d9a2"],
@@ -452,9 +370,7 @@
   },
   {
     "body": "Simplicity is prerequisite for reliability.",
-    "slug": "simplicity-is-prerequisite-for-reliability",
     "uuid": "847b3ecc8ee8",
-    "featured": false,
     "publish_date": "2011-07-05 13:18:00",
     "authors": ["E. W. Dijkstra"],
     "authors_uuid": ["4b869649e244"],
@@ -463,9 +379,7 @@
   },
   {
     "body": "A program is portable to the extent that it can be easily moved to a new computing environment with much less effort than would be required to write it afresh.",
-    "slug": "a-program-is-portable-to-the-extent-that-it-can-be-easily-moved-to-a-new-computing-environment-with",
     "uuid": "41cc4a4c23d1",
-    "featured": false,
     "publish_date": "2011-07-05 13:18:39",
     "authors": ["W. Stan Brown"],
     "authors_uuid": ["9b337828a7bb"],
@@ -474,9 +388,7 @@
   },
   {
     "body": "Just because the standard provides a cliff in front of you, you are not necessarily required to jump off it.",
-    "slug": "just-because-the-standard-provides-a-cliff-in-front-of-you-you-are-not-necessarily-required-to-jum",
     "uuid": "e2db21daf377",
-    "featured": false,
     "publish_date": "2011-07-05 13:21:18",
     "authors": ["Norman Diamond"],
     "authors_uuid": ["07555d26bc6f"],
@@ -485,9 +397,7 @@
   },
   {
     "body": "Correctness is clearly the prime quality. If a system does not do what it is supposed to do, then everything else about it matters little.",
-    "slug": "correctness-is-clearly-the-prime-quality-if-a-system-does-not-do-what-it-is-supposed-to-do-then-e",
     "uuid": "286427ff3cbf",
-    "featured": false,
     "publish_date": "2011-07-05 13:23:27",
     "authors": ["Bertrand Meyer"],
     "authors_uuid": ["1bad4873b494"],
@@ -496,9 +406,7 @@
   },
   {
     "body": "Compatibility means deliberately repeating other people's mistakes.",
-    "slug": "compatibility-means-deliberately-repeating-other-peoples-mistakes",
     "uuid": "1d2238a83458",
-    "featured": false,
     "publish_date": "2011-07-05 13:24:53",
     "authors": ["David Wheeler"],
     "authors_uuid": ["df07b6970bc9"],
@@ -507,9 +415,7 @@
   },
   {
     "body": "Theory is when you know something, but it doesn't work. Practice is when something works, but you don't know why. Programmers combine theory and practice: Nothing works and they don't know why.",
-    "slug": "theory-is-when-you-know-something-but-it-doesnt-work-practice-is-when-something-works-but-you-d",
     "uuid": "5ad8c2c073fa",
-    "featured": false,
     "publish_date": "2011-07-05 13:26:46",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -518,9 +424,7 @@
   },
   {
     "body": "Premature optimization is the root of all evil in programming.",
-    "slug": "premature-optimization-is-the-root-of-all-evil-in-programming",
     "uuid": "d5663242f8a3",
-    "featured": true,
     "publish_date": "2011-07-05 13:28:26",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -529,9 +433,7 @@
   },
   {
     "body": "Testing can show the presence of errors, but not their absence.",
-    "slug": "testing-can-show-the-presence-of-errors-but-not-their-absence",
     "uuid": "bacc2895b689",
-    "featured": false,
     "publish_date": "2011-07-05 13:29:33",
     "authors": ["E. W. Dijkstra"],
     "authors_uuid": ["4b869649e244"],
@@ -540,9 +442,7 @@
   },
   {
     "body": "A computer is a stupid machine with the ability to do incredibly smart things, while computer programmers are smart people with the ability to do incredibly stupid things. They are, in short, a perfect match.",
-    "slug": "a-computer-is-a-stupid-machine-with-the-ability-to-do-incredibly-smart-things-while-computer-progr",
     "uuid": "56e31cc0400c",
-    "featured": false,
     "publish_date": "2011-07-05 13:31:32",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -551,9 +451,7 @@
   },
   {
     "body": "Code never lies, comments sometimes do.",
-    "slug": "code-never-lies-comments-sometimes-do",
     "uuid": "8deaf515bc69",
-    "featured": false,
     "publish_date": "2011-07-05 13:34:03",
     "authors": ["Ron Jeffries"],
     "authors_uuid": ["091bc03c4242"],
@@ -562,9 +460,7 @@
   },
   {
     "body": "Profanity is the one language all programmers know best.",
-    "slug": "profanity-is-the-one-language-all-programmers-know-best",
     "uuid": "a57441e451cf",
-    "featured": false,
     "publish_date": "2011-07-05 15:08:00",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -573,9 +469,7 @@
   },
   {
     "body": "I don't care if it works on your machine! We are not shipping your machine!",
-    "slug": "i-dont-care-if-it-works-on-your-machine-we-are-not-shipping-your-machine",
     "uuid": "bd76211ea7d1",
-    "featured": false,
     "publish_date": "2011-07-05 15:10:32",
     "authors": ["Vidiu Platon"],
     "authors_uuid": ["19815853f29b"],
@@ -584,9 +478,7 @@
   },
   {
     "body": "Each new user of a new system uncovers a new class of bugs.",
-    "slug": "each-new-user-of-a-new-system-uncovers-a-new-class-of-bugs",
     "uuid": "b8be708d36ec",
-    "featured": false,
     "publish_date": "2011-07-05 15:12:37",
     "authors": ["Brian W. Kernighan"],
     "authors_uuid": ["0086884ef4b1"],
@@ -595,9 +487,7 @@
   },
   {
     "body": "Workaholics aren't heroes. They don't save the day, they just use it up. The real hero is already because she figured out a faster way to get things done.",
-    "slug": "workaholics-arent-heroes-they-dont-save-the-day-they-just-use-it-up-the-real-hero-is-already-b",
     "uuid": "a286a091ca35",
-    "featured": false,
     "publish_date": "2011-07-05 19:00:21",
     "authors": ["37Signals"],
     "authors_uuid": ["d6f81f5cfd1e"],
@@ -606,9 +496,7 @@
   },
   {
     "body": "A design is &ldquo;simple&rdquo; if it follows these rules: Runs all the tests; Contains no duplication; Expresses the intent of the programmer; Minimizes the number of classes and methods.",
-    "slug": "a-design-is-simple-if-it-follows-these-rules-runs-all-the-tests-contains-no-duplication-expres",
     "uuid": "a126648998f1",
-    "featured": false,
     "publish_date": "2011-07-05 19:03:10",
     "authors": ["Kent Beck"],
     "authors_uuid": ["7b5113d7f9a5"],
@@ -617,9 +505,7 @@
   },
   {
     "body": "Write shy code &mdash; modules that don't reveal anything unnecessary to other modules and that don't rely on other modules' implementations.",
-    "slug": "write-shy-code-modules-that-dont-reveal-anything-unnecessary-to-other-modules-and-that-dont-rel",
     "uuid": "414e6091da3a",
-    "featured": false,
     "publish_date": "2011-07-05 19:07:39",
     "authors": ["Andy Hunt", "Dave Thomas"],
     "authors_uuid": ["187171c0d7c4", "493bda434c28"],
@@ -628,9 +514,7 @@
   },
   {
     "body": "Programmers must avoid leaving false clues that obscure the meaning of code.",
-    "slug": "programmers-must-avoid-leaving-false-clues-that-obscure-the-meaning-of-code",
     "uuid": "0bf07f1cf501",
-    "featured": false,
     "publish_date": "2011-07-05 19:11:15",
     "authors": ["Robert C. Martin"],
     "authors_uuid": ["2332b0bec2ae"],
@@ -639,9 +523,7 @@
   },
   {
     "body": "Encoded names are seldom pronounceable and are easy to miss-type.",
-    "slug": "encoded-names-are-seldom-pronounceable-and-are-easy-to-miss-type",
     "uuid": "50b816459ca5",
-    "featured": false,
     "publish_date": "2011-07-05 19:14:42",
     "authors": ["Robert C. Martin"],
     "authors_uuid": ["2332b0bec2ae"],
@@ -650,9 +532,7 @@
   },
   {
     "body": "When you come across a stumbling block because the code doesn't quite fit anymore, or you notice two things that should really be merged, or anything else at all strikes you as being &ldquo;wrong&rdquo;, don't hesitate to change it. There's no time like the present.",
-    "slug": "when-you-come-across-a-stumbling-block-because-the-code-doesnt-quite-fit-anymore-or-you-notice-tw",
     "uuid": "b993d5922040",
-    "featured": false,
     "publish_date": "2011-07-05 19:17:49",
     "authors": ["Andy Hunt", "Dave Thomas"],
     "authors_uuid": ["187171c0d7c4", "493bda434c28"],
@@ -661,9 +541,7 @@
   },
   {
     "body": "Don't waste your time typing up that long visionary tome; no one's going to read it. Take consolation in the fact that if you give your product enough room to grow itself, in the end it won't resemble anything you wrote about anyway.",
-    "slug": "dont-waste-your-time-typing-up-that-long-visionary-tome-no-ones-going-to-read-it-take-consolati",
     "uuid": "329ab8a920be",
-    "featured": false,
     "publish_date": "2011-07-05 19:22:29",
     "authors": ["Gina Trapani"],
     "authors_uuid": ["f99cf241eff6"],
@@ -672,9 +550,7 @@
   },
   {
     "body": "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.",
-    "slug": "always-code-as-if-the-guy-who-ends-up-maintaining-your-code-will-be-a-violent-psychopath-who-knows",
     "uuid": "20d6a688237f",
-    "featured": false,
     "publish_date": "2011-07-05 19:26:21",
     "authors": ["Martin Golding"],
     "authors_uuid": ["1bcb19fa5c0b"],
@@ -683,9 +559,7 @@
   },
   {
     "body": "Programming is like sex: one mistake and you're providing support for a lifetime.",
-    "slug": "programming-is-like-sex-one-mistake-and-youre-providing-support-for-a-lifetime",
     "uuid": "a2265dfb8748",
-    "featured": false,
     "publish_date": "2011-07-05 19:28:03",
     "authors": ["Michael Sinz"],
     "authors_uuid": ["313632ba0184"],
@@ -694,9 +568,7 @@
   },
   {
     "body": "Eagleson's Law: Any code of your own that you haven't looked at for six or more months might as well have been written by someone else.",
-    "slug": "eaglesons-law-any-code-of-your-own-that-you-havent-looked-at-for-six-or-more-months-might-as-wel",
     "uuid": "a552c0a13aa3",
-    "featured": true,
     "publish_date": "2011-07-05 19:30:03",
     "authors": ["Alan Eagleson"],
     "authors_uuid": ["55e1b48b233e"],
@@ -705,9 +577,7 @@
   },
   {
     "body": "Computer science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter.",
-    "slug": "computer-science-education-cannot-make-anybody-an-expert-programmer-any-more-than-studying-brushes",
     "uuid": "770e48a9e714",
-    "featured": false,
     "publish_date": "2011-07-05 19:34:09",
     "authors": ["Eric Raymond"],
     "authors_uuid": ["67f54a69ab2d"],
@@ -716,9 +586,7 @@
   },
   {
     "body": "A sentence should be enough to get the idea across.",
-    "slug": "a-sentence-should-be-enough-to-get-the-idea-across",
     "uuid": "1cf45c8d4472",
-    "featured": false,
     "publish_date": "2011-07-05 19:38:22",
     "authors": ["37Signals"],
     "authors_uuid": ["d6f81f5cfd1e"],
@@ -727,9 +595,7 @@
   },
   {
     "body": "Whenever there is a sticking point, ask, &ldquo;are we staying true to the vision?&rdquo;.",
-    "slug": "whenever-there-is-a-sticking-point-ask-are-we-staying-true-to-the-vision",
     "uuid": "a9c3617bd643",
-    "featured": false,
     "publish_date": "2011-07-05 17:39:33",
     "authors": ["37Signals"],
     "authors_uuid": ["d6f81f5cfd1e"],
@@ -738,9 +604,7 @@
   },
   {
     "body": "In the one and only true way. The object-oriented version of 'Spaghetti code' is, of course, 'Lasagna code'. (Too many layers).",
-    "slug": "in-the-one-and-only-true-way-the-object-oriented-version-of-spaghetti-code-is-of-course-lasag",
     "uuid": "2f272aa505f7",
-    "featured": false,
     "publish_date": "2011-07-05 19:45:04",
     "authors": ["Roberto Waltman"],
     "authors_uuid": ["e9098ced61f6"],
@@ -749,9 +613,7 @@
   },
   {
     "body": "Learning to program has no more to do with designing interactive software than learning to touch type has to do with writing poetry.",
-    "slug": "learning-to-program-has-no-more-to-do-with-designing-interactive-software-than-learning-to-touch-ty",
     "uuid": "27dd7daa3144",
-    "featured": false,
     "publish_date": "2011-07-05 19:47:00",
     "authors": ["Ted Nelson"],
     "authors_uuid": ["10651f0f3985"],
@@ -760,9 +622,7 @@
   },
   {
     "body": "First learn computer science and all the theory. Next develop a programming style. Then forget all that and just hack.",
-    "slug": "first-learn-computer-science-and-all-the-theory-next-develop-a-programming-style-then-forget-all",
     "uuid": "a833e30485f5",
-    "featured": false,
     "publish_date": "2011-07-05 19:48:24",
     "authors": ["George Carrette"],
     "authors_uuid": ["57d059907409"],
@@ -771,9 +631,7 @@
   },
   {
     "body": "Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.",
-    "slug": "most-good-programmers-do-programming-not-because-they-expect-to-get-paid-or-get-adulation-by-the-pu",
     "uuid": "f32b9e4930a1",
-    "featured": false,
     "publish_date": "2011-07-05 19:51:17",
     "authors": ["Linus Torvalds"],
     "authors_uuid": ["8491fd3f9c47"],
@@ -782,9 +640,7 @@
   },
   {
     "body": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
-    "slug": "any-fool-can-write-code-that-a-computer-can-understand-good-programmers-write-code-that-humans-can",
     "uuid": "448a417fedad",
-    "featured": false,
     "publish_date": "2011-07-05 19:52:50",
     "authors": ["Martin Fowler"],
     "authors_uuid": ["721333935c91"],
@@ -793,9 +649,7 @@
   },
   {
     "body": "We are just as proud of what our products don't do as we are as what they do.",
-    "slug": "we-are-just-as-proud-of-what-our-products-dont-do-as-we-are-as-what-they-do",
     "uuid": "e93da5ee461c",
-    "featured": false,
     "publish_date": "2011-07-05 19:53:20",
     "authors": ["37Signals"],
     "authors_uuid": ["d6f81f5cfd1e"],
@@ -804,9 +658,7 @@
   },
   {
     "body": "Software sucks because users demand it to.",
-    "slug": "software-sucks-because-users-demand-it-to",
     "uuid": "de7a04895ef9",
-    "featured": false,
     "publish_date": "2011-07-05 19:58:30",
     "authors": ["Nathan Myhrvold"],
     "authors_uuid": ["5c8939dd1141"],
@@ -815,9 +667,7 @@
   },
   {
     "body": "There is not now, nor has there ever been, nor will there ever be, any programming language in which it is the least bit difficult to write bad code.",
-    "slug": "there-is-not-now-nor-has-there-ever-been-nor-will-there-ever-be-any-programming-language-in-whic",
     "uuid": "85b01522842c",
-    "featured": false,
     "publish_date": "2011-07-05 20:00:09",
     "authors": ["Flon's Law"],
     "authors_uuid": ["c87561fc85bf"],
@@ -826,9 +676,7 @@
   },
   {
     "body": "Anything that can possibly go wrong, will go wrong.",
-    "slug": "anything-that-can-possibly-go-wrong-will-go-wrong",
     "uuid": "95ea218b2531",
-    "featured": false,
     "publish_date": "2011-07-05 20:04:27",
     "authors": ["Murphy's Law"],
     "authors_uuid": ["1bd49e8a5a9e"],
@@ -837,9 +685,7 @@
   },
   {
     "body": "Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday's code.",
-    "slug": "sometimes-it-pays-to-stay-in-bed-on-monday-rather-than-spending-the-rest-of-the-week-debugging-mon",
     "uuid": "168d313e03fa",
-    "featured": false,
     "publish_date": "2011-07-06 06:55:49",
     "authors": ["Christopher Thompson"],
     "authors_uuid": ["e6b58b159361"],
@@ -848,9 +694,7 @@
   },
   {
     "body": "Your task is not to foresee the future, but to enable it.",
-    "slug": "your-task-is-not-to-foresee-the-future-but-to-enable-it",
     "uuid": "c7595a3a07f2",
-    "featured": false,
     "publish_date": "2011-07-06 06:56:48",
     "authors": ["Antoine de Saint Exupéry"],
     "authors_uuid": ["a8f746f6a156"],
@@ -859,9 +703,7 @@
   },
   {
     "body": "Theory and practice sometimes clash. And when that happens, theory loses. Every single time.",
-    "slug": "theory-and-practice-sometimes-clash-and-when-that-happens-theory-loses-every-single-time",
     "uuid": "54735bb55250",
-    "featured": false,
     "publish_date": "2011-07-06 06:57:06",
     "authors": ["Linus Torvalds"],
     "authors_uuid": ["8491fd3f9c47"],
@@ -870,9 +712,7 @@
   },
   {
     "body": "Programmer &mdash; an organism that turns coffee into software.",
-    "slug": "programmer-an-organism-that-turns-coffee-into-software",
     "uuid": "6e3ab1808b4c",
-    "featured": false,
     "publish_date": "2011-07-06 10:23:47",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -881,9 +721,7 @@
   },
   {
     "body": "All programmers are playwrights and all computers are lousy actors.",
-    "slug": "all-programmers-are-playwrights-and-all-computers-are-lousy-actors",
     "uuid": "7cfa0bc513f0",
-    "featured": false,
     "publish_date": "2011-07-06 10:24:31",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -892,9 +730,7 @@
   },
   {
     "body": "Another effective technique is to explain your code to someone else.  This will often cause you to explain the bug to yourself.  Sometimes it takes no more than a few sentences, followed by an embarrassed &ldquo;Never mind, I see what's wrong.  Sorry to bother you.&rdquo;  This works remarkably well; you can even use non-programmers as listeners.  One university computer center kept a teddy bear near the help desk.  Students with mysterious bugs were required to explain them to the bear before they could speak to a human counselor.",
-    "slug": "another-effective-technique-is-to-explain-your-code-to-someone-else-this-will-often-cause-you-to",
     "uuid": "abf2b0234684",
-    "featured": false,
     "publish_date": "2011-07-06 10:25:06",
     "authors": ["Brian W. Kernighan", "Rob Pike"],
     "authors_uuid": ["0086884ef4b1", "569cfb601ec7"],
@@ -903,9 +739,7 @@
   },
   {
     "body": "A good programmer is someone who always looks both ways before crossing a one-way street.",
-    "slug": "a-good-programmer-is-someone-who-always-looks-both-ways-before-crossing-a-one-way-street",
     "uuid": "29e744d6fdbc",
-    "featured": false,
     "publish_date": "2011-07-06 10:26:13",
     "authors": ["Doug Linder"],
     "authors_uuid": ["dcbb0a404d49"],
@@ -914,9 +748,7 @@
   },
   {
     "body": "Beta. Software undergoes beta testing shortly before it's released. Beta is Latin for &ldquo;still doesn't work&rdquo;.",
-    "slug": "beta-software-undergoes-beta-testing-shortly-before-its-released-beta-is-latin-for-still-does",
     "uuid": "521fea0de481",
-    "featured": false,
     "publish_date": "2011-07-06 10:26:57",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -925,9 +757,7 @@
   },
   {
     "body": "Good code is its own best documentation.  As you're about to add a comment, ask yourself, &ldquo;How can I improve the code so that this comment isn't needed?&rdquo;",
-    "slug": "good-code-is-its-own-best-documentation-as-youre-about-to-add-a-comment-ask-yourself-how-can",
     "uuid": "7bc4d5593f1a",
-    "featured": false,
     "publish_date": "2011-07-06 10:27:44",
     "authors": ["Steve McConnell"],
     "authors_uuid": ["a1c6ce30251e"],
@@ -936,9 +766,7 @@
   },
   {
     "body": "Great software, likewise, requires a fanatical devotion to beauty.  If you look inside good software, you find that parts no one is ever supposed to see are beautiful too.  I'm not claiming I write great software, but I know that when it comes to code I behave in a way that would make me eligible for prescription drugs if I approached everyday life the same way.  It drives me crazy to see code that's badly indented, or that uses ugly variable names.",
-    "slug": "great-software-likewise-requires-a-fanatical-devotion-to-beauty-if-you-look-inside-good-softwar",
     "uuid": "82a0dd968fbc",
-    "featured": false,
     "publish_date": "2011-07-06 10:28:22",
     "authors": ["Paul Graham"],
     "authors_uuid": ["8ecba539670d"],
@@ -947,9 +775,7 @@
   },
   {
     "body": "One man's crappy software is another man's full time job.",
-    "slug": "one-mans-crappy-software-is-another-mans-full-time-job",
     "uuid": "e2a3e2e13709",
-    "featured": false,
     "publish_date": "2011-07-06 10:28:56",
     "authors": ["Jessica Gaston"],
     "authors_uuid": ["ceb35fb0e32f"],
@@ -958,9 +784,7 @@
   },
   {
     "body": "It's okay to figure out murder mysteries, but you shouldn't need to figure out code.  You should be able to read it.",
-    "slug": "its-okay-to-figure-out-murder-mysteries-but-you-shouldnt-need-to-figure-out-code-you-should-be",
     "uuid": "b850522bb890",
-    "featured": false,
     "publish_date": "2011-07-06 10:29:48",
     "authors": ["Steve McConnell"],
     "authors_uuid": ["a1c6ce30251e"],
@@ -969,9 +793,7 @@
   },
   {
     "body": "Programming is similar to a game of golf.  The point is not getting the ball in the hole but how many strokes it takes.",
-    "slug": "programming-is-similar-to-a-game-of-golf-the-point-is-not-getting-the-ball-in-the-hole-but-how-ma",
     "uuid": "7d933f3f2bf1",
-    "featured": false,
     "publish_date": "2011-07-06 10:30:13",
     "authors": ["Harlan Mills"],
     "authors_uuid": ["e866ca5f27d2"],
@@ -980,9 +802,7 @@
   },
   {
     "body": "Good programming is good writing.",
-    "slug": "good-programming-is-good-writing",
     "uuid": "3b61790f73b8",
-    "featured": false,
     "publish_date": "2011-07-06 10:55:25",
     "authors": ["John Shore"],
     "authors_uuid": ["b429fabc65f9"],
@@ -991,9 +811,7 @@
   },
   {
     "body": "In programming, the hard part isn't solving problems, but deciding what problems to solve.",
-    "slug": "in-programming-the-hard-part-isnt-solving-problems-but-deciding-what-problems-to-solve",
     "uuid": "6440783b2e8a",
-    "featured": false,
     "publish_date": "2011-07-06 10:56:12",
     "authors": ["Paul Graham"],
     "authors_uuid": ["8ecba539670d"],
@@ -1002,9 +820,7 @@
   },
   {
     "body": "I am rarely happier than when spending entire day programming my computer to perform automatically a task that it would otherwise take me a good ten seconds to do by hand.",
-    "slug": "i-am-rarely-happier-than-when-spending-entire-day-programming-my-computer-to-perform-automatically",
     "uuid": "40ff78849982",
-    "featured": false,
     "publish_date": "2011-07-06 10:56:43",
     "authors": ["Douglas Adams"],
     "authors_uuid": ["bfc694ae69d3"],
@@ -1013,9 +829,7 @@
   },
   {
     "body": "The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination. Few media of creation are so flexible, so easy to polish and rework, so readily capable of realizing grand conceptual structures.",
-    "slug": "the-programmer-like-the-poet-works-only-slightly-removed-from-pure-thought-stuff-he-builds-his-c",
     "uuid": "b4e1127dc888",
-    "featured": false,
     "publish_date": "2011-07-06 10:58:00",
     "authors": ["Frederick P. Brooks"],
     "authors_uuid": ["583742cadc21"],
@@ -1024,9 +838,7 @@
   },
   {
     "body": "Managing senior programmers is like herding cats.",
-    "slug": "managing-senior-programmers-is-like-herding-cats",
     "uuid": "246bf3786af5",
-    "featured": false,
     "publish_date": "2011-07-06 10:58:58",
     "authors": ["Dave Platt"],
     "authors_uuid": ["b21d086493d3"],
@@ -1035,9 +847,7 @@
   },
   {
     "body": "It's better to wait for a productive programmer to become available than it is to wait for the first available programmer to become productive.",
-    "slug": "its-better-to-wait-for-a-productive-programmer-to-become-available-than-it-is-to-wait-for-the-firs",
     "uuid": "a1a3a68d3d3e",
-    "featured": false,
     "publish_date": "2011-07-06 10:59:26",
     "authors": ["Steve McConnell"],
     "authors_uuid": ["a1c6ce30251e"],
@@ -1046,9 +856,7 @@
   },
   {
     "body": "Make everything as simple as possible, but not simpler.",
-    "slug": "make-everything-as-simple-as-possible-but-not-simpler",
     "uuid": "ed775bb64b58",
-    "featured": false,
     "publish_date": "2011-07-06 11:08:47",
     "authors": ["Albert Einstein"],
     "authors_uuid": ["e62103ae06af"],
@@ -1057,9 +865,7 @@
   },
   {
     "body": "Reusing pieces of code is liked picking off sentences from other people's stories and trying to make a magazine article.",
-    "slug": "reusing-pieces-of-code-is-liked-picking-off-sentences-from-other-peoples-stories-and-trying-to-mak",
     "uuid": "73c5f60d2da4",
-    "featured": false,
     "publish_date": "2011-07-06 11:12:02",
     "authors": ["Bob Frankston"],
     "authors_uuid": ["8c3a81f2f74c"],
@@ -1068,9 +874,7 @@
   },
   {
     "body": "The object-oriented model makes it easy to build up programs by accretion. What this often means, in practice, is that it provides a structured way to write spaghetti code.",
-    "slug": "the-object-oriented-model-makes-it-easy-to-build-up-programs-by-accretion-what-this-often-means-i",
     "uuid": "bb9b1edfadde",
-    "featured": false,
     "publish_date": "2011-07-06 11:13:13",
     "authors": ["Paul Graham"],
     "authors_uuid": ["8ecba539670d"],
@@ -1079,9 +883,7 @@
   },
   {
     "body": "Learn the principle, abide by the principle, and dissolve the principle.",
-    "slug": "learn-the-principle-abide-by-the-principle-and-dissolve-the-principle",
     "uuid": "e3a2354e8093",
-    "featured": false,
     "publish_date": "2011-07-06 11:15:09",
     "authors": ["Bruce Lee"],
     "authors_uuid": ["f5228a0afc6d"],
@@ -1090,9 +892,7 @@
   },
   {
     "body": "Playfully doing something difficult, whether useful or not, that is hacking.",
-    "slug": "playfully-doing-something-difficult-whether-useful-or-not-that-is-hacking",
     "uuid": "6c33391faf81",
-    "featured": false,
     "publish_date": "2011-07-06 11:18:04",
     "authors": ["Richard M. Stallman"],
     "authors_uuid": ["2c980b2e69dc"],
@@ -1101,9 +901,7 @@
   },
   {
     "body": "It's not a bug &mdash; it's an undocumented feature.",
-    "slug": "its-not-a-bug-its-an-undocumented-feature",
     "uuid": "2426dc522f9d",
-    "featured": false,
     "publish_date": "2011-07-08 06:34:00",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -1112,9 +910,7 @@
   },
   {
     "body": "The cleaner and nicer the program, the faster it's going to run. And if it doesn't, it'll be easy to make it fast.",
-    "slug": "the-cleaner-and-nicer-the-program-the-faster-its-going-to-run-and-if-it-doesnt-itll-be-easy-t",
     "uuid": "0d331893d0bf",
-    "featured": false,
     "publish_date": "2011-07-08 09:41:19",
     "authors": ["Joshua Bloch"],
     "authors_uuid": ["7eaa626354f6"],
@@ -1123,9 +919,7 @@
   },
   {
     "body": "Adding manpower to a late software project makes it later.",
-    "slug": "adding-manpower-to-a-late-software-project-makes-it-later",
     "uuid": "7c9ea30eb2a2",
-    "featured": false,
     "publish_date": "2011-07-08 09:42:06",
     "authors": ["Frederick P. Brooks"],
     "authors_uuid": ["583742cadc21"],
@@ -1134,9 +928,7 @@
   },
   {
     "body": "Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the universe trying to build bigger and better idiots. So far, the universe is winning.",
-    "slug": "programming-today-is-a-race-between-software-engineers-striving-to-build-bigger-and-better-idiot-pr",
     "uuid": "cf13c9eb8f35",
-    "featured": false,
     "publish_date": "2011-07-08 09:42:48",
     "authors": ["Rick Cook"],
     "authors_uuid": ["2bf1a6de55cd"],
@@ -1145,9 +937,7 @@
   },
   {
     "body": "To me programming is more than an important practical art. It is also a gigantic undertaking in the foundations of knowledge.",
-    "slug": "to-me-programming-is-more-than-an-important-practical-art-it-is-also-a-gigantic-undertaking-in-the",
     "uuid": "3264726f996c",
-    "featured": false,
     "publish_date": "2011-07-08 09:43:34",
     "authors": ["Grace Hopper"],
     "authors_uuid": ["beaa1cfc9a53"],
@@ -1156,9 +946,7 @@
   },
   {
     "body": "A programming language is low level when its programs require attention to the irrelevant.",
-    "slug": "a-programming-language-is-low-level-when-its-programs-require-attention-to-the-irrelevant",
     "uuid": "f792ca163710",
-    "featured": false,
     "publish_date": "2011-07-08 23:08:41",
     "authors": ["Alan J. Perlis"],
     "authors_uuid": ["37c5afe528d6"],
@@ -1167,9 +955,7 @@
   },
   {
     "body": "A most important, but also most elusive, aspect of any tool is its influence on the habits of those who train themselves in its use. If the tool is a programming language this influence is, whether we like it or not, an influence on our thinking habits.",
-    "slug": "a-most-important-but-also-most-elusive-aspect-of-any-tool-is-its-influence-on-the-habits-of-those",
     "uuid": "60ab5cdcc743",
-    "featured": false,
     "publish_date": "2011-07-08 23:18:02",
     "authors": ["E. W. Dijkstra"],
     "authors_uuid": ["4b869649e244"],
@@ -1178,9 +964,7 @@
   },
   {
     "body": "Programs must be written for people to read, and only incidentally for machines to execute.",
-    "slug": "programs-must-be-written-for-people-to-read-and-only-incidentally-for-machines-to-execute",
     "uuid": "f5c4d22d5738",
-    "featured": false,
     "publish_date": "2011-07-08 23:19:10",
     "authors": ["Gerald Jay", "Harold Abelson"],
     "authors_uuid": ["50a70d5965da", "37f4fe16cdf7"],
@@ -1189,9 +973,7 @@
   },
   {
     "body": "It comes from saying no to 1,000 things to make sure we don't get on the wrong track or try to do too much.",
-    "slug": "it-comes-from-saying-no-to-1000-things-to-make-sure-we-dont-get-on-the-wrong-track-or-try-to-do-t",
     "uuid": "00bcd4a12ff4",
-    "featured": false,
     "publish_date": "2011-07-09 00:10:09",
     "authors": ["Steve Jobs"],
     "authors_uuid": ["8e1c29f1b7f1"],
@@ -1200,9 +982,7 @@
   },
   {
     "body": "When you feel the need to write a comment, first try to refactor the code so that any comment becomes superflous.",
-    "slug": "when-you-feel-the-need-to-write-a-comment-first-try-to-refactor-the-code-so-that-any-comment-becom",
     "uuid": "c7bcb566a9f6",
-    "featured": false,
     "publish_date": "2011-07-09 20:27:20",
     "authors": ["Martin Fowler"],
     "authors_uuid": ["721333935c91"],
@@ -1211,9 +991,7 @@
   },
   {
     "body": "A language that doesn't have everything is actually easier to program in than some that do.",
-    "slug": "a-language-that-doesnt-have-everything-is-actually-easier-to-program-in-than-some-that-do",
     "uuid": "44b16c403dec",
-    "featured": false,
     "publish_date": "2011-07-10 10:25:09",
     "authors": ["Dennis M. Ritchie"],
     "authors_uuid": ["547d0b1da532"],
@@ -1222,9 +1000,7 @@
   },
   {
     "body": "In corporate environments the product don't have to be good. Sometimes they don't even have to exist... if you are a thoughtful developer, you are in the wrong place!",
-    "slug": "in-corporate-environments-the-product-dont-have-to-be-good-sometimes-they-dont-even-have-to-exis",
     "uuid": "e3ac0e29f7de",
-    "featured": false,
     "publish_date": "2011-07-11 10:50:59",
     "authors": ["Jeff Atwood"],
     "authors_uuid": ["6591f999f41a"],
@@ -1233,9 +1009,7 @@
   },
   {
     "body": "The function of good software is to make the complex appear to be simple.",
-    "slug": "the-function-of-good-software-is-to-make-the-complex-appear-to-be-simple",
     "uuid": "907a3b3d9bed",
-    "featured": false,
     "publish_date": "2011-07-13 15:55:20",
     "authors": ["Grady Booch"],
     "authors_uuid": ["64add21260b3"],
@@ -1244,9 +1018,7 @@
   },
   {
     "body": "You broke the build!",
-    "slug": "you-broke-the-build",
     "uuid": "2f61f4271cb8",
-    "featured": false,
     "publish_date": "2011-07-14 11:08:46",
     "authors": ["Agnes"],
     "authors_uuid": ["84b790bb3e5d"],
@@ -1255,9 +1027,7 @@
   },
   {
     "body": "Constraints are advantages in disguise. Limited resources force you to make do with what you've got. There's no room for waste. And that forces you to be creative.",
-    "slug": "constraints-are-advantages-in-disguise-limited-resources-force-you-to-make-do-with-what-youve-got",
     "uuid": "ef13b6a1922d",
-    "featured": false,
     "publish_date": "2011-07-18 10:26:43",
     "authors": ["37Signals"],
     "authors_uuid": ["d6f81f5cfd1e"],
@@ -1266,9 +1036,7 @@
   },
   {
     "body": "One of the things I've been trying to do is look for simpler or rules underpinning good or bad design. I think one of the most valuable rules is avoid duplication. 'Once and only once' is the Extreme Programming phrase.",
-    "slug": "one-of-the-things-ive-been-trying-to-do-is-look-for-simpler-or-rules-underpinning-good-or-bad-desi",
     "uuid": "048beed69861",
-    "featured": false,
     "publish_date": "2011-07-18 10:29:42",
     "authors": ["Martin Fowler"],
     "authors_uuid": ["721333935c91"],
@@ -1277,9 +1045,7 @@
   },
   {
     "body": "The question of whether Machines Can Think... is about as relevant as the question of whether Submarines Can Swim.",
-    "slug": "the-question-of-whether-machines-can-think-is-about-as-relevant-as-the-question-of-whether-subma",
     "uuid": "a50734b779f6",
-    "featured": false,
     "publish_date": "2011-07-18 10:30:49",
     "authors": ["E. W. Dijkstra"],
     "authors_uuid": ["4b869649e244"],
@@ -1288,9 +1054,7 @@
   },
   {
     "body": "Measuring programming progress by lines of code is like measuring aircraft building progress by weight.",
-    "slug": "measuring-programming-progress-by-lines-of-code-is-like-measuring-aircraft-building-progress-by-wei",
     "uuid": "be73dc9389af",
-    "featured": false,
     "publish_date": "2011-07-22 08:35:05",
     "authors": ["Bill Gates"],
     "authors_uuid": ["c75df3e851bf"],
@@ -1299,9 +1063,7 @@
   },
   {
     "body": "First, solve the problem. Then, write the code.",
-    "slug": "first-solve-the-problem-then-write-the-code",
     "uuid": "037b1d98ecfc",
-    "featured": false,
     "publish_date": "2011-07-22 08:36:05",
     "authors": ["John Johnson"],
     "authors_uuid": ["7ee8f29cfe70"],
@@ -1310,9 +1072,7 @@
   },
   {
     "body": "The value of a prototype is in the education it gives you, not in the code itself.",
-    "slug": "the-value-of-a-prototype-is-in-the-education-it-gives-you-not-in-the-code-itself",
     "uuid": "1f2f5c81ed9d",
-    "featured": false,
     "publish_date": "2011-07-22 08:38:35",
     "authors": ["Alan Cooper"],
     "authors_uuid": ["f246ddd728e7"],
@@ -1321,9 +1081,7 @@
   },
   {
     "body": "Ugly programs are like ugly suspension bridges: they're much more liable to collapse than pretty ones, because the way humans (especially engineer-humans) perceive beauty is intimately related to our ability to process and understand complexity. A language that makes it hard to write elegant code makes it hard to write good code.",
-    "slug": "ugly-programs-are-like-ugly-suspension-bridges-theyre-much-more-liable-to-collapse-than-pretty-on",
     "uuid": "4252bc3a1e3f",
-    "featured": false,
     "publish_date": "2011-07-22 08:39:49",
     "authors": ["Eric Raymond"],
     "authors_uuid": ["67f54a69ab2d"],
@@ -1332,9 +1090,7 @@
   },
   {
     "body": "Every program has two purposes: The one for which it was written and another for which it wasn't.",
-    "slug": "every-program-has-two-purposes-the-one-for-which-it-was-written-and-another-for-which-it-wasnt",
     "uuid": "2f6794108b40",
-    "featured": false,
     "publish_date": "2011-07-24 15:29:12",
     "authors": ["Alan J. Perlis"],
     "authors_uuid": ["37c5afe528d6"],
@@ -1343,9 +1099,7 @@
   },
   {
     "body": "Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses remove it.",
-    "slug": "fools-ignore-complexity-pragmatists-suffer-it-some-can-avoid-it-geniuses-remove-it",
     "uuid": "2a766281fc25",
-    "featured": false,
     "publish_date": "2011-07-24 15:36:13",
     "authors": ["Alan J. Perlis"],
     "authors_uuid": ["37c5afe528d6"],
@@ -1354,9 +1108,7 @@
   },
   {
     "body": "Sometimes the problem is to discover what the problem is.",
-    "slug": "sometimes-the-problem-is-to-discover-what-the-problem-is",
     "uuid": "1268f53af645",
-    "featured": false,
     "publish_date": "2011-07-25 12:30:21",
     "authors": ["Gordon Glegg"],
     "authors_uuid": ["a194b2fc062e"],
@@ -1365,9 +1117,7 @@
   },
   {
     "body": "Before software can be reusable, it first has to be usable.",
-    "slug": "before-software-can-be-reusable-it-first-has-to-be-usable",
     "uuid": "8094d9a28449",
-    "featured": false,
     "publish_date": "2011-08-05 11:54:52",
     "authors": ["Ralph Johnson"],
     "authors_uuid": ["96f52c2d2c32"],
@@ -1376,9 +1126,7 @@
   },
   {
     "body": "There are two ways to write error-free programs; only the third works.",
-    "slug": "there-are-two-ways-to-write-error-free-programs-only-the-third-works",
     "uuid": "4b3f5abea62a",
-    "featured": false,
     "publish_date": "2011-08-05 11:57:50",
     "authors": ["Alan J. Perlis"],
     "authors_uuid": ["37c5afe528d6"],
@@ -1387,9 +1135,7 @@
   },
   {
     "body": "Software and cathedrals are much the same &mdash; first we build them, then we pray.",
-    "slug": "software-and-cathedrals-are-much-the-same-first-we-build-them-then-we-pray",
     "uuid": "10e88edeeda9",
-    "featured": false,
     "publish_date": "2011-08-05 11:59:30",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -1398,9 +1144,7 @@
   },
   {
     "body": "Real programmers can write assembly code in any language.",
-    "slug": "real-programmers-can-write-assembly-code-in-any-language",
     "uuid": "7c090f85cebf",
-    "featured": false,
     "publish_date": "2011-08-05 12:00:33",
     "authors": ["Larry Wall"],
     "authors_uuid": ["efd5a93782e9"],
@@ -1409,9 +1153,7 @@
   },
   {
     "body": "I've finally learned what &ldquo;upward compatible&rdquo; means. It means we get to keep all our old mistakes.",
-    "slug": "ive-finally-learned-what-upward-compatible-means-it-means-we-get-to-keep-all-our-old-mistakes",
     "uuid": "586a09d5a33a",
-    "featured": false,
     "publish_date": "2011-08-05 12:01:27",
     "authors": ["Dennie van Tassel"],
     "authors_uuid": ["20bf8a3666e8"],
@@ -1420,9 +1162,7 @@
   },
   {
     "body": "In software, we rarely have meaningful requirements. Even if we do, the only measure of success that matters is whether our solution solves the customer's shifting idea of what their problem is.",
-    "slug": "in-software-we-rarely-have-meaningful-requirements-even-if-we-do-the-only-measure-of-success-tha",
     "uuid": "ca259bb512ff",
-    "featured": false,
     "publish_date": "2011-08-09 09:37:58",
     "authors": ["Jeff Atwood"],
     "authors_uuid": ["6591f999f41a"],
@@ -1431,9 +1171,7 @@
   },
   {
     "body": "A lack of planning on your part does not constitute an emergency on my part.",
-    "slug": "a-lack-of-planning-on-your-part-does-not-constitute-an-emergency-on-my-part",
     "uuid": "9a78794b1f38",
-    "featured": true,
     "publish_date": "2011-08-09 09:38:45",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -1442,9 +1180,7 @@
   },
   {
     "body": "The best way to predict the future is to implement it.",
-    "slug": "the-best-way-to-predict-the-future-is-to-implement-it",
     "uuid": "38af4531ee25",
-    "featured": true,
     "publish_date": "2011-08-09 09:39:20",
     "authors": ["Alan Kay"],
     "authors_uuid": ["08a42b591dc3"],
@@ -1453,9 +1189,7 @@
   },
   {
     "body": "After you finish the first 90% of a project, you have to finish the other 90%.",
-    "slug": "after-you-finish-the-first-90-of-a-project-you-have-to-finish-the-other-90",
     "uuid": "0c8bc8a898fd",
-    "featured": false,
     "publish_date": "2011-08-10 10:57:58",
     "authors": ["Michael Abrash"],
     "authors_uuid": ["b681c412e184"],
@@ -1464,9 +1198,7 @@
   },
   {
     "body": "Any non-trivial program contains at least one bug.",
-    "slug": "any-non-trivial-program-contains-at-least-one-bug",
     "uuid": "642230bcdaba",
-    "featured": true,
     "publish_date": "2011-08-10 11:02:07",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -1475,9 +1207,7 @@
   },
   {
     "body": "At the source of every error which is blamed on the computer you will find at least two human errors, including the error of blaming it on the computer.",
-    "slug": "at-the-source-of-every-error-which-is-blamed-on-the-computer-you-will-find-at-least-two-human-error",
     "uuid": "26ba9c88e6a1",
-    "featured": false,
     "publish_date": "2011-08-10 11:02:35",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -1486,9 +1216,7 @@
   },
   {
     "body": "Good software, like wine, takes time.",
-    "slug": "good-software-like-wine-takes-time",
     "uuid": "4db9a9ede568",
-    "featured": false,
     "publish_date": "2011-08-10 11:03:39",
     "authors": ["Joel Spolsky"],
     "authors_uuid": ["22236409daf2"],
@@ -1497,9 +1225,7 @@
   },
   {
     "body": "Machines should work. People should think.",
-    "slug": "machines-should-work-people-should-think",
     "uuid": "62709a7b8c24",
-    "featured": false,
     "publish_date": "2011-08-10 11:04:23",
     "authors": ["IBM Pollyanna Principle"],
     "authors_uuid": ["2adc8a2aa13f"],
@@ -1508,9 +1234,7 @@
   },
   {
     "body": "We’re programmers. Programmers are, in their hearts, architects, and the first thing they want to do when they get to a site is to bulldoze the place flat and build something grand. We’re not excited by incremental renovation: tinkering, improving, planting flower beds.",
-    "slug": "were-programmers-programmers-are-in-their-hearts-architects-and-the-first-thing-they-want-to-d",
     "uuid": "e5e688a9c021",
-    "featured": false,
     "publish_date": "2011-08-11 05:47:24",
     "authors": ["Joel Spolsky"],
     "authors_uuid": ["22236409daf2"],
@@ -1519,9 +1243,7 @@
   },
   {
     "body": "The key to making programs fast is to make them do practically nothing.",
-    "slug": "the-key-to-making-programs-fast-is-to-make-them-do-practically-nothing",
     "uuid": "8f792ad12a7a",
-    "featured": false,
     "publish_date": "2011-08-12 12:10:41",
     "authors": ["Mike Haertel"],
     "authors_uuid": ["3a6d38743c01"],
@@ -1530,9 +1252,7 @@
   },
   {
     "body": "The adjustment period from solo programming to collaborative programming was like eating a hot pepper. The first time you try it, you may not like it because you are not used to it. However the more you eat it, the more you like it.",
-    "slug": "the-adjustment-period-from-solo-programming-to-collaborative-programming-was-like-eating-a-hot-pepp",
     "uuid": "8bc15f08e41b",
-    "featured": false,
     "publish_date": "2011-08-29 12:28:17",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -1541,9 +1261,7 @@
   },
   {
     "body": "The trick is to fix the problem you have, rather than the problem you want.",
-    "slug": "the-trick-is-to-fix-the-problem-you-have-rather-than-the-problem-you-want",
     "uuid": "33e3212f7b1c",
-    "featured": false,
     "publish_date": "2011-08-29 12:33:11",
     "authors": ["Bram Cohen"],
     "authors_uuid": ["e707c4c1ab62"],
@@ -1552,9 +1270,7 @@
   },
   {
     "body": "So-called &ldquo;smart&rdquo; software usually is the worst you can imagine.",
-    "slug": "so-called-smart-software-usually-is-the-worst-you-can-imagine",
     "uuid": "898c3608471d",
-    "featured": false,
     "publish_date": "2011-08-29 12:34:07",
     "authors": ["Christian Neukirchen"],
     "authors_uuid": ["6136ae35f62a"],
@@ -1563,9 +1279,7 @@
   },
   {
     "body": "Such is modern computing: everything simple is made too complicated because it's easy to fiddle with; everything complicated stays complicated because it's hard to fix.",
-    "slug": "such-is-modern-computing-everything-simple-is-made-too-complicated-because-its-easy-to-fiddle-wit",
     "uuid": "53497c5424e8",
-    "featured": true,
     "publish_date": "2011-08-29 12:35:55",
     "authors": ["Rob Pike"],
     "authors_uuid": ["569cfb601ec7"],
@@ -1574,9 +1288,7 @@
   },
   {
     "body": "The standard rule is, when you're in a hole, stop digging; that seems not to apply [to] software nowadays.",
-    "slug": "the-standard-rule-is-when-youre-in-a-hole-stop-digging-that-seems-not-to-apply-to-software-no",
     "uuid": "ebaa7e51510e",
-    "featured": false,
     "publish_date": "2011-08-29 12:36:47",
     "authors": ["Ron Minnich"],
     "authors_uuid": ["df08a6bc266b"],
@@ -1585,9 +1297,7 @@
   },
   {
     "body": "A complex system that works is invariably found to have evolved from a simple system that worked. The inverse proposition also appears to be true: A complex system designed from scratch never works and cannot be made to work.",
-    "slug": "a-complex-system-that-works-is-invariably-found-to-have-evolved-from-a-simple-system-that-worked-t",
     "uuid": "c06da254c416",
-    "featured": false,
     "publish_date": "2011-08-29 12:38:54",
     "authors": ["John Gall"],
     "authors_uuid": ["cee5c485ef7b"],
@@ -1596,9 +1306,7 @@
   },
   {
     "body": "One of the big lessons of a big project is you don't want people that aren't really programmers programming, you'll suffer for it!",
-    "slug": "one-of-the-big-lessons-of-a-big-project-is-you-dont-want-people-that-arent-really-programmers-pro",
     "uuid": "722fc4180bc1",
-    "featured": false,
     "publish_date": "2011-08-29 12:39:35",
     "authors": ["John Carmack"],
     "authors_uuid": ["aaebabb8c61b"],
@@ -1607,9 +1315,7 @@
   },
   {
     "body": "Why do we never have time to do it right, but always have time to do it over?",
-    "slug": "why-do-we-never-have-time-to-do-it-right-but-always-have-time-to-do-it-over",
     "uuid": "42dce0d64459",
-    "featured": false,
     "publish_date": "2011-08-31 12:38:54",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -1618,9 +1324,7 @@
   },
   {
     "body": "Better train people and risk they leave &mdash; than do nothing and risk they stay.",
-    "slug": "better-train-people-and-risk-they-leave-mdash-than-do-nothing-and-risk-they-stay",
     "uuid": "5b3e74a6be40",
-    "featured": false,
     "publish_date": "2011-08-31 12:40:18",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -1629,9 +1333,7 @@
   },
   {
     "body": "And the users exclaimed with a laugh and a taunt: It's just what we asked for but not what we want.",
-    "slug": "and-the-users-exclaimed-with-a-laugh-and-a-taunt-its-just-what-we-asked-for-but-not-what-we-want",
     "uuid": "1aea25174c35",
-    "featured": false,
     "publish_date": "2011-08-31 12:43:13",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -1640,9 +1342,7 @@
   },
   {
     "body": "In order to understand recursion, one must first understand recursion.",
-    "slug": "in-order-to-understand-recursion-one-must-first-understand-recursion",
     "uuid": "dcb09d65072f",
-    "featured": false,
     "publish_date": "2011-08-31 14:20:17",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -1651,9 +1351,7 @@
   },
   {
     "body": "Without requirements or design, programming is the art of adding bugs to an empty text file.",
-    "slug": "without-requirements-or-design-programming-is-the-art-of-adding-bugs-to-an-empty-text-file",
     "uuid": "0f2afedee113",
-    "featured": false,
     "publish_date": "2011-09-04 08:37:23",
     "authors": ["Louis Srygley"],
     "authors_uuid": ["c8f244f2797a"],
@@ -1662,9 +1360,7 @@
   },
   {
     "body": "Ready, fire, aim: the fast approach to software development. Ready, aim, aim, aim, aim: the slow approach to software development.",
-    "slug": "ready-fire-aim-the-fast-approach-to-software-development-ready-aim-aim-aim-aim-the-slow-ap",
     "uuid": "74dc4e7ac068",
-    "featured": false,
     "publish_date": "2011-09-04 08:39:18",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -1673,9 +1369,7 @@
   },
   {
     "body": "Estimate always goes wrong. That too in one way.",
-    "slug": "estimate-always-goes-wrong-that-too-in-one-way",
     "uuid": "181eaea52ed3",
-    "featured": false,
     "publish_date": "2011-09-12 08:26:21",
     "authors": ["Sumit Agrawal"],
     "authors_uuid": ["f0d8a757c7f5"],
@@ -1684,9 +1378,7 @@
   },
   {
     "body": "Good programming is 99% sweat and 1% coffee.",
-    "slug": "good-programming-is-99-sweat-and-1-coffee",
     "uuid": "347eb84167cc",
-    "featured": false,
     "publish_date": "2011-09-12 08:27:31",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -1695,9 +1387,7 @@
   },
   {
     "body": "Law 1: Every program can be optimised to be smaller. Law 2: There's always one more bug. Corollary: Every program can be reduced to a one-line bug.",
-    "slug": "law-1-every-program-can-be-optimised-to-be-smaller-law-2-theres-always-one-more-bug-corollary",
     "uuid": "969cf7e90789",
-    "featured": true,
     "publish_date": "2011-09-12 08:28:03",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -1706,9 +1396,7 @@
   },
   {
     "body": "Inside every large program, there is a small program trying to get out.",
-    "slug": "inside-every-large-program-there-is-a-small-program-trying-to-get-out",
     "uuid": "3e8dd093d90e",
-    "featured": true,
     "publish_date": "2011-09-15 10:42:42",
     "authors": ["C. A. R. Hoare"],
     "authors_uuid": ["a6bd6d72ec53"],
@@ -1717,9 +1405,7 @@
   },
   {
     "body": "A language that doesn't affect the way you think about programming is not worth knowing.",
-    "slug": "a-language-that-doesnt-affect-the-way-you-think-about-programming-is-not-worth-knowing",
     "uuid": "f19cd364c084",
-    "featured": false,
     "publish_date": "2011-09-15 10:44:08",
     "authors": ["Alan J. Perlis"],
     "authors_uuid": ["37c5afe528d6"],
@@ -1728,9 +1414,7 @@
   },
   {
     "body": "Don't have good ideas if you aren't willing to be responsible for them.",
-    "slug": "dont-have-good-ideas-if-you-arent-willing-to-be-responsible-for-them",
     "uuid": "300a997aec21",
-    "featured": false,
     "publish_date": "2011-09-15 10:44:21",
     "authors": ["Alan J. Perlis"],
     "authors_uuid": ["37c5afe528d6"],
@@ -1739,9 +1423,7 @@
   },
   {
     "body": "The sooner you start to code, the longer the program will take.",
-    "slug": "the-sooner-you-start-to-code-the-longer-the-program-will-take",
     "uuid": "bcf76467b997",
-    "featured": false,
     "publish_date": "2011-09-15 10:45:31",
     "authors": ["Roy Carlson"],
     "authors_uuid": ["55f2d2bb0fc1"],
@@ -1750,9 +1432,7 @@
   },
   {
     "body": "Incorrect documentation is often worse than no documentation.",
-    "slug": "incorrect-documentation-is-often-worse-than-no-documentation",
     "uuid": "73ac442d3317",
-    "featured": false,
     "publish_date": "2011-10-05 07:36:28",
     "authors": ["Bertrand Meyer"],
     "authors_uuid": ["1bad4873b494"],
@@ -1761,9 +1441,7 @@
   },
   {
     "body": "The longer it takes for a bug to surface, the harder it is to find.",
-    "slug": "the-longer-it-takes-for-a-bug-to-surface-the-harder-it-is-to-find",
     "uuid": "97e65fa7af62",
-    "featured": false,
     "publish_date": "2011-10-05 07:37:30",
     "authors": ["Roedy Green"],
     "authors_uuid": ["f182ec7250c8"],
@@ -1772,9 +1450,7 @@
   },
   {
     "body": "The cardinal rule of writing unmaintainable code is to specify each fact in as many places as possible and in as many ways as possible.",
-    "slug": "the-cardinal-rule-of-writing-unmaintainable-code-is-to-specify-each-fact-in-as-many-places-as-possi",
     "uuid": "55d810a4e35d",
-    "featured": false,
     "publish_date": "2011-10-05 07:38:50",
     "authors": ["Roedy Green"],
     "authors_uuid": ["f182ec7250c8"],
@@ -1783,9 +1459,7 @@
   },
   {
     "body": "The code you write makes you a programmer. The code you delete makes you a good one. The code you don't have to write makes you a great one.",
-    "slug": "the-code-you-write-makes-you-a-programmer-the-code-you-delete-makes-you-a-good-one-the-code-you-d",
     "uuid": "52a785c70bd8",
-    "featured": false,
     "publish_date": "2011-10-05 07:41:16",
     "authors": ["Mario Fusco"],
     "authors_uuid": ["c8338b8ec3d1"],
@@ -1794,9 +1468,7 @@
   },
   {
     "body": "If you give someone a program, you will frustrate them for a day; if you teach them how to program, you will frustrate them for a lifetime.",
-    "slug": "if-you-give-someone-a-program-you-will-frustrate-them-for-a-day-if-you-teach-them-how-to-program",
     "uuid": "cf89c538b6b1",
-    "featured": false,
     "publish_date": "2011-10-05 07:43:35",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -1805,9 +1477,7 @@
   },
   {
     "body": "The most obvious common ‘personality’ characteristics of hackers are high intelligence, consuming curiosity, and facility with intellectual abstractions. Also, most hackers are ‘neophiles’, stimulated by and appreciative of novelty (especially intellectual novelty). Most are also relatively individualistic and anti-conformist.",
-    "slug": "the-most-obvious-common-personality-characteristics-of-hackers-are-high-intelligence-consuming-c",
     "uuid": "a180ff5743fb",
-    "featured": false,
     "publish_date": "2011-10-07 07:11:46",
     "authors": ["Eric Raymond"],
     "authors_uuid": ["67f54a69ab2d"],
@@ -1816,9 +1486,7 @@
   },
   {
     "body": "XML documents are much like humans &mdash; they are cute and fun to deal with when they’re small but can get really annoying as they grow bigger.",
-    "slug": "xml-documents-are-much-like-humans-mdash-they-are-cute-and-fun-to-deal-with-when-theyre-small-bu",
     "uuid": "8dcefda0fcf6",
-    "featured": false,
     "publish_date": "2011-10-16 11:18:39",
     "authors": ["Andy Hunt"],
     "authors_uuid": ["187171c0d7c4"],
@@ -1827,9 +1495,7 @@
   },
   {
     "body": "A computer lets you make more mistakes faster than any other invention in human history, with the possible exceptions of handguns and tequila.",
-    "slug": "a-computer-lets-you-make-more-mistakes-faster-than-any-other-invention-in-human-history-with-the-p",
     "uuid": "d167b3d73cef",
-    "featured": false,
     "publish_date": "2011-11-29 13:43:15",
     "authors": ["Mitch Ratcliffe"],
     "authors_uuid": ["8167033c3e1c"],
@@ -1838,9 +1504,7 @@
   },
   {
     "body": "I love deadlines. I like the whooshing sound they make as they fly by.",
-    "slug": "i-love-deadlines-i-like-the-whooshing-sound-they-make-as-they-fly-by",
     "uuid": "b55e122b5cf0",
-    "featured": false,
     "publish_date": "2011-11-29 13:46:23",
     "authors": ["Douglas Adams"],
     "authors_uuid": ["bfc694ae69d3"],
@@ -1849,9 +1513,7 @@
   },
   {
     "body": "Saying that Java is good because it works on all platforms is like saying anal sex is good because it works on all genders.",
-    "slug": "saying-that-java-is-good-because-it-works-on-all-platforms-is-like-saying-anal-sex-is-good-because",
     "uuid": "76fb617e10ff",
-    "featured": false,
     "publish_date": "2011-11-29 13:47:23",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -1860,9 +1522,7 @@
   },
   {
     "body": "XML is like violence – if it doesn’t solve your problems, you are not using enough of it.",
-    "slug": "xml-is-like-violence-if-it-doesnt-solve-your-problems-you-are-not-using-enough-of-it",
     "uuid": "7282d919e23a",
-    "featured": false,
     "publish_date": "2011-11-29 13:48:07",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -1871,9 +1531,7 @@
   },
   {
     "body": "Features, quality, time: pick two.",
-    "slug": "features-quality-time-pick-two",
     "uuid": "c4d00cad5dc8",
-    "featured": false,
     "publish_date": "2011-11-29 13:49:18",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -1882,9 +1540,7 @@
   },
   {
     "body": "Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves.",
-    "slug": "most-software-today-is-very-much-like-an-egyptian-pyramid-with-millions-of-bricks-piled-on-top-of-e",
     "uuid": "f3a4b2246d6f",
-    "featured": false,
     "publish_date": "2011-12-08 09:16:13",
     "authors": ["Alan Kay"],
     "authors_uuid": ["08a42b591dc3"],
@@ -1893,9 +1549,7 @@
   },
   {
     "body": "Computers are like bikinis. They save people a lot of guesswork.",
-    "slug": "computers-are-like-bikinis-they-save-people-a-lot-of-guesswork",
     "uuid": "33263cf4e13e",
-    "featured": false,
     "publish_date": "2011-12-08 09:18:10",
     "authors": ["Sam Ewing"],
     "authors_uuid": ["df6847873913"],
@@ -1904,9 +1558,7 @@
   },
   {
     "body": "That’s what’s cool about working with computers. They don’t argue, they remember everything, and they don’t drink all your beer.",
-    "slug": "thats-whats-cool-about-working-with-computers-they-dont-argue-they-remember-everything-and-th",
     "uuid": "faab90c1f380",
-    "featured": false,
     "publish_date": "2011-12-08 09:21:36",
     "authors": ["Paul Leary"],
     "authors_uuid": ["bad026ef1279"],
@@ -1915,9 +1567,7 @@
   },
   {
     "body": "Hardware: the parts of a computer system that can be kicked.",
-    "slug": "hardware-the-parts-of-a-computer-system-that-can-be-kicked",
     "uuid": "1a0ac282c9c6",
-    "featured": false,
     "publish_date": "2011-12-08 09:23:15",
     "authors": ["Jeff Pesis"],
     "authors_uuid": ["51e84e41cf40"],
@@ -1926,9 +1576,7 @@
   },
   {
     "body": "Any fool can use a computer. Many do.",
-    "slug": "any-fool-can-use-a-computer-many-do",
     "uuid": "2baa70c3cb98",
-    "featured": false,
     "publish_date": "2011-12-08 09:26:54",
     "authors": ["Ted Nelson"],
     "authors_uuid": ["10651f0f3985"],
@@ -1937,9 +1585,7 @@
   },
   {
     "body": "There are only two industries that refer to their customers as &ldquo;users&rdquo;.",
-    "slug": "there-are-only-two-industries-that-refer-to-their-customers-as-users",
     "uuid": "fc08b79850c6",
-    "featured": false,
     "publish_date": "2011-12-08 09:27:58",
     "authors": ["Edward Tufte"],
     "authors_uuid": ["674e3b102cf7"],
@@ -1948,9 +1594,7 @@
   },
   {
     "body": "Optimism is an occupational hazard of programming; feedback is the treatment.",
-    "slug": "optimism-is-an-occupational-hazard-of-programming-feedback-is-the-treatment",
     "uuid": "c82ddbb8f681",
-    "featured": false,
     "publish_date": "2011-12-08 09:29:19",
     "authors": ["Kent Beck"],
     "authors_uuid": ["7b5113d7f9a5"],
@@ -1959,9 +1603,7 @@
   },
   {
     "body": "We build systems like the Wright brothers built airplanes &mdash; build the whole thing, push it off the cliff, let it crash, and start over again.",
-    "slug": "we-build-systems-like-the-wright-brothers-built-airplanes-mdash-build-the-whole-thing-push-it-of",
     "uuid": "f5b8de6764b4",
-    "featured": false,
     "publish_date": "2011-12-12 10:33:39",
     "authors": ["Nato Software Engineering Conference '68"],
     "authors_uuid": ["8a5f640b51ad"],
@@ -1970,9 +1612,7 @@
   },
   {
     "body": "In the end, regardless of where you are on the development hierarchy, keep coding. It’s where you’re most valuable.",
-    "slug": "in-the-end-regardless-of-where-you-are-on-the-development-hierarchy-keep-coding-its-where-your",
     "uuid": "180555d1d7ac",
-    "featured": false,
     "publish_date": "2011-12-15 08:58:27",
     "authors": ["The Developer's Code"],
     "authors_uuid": ["9a03084cf1c3"],
@@ -1981,9 +1621,7 @@
   },
   {
     "body": "JavaScript is the only language that I’m aware of that people feel they don’t need to learn before they start using it.",
-    "slug": "javascript-is-the-only-language-that-im-aware-of-that-people-feel-they-dont-need-to-learn-before",
     "uuid": "7849d13a825c",
-    "featured": true,
     "publish_date": "2012-01-09 10:24:21",
     "authors": ["Douglas Crockford"],
     "authors_uuid": ["2cfce23b8710"],
@@ -1992,9 +1630,7 @@
   },
   {
     "body": "The secret to building large apps is never build large apps. Break your applications into small pieces. Then, assemble those testable, bite-sized pieces into your big application.",
-    "slug": "the-secret-to-building-large-apps-is-never-build-large-apps-break-your-applications-into-small-pie",
     "uuid": "a65ec5fc068e",
-    "featured": true,
     "publish_date": "2012-02-13 05:10:49",
     "authors": ["Justin Meyer"],
     "authors_uuid": ["e6e7edef9669"],
@@ -2003,9 +1639,7 @@
   },
   {
     "body": "This is essentially what a program was, a love letter from the programmer to the hardware, full of the intimate details known only to partners in an affair.",
-    "slug": "this-is-essentially-what-a-program-was-a-love-letter-from-the-programmer-to-the-hardware-full-of",
     "uuid": "e7633cf57998",
-    "featured": false,
     "publish_date": "2012-02-14 06:13:08",
     "authors": ["Michael Marcotty"],
     "authors_uuid": ["8347ae2b13f5"],
@@ -2014,9 +1648,7 @@
   },
   {
     "body": "Later equals never.",
-    "slug": "later-equals-never",
     "uuid": "4085011753d1",
-    "featured": false,
     "publish_date": "2012-02-25 06:34:07",
     "authors": ["Le Blanc's law"],
     "authors_uuid": ["c25d2ce2fd3c"],
@@ -2025,9 +1657,7 @@
   },
   {
     "body": "The older I get, the more I believe that the only way to become a better programmer is by not programming.",
-    "slug": "the-older-i-get-the-more-i-believe-that-the-only-way-to-become-a-better-programmer-is-by-not-progr",
     "uuid": "e2ae8a62bece",
-    "featured": false,
     "publish_date": "2012-06-11 08:42:43",
     "authors": ["Jeff Atwood"],
     "authors_uuid": ["6591f999f41a"],
@@ -2036,9 +1666,7 @@
   },
   {
     "body": "It would be nice if products and programming languages were designed to have only good parts.",
-    "slug": "it-would-be-nice-if-products-and-programming-languages-were-designed-to-have-only-good-parts",
     "uuid": "87cc88ee789d",
-    "featured": false,
     "publish_date": "2012-07-22 19:42:46",
     "authors": ["Douglas Crockford"],
     "authors_uuid": ["2cfce23b8710"],
@@ -2047,9 +1675,7 @@
   },
   {
     "body": "You won't get anything done by planning.",
-    "slug": "you-wont-get-anything-done-by-planning",
     "uuid": "375996d4eafd",
-    "featured": false,
     "publish_date": "2013-02-21 11:31:47",
     "authors": ["Karl Pilkington"],
     "authors_uuid": ["e57c95c33382"],
@@ -2058,9 +1684,7 @@
   },
   {
     "body": "Any app that can be written in JavaScript, will eventually be written in JavaScript.",
-    "slug": "any-app-that-can-be-written-in-javascript-will-eventually-be-written-in-javascript",
     "uuid": "934b13526385",
-    "featured": false,
     "publish_date": "2013-03-18 08:04:48",
     "authors": ["Jeff Atwood"],
     "authors_uuid": ["6591f999f41a"],
@@ -2069,9 +1693,7 @@
   },
   {
     "body": "Good programmers don't just write programs. They build a working vocabulary.",
-    "slug": "good-programmers-dont-just-write-programs-they-build-a-working-vocabulary",
     "uuid": "35acf29ee059",
-    "featured": false,
     "publish_date": "2013-04-18 13:11:19",
     "authors": ["Guy Steele"],
     "authors_uuid": ["da2de2da7269"],
@@ -2080,9 +1702,7 @@
   },
   {
     "body": "Hiring bad developers is like drinking seawater. It seems to satisfy a need while actually increasing it.",
-    "slug": "hiring-bad-developers-is-like-drinking-seawater-it-seems-to-satisfy-a-need-while-actually-increasi",
     "uuid": "2035f94652ad",
-    "featured": false,
     "publish_date": "2013-05-23 14:44:43",
     "authors": ["Michael Nygard"],
     "authors_uuid": ["e6c7b4170a44"],
@@ -2091,9 +1711,7 @@
   },
   {
     "body": "All programming languages are shit. But the good ones fertilize your mind.",
-    "slug": "all-programming-languages-are-shit-but-the-good-ones-fertilize-your-mind",
     "uuid": "00ad98c27e29",
-    "featured": false,
     "publish_date": "2013-06-18 14:38:34",
     "authors": ["Reg Braithwaite"],
     "authors_uuid": ["7646b9c89f3e"],
@@ -2102,9 +1720,7 @@
   },
   {
     "body": "Hope is not a plan.",
-    "slug": "hope-is-not-a-plan",
     "uuid": "090d08cc91e1",
-    "featured": false,
     "publish_date": "2013-07-18 16:34:39",
     "authors": ["Jonathan Rosenberg"],
     "authors_uuid": ["4cee8c830a0b"],
@@ -2113,9 +1729,7 @@
   },
   {
     "body": "At some point software design becomes less about what and more about when.",
-    "slug": "at-some-point-software-design-becomes-less-about-what-and-more-about-when",
     "uuid": "d4e2254173ae",
-    "featured": false,
     "publish_date": "2013-08-01 07:50:44",
     "authors": ["Kent Beck"],
     "authors_uuid": ["7b5113d7f9a5"],
@@ -2124,9 +1738,7 @@
   },
   {
     "body": "Programming uses head and gut.",
-    "slug": "programming-uses-head-and-gut",
     "uuid": "e457620bf219",
-    "featured": false,
     "publish_date": "2013-09-05 11:52:20",
     "authors": ["Douglas Crockford"],
     "authors_uuid": ["2cfce23b8710"],
@@ -2135,9 +1747,7 @@
   },
   {
     "body": "&ldquo;That hardly ever happens&rdquo; is another way of saying &ldquo;it happens&rdquo;.",
-    "slug": "that-hardly-ever-happens-is-another-way-of-saying-it-happens",
     "uuid": "7f96137d5951",
-    "featured": false,
     "publish_date": "2013-09-05 11:52:52",
     "authors": ["Douglas Crockford"],
     "authors_uuid": ["2cfce23b8710"],
@@ -2146,9 +1756,7 @@
   },
   {
     "body": "If there is a feature of a language that is sometimes problematic, and if it can be replaced with another feature that is more reliable, then always use the more reliable feature.",
-    "slug": "if-there-is-a-feature-of-a-language-that-is-sometimes-problematic-and-if-it-can-be-replaced-with-a",
     "uuid": "40a0cc8c3443",
-    "featured": false,
     "publish_date": "2013-09-05 11:58:31",
     "authors": ["Douglas Crockford"],
     "authors_uuid": ["2cfce23b8710"],
@@ -2157,9 +1765,7 @@
   },
   {
     "body": "One of the best programming skills you can have is knowing when to walk away for awhile.",
-    "slug": "one-of-the-best-programming-skills-you-can-have-is-knowing-when-to-walk-away-for-awhile",
     "uuid": "48ae3b1133ff",
-    "featured": false,
     "publish_date": "2013-10-14 09:07:01",
     "authors": ["Oscar Godson"],
     "authors_uuid": ["ec3e45033a29"],
@@ -2168,9 +1774,7 @@
   },
   {
     "body": "Linux is only free if your time has no value.",
-    "slug": "linux-is-only-free-if-your-time-has-no-value",
     "uuid": "1c5f85133896",
-    "featured": false,
     "publish_date": "2014-02-10 06:02:39",
     "authors": ["Jamie Zawinski"],
     "authors_uuid": ["5b88df92a025"],
@@ -2179,9 +1783,7 @@
   },
   {
     "body": "The proper use of comments is to compensate for our failure to express ourself in code.",
-    "slug": "the-proper-use-of-comments-is-to-compensate-for-our-failure-to-express-ourself-in-code",
     "uuid": "e3956141f3fd",
-    "featured": false,
     "publish_date": "2014-03-30 03:47:43",
     "authors": ["Robert C. Martin"],
     "authors_uuid": ["2332b0bec2ae"],
@@ -2190,9 +1792,7 @@
   },
   {
     "body": "If we have data, let’s look at data. If all we have are opinions, let’s go with mine.",
-    "slug": "if-we-have-data-lets-look-at-data-if-all-we-have-are-opinions-lets-go-with-mine",
     "uuid": "abd0b9e6e5b0",
-    "featured": false,
     "publish_date": "2014-03-31 21:18:05",
     "authors": ["Jim Barksdale"],
     "authors_uuid": ["4e3948c2f118"],
@@ -2201,9 +1801,7 @@
   },
   {
     "body": "The most secure code in the world is code which is never written.",
-    "slug": "the-most-secure-code-in-the-world-is-code-which-is-never-written",
     "uuid": "7a77cfb9fd70",
-    "featured": false,
     "publish_date": "2014-04-09 20:11:17",
     "authors": ["Colin Percival"],
     "authors_uuid": ["379a8c87ebdd"],
@@ -2212,9 +1810,7 @@
   },
   {
     "body": "Sometimes, the elegant implementation is just a function. Not a method. Not a class. Not a framework. Just a function.",
-    "slug": "sometimes-the-elegant-implementation-is-just-a-function-not-a-method-not-a-class-not-a-framewor",
     "uuid": "9c1c086c134b",
-    "featured": false,
     "publish_date": "2014-04-10 17:18:43",
     "authors": ["John Carmack"],
     "authors_uuid": ["aaebabb8c61b"],
@@ -2223,9 +1819,7 @@
   },
   {
     "body": "The strength of JavaScript is that you can do anything. The weakness is that you will.",
-    "slug": "the-strength-of-javascript-is-that-you-can-do-anything-the-weakness-is-that-you-will",
     "uuid": "1a560a3318e7",
-    "featured": false,
     "publish_date": "2014-04-10 18:57:19",
     "authors": ["Reg Braithwaite"],
     "authors_uuid": ["7646b9c89f3e"],
@@ -2234,9 +1828,7 @@
   },
   {
     "body": "Write code every day.",
-    "slug": "write-code-every-day",
     "uuid": "61556b3360cf",
-    "featured": true,
     "publish_date": "2014-04-13 07:07:47",
     "authors": ["John Resig"],
     "authors_uuid": ["c592f7ed399b"],
@@ -2245,9 +1837,7 @@
   },
   {
     "body": "Sure I could program in PHP, but I could also use a sundial to tell time.",
-    "slug": "sure-i-could-program-in-php-but-i-could-also-use-a-sundial-to-tell-time",
     "uuid": "7563cfcd7091",
-    "featured": false,
     "publish_date": "2014-04-14 16:21:09",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -2256,9 +1846,7 @@
   },
   {
     "body": "The first step of any project is to grossly underestimate its complexity and difficulty.",
-    "slug": "the-first-step-of-any-project-is-to-grossly-underestimate-its-complexity-and-difficulty",
     "uuid": "99e8fbb5d4af",
-    "featured": true,
     "publish_date": "2014-04-20 01:28:07",
     "authors": ["Nicoll Hunt"],
     "authors_uuid": ["050df2248497"],
@@ -2267,9 +1855,7 @@
   },
   {
     "body": "Node.js is a tumor on the programming community, in that not only is it completely braindead, but the people who use it go on to infect other people who can't think for themselves.",
-    "slug": "nodejs-is-a-tumor-on-the-programming-community-in-that-not-only-is-it-completely-braindead-but-t",
     "uuid": "628bdfe6c783",
-    "featured": false,
     "publish_date": "2014-04-20 23:05:43",
     "authors": ["Ted Dziuba"],
     "authors_uuid": ["00e1b5611f6e"],
@@ -2278,9 +1864,7 @@
   },
   {
     "body": "The problem with object-oriented languages is they’ve got all this implicit environment that they carry around with them. You wanted a banana but what you got was a gorilla holding the banana and the entire jungle.",
-    "slug": "the-problem-with-object-oriented-languages-is-theyve-got-all-this-implicit-environment-that-they-c",
     "uuid": "fa281c957173",
-    "featured": false,
     "publish_date": "2014-04-20 23:16:24",
     "authors": ["Joe Armstrong", "Jason Gorman"],
     "authors_uuid": ["348952090cb3", "1cbf19d62ce5"],
@@ -2289,9 +1873,7 @@
   },
   {
     "body": "Object-oriented design is the roman numerals of computing.",
-    "slug": "object-oriented-design-is-the-roman-numerals-of-computing",
     "uuid": "1aee0254180e",
-    "featured": false,
     "publish_date": "2014-04-20 23:24:52",
     "authors": ["Rob Pike"],
     "authors_uuid": ["569cfb601ec7"],
@@ -2300,9 +1882,7 @@
   },
   {
     "body": "The most important property of a program is whether it accomplishes the intention of its user.",
-    "slug": "the-most-important-property-of-a-program-is-whether-it-accomplishes-the-intention-of-its-user",
     "uuid": "f1e2f3a8e72c",
-    "featured": false,
     "publish_date": "2014-04-22 02:20:58",
     "authors": ["C. A. R. Hoare"],
     "authors_uuid": ["a6bd6d72ec53"],
@@ -2311,9 +1891,7 @@
   },
   {
     "body": "You cannot manage that which you cannot measure.",
-    "slug": "you-cannot-manage-that-which-you-cannot-measure",
     "uuid": "173faaedeb69",
-    "featured": false,
     "publish_date": "2014-04-22 02:24:17",
     "authors": ["Jim Barksdale"],
     "authors_uuid": ["4e3948c2f118"],
@@ -2322,9 +1900,7 @@
   },
   {
     "body": "Nine people can’t make a baby in a month.",
-    "slug": "nine-people-cant-make-a-baby-in-a-month",
     "uuid": "ef7bd619d50b",
-    "featured": false,
     "publish_date": "2014-04-22 17:53:05",
     "authors": ["Frederick P. Brooks"],
     "authors_uuid": ["583742cadc21"],
@@ -2333,9 +1909,7 @@
   },
   {
     "body": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
-    "slug": "debugging-is-twice-as-hard-as-writing-the-code-in-the-first-place-therefore-if-you-write-the-code",
     "uuid": "188353f216dd",
-    "featured": false,
     "publish_date": "2014-04-22 17:54:21",
     "authors": ["Brian W. Kernighan"],
     "authors_uuid": ["0086884ef4b1"],
@@ -2344,9 +1918,7 @@
   },
   {
     "body": "When debugging, novices insert corrective code; experts remove defective code.",
-    "slug": "when-debugging-novices-insert-corrective-code-experts-remove-defective-code",
     "uuid": "7924408a67e0",
-    "featured": false,
     "publish_date": "2014-04-22 17:54:57",
     "authors": ["Richard Pattis"],
     "authors_uuid": ["94f163549a90"],
@@ -2355,9 +1927,7 @@
   },
   {
     "body": "One of my most productive days was throwing away 1000 lines of code.",
-    "slug": "one-of-my-most-productive-days-was-throwing-away-1000-lines-of-code",
     "uuid": "5280d25d5d15",
-    "featured": false,
     "publish_date": "2014-04-22 17:56:57",
     "authors": ["Ken Thompson"],
     "authors_uuid": ["fb43ec2030e5"],
@@ -2366,9 +1936,7 @@
   },
   {
     "body": "If builders built buildings the way programmers wrote programs, then the first woodpecker that came along would destroy civilization.",
-    "slug": "if-builders-built-buildings-the-way-programmers-wrote-programs-then-the-first-woodpecker-that-came",
     "uuid": "c4ed5d5cc892",
-    "featured": false,
     "publish_date": "2014-04-22 17:58:34",
     "authors": ["Gerald Weinberg"],
     "authors_uuid": ["585511a266f7"],
@@ -2377,9 +1945,7 @@
   },
   {
     "body": "If Java had true garbage collection, most programs would delete themselves upon execution.",
-    "slug": "if-java-had-true-garbage-collection-most-programs-would-delete-themselves-upon-execution",
     "uuid": "67a5a54f7cf4",
-    "featured": false,
     "publish_date": "2014-04-23 04:51:35",
     "authors": ["Robert Sewell"],
     "authors_uuid": ["46458390f521"],
@@ -2388,9 +1954,7 @@
   },
   {
     "body": "Perl: The only language that looks the same before and after RSA encryption.",
-    "slug": "perl-the-only-language-that-looks-the-same-before-and-after-rsa-encryption",
     "uuid": "a82104be5218",
-    "featured": false,
     "publish_date": "2014-04-23 04:53:22",
     "authors": ["Keith Bostic"],
     "authors_uuid": ["fd8dc9d83f31"],
@@ -2399,9 +1963,7 @@
   },
   {
     "body": "[Most managers] may defend the schedule and requirements with passion; but that’s their job. It’s your job to defend the code with equal passion.",
-    "slug": "most-managers-may-defend-the-schedule-and-requirements-with-passion-but-thats-their-job-its-y",
     "uuid": "d921d7128103",
-    "featured": false,
     "publish_date": "2014-04-23 04:54:57",
     "authors": ["Robert C. Martin"],
     "authors_uuid": ["2332b0bec2ae"],
@@ -2410,9 +1972,7 @@
   },
   {
     "body": "Talk is cheap. Show me the code.",
-    "slug": "talk-is-cheap-show-me-the-code",
     "uuid": "c8038d1bdd4b",
-    "featured": false,
     "publish_date": "2014-04-23 04:57:21",
     "authors": ["Linus Torvalds"],
     "authors_uuid": ["8491fd3f9c47"],
@@ -2421,9 +1981,7 @@
   },
   {
     "body": "In many ways, the prism of computer science is harmful for the development of information systems.",
-    "slug": "in-many-ways-the-prism-of-computer-science-is-harmful-for-the-development-of-information-systems",
     "uuid": "e13868a91d9a",
-    "featured": false,
     "publish_date": "2014-04-23 15:45:39",
     "authors": ["David Heinemeier Hansson"],
     "authors_uuid": ["a93c1717ba57"],
@@ -2432,9 +1990,7 @@
   },
   {
     "body": "Just because something is easy to measure doesn't mean it's important.",
-    "slug": "just-because-something-is-easy-to-measure-doesnt-mean-its-important",
     "uuid": "aa8a75766ae3",
-    "featured": false,
     "publish_date": "2014-04-23 15:54:27",
     "authors": ["David Heinemeier Hansson"],
     "authors_uuid": ["a93c1717ba57"],
@@ -2443,9 +1999,7 @@
   },
   {
     "body": "You do not really understand something unless you can explain it to your grandmother.",
-    "slug": "you-do-not-really-understand-something-unless-you-can-explain-it-to-your-grandmother",
     "uuid": "3086d3953998",
-    "featured": false,
     "publish_date": "2014-04-23 19:10:22",
     "authors": ["Albert Einstein"],
     "authors_uuid": ["e62103ae06af"],
@@ -2454,9 +2008,7 @@
   },
   {
     "body": "Simple doesn't mean stupid. Thinking that it does, does.",
-    "slug": "simple-doesnt-mean-stupid-thinking-that-it-does-does",
     "uuid": "d20940fbefbc",
-    "featured": false,
     "publish_date": "2014-04-23 19:11:38",
     "authors": ["Paul Krugman"],
     "authors_uuid": ["688a0d2e0d9c"],
@@ -2465,9 +2017,7 @@
   },
   {
     "body": "Tests are the Programmer’s stone, transmuting fear into boredom.",
-    "slug": "tests-are-the-programmers-stone-transmuting-fear-into-boredom",
     "uuid": "aee1c599b562",
-    "featured": false,
     "publish_date": "2014-04-27 19:57:32",
     "authors": ["Kent Beck"],
     "authors_uuid": ["7b5113d7f9a5"],
@@ -2476,9 +2026,7 @@
   },
   {
     "body": "No matter how slick the demo is in rehearsal, when you do it in front of a live audience the probability of a flawless presentation is inversely proportional to the number of people watching, raised to the power of the amount of money involved.",
-    "slug": "no-matter-how-slick-the-demo-is-in-rehearsal-when-you-do-it-in-front-of-a-live-audience-the-probab",
     "uuid": "45a891dd66d8",
-    "featured": false,
     "publish_date": "2014-04-28 19:59:40",
     "authors": ["Mark Gibbs"],
     "authors_uuid": ["cc01e4592d23"],
@@ -2487,9 +2035,7 @@
   },
   {
     "body": "Rails has done more for startups than a whole boatload of Venture Capitalists.",
-    "slug": "rails-has-done-more-for-startups-than-a-whole-boatload-of-venture-capitalists",
     "uuid": "f91c36197fab",
-    "featured": false,
     "publish_date": "2014-04-29 03:51:30",
     "authors": ["Eric Ries"],
     "authors_uuid": ["ed3a55c74b2e"],
@@ -2498,9 +2044,7 @@
   },
   {
     "body": "If McDonald's were run like a software company, one out of every hundred Big Macs would give you food poisoning, and the response would be, &ldquo;We're sorry, here is a coupon for two more&rdquo;.",
-    "slug": "if-mcdonalds-were-run-like-a-software-company-one-out-of-every-hundred-big-macs-would-give-you-fo",
     "uuid": "e52b77cae163",
-    "featured": false,
     "publish_date": "2014-04-30 05:07:07",
     "authors": ["Mark Minasi"],
     "authors_uuid": ["1cf1766ef465"],
@@ -2509,9 +2053,7 @@
   },
   {
     "body": "When in doubt, use brute force.",
-    "slug": "when-in-doubt-use-brute-force",
     "uuid": "60b000519248",
-    "featured": false,
     "publish_date": "2014-04-30 18:35:30",
     "authors": ["Ken Thompson"],
     "authors_uuid": ["fb43ec2030e5"],
@@ -2520,9 +2062,7 @@
   },
   {
     "body": "Beauty is more important in computing than anywhere else in technology because software is so complicated. Beauty is the ultimate defence against complexity.",
-    "slug": "beauty-is-more-important-in-computing-than-anywhere-else-in-technology-because-software-is-so-compl",
     "uuid": "2d6bcc8e148c",
-    "featured": true,
     "publish_date": "2014-04-30 18:36:28",
     "authors": ["David Gelernter"],
     "authors_uuid": ["30b50d2e8012"],
@@ -2531,9 +2071,7 @@
   },
   {
     "body": "First do it, then do it right, then do it better.",
-    "slug": "first-do-it-then-do-it-right-then-do-it-better",
     "uuid": "22dfb7af95f6",
-    "featured": false,
     "publish_date": "2014-05-02 04:40:46",
     "authors": ["Addy Osmani"],
     "authors_uuid": ["114e5d617487"],
@@ -2542,9 +2080,7 @@
   },
   {
     "body": "The best way to prepare [to be a programmer] is to write programs, and to study great programs that other people have written. In my case, I went to the garbage cans at the Computer Science Center and fished out listings of their operating system.",
-    "slug": "the-best-way-to-prepare-to-be-a-programmer-is-to-write-programs-and-to-study-great-programs-that",
     "uuid": "e063f5410e1e",
-    "featured": false,
     "publish_date": "2014-05-03 16:16:56",
     "authors": ["Bill Gates"],
     "authors_uuid": ["c75df3e851bf"],
@@ -2553,9 +2089,7 @@
   },
   {
     "body": "Users who want critical bug fixes and new features without actually upgrading their software also want magic flying candy-dropping ponies.",
-    "slug": "users-who-want-critical-bug-fixes-and-new-features-without-actually-upgrading-their-software-also-w",
     "uuid": "1c6814a839f6",
-    "featured": false,
     "publish_date": "2014-05-04 01:57:17",
     "authors": ["chromatic"],
     "authors_uuid": ["d340827dc495"],
@@ -2564,9 +2098,7 @@
   },
   {
     "body": "Feature-based releases expand to fill all available time until someone feels guilty for not finishing the feature on a magical, wish-fulfillment schedule, and hey, has it been a couple of years already?",
-    "slug": "feature-based-releases-expand-to-fill-all-available-time-until-someone-feels-guilty-for-not-finishi",
     "uuid": "4785cf31ea01",
-    "featured": false,
     "publish_date": "2014-05-04 03:37:13",
     "authors": ["chromatic"],
     "authors_uuid": ["d340827dc495"],
@@ -2575,9 +2107,7 @@
   },
   {
     "body": "Do not use humans for jobs computers can do better &mdash; this is a waste of human energy and creativity, the only real resource on this planet, and demeans the human spirit.",
-    "slug": "do-not-use-humans-for-jobs-computers-can-do-better-mdash-this-is-a-waste-of-human-energy-and-crea",
     "uuid": "0fb69abd8de3",
-    "featured": false,
     "publish_date": "2014-05-22 14:23:41",
     "authors": ["J. Paul Morrison"],
     "authors_uuid": ["779d5828b7ac"],
@@ -2586,9 +2116,7 @@
   },
   {
     "body": "A generalist is a jack-of-all-trades but a master of none, whereas a generalizing specialist is a jack-of-all-trades and master of a few. Big difference.",
-    "slug": "a-generalist-is-a-jack-of-all-trades-but-a-master-of-none-whereas-a-generalizing-specialist-is-a-j",
     "uuid": "e3de252b9c12",
-    "featured": false,
     "publish_date": "2014-05-26 14:21:05",
     "authors": ["Scott Ambler"],
     "authors_uuid": ["6d07dad54e74"],
@@ -2597,9 +2125,7 @@
   },
   {
     "body": "A human being should be able to change a diaper, plan an invasion, butcher a hog, conn a ship, design a building, write a sonnet, balance accounts, build a wall, set a bone, comfort the dying, take orders, give orders, cooperate, act alone, solve equations, analyze a new problem, pitch manure, program a computer, cook a tasty meal, fight efficiently, die gallantly. Specialization is for insects.",
-    "slug": "a-human-being-should-be-able-to-change-a-diaper-plan-an-invasion-butcher-a-hog-conn-a-ship-desi",
     "uuid": "be22120f0692",
-    "featured": false,
     "publish_date": "2014-05-26 14:55:54",
     "authors": ["Robert A. Heinlein"],
     "authors_uuid": ["fc77a33d1938"],
@@ -2608,9 +2134,7 @@
   },
   {
     "body": "The amount of energy necessary to refute bullshit is an order of magnitude bigger than to produce it.",
-    "slug": "the-amount-of-energy-necessary-to-refute-bullshit-is-an-order-of-magnitude-bigger-than-to-produce-i",
     "uuid": "c67b6f4f6b04",
-    "featured": false,
     "publish_date": "2014-05-28 14:53:09",
     "authors": ["Alberto Brandolini"],
     "authors_uuid": ["8fb4cdc2b11d"],
@@ -2619,9 +2143,7 @@
   },
   {
     "body": "Not all eyes that notice bugs in Open Source code belong to saints who will report or repair them in the interest of the public good.",
-    "slug": "not-all-eyes-that-notice-bugs-in-open-source-code-belong-to-saints-who-will-report-or-repair-them-i",
     "uuid": "9b7335d276f4",
-    "featured": false,
     "publish_date": "2014-06-04 09:20:37",
     "authors": ["Martin Fowler"],
     "authors_uuid": ["721333935c91"],
@@ -2630,9 +2152,7 @@
   },
   {
     "body": "It's a lot easier to talk about code than it is to write code.",
-    "slug": "its-a-lot-easier-to-talk-about-code-than-it-is-to-write-code",
     "uuid": "1fecbda5ee97",
-    "featured": false,
     "publish_date": "2014-06-17 10:11:05",
     "authors": ["John O'Nolan"],
     "authors_uuid": ["837ee73bb5f5"],
@@ -2641,9 +2161,7 @@
   },
   {
     "body": "If you are choosing a JavaScript library purely based on popularity, I think you deserve what you get.",
-    "slug": "if-you-are-choosing-a-javascript-library-purely-based-on-popularity-i-think-you-deserve-what-you-g",
     "uuid": "659ed0b653d7",
-    "featured": false,
     "publish_date": "2014-07-10 12:55:44",
     "authors": ["Tom Dale"],
     "authors_uuid": ["377fa7385f75"],
@@ -2652,9 +2170,7 @@
   },
   {
     "body": "What exactly makes a great platform? It’s about what your business puts into its platform and what your consumers and/or business partners get out of it. And that’s the point. A platform either fits into an overall corporate strategy or it doesn’t.",
-    "slug": "what-exactly-makes-a-great-platform-its-about-what-your-business-puts-into-its-platform-and-what",
     "uuid": "12541276c052",
-    "featured": false,
     "publish_date": "2014-10-02 07:55:49",
     "authors": ["Phil Simon"],
     "authors_uuid": ["6aa66a28622c"],
@@ -2663,9 +2179,7 @@
   },
   {
     "body": "Easy is not to be underestimated. Easy taps the pool of talent and ideas out there that were turned off by hard.",
-    "slug": "easy-is-not-to-be-underestimated-easy-taps-the-pool-of-talent-and-ideas-out-there-that-were-turned",
     "uuid": "a8e45a9ecde7",
-    "featured": false,
     "publish_date": "2014-10-03 09:16:05",
     "authors": ["Chris Anderson"],
     "authors_uuid": ["5a116988ee0f"],
@@ -2674,9 +2188,7 @@
   },
   {
     "body": "Most of the biggest problems in software are problems of misconception.",
-    "slug": "most-of-the-biggest-problems-in-software-are-problems-of-misconception",
     "uuid": "8757ea13cf07",
-    "featured": true,
     "publish_date": "2014-10-06 07:10:47",
     "authors": ["Rich Hickey"],
     "authors_uuid": ["32618e73c289"],
@@ -2685,9 +2197,7 @@
   },
   {
     "body": "As a Lead JavaScript Engineer, I try to get my team to write as little JavaScript as possible.",
-    "slug": "as-a-lead-javascript-engineer-i-try-to-get-my-team-to-write-as-little-javascript-as-possible",
     "uuid": "f8349ff66ef1",
-    "featured": false,
     "publish_date": "2014-10-06 11:53:29",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -2696,9 +2206,7 @@
   },
   {
     "body": "Get out of the way of your developers or lose them to someone who will.",
-    "slug": "get-out-of-the-way-of-your-developers-or-lose-them-to-someone-who-will",
     "uuid": "b495dbf39e9a",
-    "featured": false,
     "publish_date": "2014-10-06 16:25:12",
     "authors": ["Adrian Cockcroft"],
     "authors_uuid": ["b5a25ddb1e4d"],
@@ -2707,9 +2215,7 @@
   },
   {
     "body": "A person without data is just another person with an opinion.",
-    "slug": "a-person-without-data-is-just-another-person-with-an-opinion",
     "uuid": "91eebc0361a5",
-    "featured": false,
     "publish_date": "2014-10-07 15:50:17",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -2718,9 +2224,7 @@
   },
   {
     "body": "Programs, like people, get old. We can’t prevent ageing, but we can understand its causes, limit its effects and reverse some of the damage.",
-    "slug": "programs-like-people-get-old-we-cant-prevent-ageing-but-we-can-understand-its-causes-limit-it",
     "uuid": "f2d17e0a52c5",
-    "featured": true,
     "publish_date": "2014-10-14 12:41:45",
     "authors": ["Mario Fusco"],
     "authors_uuid": ["c8338b8ec3d1"],
@@ -2729,9 +2233,7 @@
   },
   {
     "body": "If you're actually doing TDD, you're throwing away tests all the time, as your understanding of what the code is changes.",
-    "slug": "if-youre-actually-doing-tdd-youre-throwing-away-tests-all-the-time-as-your-understanding-of-wha",
     "uuid": "9a938b1c916e",
-    "featured": true,
     "publish_date": "2014-10-21 10:54:20",
     "authors": ["Kerri Miller"],
     "authors_uuid": ["6bbd8de9ccd6"],
@@ -2740,9 +2242,7 @@
   },
   {
     "body": "Simplicity is about subtracting the obvious and adding the meaningful.",
-    "slug": "simplicity-is-about-subtracting-the-obvious-and-adding-the-meaningful",
     "uuid": "da93a8d2d40c",
-    "featured": true,
     "publish_date": "2014-10-31 09:20:02",
     "authors": ["John Maeda"],
     "authors_uuid": ["871bdf83f01d"],
@@ -2751,9 +2251,7 @@
   },
   {
     "body": "Programmers are as emotional and irrational as normal people.",
-    "slug": "programmers-are-as-emotional-and-irrational-as-normal-people",
     "uuid": "fb64c7208871",
-    "featured": false,
     "publish_date": "2014-10-31 09:39:36",
     "authors": ["Douglas Crockford"],
     "authors_uuid": ["2cfce23b8710"],
@@ -2762,9 +2260,7 @@
   },
   {
     "body": "Blame the implementation, not the technique.",
-    "slug": "blame-the-implementation-not-the-technique",
     "uuid": "72cc1bc2504c",
-    "featured": false,
     "publish_date": "2014-11-14 13:39:26",
     "authors": ["Tim Kadlec"],
     "authors_uuid": ["0a752591e4d5"],
@@ -2773,9 +2269,7 @@
   },
   {
     "body": "What matters for simplicity is that there's not interleaving.",
-    "slug": "what-matters-for-simplicity-is-that-theres-not-interleaving",
     "uuid": "2d556767a979",
-    "featured": false,
     "publish_date": "2014-11-17 07:52:29",
     "authors": ["Rich Hickey"],
     "authors_uuid": ["32618e73c289"],
@@ -2784,9 +2278,7 @@
   },
   {
     "body": "The art of programming is the art of organizing complexity, of mastering multitude and avoiding its bastard chaos as effectively as possible.",
-    "slug": "the-art-of-programming-is-the-art-of-organizing-complexity-of-mastering-multitude-and-avoiding-its",
     "uuid": "37b103aa0a82",
-    "featured": false,
     "publish_date": "2014-11-17 07:53:59",
     "authors": ["E. W. Dijkstra"],
     "authors_uuid": ["4b869649e244"],
@@ -2795,9 +2287,7 @@
   },
   {
     "body": "Scrum is like the rules of soccer. Following them does not make you a good player.",
-    "slug": "scrum-is-like-the-rules-of-soccer-following-them-does-not-make-you-a-good-player",
     "uuid": "acc92d3aa1bd",
-    "featured": true,
     "publish_date": "2014-12-16 14:07:56",
     "authors": ["Jeff Sutherland"],
     "authors_uuid": ["9d08117648e7"],
@@ -2806,9 +2296,7 @@
   },
   {
     "body": "Writing software as if we are the only person that ever has to comprehend it is one of the biggest mistakes and false assumptions that can be made.",
-    "slug": "writing-software-as-if-we-are-the-only-person-that-ever-has-to-comprehend-it-is-one-of-the-biggest",
     "uuid": "c7e72839e706",
-    "featured": true,
     "publish_date": "2015-02-08 01:44:50",
     "authors": ["Karolina Szczur"],
     "authors_uuid": ["59427dea9585"],
@@ -2817,9 +2305,7 @@
   },
   {
     "body": "The craft of programming begins with empathy, not formatting or languages or tools or algorithms or data structures.",
-    "slug": "the-craft-of-programming-begins-with-empathy-not-formatting-or-languages-or-tools-or-algorithms-or",
     "uuid": "1c5c257b858c",
-    "featured": true,
     "publish_date": "2015-02-13 11:58:49",
     "authors": ["Kent Beck"],
     "authors_uuid": ["7b5113d7f9a5"],
@@ -2828,9 +2314,7 @@
   },
   {
     "body": "I hate code, and I want as little of it as possible in our product.",
-    "slug": "i-hate-code-and-i-want-as-little-of-it-as-possible-in-our-product",
     "uuid": "99ec1b114133",
-    "featured": false,
     "publish_date": "2015-02-14 13:38:23",
     "authors": ["Jack Diederich"],
     "authors_uuid": ["d5b6553f772b"],
@@ -2839,9 +2323,7 @@
   },
   {
     "body": "It's important to remember that when you start from scratch there is absolutely no reason to believe that you are going to do a better job than you did the first time. First of all, you probably don't even have the same programming team that worked on version one, so you don't actually have &ldquo;more experience&rdquo;. You're just going to make most of the old mistakes again, and introduce some new problems that weren't in the original version.",
-    "slug": "its-important-to-remember-that-when-you-start-from-scratch-there-is-absolutely-no-reason-to-believ",
     "uuid": "b9ebe0833814",
-    "featured": false,
     "publish_date": "2015-02-14 13:41:52",
     "authors": ["Joel Spolsky"],
     "authors_uuid": ["22236409daf2"],
@@ -2850,9 +2332,7 @@
   },
   {
     "body": "The key is to acknowledge from the start that you have no idea how this will grow. When you accept that you don't know everything, you begin to design the system defensively... You should spend most of your time thinking about interfaces rather than implementations.",
-    "slug": "the-key-is-to-acknowledge-from-the-start-that-you-have-no-idea-how-this-will-grow-when-you-accept",
     "uuid": "fb66529c9789",
-    "featured": false,
     "publish_date": "2015-02-14 13:43:37",
     "authors": ["Nicholas Zakas"],
     "authors_uuid": ["0d77c9a33876"],
@@ -2861,9 +2341,7 @@
   },
   {
     "body": "A program is like a poem: you cannot write a poem without writing it.",
-    "slug": "a-program-is-like-a-poem-you-cannot-write-a-poem-without-writing-it",
     "uuid": "8b2cccdc8af4",
-    "featured": false,
     "publish_date": "2015-02-15 10:42:07",
     "authors": ["E. W. Dijkstra"],
     "authors_uuid": ["4b869649e244"],
@@ -2872,9 +2350,7 @@
   },
   {
     "body": "Security is a state of mind.",
-    "slug": "security-is-a-state-of-mind",
     "uuid": "6d1a3cc9f2fd",
-    "featured": true,
     "publish_date": "2015-02-15 10:43:17",
     "authors": ["NSA Security Manual"],
     "authors_uuid": ["4a9171674619"],
@@ -2883,9 +2359,7 @@
   },
   {
     "body": "Languages that try to disallow idiocy become themselves idiotic.",
-    "slug": "languages-that-try-to-disallow-idiocy-become-themselves-idiotic",
     "uuid": "619ce45c1432",
-    "featured": true,
     "publish_date": "2015-02-15 10:44:45",
     "authors": ["Rob Pike"],
     "authors_uuid": ["569cfb601ec7"],
@@ -2894,9 +2368,7 @@
   },
   {
     "body": "When in doubt, leave it out.",
-    "slug": "when-in-doubt-leave-it-out",
     "uuid": "f0a9ec0f9a38",
-    "featured": false,
     "publish_date": "2015-02-15 10:47:18",
     "authors": ["Joshua Bloch"],
     "authors_uuid": ["7eaa626354f6"],
@@ -2905,9 +2377,7 @@
   },
   {
     "body": "No code is faster than no code.",
-    "slug": "no-code-is-faster-than-no-code",
     "uuid": "c3c565580dd6",
-    "featured": false,
     "publish_date": "2015-02-15 10:47:45",
     "authors": ["merb motto"],
     "authors_uuid": ["2a5f2936ca3a"],
@@ -2916,9 +2386,7 @@
   },
   {
     "body": "Data dominates. If you’ve chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to programming.",
-    "slug": "data-dominates-if-youve-chosen-the-right-data-structures-and-organized-things-well-the-algorithm",
     "uuid": "79afad17d469",
-    "featured": false,
     "publish_date": "2015-02-15 11:44:15",
     "authors": ["Rob Pike"],
     "authors_uuid": ["569cfb601ec7"],
@@ -2927,9 +2395,7 @@
   },
   {
     "body": "The best reaction to &ldquo;this is confusing, where are the docs&rdquo; is to rewrite the feature to make it less confusing, not write more docs.",
-    "slug": "the-best-reaction-to-this-is-confusing-where-are-the-docs-is-to-rewrite-the-feature-to-make-it-l",
     "uuid": "e63c78fffc10",
-    "featured": false,
     "publish_date": "2015-02-16 15:25:03",
     "authors": ["Jeff Atwood"],
     "authors_uuid": ["6591f999f41a"],
@@ -2938,9 +2404,7 @@
   },
   {
     "body": "Treat your code like poetry and take it to the edge of the bare minimum.",
-    "slug": "treat-your-code-like-poetry-and-take-it-to-the-edge-of-the-bare-minimum",
     "uuid": "f3f60a148687",
-    "featured": false,
     "publish_date": "2015-02-17 04:40:11",
     "authors": ["Ilyo"],
     "authors_uuid": ["9ff55a2cedf2"],
@@ -2949,9 +2413,7 @@
   },
   {
     "body": "There is no single development, in either technology or management\ntechnique, which by itself promises even one order-of-magnitude\nimprovement within a decade in productivity, in reliability, in simplicity.",
-    "slug": "there-is-no-single-development-in-either-technology-or-management-technique-which-by-itself-prom",
     "uuid": "676ccdf6cd58",
-    "featured": false,
     "publish_date": "2015-02-17 14:15:54",
     "authors": ["Frederick P. Brooks"],
     "authors_uuid": ["583742cadc21"],
@@ -2960,9 +2422,7 @@
   },
   {
     "body": "And the reason these things take a generation is because ultimately we do not change people's minds. We have to wait for the previous generation to retire or die before we can get critical mass on the next idea. So it's like we look around: &ldquo;Are they gone?&rdquo;",
-    "slug": "and-the-reason-these-things-take-a-generation-is-because-ultimately-we-do-not-change-peoples-minds",
     "uuid": "7889a22833c1",
-    "featured": false,
     "publish_date": "2015-02-18 13:26:05",
     "authors": ["Douglas Crockford"],
     "authors_uuid": ["2cfce23b8710"],
@@ -2971,9 +2431,7 @@
   },
   {
     "body": "Big data is like teenage sex: everyone talks about it, nobody really knows how to do it, everyone thinks everyone else is doing it, so everyone claims they are doing it...",
-    "slug": "big-data-is-like-teenage-sex-everyone-talks-about-it-nobody-really-knows-how-to-do-it-everyone-t",
     "uuid": "0d36454ff9f2",
-    "featured": true,
     "publish_date": "2015-04-01 13:54:18",
     "authors": ["Dan Ariely"],
     "authors_uuid": ["e052ba2d029a"],
@@ -2982,9 +2440,7 @@
   },
   {
     "body": "Good engineers make solutions obsolete. Great engineers make themselves obsolete.",
-    "slug": "good-engineers-make-solutions-obsolete-great-engineers-make-themselves-obsolete",
     "uuid": "d86f04835f65",
-    "featured": false,
     "publish_date": "2015-04-08 02:39:23",
     "authors": ["Jordan W"],
     "authors_uuid": ["c44284f67131"],
@@ -2993,9 +2449,7 @@
   },
   {
     "body": "Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations.",
-    "slug": "organizations-which-design-systems-are-constrained-to-produce-designs-which-are-copies-of-the-commu",
     "uuid": "e9b36c831b9b",
-    "featured": true,
     "publish_date": "2015-04-22 07:28:04",
     "authors": ["Conway's law"],
     "authors_uuid": ["887f284c1035"],
@@ -3004,9 +2458,7 @@
   },
   {
     "body": "Always bet on JavaScript.",
-    "slug": "always-bet-on-javascript",
     "uuid": "043cf96383a9",
-    "featured": false,
     "publish_date": "2015-06-03 17:00:05",
     "authors": ["Brendan Eich"],
     "authors_uuid": ["74187cefc1fe"],
@@ -3015,9 +2467,7 @@
   },
   {
     "body": "Things that are impossible just take longer.",
-    "slug": "things-that-are-impossible-just-take-longer",
     "uuid": "aa42eefd03ed",
-    "featured": false,
     "publish_date": "2015-06-03 17:02:17",
     "authors": ["Ian Hickson"],
     "authors_uuid": ["c9528dbd8b11"],
@@ -3026,9 +2476,7 @@
   },
   {
     "body": "Well-designed components are easy to replace. Eventually, they will be replaced by ones that are not so easy to replace.",
-    "slug": "well-designed-components-are-easy-to-replace-eventually-they-will-be-replaced-by-ones-that-are-no",
     "uuid": "3cb9aed30f79",
-    "featured": true,
     "publish_date": "2015-06-15 12:34:41",
     "authors": ["Sustrik's Law"],
     "authors_uuid": ["02ecac5f1f05"],
@@ -3037,9 +2485,7 @@
   },
   {
     "body": "Programmers are often angry because they’re often scared.",
-    "slug": "programmers-are-often-angry-because-theyre-often-scared",
     "uuid": "15795d2d7461",
-    "featured": true,
     "publish_date": "2015-07-03 04:12:46",
     "authors": ["Paul Ford"],
     "authors_uuid": ["0fa8164035de"],
@@ -3048,9 +2494,7 @@
   },
   {
     "body": "(...) Thinking this way will teach you two things about computers: One, there’s no magic, no matter how much it looks like there is. There’s just work to make things look like magic. And two, it’s crazy in there.",
-    "slug": "thinking-this-way-will-teach-you-two-things-about-computers-one-theres-no-magic-no-matter",
     "uuid": "7779227f02fc",
-    "featured": true,
     "publish_date": "2015-07-03 04:15:37",
     "authors": ["Paul Ford"],
     "authors_uuid": ["0fa8164035de"],
@@ -3059,9 +2503,7 @@
   },
   {
     "body": "A Fallacy of Software: If it works, and we don't change anything, it will keep working.",
-    "slug": "a-fallacy-of-software-if-it-works-and-we-dont-change-anything-it-will-keep-working",
     "uuid": "486d7b07cec5",
-    "featured": false,
     "publish_date": "2015-07-05 15:47:19",
     "authors": ["Jessica Kerr"],
     "authors_uuid": ["428812a60e95"],
@@ -3070,9 +2512,7 @@
   },
   {
     "body": "Almost without exception, the best products are developed by teams with desire to solve a problem; not a company's need to fulfil a strategy.",
-    "slug": "almost-without-exception-the-best-products-are-developed-by-teams-with-desire-to-solve-a-problem",
     "uuid": "2ce6816c577f",
-    "featured": false,
     "publish_date": "2015-08-03 06:30:49",
     "authors": ["Jeff Weiner"],
     "authors_uuid": ["53a605479c46"],
@@ -3081,9 +2521,7 @@
   },
   {
     "body": "The best error message is the one that never shows up.",
-    "slug": "the-best-error-message-is-the-one-that-never-shows-up",
     "uuid": "375a0ac9e57b",
-    "featured": true,
     "publish_date": "2015-08-31 15:41:27",
     "authors": ["Thomas Fuchs"],
     "authors_uuid": ["59ac05760791"],
@@ -3092,9 +2530,7 @@
   },
   {
     "body": "Telling a programmer there's already a library to do X is like telling a songwriter there's already a song about love.",
-    "slug": "telling-a-programmer-theres-already-a-library-to-do-x-is-like-telling-a-songwriter-theres-already",
     "uuid": "4f9eef0a6be3",
-    "featured": false,
     "publish_date": "2015-09-18 03:53:42",
     "authors": ["Pete Cordell"],
     "authors_uuid": ["c3d1e1c2b214"],
@@ -3103,9 +2539,7 @@
   },
   {
     "body": "A programmer does not primarily write code; rather, he primarily writes to another programmer about his problem solution. The understanding of this fact is the final step in his maturation as technician.",
-    "slug": "a-programmer-does-not-primarily-write-code-rather-he-primarily-writes-to-another-programmer-about",
     "uuid": "6138712c7f91",
-    "featured": true,
     "publish_date": "2015-09-21 02:09:05",
     "authors": ["anonymous"],
     "authors_uuid": ["87dd7c6d02a8"],
@@ -3114,9 +2548,7 @@
   },
   {
     "body": "It can be better to copy a little code than to pull in a big library for one function.  Dependency hygiene trumps code reuse.",
-    "slug": "it-can-be-better-to-copy-a-little-code-than-to-pull-in-a-big-library-for-one-function-dependency",
     "uuid": "c79b5a54431c",
-    "featured": false,
     "publish_date": "2015-10-02 08:16:10",
     "authors": ["Rob Pike"],
     "authors_uuid": ["569cfb601ec7"],
@@ -3125,9 +2557,7 @@
   },
   {
     "body": "There's nothing more permanent than a temporary hack.",
-    "slug": "theres-nothing-more-permanent-than-a-temporary-hack",
     "uuid": "e69960948c0a",
-    "featured": true,
     "publish_date": "2015-10-02 19:16:19",
     "authors": ["Kyle Simpson"],
     "authors_uuid": ["1a510e784b6a"],
@@ -3136,9 +2566,7 @@
   },
   {
     "body": "Like designers, if you give a programmer a problem with parameters, they’ll apply every bit of genius they have to solve it in the best possible way. If you tell them how to do it, you’ll suffer the wrath of an angry God.",
-    "slug": "like-designers-if-you-give-a-programmer-a-problem-with-parameters-theyll-apply-every-bit-of-geni",
     "uuid": "ade82b8cff43",
-    "featured": true,
     "publish_date": "2015-10-31 08:16:46",
     "authors": ["Derek Powazek"],
     "authors_uuid": ["9d8723deb1c7"],
@@ -3147,9 +2575,7 @@
   },
   {
     "body": "Start out with finding the right problem to solve. This is a combination of “what customers are asking for”, “what customers don’t even know they want yet” and “what can be solved with something simple to understand and manage”",
-    "slug": "start-out-with-finding-the-right-problem-to-solve-this-is-a-combination-of-what-customers-are-ask",
     "uuid": "fded10ee743d",
-    "featured": false,
     "publish_date": "2015-11-02 09:41:30",
     "authors": ["Radia Perlman"],
     "authors_uuid": ["fc76f6bb9c22"],
@@ -3158,9 +2584,7 @@
   },
   {
     "body": "Teams are immutable. Every time someone leaves, or joins, you have a new team, not a changed team.",
-    "slug": "teams-are-immutable-every-time-someone-leaves-or-joins-you-have-a-new-team-not-a-changed-team",
     "uuid": "e172ed567769",
-    "featured": false,
     "publish_date": "2015-11-10 17:19:00",
     "authors": ["Richard Dalton"],
     "authors_uuid": ["c8bbe4a47cc3"],
@@ -3169,9 +2593,7 @@
   },
   {
     "body": "Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.",
-    "slug": "every-great-developer-you-know-got-there-by-solving-problems-they-were-unqualified-to-solve-until-t",
     "uuid": "ed6c96b8688e",
-    "featured": false,
     "publish_date": "2015-11-21 11:26:01",
     "authors": ["Patrick McKenzie"],
     "authors_uuid": ["47c1f12a1071"],
@@ -3180,9 +2602,7 @@
   },
   {
     "body": "That which optimizes one part of the system necessarily undermines the system as a whole.",
-    "slug": "that-which-optimizes-one-part-of-the-system-necessarily-undermines-the-system-as-a-whole",
     "uuid": "056e012db22d",
-    "featured": false,
     "publish_date": "2015-11-21 11:26:22",
     "authors": ["Eric Ries"],
     "authors_uuid": ["ed3a55c74b2e"],
@@ -3191,9 +2611,7 @@
   },
   {
     "body": "Hardware eventually fails. Software eventually works.",
-    "slug": "hardware-eventually-fails-software-eventually-works",
     "uuid": "d24ddfb1d2fe",
-    "featured": false,
     "publish_date": "2015-11-24 02:31:34",
     "authors": ["Michael Hartung"],
     "authors_uuid": ["fb656032b750"],
@@ -3202,9 +2620,7 @@
   },
   {
     "body": "We crave for new sensations but soon become indifferent to them. Wonders of yesterday are today common occurrences.",
-    "slug": "we-crave-for-new-sensations-but-soon-become-indifferent-to-them-wonders-of-yesterday-are-today-com",
     "uuid": "a1629ea1e2f5",
-    "featured": false,
     "publish_date": "2015-11-29 12:44:33",
     "authors": ["Nikola Tesla"],
     "authors_uuid": ["07aa74c718cc"],
@@ -3213,9 +2629,7 @@
   },
   {
     "body": "I know testers who make good devs. I know devs who make good testers. I know Scrum Masters who make good coffee.",
-    "slug": "i-know-testers-who-make-good-devs-i-know-devs-who-make-good-testers-i-know-scrum-masters-who-make",
     "uuid": "6ed675f666c9",
-    "featured": false,
     "publish_date": "2015-12-03 02:27:23",
     "authors": ["David Evans"],
     "authors_uuid": ["c4501b6bd737"],
@@ -3224,9 +2638,7 @@
   },
   {
     "body": "Go is the language JavaScript programmers retire to when they get old. Like the Florida of programming languages.",
-    "slug": "go-is-the-language-javascript-programmers-retire-to-when-they-get-old-like-the-florida-of-programm",
     "uuid": "e8cbc93dbe41",
-    "featured": false,
     "publish_date": "2015-12-05 16:23:27",
     "authors": ["Jed Schmidt"],
     "authors_uuid": ["4080a244c2bf"],
@@ -3235,9 +2647,7 @@
   },
   {
     "body": "UNIX is simple. It just takes a genius to understand its simplicity.",
-    "slug": "unix-is-simple-it-just-takes-a-genius-to-understand-its-simplicity",
     "uuid": "eeaa6a217652",
-    "featured": false,
     "publish_date": "2015-12-07 03:27:42",
     "authors": ["Dennis M. Ritchie"],
     "authors_uuid": ["547d0b1da532"],
@@ -3246,9 +2656,7 @@
   },
   {
     "body": "An evolving system increases its complexity unless work is done to reduce it.",
-    "slug": "an-evolving-system-increases-its-complexity-unless-work-is-done-to-reduce-it",
     "uuid": "69d17c59dbb1",
-    "featured": true,
     "publish_date": "2015-12-26 12:07:10",
     "authors": ["Meir Lehman"],
     "authors_uuid": ["3e5ad9a21aa8"],
@@ -3257,9 +2665,7 @@
   },
   {
     "body": "Almost every attempt at making something better will be regarded by someone else as a personal attack.",
-    "slug": "almost-every-attempt-at-making-something-better-will-be-regarded-by-someone-else-as-a-personal-atta",
     "uuid": "6a67c97890e0",
-    "featured": false,
     "publish_date": "2015-12-28 07:34:54",
     "authors": ["Chris Sacca"],
     "authors_uuid": ["0c9ae13e781e"],
@@ -3268,9 +2674,7 @@
   },
   {
     "body": "The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the programming task in full humility, and among other things he avoids clever tricks like the plague.",
-    "slug": "the-competent-programmer-is-fully-aware-of-the-strictly-limited-size-of-his-own-skull-therefore-he",
     "uuid": "73155277cbdb",
-    "featured": true,
     "publish_date": "2016-02-24 02:30:12",
     "authors": ["E. W. Dijkstra"],
     "authors_uuid": ["4b869649e244"],
@@ -3279,9 +2683,7 @@
   },
   {
     "body": "Bad programmers worry about the code. Good programmers worry about data structures and their relationships.",
-    "slug": "bad-programmers-worry-about-the-code-good-programmers-worry-about-data-structures-and-their-relati",
     "uuid": "f75f5dee011f",
-    "featured": false,
     "publish_date": "2016-03-18 07:30:11",
     "authors": ["Linus Torvalds"],
     "authors_uuid": ["8491fd3f9c47"],
@@ -3290,9 +2692,7 @@
   },
   {
     "body": "90% of the functionality delivered now is better than 100% delivered never.",
-    "slug": "90-of-the-functionality-delivered-now-is-better-than-100-delivered-never",
     "uuid": "b47a7ced0a50",
-    "featured": true,
     "publish_date": "2016-05-17 02:28:48",
     "authors": ["Brian W. Kernighan", "P. J. Plaugher"],
     "authors_uuid": ["0086884ef4b1", "e773f0e8944d"],
@@ -3301,9 +2701,7 @@
   },
   {
     "body": "Software being &ldquo;Done&rdquo; is like lawn being &ldquo;Mowed&rdquo;.",
-    "slug": "software-being-done-is-like-lawn-being-mowed",
     "uuid": "a2f21fd89432",
-    "featured": true,
     "publish_date": "2016-10-12 06:34:01",
     "authors": ["Jim Benson"],
     "authors_uuid": ["00d26e2417fb"],
@@ -3312,9 +2710,7 @@
   },
   {
     "body": "Promoting a good developer to management is often a twofold bad move: you'll lose a good developer and get a poor manager.",
-    "slug": "promoting-a-good-developer-to-management-is-often-a-twofold-bad-move-youll-lose-a-good-developer",
     "uuid": "fe202be7c152",
-    "featured": false,
     "publish_date": "2016-10-13 08:17:57",
     "authors": ["Mario Fusco"],
     "authors_uuid": ["c8338b8ec3d1"],
@@ -3323,9 +2719,7 @@
   },
   {
     "body": "Programmers have to fight against the two most destructive forces in the universe: entropy and stupidity.",
-    "slug": "programmers-have-to-fight-against-the-two-most-destructive-forces-in-the-universe-entropy-and-stup",
     "uuid": "2801314a603c",
-    "featured": false,
     "publish_date": "2016-11-12 10:14:24",
     "authors": ["Damian Conway"],
     "authors_uuid": ["b0b00efcf6de"],
@@ -3334,9 +2728,7 @@
   },
   {
     "body": "What one programmer can do in one month, two programmers can do in two months.",
-    "slug": "what-one-programmer-can-do-in-one-month-two-programmers-can-do-in-two-months",
     "uuid": "96838dfba830",
-    "featured": false,
     "publish_date": "2017-04-07 08:15:34",
     "authors": ["Frederick P. Brooks"],
     "authors_uuid": ["583742cadc21"],
@@ -3345,9 +2737,7 @@
   },
   {
     "body": "If you say &ldquo;I told you so&rdquo;, you are the one who has failed. Because you knew, but did not manage to stop the train wreck.",
-    "slug": "if-you-say-i-told-you-so-you-are-the-one-who-has-failed-because-you-knew-but-did-not-manage-to",
     "uuid": "3f5c2fb98714",
-    "featured": false,
     "publish_date": "2017-07-11 04:40:03",
     "authors": ["Robert C. Martin"],
     "authors_uuid": ["2332b0bec2ae"],
@@ -3356,9 +2746,7 @@
   },
   {
     "body": "These days, the problem isn't how to innovate; it's how to get society to adopt the good ideas that already exist.",
-    "slug": "these-days-the-problem-isnt-how-to-innovate-its-how-to-get-society-to-adopt-the-good-ideas-that",
     "uuid": "c9f58c58ff44",
-    "featured": false,
     "publish_date": "2017-07-17 12:54:34",
     "authors": ["Douglas Engelbart"],
     "authors_uuid": ["035df902216d"],
@@ -3367,9 +2755,7 @@
   },
   {
     "body": "In carpentry you measure twice and cut once. In software development you never measure and make cuts until you run out of time.",
-    "slug": "in-carpentry-you-measure-twice-and-cut-once-in-software-development-you-never-measure-and-make-cut",
     "uuid": "c7b40eb9dc48",
-    "featured": false,
     "publish_date": "2017-10-17 02:45:17",
     "authors": ["Adam Morse"],
     "authors_uuid": ["4b67f6a86a19"],
@@ -3378,9 +2764,7 @@
   },
   {
     "body": "A good API is not just easy to use but also hard to misuse.",
-    "slug": "a-good-api-is-not-just-easy-to-use-but-also-hard-to-misuse",
     "uuid": "f1ec7b2ce219",
-    "featured": false,
     "publish_date": "2017-10-17 04:14:56",
     "authors": ["JBD"],
     "authors_uuid": ["f5c71c172203"],
@@ -3389,9 +2773,7 @@
   },
   {
     "body": "The best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer.",
-    "slug": "the-best-way-to-get-the-right-answer-on-the-internet-is-not-to-ask-a-question-its-to-post-the-wro",
     "uuid": "4413f2984cd3",
-    "featured": false,
     "publish_date": "2017-10-24 11:54:28",
     "authors": ["Cunningham's Law"],
     "authors_uuid": ["019970521e3d"],
@@ -3400,9 +2782,7 @@
   },
   {
     "body": "Programming is not easy like Sunday morning, it is silent poetry.",
-    "slug": "programming-is-not-easy-like-sunday-morning-it-is-silent-poetry",
     "uuid": "65a25a329466",
-    "featured": false,
     "publish_date": "2017-11-18 18:31:05",
     "authors": ["Waseem Latif"],
     "authors_uuid": ["8f0ef5e53fd2"],
@@ -3411,9 +2791,7 @@
   },
   {
     "body": "Formal education will make you a living. Self-education will make you a fortune.",
-    "slug": "formal-education-will-make-you-a-living-self-education-will-make-you-a-fortune",
     "uuid": "e9b2d2056e8d",
-    "featured": false,
     "publish_date": "2018-02-19 19:56:30",
     "authors": ["Jim Rohn"],
     "authors_uuid": ["6e1824851454"],
@@ -3422,9 +2800,7 @@
   },
   {
     "body": "Code is like humor. When you have to explain it, it’s bad.",
-    "slug": "code-is-like-humor-when-you-have-to-explain-it-its-bad",
     "uuid": "d34614db1b72",
-    "featured": false,
     "publish_date": "2018-07-04 19:36:34",
     "authors": ["Cory House"],
     "authors_uuid": ["e8d337e9b56f"],
@@ -3433,9 +2809,7 @@
   },
   {
     "body": "Terrible code is not a good excuse to be mean, because terrible code is not well-correlated with having been written by terrible people.",
-    "slug": "terrible-code-is-not-a-good-excuse-to-be-mean-because-terrible-code-is-not-well-correlated-with-ha",
     "uuid": "06096f8669ef",
-    "featured": false,
     "publish_date": "2019-03-10 18:03:26",
     "authors": ["GeePaw Hill"],
     "authors_uuid": ["903a8239b348"],
@@ -3444,9 +2818,7 @@
   },
   {
     "body": "A computer is like a mischievous genie. It will give you exactly what you ask for, but not always what you want.",
-    "slug": "a-computer-is-like-a-mischievous-genie-it-will-give-you-exactly-what-you-ask-for-but-not-always-w",
     "uuid": "296fa82772bd",
-    "featured": false,
     "publish_date": "2019-03-10 20:00:31",
     "authors": ["Joe Sondow"],
     "authors_uuid": ["7411d7116cac"],
@@ -3455,9 +2827,7 @@
   },
   {
     "body": "Programming is just saying &ldquo;I have a meeting in an hour so better not start on this yet&rdquo; to yourself until you die.",
-    "slug": "programming-is-just-saying-i-have-a-meeting-in-an-hour-so-better-not-start-on-this-yet-to-yoursel",
     "uuid": "92889379dfe6",
-    "featured": false,
     "publish_date": "2019-03-10 20:08:33",
     "authors": ["Alex Engelberg"],
     "authors_uuid": ["d7fc1a317e86"],
@@ -3466,9 +2836,7 @@
   },
   {
     "body": "Once a new technology rolls over you, if you're not part of the steamroller you're part of the road.",
-    "slug": "once-a-new-technology-rolls-over-you-if-youre-not-part-of-the-steamroller-youre-part-of-the-road",
     "uuid": "e74fa05fabec",
-    "featured": false,
     "publish_date": "2019-03-23 08:44:37",
     "authors": ["Stewart Brand"],
     "authors_uuid": ["9a77e12f15f0"],
@@ -3477,13 +2845,29 @@
   },
   {
     "body": "The amateur software engineer is always in search of magic.",
-    "slug": "the-amateur-software-engineer-is-always-in-search-of-magic",
     "uuid": "653ab76358f8",
-    "featured": false,
     "publish_date": "2019-03-28 20:36:17",
     "authors": ["Grady Booch"],
     "authors_uuid": ["64add21260b3"],
     "tags_uuid": ["46278bd60154"],
     "tags": ["programming"]
+  },
+  {
+    "uuid": "buBL1RQdsTfUHrTLYVBLyN",
+    "body": "Programming languages, like pizza, come in only two sizes: too big and too small.",
+    "publish_date": "2019-10-17 20:17:37",
+    "authors_uuid": ["94f163549a90"],
+    "authors": ["Richard Pattis"],
+    "tags_uuid": ["2e662c7bed7a"],
+    "tags": ["languages"]
+  },
+  {
+    "uuid": "dS3Zi3TUtUnSdQGLbrZwhv",
+    "body": "The only way to learn a new programming language is by writing programs in it.",
+    "publish_date": "2019-10-17 20:20:42",
+    "authors_uuid": ["547d0b1da532"],
+    "authors": ["Dennis M. Ritchie"],
+    "tags_uuid": ["2e662c7bed7a"],
+    "tags": ["languages"]
   }
 ]
