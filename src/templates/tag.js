@@ -11,6 +11,7 @@ const TagPage = ({ pageContext }) => (
     <QuotesList
       pageContext={pageContext}
       quotes={pageContext.quotes}
+      tag={pageContext.name}
       totalCount={pageContext.quotes.length}
       type="tag"
     />

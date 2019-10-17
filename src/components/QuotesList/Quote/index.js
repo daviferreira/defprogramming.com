@@ -24,43 +24,55 @@ const Placeholder = () => (
   </div>
 );
 
-const Quote = ({ authors, body, hideAuthors, hideTags, opacity, tags }) => (
-  <div
-    className={classnames(styles.root, {
-      [styles.largeText]: body.length > 230
-    })}
-    style={{ opacity }}
-  >
+const Quote = ({
+  authors,
+  body,
+  hideAuthors,
+  hideTags,
+  opacity,
+  tag,
+  tags
+}) => {
+  const availableTags = tag ? tags.filter(t => t !== tag) : tags;
+
+  return (
     <div
-      className={styles.content}
-      dangerouslySetInnerHTML={{ __html: body }} /* eslint-disable-line */
-    />
-    <div className={styles.meta}>
-      {!hideAuthors && (
-        <span className={styles.item}>
-          <AuthorsIcon {...iconProps} alt="Authors" />
-          {authors.map((author, index) => (
-            <Fragment key={author}>
-              <Link to={`/quotes-by/${slugify(author)}/`}>{author}</Link>
-              {index < authors.length - 1 && <span>&bull;</span>}
-            </Fragment>
-          ))}
-        </span>
-      )}
-      {!hideTags && (
-        <span className={classnames(styles.item, styles.tags)}>
-          <TagsIcon {...iconProps} alt="Tags" />
-          {tags.map((tag, index) => (
-            <Fragment key={tag}>
-              <Link to={`/quotes-tagged-with/${slugify(tag)}/`}>{tag}</Link>
-              {index < tags.length - 1 && <span>&bull;</span>}
-            </Fragment>
-          ))}
-        </span>
-      )}
+      className={classnames(styles.root, {
+        [styles.largeText]: body.length > 230
+      })}
+      style={{ opacity }}
+    >
+      <div
+        className={styles.content}
+        dangerouslySetInnerHTML={{ __html: body }} /* eslint-disable-line */
+      />
+      <div className={styles.meta}>
+        {!hideAuthors && (
+          <span className={styles.item}>
+            <AuthorsIcon {...iconProps} alt="Authors" />
+            {authors.map((author, index) => (
+              <Fragment key={author}>
+                <Link to={`/quotes-by/${slugify(author)}/`}>{author}</Link>
+                {index < authors.length - 1 && <span>&bull;</span>}
+              </Fragment>
+            ))}
+          </span>
+        )}
+        {availableTags && availableTags.length > 0 && (
+          <span className={classnames(styles.item, styles.tags)}>
+            <TagsIcon {...iconProps} alt="Tags" />
+            {availableTags.map((tag, index) => (
+              <Fragment key={tag}>
+                <Link to={`/quotes-tagged-with/${slugify(tag)}/`}>{tag}</Link>
+                {index < availableTags.length - 1 && <span>&bull;</span>}
+              </Fragment>
+            ))}
+          </span>
+        )}
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 Quote.Placeholder = Placeholder;
 
@@ -70,6 +82,7 @@ Quote.propTypes = {
   hideAuthors: PropTypes.bool,
   hideTags: PropTypes.bool,
   opacity: PropTypes.number,
+  tag: PropTypes.string,
   tags: PropTypes.array.isRequired
 };
 

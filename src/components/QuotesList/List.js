@@ -28,6 +28,7 @@ const List = ({
   page,
   pageContext,
   quotes,
+  tag,
   totalCount,
   type
 }) => {
@@ -170,8 +171,8 @@ const List = ({
                 <Quote
                   {...quote}
                   hideAuthors={type === 'author'}
-                  hideTags={type === 'tag'}
                   opacity={opacity}
+                  tag={tag}
                 />
               </div>
             </div>
@@ -205,6 +206,7 @@ List.propTypes = {
   pageContext: PropTypes.object,
   quotes: PropTypes.array.isRequired,
   totalCount: PropTypes.number,
+  tag: PropTypes.string,
   type: PropTypes.oneOf(['author', 'quote', 'tag'])
 };
 
