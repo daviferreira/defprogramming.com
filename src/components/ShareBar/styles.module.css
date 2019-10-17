@@ -21,7 +21,7 @@
 
 .button {
   align-items: center;
-  animation-delay: 2s;
+  animation-delay: 1.3s;
   animation-duration: 0.4s;
   animation-fill-mode: both;
   animation-name: slideInRight;
@@ -43,15 +43,15 @@
 }
 
 .button:nth-child(2) {
-  animation-delay: 2.1s;
+  animation-delay: 1.4s;
 }
 
 .button:nth-child(3) {
-  animation-delay: 2.2s;
+  animation-delay: 1.5s;
 }
 
 .button:nth-child(4) {
-  animation-delay: 2.3s;
+  animation-delay: 1.6s;
 }
 
 .button path {
@@ -71,6 +71,35 @@
   transform: translateX(1px);
 }
 
+.copied {
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-name: slideInRightCopied;
+  background-color: #252525;
+  border-radius: 3px;
+  color: #fcfcfc;
+  font-size: 13px;
+  font-weight: 600;
+  left: -110px;
+  padding: 3px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .copied {
+    animation-name: slideInUpCopied;
+    bottom: 40px;
+    left: 50%;
+    top: auto;
+    transform: translateX(-50%);
+  }
+}
+
 @keyframes slideInRight {
   from {
     opacity: 0;
@@ -80,5 +109,29 @@
   to {
     opacity: 1;
     transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRightCopied {
+  from {
+    opacity: 0;
+    transform: translate3d(-10px, -50%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(-5px, -50%, 0);
+  }
+}
+
+@keyframes slideInUpCopied {
+  from {
+    opacity: 0;
+    transform: translate3d(-50%, 10px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(-50%, 0, 0);
   }
 }
