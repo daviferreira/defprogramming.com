@@ -2878,5 +2878,23 @@
     "authors": ["Mich Ravera"],
     "tags_uuid": ["bd67f2b3cd5c", "ba763cdd445a"],
     "tags": ["bugs", "complexity"]
+  },
+  {
+    "uuid": "svnGULLgSGDVs3PDF4Xzy2",
+    "body": "Rarely is anyone thanked for the work they did to prevent the disaster that didn't happen.",
+    "publish_date": "2019-10-17 21:02:29",
+    "authors_uuid": ["sVFzHR7tnHboedeFomTAEb"],
+    "authors": ["Mikko Hypponen"],
+    "tags_uuid": ["90ce12eb53bb", "8XDhVLMam82MZgdTLfAwXs"],
+    "tags": ["security", "quality"]
+  },
+  {
+    "uuid": "jxmjxmqyXnxejtVnkgwGq1",
+    "body": "Java is to JavaScript as ham is to hamster.",
+    "publish_date": "2019-10-17 21:04:52",
+    "authors_uuid": ["u4nAXhE72kNMyT83rYb2kt"],
+    "authors": ["Jeremy Keith"],
+    "tags_uuid": ["4cf901231140", "15ddd6ce025e"],
+    "tags": ["java", "javascript"]
   }
 ]
