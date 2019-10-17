@@ -10,6 +10,12 @@ import UrlIcon from './url.svg';
 
 import styles from './styles.module.css';
 
+function decodeHtml(html) {
+  const txt = document.createElement('textarea');
+  txt.innerHTML = html;
+  return txt.value;
+}
+
 const ShareBar = ({ text, url = 'https://www.defprogramming.com' }) => {
   const [showCopied, setShowCopied] = useState(false);
   const urlButton = useRef();
@@ -42,7 +48,9 @@ const ShareBar = ({ text, url = 'https://www.defprogramming.com' }) => {
       </a>
       <a
         className={styles.button}
-        href={`https://twitter.com/share?text=${text}&url=${url}&hashtags=dev`}
+        href={`https://twitter.com/share?text=${decodeHtml(
+          text
+        )}&url=${url}&hashtags=dev`}
         rel="noopener noreferrer"
         target="_blank"
       >

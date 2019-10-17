@@ -33,7 +33,7 @@
     "tags": ["functions"]
   },
   {
-    "body": "The first rule of functions is that they should be small. The second rule of functions is that <em>they should be smaller than that</em>.",
+    "body": "The first rule of functions is that they should be small. The second rule of functions is that they should be smaller than that.",
     "slug": "the-first-rule-of-functions-is-that-they-should-be-small-the-second-rule-of-functions-is-that-em",
     "uuid": "198841f270cd",
     "featured": false,
@@ -649,7 +649,7 @@
     "tags": ["naming"]
   },
   {
-    "body": "When you come across a stumbling block because the code doesn't quite fit anymore, or you notice two things that should really be merged, or anything else at all strikes you as being &ldquo;wrong&rdquo;, <em>don't hesitate to change it</em>. There's no time like the present.",
+    "body": "When you come across a stumbling block because the code doesn't quite fit anymore, or you notice two things that should really be merged, or anything else at all strikes you as being &ldquo;wrong&rdquo;, don't hesitate to change it. There's no time like the present.",
     "slug": "when-you-come-across-a-stumbling-block-because-the-code-doesnt-quite-fit-anymore-or-you-notice-tw",
     "uuid": "b993d5922040",
     "featured": false,
