@@ -2869,5 +2869,14 @@
     "authors": ["Dennis M. Ritchie"],
     "tags_uuid": ["2e662c7bed7a"],
     "tags": ["languages"]
+  },
+  {
+    "uuid": "kN57JvAcyEF53cADmxMA8x",
+    "body": "If it doesn’t work, it doesn’t matter how fast it doesn’t work.",
+    "publish_date": "2019-10-17 21:00:03",
+    "authors_uuid": ["6swBdXHizgLvaXSkGPeS2z"],
+    "authors": ["Mich Ravera"],
+    "tags_uuid": ["bd67f2b3cd5c", "ba763cdd445a"],
+    "tags": ["bugs", "complexity"]
   }
 ]
