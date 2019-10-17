@@ -46,6 +46,10 @@
   transform-origin: 0% 0%;
 }
 
+.toggler span:nth-child(3) {
+  width: 26px;
+}
+
 .toggler span:nth-last-child(2) {
   transform-origin: 0% 100%;
 }
