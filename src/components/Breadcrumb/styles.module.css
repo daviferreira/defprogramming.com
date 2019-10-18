@@ -1,5 +1,6 @@
 .root {
   align-items: center;
+  animation-delay: 0.7s;
   animation-duration: 0.3s;
   animation-fill-mode: both;
   animation-name: fadeInUp;
