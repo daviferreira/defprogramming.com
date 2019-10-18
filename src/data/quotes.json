@@ -2905,5 +2905,14 @@
     "authors": ["Karen Spärck Jones"],
     "tags_uuid": ["covLwJo7ZbTWuJYVzsT8WS"],
     "tags": ["diversity"]
+  },
+  {
+    "uuid": "rbwgiagVnzLL7u4MqpHo8t",
+    "body": "A primary cause of complexity is that software vendors uncritically adopt almost any feature that users want.",
+    "publish_date": "2019-10-18 20:55:17",
+    "authors_uuid": ["d3uQEVCfz7UX3LGTA93VgV"],
+    "authors": ["Niklaus Wirth"],
+    "tags_uuid": ["ba763cdd445a", "5984190a8f7f", "fdcfd016c9e7"],
+    "tags": ["complexity", "features", "users"]
   }
 ]
