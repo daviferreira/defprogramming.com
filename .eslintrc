@@ -1,5 +1,6 @@
 {
   "extends": [
+    "standard",
     "plugin:react/recommended",
     "standard-react",
     "prettier",
@@ -10,11 +11,13 @@
     "sourceType": "module"
   },
   "rules": {
+    "no-console": "error",
     "react/jsx-fragments": 0,
     "react/jsx-pascal-case": 0,
     "react/no-danger": "error"
   },
   "globals": {
-    "fetch": false
+    "fetch": false,
+    "history": false
   }
 }

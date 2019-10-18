@@ -35,34 +35,27 @@ const QuotesList = () => {
       return;
     }
 
-    try {
-      const result = await fetch(`/pages/${page}.json`);
+    const result = await fetch(`/pages/${page}.json`);
 
-      const { items, nextPage } = await result.json();
+    const { items, nextPage } = await result.json();
 
-      setPage(nextPage);
+    setPage(nextPage);
 
-      setQuotes(quotes.concat(items));
+    setQuotes(quotes.concat(items));
 
-      if (
-        window.pageYOffset + window.innerHeight >=
-        document.body.clientHeight
-      ) {
-        const el = document.querySelector(`[data-index="${quotes.length}"]`);
+    if (window.pageYOffset + window.innerHeight >= document.body.clientHeight) {
+      const el = document.querySelector(`[data-index="${quotes.length}"]`);
 
-        if (el) {
-          el.scrollIntoView();
-        }
+      if (el) {
+        el.scrollIntoView();
       }
-    } catch (err) {
-      throw err;
     }
   };
 
   return (
     <List
       onLoadMore={handleLoadNext}
-      page={page ? page : undefined}
+      page={page || undefined}
       quotes={quotes}
       totalCount={totalCount}
     />

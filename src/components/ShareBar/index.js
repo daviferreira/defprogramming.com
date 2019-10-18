@@ -36,7 +36,7 @@ const ShareBar = ({ text, url = 'https://www.defprogramming.com' }) => {
   try {
     decodedText = he.decode(text);
   } catch (err) {
-    //noop
+    // noop
   }
 
   return (

@@ -24,6 +24,7 @@ function createQuotesPagination(quotes) {
     createJSON(pageData);
   }
 
+  // eslint-disable-next-line
   console.log(`\nCreated ${totalPages} pages of paginated content.`);
 }
 
@@ -62,6 +63,7 @@ function createAuthorPages(quotes, { graphql, createPage }) {
       };
 
       createPage(pageData);
+      // eslint-disable-next-line
       console.log(`\nCreated ${slug} author page.`);
     });
   });
@@ -102,6 +104,7 @@ function createTagPages(quotes, { graphql, createPage }) {
       };
 
       createPage(pageData);
+      // eslint-disable-next-line
       console.log(`\nCreated ${slug} tag page.`);
     });
   });
@@ -126,6 +129,7 @@ function createQuotePages(quotes, { createPage }) {
 
     createPage(pageData);
 
+    // eslint-disable-next-line
     console.log(`\nCreated ${uuid} quote page.`);
     index++;
   });
@@ -184,6 +188,7 @@ function createJSON({
 
   fs.writeFile(filePath, dataToSave, function(err) {
     if (err) {
+      // eslint-disable-next-line
       return console.log(err);
     }
   });

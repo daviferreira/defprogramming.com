@@ -47,6 +47,7 @@ let interval;
   const existingQuote = quotesData.find(quote => quote.body === body.trim());
 
   if (existingQuote) {
+    // eslint-disable-next-line
     return console.error(`\nERROR: Quote already exists!`, existingQuote.uuid);
   }
 
@@ -105,8 +106,6 @@ let interval;
       };
     });
   }
-
-  // console.log(data);
 
   if (data.newAuthors) {
     data.newAuthors.forEach(author => {
