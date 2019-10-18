@@ -2914,5 +2914,14 @@
     "authors": ["Niklaus Wirth"],
     "tags_uuid": ["ba763cdd445a", "5984190a8f7f", "fdcfd016c9e7"],
     "tags": ["complexity", "features", "users"]
+  },
+  {
+    "uuid": "3ZtqNyNSFmYyR65mk6Uuur",
+    "body": "No one in the brief history of computing has ever written a piece of perfect software. It's unlikely that you'll be the first.",
+    "publish_date": "2019-10-18 21:04:31",
+    "authors_uuid": ["187171c0d7c4"],
+    "authors": ["Andy Hunt"],
+    "tags_uuid": ["bd67f2b3cd5c", "cfac42388f9d"],
+    "tags": ["bugs", "softwares"]
   }
 ]

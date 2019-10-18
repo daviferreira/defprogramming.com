@@ -39,6 +39,18 @@ const List = ({
     visibility: 'full'
   });
 
+  useEffect(() => {
+    const color = getColor(colorIndex || 0);
+
+    setMostVisible({
+      ...mostVisible,
+      color
+    });
+
+    // avoid flickering
+    document.body.style.backgroundColor = color;
+  }, [colorIndex]);
+
   const node = useRef();
 
   const handler = () => {

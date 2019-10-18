@@ -17,7 +17,7 @@
   width: 100%;
 }
 
-.quote:first-child {
+.quote:first-child > div {
   animation-duration: 0.3s;
   animation-fill-mode: both;
   animation-name: fadeInUp;
