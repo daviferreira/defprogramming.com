@@ -5,6 +5,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import { ReactComponent as RefreshIcon } from './refresh.svg';
 
 import QuotesList from '../QuotesList/List';
+import Spinner from '../Spinner';
 
 import styles from './styles.module.css';
 
@@ -29,19 +30,28 @@ const Random = () => {
   const quotes = edges.map(({ node }) => node.uuid);
 
   const [pageContext, setPageContext] = useState();
+  const [isLoading, setLoading] = useState(true);
 
-  const fetchRandomQuote = () =>
-    fetch(`/page-data/q/${sample(quotes)}/page-data.json`)
+  const fetchRandomQuote = () => {
+    setLoading(true);
+
+    return fetch(`/page-data/q/${sample(quotes)}/page-data.json`)
       .then(result => result.json())
       .then(({ result: { pageContext } }) => {
         setPageContext(pageContext);
+        setLoading(false);
       });
+  };
 
   useEffect(() => {
     fetchRandomQuote();
   }, []);
 
-  return pageContext ? (
+  return isLoading ? (
+    <div className={styles.loader}>
+      <Spinner />
+    </div>
+  ) : (
     <>
       <div className={styles.refresh} onClick={fetchRandomQuote}>
         <RefreshIcon />
@@ -54,7 +64,7 @@ const Random = () => {
         type="quote"
       />
     </>
-  ) : null;
+  );
 };
 
 export default Random;

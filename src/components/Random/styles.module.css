@@ -5,3 +5,10 @@
   top: 30px;
   z-index: 2;
 }
+
+.loader {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
