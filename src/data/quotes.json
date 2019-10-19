@@ -2923,5 +2923,23 @@
     "authors": ["Andy Hunt"],
     "tags_uuid": ["bd67f2b3cd5c", "cfac42388f9d"],
     "tags": ["bugs", "softwares"]
+  },
+  {
+    "uuid": "wfLJ3hbCSGhV6eHTPHA2XJ",
+    "body": "When you don't create things, you become defined by your tastes rather than ability. Your tastes only narrow & exclude people. So create.",
+    "publish_date": "2019-10-19 00:19:37",
+    "authors_uuid": ["cCPTTr2Ren8zXijCi6YmsA"],
+    "authors": ["Why The Lucky Stiff"],
+    "tags_uuid": ["b5cf00a461cc"],
+    "tags": ["creativity"]
+  },
+  {
+    "uuid": "qDWATY91A27JjxZKh82SMM",
+    "body": "The most disastrous thing that you can ever learn is your first programming language.",
+    "publish_date": "2019-10-19 00:21:52",
+    "authors_uuid": ["08a42b591dc3"],
+    "authors": ["Alan Kay"],
+    "tags_uuid": ["2e662c7bed7a"],
+    "tags": ["languages"]
   }
 ]

@@ -5,6 +5,7 @@ const path = require('path');
 const prettier = require('prettier');
 const prompt = require('prompts');
 const short = require('short-uuid');
+const signale = require('signale');
 const slugify = require('@sindresorhus/slugify');
 
 const authorsData = require('../src/data/authors.json');
@@ -47,10 +48,10 @@ let interval;
   const existingQuote = quotesData.find(quote => quote.body === body.trim());
 
   if (existingQuote) {
-    // eslint-disable-next-line
-    return console.error(`\nERROR: Quote already exists!`, existingQuote.uuid);
+    return signale.fatal(`\nERROR: Quote already exists!`, existingQuote.uuid);
   }
 
+  signale.pending('Verifying exiting authors and tags');
   const existingAuthors = authorsData.filter(author =>
     authors.includes(author.name)
   );
@@ -108,6 +109,7 @@ let interval;
   }
 
   if (data.newAuthors) {
+    signale.pending('Writing authors file');
     data.newAuthors.forEach(author => {
       authorsData.push(author);
     });
@@ -115,9 +117,13 @@ let interval;
       path.join(dataDir, 'authors.json'),
       prettier.format(JSON.stringify(authorsData), prettierOptions)
     );
+    signale.success(
+      `New authors added: ${data.newAuthors.map(a => a.name).join(',')}`
+    );
   }
 
   if (data.newTags) {
+    signale.pending('Writing tags file');
     data.newTags.forEach(tag => {
       tagsData.push(tag);
     });
@@ -125,19 +131,24 @@ let interval;
       path.join(dataDir, 'tags.json'),
       prettier.format(JSON.stringify(tagsData), prettierOptions)
     );
+    signale.success(
+      `New tags added: ${data.newTags.map(t => t.name).join(',')}`
+    );
   }
 
-  // quotesData.forEach(quote => {
-  //   delete quote.slug;
-  //   delete quote.featured;
-  // });
+  if (!data.newAuthors && !data.newTags) {
+    signale.debug('No new authors or tags');
+  }
 
   quotesData.push(parsed);
 
+  signale.pending('Writing quotes file');
   fs.writeFileSync(
     path.join(dataDir, 'quotes.json'),
     prettier.format(JSON.stringify(quotesData), prettierOptions)
   );
+
+  signale.success('🎉 ALL DONE! 🎉');
 })();
 
 function cleanup() {
