@@ -1,3 +1,4 @@
+import classnames from 'classnames';
 import sample from 'lodash.sample';
 import React, { useEffect, useState } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
@@ -47,22 +48,29 @@ const Random = () => {
     fetchRandomQuote();
   }, []);
 
-  return isLoading ? (
-    <div className={styles.loader}>
-      <Spinner />
-    </div>
-  ) : (
+  return (
     <>
-      <div className={styles.refresh} onClick={fetchRandomQuote}>
-        <RefreshIcon />
+      <div
+        className={classnames(styles.refresh, {
+          [styles.loading]: isLoading
+        })}
+        onClick={fetchRandomQuote}
+      >
+        <RefreshIcon className={styles.refreshIcon} />
       </div>
-      <QuotesList
-        colorIndex={pageContext.index}
-        pageContext={pageContext}
-        quotes={pageContext.quotes}
-        totalCount={pageContext.quotes.length}
-        type="quote"
-      />
+      {isLoading ? (
+        <div className={styles.loader}>
+          <Spinner />
+        </div>
+      ) : (
+        <QuotesList
+          colorIndex={pageContext.index}
+          pageContext={pageContext}
+          quotes={pageContext.quotes}
+          totalCount={pageContext.quotes.length}
+          type="quote"
+        />
+      )}
     </>
   );
 };
