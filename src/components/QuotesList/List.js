@@ -49,7 +49,7 @@ const List = ({
 
     // avoid flickering
     document.body.style.backgroundColor = color;
-  }, [colorIndex, mostVisible]);
+  }, [colorIndex]); // eslint-disable-line
 
   const node = useRef();
 
