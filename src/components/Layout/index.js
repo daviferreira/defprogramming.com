@@ -10,7 +10,7 @@ const Layout = ({ children, internal }) => {
     if (internal) {
       document.body.style.backgroundColor = '#101851';
     }
-  }, []);
+  }, [internal]);
 
   return (
     <>

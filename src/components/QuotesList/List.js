@@ -49,7 +49,7 @@ const List = ({
 
     // avoid flickering
     document.body.style.backgroundColor = color;
-  }, [colorIndex]);
+  }, [colorIndex, mostVisible]);
 
   const node = useRef();
 
@@ -78,7 +78,7 @@ const List = ({
       window.removeEventListener('scroll', handler);
       window.removeEventListener('resize', handler);
     };
-  }, []);
+  }, []); // eslint-disable-line
 
   const nextIndex = mostVisible.index + 1;
   const previousIndex = mostVisible.index - 1;

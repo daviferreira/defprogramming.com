@@ -46,7 +46,7 @@ const Random = () => {
 
   useEffect(() => {
     fetchRandomQuote();
-  }, []);
+  }, []); // eslint-disable-line
 
   return (
     <>
