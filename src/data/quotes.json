@@ -2941,5 +2941,14 @@
     "authors": ["Alan Kay"],
     "tags_uuid": ["2e662c7bed7a"],
     "tags": ["languages"]
+  },
+  {
+    "uuid": "8gYU51NwxZWB4o6usu5xSm",
+    "body": "The best programs are the ones written when the programmer is supposed to be working on something else.",
+    "publish_date": "2019-11-04 13:37:58",
+    "authors_uuid": ["cYkaRh61G9cRNQtrCTBdkV"],
+    "authors": ["Melinda Varian"],
+    "tags_uuid": ["46278bd60154"],
+    "tags": ["programming"]
   }
 ]
