@@ -75,7 +75,7 @@
     "url": "https://github.com/daviferreira/defprogramming.com"
   },
   "engines": {
-    "node": "12.11.1",
+    "node": "13.0.1",
     "npm": "~6.9"
   },
   "cacheDirectories": [
