@@ -2950,5 +2950,14 @@
     "authors": ["Melinda Varian"],
     "tags_uuid": ["46278bd60154"],
     "tags": ["programming"]
+  },
+  {
+    "uuid": "4hkcqLfn1HUCokbbEkP6vi",
+    "body": "There are only two hard things in Computer Science: cache invalidation and naming things",
+    "publish_date": "2019-11-20 17:49:58",
+    "authors_uuid": ["wjcxoZoKmHRxyBeZrRPEiD"],
+    "authors": ["Phil Karlton"],
+    "tags_uuid": ["490b10b26569"],
+    "tags": ["computer science"]
   }
 ]
