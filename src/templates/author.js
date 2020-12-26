@@ -18,7 +18,7 @@ const AuthorPage = ({ pageContext }) => (
 );
 
 AuthorPage.propTypes = {
-  pageContext: PropTypes.object.isRequired
+  pageContext: PropTypes.object.isRequired,
 };
 
 export default AuthorPage;

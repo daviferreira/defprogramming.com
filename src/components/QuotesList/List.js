@@ -19,7 +19,7 @@ const iconProps = {
   className: styles.icon,
   fill: '#252525',
   height: 14,
-  width: 14
+  width: 14,
 };
 
 const List = ({
@@ -30,13 +30,13 @@ const List = ({
   quotes,
   tag,
   totalCount,
-  type
+  type,
 }) => {
   const [mostVisible, setMostVisible] = useState({
     color: getColor(colorIndex || 0),
     index: 0,
     percentage: 100,
-    visibility: 'full'
+    visibility: 'full',
   });
 
   useEffect(() => {
@@ -44,7 +44,7 @@ const List = ({
 
     setMostVisible({
       ...mostVisible,
-      color
+      color,
     });
 
     // avoid flickering
@@ -60,7 +60,7 @@ const List = ({
 
       setMostVisible({
         color,
-        ...data
+        ...data,
       });
 
       // avoid flickering
@@ -165,7 +165,7 @@ const List = ({
               : 0;
 
             overlayStyle = {
-              boxShadow: `inset 0 0 0 100vh rgba(${r}, ${g}, ${b}, ${overlayOpacity})`
+              boxShadow: `inset 0 0 0 100vh rgba(${r}, ${g}, ${b}, ${overlayOpacity})`,
             };
           }
 
@@ -176,7 +176,7 @@ const List = ({
               key={quote.uuid}
               style={{
                 backgroundColor,
-                ...overlayStyle
+                ...overlayStyle,
               }}
             >
               <div className={styles.content}>
@@ -199,7 +199,7 @@ const List = ({
             <div
               className={styles.quote}
               style={{
-                backgroundColor: getColor(quotes.length)
+                backgroundColor: getColor(quotes.length),
               }}
             >
               <Quote.Placeholder />
@@ -219,11 +219,11 @@ List.propTypes = {
   quotes: PropTypes.array.isRequired,
   totalCount: PropTypes.number,
   tag: PropTypes.string,
-  type: PropTypes.oneOf(['author', 'quote', 'tag'])
+  type: PropTypes.oneOf(['author', 'quote', 'tag']),
 };
 
 List.defaultProps = {
-  totalCount: 0
+  totalCount: 0,
 };
 
 export default List;

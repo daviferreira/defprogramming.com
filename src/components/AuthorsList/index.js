@@ -8,7 +8,7 @@ import List from '../List';
 
 const AuthorsList = () => {
   const {
-    allAuthorsJson: { edges }
+    allAuthorsJson: { edges },
   } = useStaticQuery(
     graphql`
       query authorsListQuery {
@@ -25,15 +25,16 @@ const AuthorsList = () => {
     `
   );
 
-  const groups = groupBy(edges.map(({ node }) => node), item =>
-    item.name[0].toUpperCase()
+  const groups = groupBy(
+    edges.map(({ node }) => node),
+    (item) => item.name[0].toUpperCase()
   );
 
   return (
     <>
       <Breadcrumb title="Back to quotes" to="/" />
       <Container title="Quotes by author">
-        {Object.keys(groups).map(letter => (
+        {Object.keys(groups).map((letter) => (
           <List key={letter} title={letter}>
             {groups[letter].map(({ name, slug }) => (
               <List.Item key={slug}>

@@ -12,7 +12,7 @@ const Container = ({ children, title }) => (
 
 Container.propTypes = {
   children: PropTypes.node,
-  title: PropTypes.string
+  title: PropTypes.string,
 };
 
 export default Container;

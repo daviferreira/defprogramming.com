@@ -464,5 +464,10 @@
     "name": "Phil Karlton",
     "slug": "phil-karlton",
     "uuid": "wjcxoZoKmHRxyBeZrRPEiD"
+  },
+  {
+    "name": "First Law of Software Architecture",
+    "slug": "first-law-of-software-architecture",
+    "uuid": "rjFengyp2xjMuXNJTuK3hm"
   }
 ]

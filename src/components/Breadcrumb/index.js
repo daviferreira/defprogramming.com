@@ -9,7 +9,7 @@ const Breadcrumb = ({ clear, title, to }) =>
   clear ? (
     <div
       className={classnames(styles.root, {
-        [styles.hasClear]: clear
+        [styles.hasClear]: clear,
       })}
     >
       {title}
@@ -26,7 +26,7 @@ const Breadcrumb = ({ clear, title, to }) =>
 Breadcrumb.propTypes = {
   clear: PropTypes.bool,
   title: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
-  to: PropTypes.string.isRequired
+  to: PropTypes.string.isRequired,
 };
 
 export default Breadcrumb;

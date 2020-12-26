@@ -12,7 +12,7 @@ import styles from './styles.module.css';
 
 const Random = () => {
   const {
-    allQuotesJson: { edges }
+    allQuotesJson: { edges },
   } = useStaticQuery(
     graphql`
       query quotesIdsQuery {
@@ -37,7 +37,7 @@ const Random = () => {
     setLoading(true);
 
     return fetch(`/page-data/q/${sample(quotes)}/page-data.json`)
-      .then(result => result.json())
+      .then((result) => result.json())
       .then(({ result: { pageContext } }) => {
         setPageContext(pageContext);
         setLoading(false);
@@ -52,7 +52,7 @@ const Random = () => {
     <>
       <div
         className={classnames(styles.refresh, {
-          [styles.loading]: isLoading
+          [styles.loading]: isLoading,
         })}
         onClick={fetchRandomQuote}
       >

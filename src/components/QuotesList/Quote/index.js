@@ -15,7 +15,7 @@ const iconProps = {
   className: styles.icon,
   fill: '#fff',
   height: 14,
-  width: 14
+  width: 14,
 };
 
 const Placeholder = () => (
@@ -31,14 +31,14 @@ const Quote = ({
   hideTags,
   opacity,
   tag,
-  tags
+  tags,
 }) => {
-  const availableTags = tag ? tags.filter(t => t !== tag) : tags;
+  const availableTags = tag ? tags.filter((t) => t !== tag) : tags;
 
   return (
     <div
       className={classnames(styles.root, {
-        [styles.largeText]: body.length > 230
+        [styles.largeText]: body.length > 230,
       })}
       style={{ opacity }}
     >
@@ -83,7 +83,7 @@ Quote.propTypes = {
   hideTags: PropTypes.bool,
   opacity: PropTypes.number,
   tag: PropTypes.string,
-  tags: PropTypes.array.isRequired
+  tags: PropTypes.array.isRequired,
 };
 
 export default Quote;

@@ -5,7 +5,7 @@ import List from './List';
 
 const QuotesList = () => {
   const {
-    allQuotesJson: { edges, totalCount }
+    allQuotesJson: { edges, totalCount },
   } = useStaticQuery(
     graphql`
       query quotesListQuery {
@@ -30,7 +30,7 @@ const QuotesList = () => {
   const [quotes, setQuotes] = useState(edges.map(({ node }) => node));
   const [page, setPage] = useState(2);
 
-  const handleLoadNext = async inView => {
+  const handleLoadNext = async (inView) => {
     if (!inView) {
       return;
     }

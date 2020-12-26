@@ -19,7 +19,7 @@ const TagPage = ({ pageContext }) => (
 );
 
 TagPage.propTypes = {
-  pageContext: PropTypes.object.isRequired
+  pageContext: PropTypes.object.isRequired,
 };
 
 export default TagPage;

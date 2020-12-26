@@ -2959,5 +2959,14 @@
     "authors": ["Phil Karlton"],
     "tags_uuid": ["490b10b26569"],
     "tags": ["computer science"]
+  },
+  {
+    "uuid": "v6Lajk18hQREd5afWRXHH8",
+    "body": "Everything in software architecture is a trade-off.",
+    "publish_date": "2020-12-26 07:21:04",
+    "authors_uuid": ["rjFengyp2xjMuXNJTuK3hm"],
+    "authors": ["First Law of Software Architecture"],
+    "tags_uuid": ["dTepx84vJApSSK9HCvVadg"],
+    "tags": ["architecture"]
   }
 ]

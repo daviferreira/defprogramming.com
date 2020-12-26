@@ -14,67 +14,64 @@ const tagsData = require('../src/data/tags.json');
 
 const prettierOptions = {
   parser: 'json',
-  singleQuote: true
+  singleQuote: true,
 };
 
 const dataDir = path.join(__dirname, '../', 'src', 'data');
 
 let interval;
 
-(async function() {
+(async function () {
   const questions = [
     {
       type: 'text',
       name: 'body',
-      message: `Hey, what is the quote you want to add?`
+      message: `Hey, what is the quote you want to add?`,
     },
     {
       type: 'list',
       name: 'authors',
-      message: `Ok, and who is the author? If there are more than one, use commas.`
+      message: `Ok, and who is the author? If there are more than one, use commas.`,
     },
     {
       type: 'list',
       name: 'tags',
-      message: 'What about some tags? Same stuff, use commas'
-    }
+      message: 'What about some tags? Same stuff, use commas',
+    },
   ];
 
   const { body, authors, tags } = await prompt(questions, {
     onCancel: cleanup,
-    onSubmit: cleanup
+    onSubmit: cleanup,
   });
 
-  const existingQuote = quotesData.find(quote => quote.body === body.trim());
+  const existingQuote = quotesData.find((quote) => quote.body === body.trim());
 
   if (existingQuote) {
     return signale.fatal(`\nERROR: Quote already exists!`, existingQuote.uuid);
   }
 
   signale.pending('Verifying exiting authors and tags');
-  const existingAuthors = authorsData.filter(author =>
+  const existingAuthors = authorsData.filter((author) =>
     authors.includes(author.name)
   );
-  const existingTags = tagsData.filter(tag => tags.includes(tag.name));
+  const existingTags = tagsData.filter((tag) => tags.includes(tag.name));
 
   const parsed = {
     uuid: short.generate(),
     body,
-    publish_date: new Date()
-      .toJSON()
-      .slice(0, 19)
-      .replace('T', ' '),
+    publish_date: new Date().toJSON().slice(0, 19).replace('T', ' '),
     authors_uuid: existingAuthors.map(({ uuid }) => uuid),
     authors: existingAuthors.map(({ name }) => name),
     tags_uuid: existingTags.map(({ uuid }) => uuid),
-    tags: existingTags.map(({ name }) => name)
+    tags: existingTags.map(({ name }) => name),
   };
 
   const data = {};
 
-  const newTags = tags.filter(tag => !tagsData.find(t => t.name === tag));
+  const newTags = tags.filter((tag) => !tagsData.find((t) => t.name === tag));
   if (newTags.length) {
-    data.newTags = newTags.map(tag => {
+    data.newTags = newTags.map((tag) => {
       const uuid = short.generate();
       const name = tag.trim().toLowerCase();
 
@@ -84,16 +81,16 @@ let interval;
       return {
         name,
         slug: slugify(tag),
-        uuid
+        uuid,
       };
     });
   }
 
   const newAuthors = authors.filter(
-    author => !authorsData.find(t => t.name === author)
+    (author) => !authorsData.find((t) => t.name === author)
   );
   if (newAuthors.length) {
-    data.newAuthors = newAuthors.map(author => {
+    data.newAuthors = newAuthors.map((author) => {
       const uuid = short.generate();
       const name = author.trim();
 
@@ -103,14 +100,14 @@ let interval;
       return {
         name,
         slug: slugify(author),
-        uuid
+        uuid,
       };
     });
   }
 
   if (data.newAuthors) {
     signale.pending('Writing authors file');
-    data.newAuthors.forEach(author => {
+    data.newAuthors.forEach((author) => {
       authorsData.push(author);
     });
     fs.writeFileSync(
@@ -118,13 +115,13 @@ let interval;
       prettier.format(JSON.stringify(authorsData), prettierOptions)
     );
     signale.success(
-      `New authors added: ${data.newAuthors.map(a => a.name).join(',')}`
+      `New authors added: ${data.newAuthors.map((a) => a.name).join(',')}`
     );
   }
 
   if (data.newTags) {
     signale.pending('Writing tags file');
-    data.newTags.forEach(tag => {
+    data.newTags.forEach((tag) => {
       tagsData.push(tag);
     });
     fs.writeFileSync(
@@ -132,7 +129,7 @@ let interval;
       prettier.format(JSON.stringify(tagsData), prettierOptions)
     );
     signale.success(
-      `New tags added: ${data.newTags.map(t => t.name).join(',')}`
+      `New tags added: ${data.newTags.map((t) => t.name).join(',')}`
     );
   }
 

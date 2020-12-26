@@ -5,7 +5,7 @@ function createQuotesPagination(quotes) {
   const perPage = 20;
   const totalPages = Math.ceil(quotes.length / perPage);
 
-  for (var currentPage = 1; currentPage <= totalPages; currentPage += 1) {
+  for (let currentPage = 1; currentPage <= totalPages; currentPage += 1) {
     const pathSuffix = currentPage > 1 ? currentPage : '';
 
     const start = perPage * (currentPage - 1);
@@ -17,8 +17,8 @@ function createQuotesPagination(quotes) {
       context: {
         pageQuotes,
         currentPage,
-        totalPages
-      }
+        totalPages,
+      },
     };
 
     createJSON(pageData);
@@ -44,7 +44,7 @@ function createAuthorPages(quotes, { graphql, createPage }) {
         }
       }
     }
-  `).then(result => {
+  `).then((result) => {
     if (result.errors) {
       throw result.errors;
     }
@@ -56,10 +56,10 @@ function createAuthorPages(quotes, { graphql, createPage }) {
         path: `/quotes-by/${slug}/`,
         component,
         context: {
-          quotes: quotes.filter(quote => quote.authors_uuid.includes(uuid)),
+          quotes: quotes.filter((quote) => quote.authors_uuid.includes(uuid)),
           name,
-          slug
-        }
+          slug,
+        },
       };
 
       createPage(pageData);
@@ -85,7 +85,7 @@ function createTagPages(quotes, { graphql, createPage }) {
         }
       }
     }
-  `).then(result => {
+  `).then((result) => {
     if (result.errors) {
       throw result.errors;
     }
@@ -97,10 +97,10 @@ function createTagPages(quotes, { graphql, createPage }) {
         path: `/quotes-tagged-with/${slug}/`,
         component,
         context: {
-          quotes: quotes.filter(quote => quote.tags_uuid.includes(uuid)),
+          quotes: quotes.filter((quote) => quote.tags_uuid.includes(uuid)),
           name,
-          slug
-        }
+          slug,
+        },
       };
 
       createPage(pageData);
@@ -114,7 +114,7 @@ function createQuotePages(quotes, { createPage }) {
   const component = path.resolve(`src/templates/quote.js`);
 
   let index = 0;
-  quotes.forEach(quote => {
+  quotes.forEach((quote) => {
     const { body, uuid } = quote;
 
     const pageData = {
@@ -123,8 +123,8 @@ function createQuotePages(quotes, { createPage }) {
       context: {
         quotes: [quote],
         body,
-        index
-      }
+        index,
+      },
     };
 
     createPage(pageData);
@@ -154,7 +154,7 @@ exports.createPages = ({ graphql, actions }) => {
         }
       }
     }
-  `).then(result => {
+  `).then((result) => {
     if (result.errors) {
       throw result.errors;
     }
@@ -171,7 +171,7 @@ exports.createPages = ({ graphql, actions }) => {
 
 function createJSON({
   context: { pageQuotes, currentPage, totalPages },
-  path
+  path,
 }) {
   const pathSuffix = path.substring(1);
   const dir = 'public/pages/';
@@ -183,10 +183,10 @@ function createJSON({
   const filePath = `${dir}${pathSuffix}.json`;
   const dataToSave = JSON.stringify({
     nextPage: currentPage < totalPages && currentPage + 1,
-    items: pageQuotes
+    items: pageQuotes,
   });
 
-  fs.writeFile(filePath, dataToSave, function(err) {
+  fs.writeFile(filePath, dataToSave, function (err) {
     if (err) {
       // eslint-disable-next-line
       return console.log(err);

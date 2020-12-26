@@ -1,13 +1,13 @@
 import { COLORS } from './constants';
 
-export const getMostVisible = elements => {
+export const getMostVisible = (elements) => {
   const viewportHeight = window.innerHeight;
 
   let index;
   let max = 0;
   let visibility = 'full';
 
-  [].forEach.call(elements, element => {
+  [].forEach.call(elements, (element) => {
     const { visiblePx, position } = getVisibleHeightPx(element, viewportHeight);
 
     if (visiblePx > max) {
@@ -19,7 +19,7 @@ export const getMostVisible = elements => {
   return {
     index,
     percentage: Math.round((max / viewportHeight) * 100),
-    visibility
+    visibility,
   };
 };
 
@@ -28,7 +28,7 @@ const getVisibleHeightPx = (element, viewportHeight) => {
   const height = rect.bottom - rect.top;
   const visible = {
     top: rect.top >= 0 && rect.top < viewportHeight,
-    bottom: rect.bottom > 0 && rect.bottom < viewportHeight
+    bottom: rect.bottom > 0 && rect.bottom < viewportHeight,
   };
 
   let visiblePx = 0;
@@ -55,7 +55,7 @@ const getVisibleHeightPx = (element, viewportHeight) => {
   return { visiblePx, position };
 };
 
-export const getColor = index => {
+export const getColor = (index) => {
   const num = index > COLORS.length ? index % COLORS.length : index;
   for (let i = COLORS.length; i > 0; i--) {
     if (!(num % i)) {
@@ -69,14 +69,14 @@ export const getColor = index => {
   return COLORS[0];
 };
 
-export const hexToRgb = hex => {
+export const hexToRgb = (hex) => {
   const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
 
   return result
     ? {
         r: parseInt(result[1], 16),
         g: parseInt(result[2], 16),
-        b: parseInt(result[3], 16)
+        b: parseInt(result[3], 16),
       }
     : {};
 };

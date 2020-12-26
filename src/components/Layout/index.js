@@ -22,7 +22,7 @@ const Layout = ({ children, internal }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  internal: PropTypes.bool
+  internal: PropTypes.bool,
 };
 
 export default Layout;

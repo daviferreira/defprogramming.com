@@ -14,7 +14,7 @@ const Menu = ({ color, dark }) => {
     <nav
       role="navigation"
       className={classnames(styles.root, {
-        [styles.dark]: dark
+        [styles.dark]: dark,
       })}
     >
       <div className={styles.toggler}>
@@ -98,7 +98,7 @@ const Menu = ({ color, dark }) => {
 
 Menu.propTypes = {
   color: PropTypes.string,
-  dark: PropTypes.bool
+  dark: PropTypes.bool,
 };
 
 export default Menu;

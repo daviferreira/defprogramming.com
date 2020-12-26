@@ -7,4 +7,4 @@ notifications:
     email: false
 
 node_js:
-  - "13.0.1"
+  - "14.15.3"

@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 const Item = ({ children }) => <li className={styles.item}>{children}</li>;
 
 Item.propTypes = {
-  children: PropTypes.node
+  children: PropTypes.node,
 };
 
 const List = ({ children, title }) => (
@@ -18,7 +18,7 @@ const List = ({ children, title }) => (
 
 List.propTypes = {
   children: PropTypes.node,
-  title: PropTypes.string
+  title: PropTypes.string,
 };
 
 List.Item = Item;

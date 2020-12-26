@@ -82,7 +82,7 @@ const ShareBar = ({ text, url = 'https://www.defprogramming.com' }) => {
 
 ShareBar.propTypes = {
   text: PropTypes.string,
-  url: PropTypes.string
+  url: PropTypes.string,
 };
 
 export default ShareBar;
