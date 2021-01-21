@@ -2968,5 +2968,41 @@
     "authors": ["First Law of Software Architecture"],
     "tags_uuid": ["dTepx84vJApSSK9HCvVadg"],
     "tags": ["architecture"]
+  },
+  {
+    "uuid": "1WaQ4LQ7tHSzU6rkkDbq1R",
+    "body": "Part of the inhumanity of the computer is that, once it is competently programmed and working smoothly, it is completely honest.",
+    "publish_date": "2021-01-21 14:17:48",
+    "authors_uuid": ["23430596e351"],
+    "authors": ["Isaac Asimov"],
+    "tags_uuid": ["b85badf703f2"],
+    "tags": ["computers"]
+  },
+  {
+    "uuid": "knKEVECspuYWLgA9XXhEuq",
+    "body": "The number one skill required for learning any complex system is patience.",
+    "publish_date": "2021-01-21 14:19:05",
+    "authors_uuid": ["iXESZKNunJZzt1ght8AaL7"],
+    "authors": ["Kelsey Hightower"],
+    "tags_uuid": ["ba763cdd445a"],
+    "tags": ["complexity"]
+  },
+  {
+    "uuid": "38xN7NuDRbnxfvVJ3BqfSP",
+    "body": "If you can get today’s work done today, but you do it in such a way that you can’t possibly get tomorrow’s work done tomorrow, then you lose.",
+    "publish_date": "2021-01-21 14:20:28",
+    "authors_uuid": ["721333935c91"],
+    "authors": ["Martin Fowler"],
+    "tags_uuid": ["ffe7dc59094f"],
+    "tags": ["maintenance"]
+  },
+  {
+    "uuid": "o2sK2Wa9hp2XJKncAe8wwe",
+    "body": "People have an enormous tendency to resist change. They love to say, 'We've always done it this way.' I try to fight that.",
+    "publish_date": "2021-01-21 14:21:29",
+    "authors_uuid": ["beaa1cfc9a53"],
+    "authors": ["Grace Hopper"],
+    "tags_uuid": ["16d05f8e5421"],
+    "tags": ["programmers"]
   }
 ]
