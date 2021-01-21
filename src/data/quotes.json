@@ -45,7 +45,7 @@
     "tags": ["functions"]
   },
   {
-    "body": "DRY ‐ Don't Repeat Yourself ‐ Every piece of knowledge must have a single, unambiguous, athoritative representation within a system.",
+    "body": "DRY ‐ Don't Repeat Yourself ‐ Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.",
     "uuid": "048396df766a",
     "publish_date": "2011-07-04 16:43:52",
     "authors": ["Dave Thomas", "Andy Hunt"],
@@ -981,7 +981,7 @@
     "tags": ["complexity"]
   },
   {
-    "body": "When you feel the need to write a comment, first try to refactor the code so that any comment becomes superflous.",
+    "body": "When you feel the need to write a comment, first try to refactor the code so that any comment becomes superfluous.",
     "uuid": "c7bcb566a9f6",
     "publish_date": "2011-07-09 20:27:20",
     "authors": ["Martin Fowler"],
