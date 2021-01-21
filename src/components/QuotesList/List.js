@@ -200,6 +200,7 @@ const List = ({
               className={styles.quote}
               style={{
                 backgroundColor: getColor(quotes.length),
+                overflow: 'hidden',
               }}
             >
               <Quote.Placeholder />
